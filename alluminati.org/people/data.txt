@@ -1,0 +1,3 @@
+var counter = 0;
+people[i++] = {user: '/images/closeheader.gif', name: 'Header Image for Close'};
+people[i++] = {user: '/images/looseheader.gif', name: 'Header Image for Loose'};

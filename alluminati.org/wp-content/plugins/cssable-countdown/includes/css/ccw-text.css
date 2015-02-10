@@ -1,0 +1,36 @@
+/* countdown exists in this block */
+.layout-type_text .hasCountdown
+{
+	overflow: hidden;
+}
+
+/* event description */
+.layout-type_text .countdown_descr
+{
+	display: block;
+}
+
+/* number groups */
+.layout-type_text .countdown_section
+{
+	display: inline-block;
+}
+
+/* numbers */
+.layout-type_text .countdown_amount
+{
+	display: inline-block;
+}
+
+/* number labels */
+.layout-type_text .countdown_label
+{
+	display: inline-block;
+	padding: 0 1em 0 0.25em;
+}
+
+/* time's up! message */
+.layout-type_text .times-up
+{
+	display: block;
+}

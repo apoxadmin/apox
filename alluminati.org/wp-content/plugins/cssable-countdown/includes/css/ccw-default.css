@@ -1,0 +1,40 @@
+/*
+	It is strongly suggested that you do not edit this bare-minimum CSS.
+*/
+
+/* countdown exists in this block */
+.layout-type_default .hasCountdown
+{
+	overflow: hidden;
+	display: table;
+	text-align: center;
+}
+
+/* event description */
+.layout-type_default .countdown_descr
+{
+	display: block;
+}
+
+/* number groups */
+.layout-type_default .countdown_section
+{
+	display: table-cell;
+}
+
+/* numbers */
+.layout-type_default .countdown_amount
+{
+}
+
+/* number labels */
+.layout-type_default .countdown_label
+{
+	display: block;
+}
+
+/* time's up! message */
+.layout-type_default .times-up
+{
+	display: block;
+}

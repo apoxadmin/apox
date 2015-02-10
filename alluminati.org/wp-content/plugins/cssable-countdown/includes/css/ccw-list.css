@@ -1,0 +1,34 @@
+/* countdown exists in this block */
+.layout-type_list .hasCountdown
+{
+	overflow: hidden;
+}
+
+/* event description */
+.layout-type_list .countdown_descr
+{
+	display: block;
+}
+
+/* number groups */
+.layout-type_list .countdown_section
+{
+	display: block;
+}
+
+/* numbers */
+.layout-type_list .countdown_amount
+{
+}
+
+/* number labels */
+.layout-type_list .countdown_label
+{
+	padding-left: 0.25em;
+}
+
+/* time's up! message */
+.layout-type_list .times-up
+{
+	display: block;
+}

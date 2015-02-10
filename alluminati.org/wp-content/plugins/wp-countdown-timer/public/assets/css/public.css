@@ -1,0 +1,23 @@
+/* This stylesheet is used to style the public-facing components of the plugin. */
+.wp-count-down table td, .wp-count-down table th{
+	text-align:center;
+}
+
+.wp-count-down table{
+	border:none;	
+	border-collapse:collapse;
+}
+
+.wp-count-down table td{
+	font-size: 4em;
+	font-weight: bold;
+	background: #222222;
+	color: #efefef;
+	border-radius:15px;
+	border: 5px solid white;
+}
+
+.wp-count-down table th{
+	color:#222222;
+	border:none;
+}

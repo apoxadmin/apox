@@ -1,0 +1,6 @@
+#bp-force-pw-change-container{display:none;}
+#bp-force-pw-change-container-inner{padding: 20px; width: 325px;}
+#bp-force-pw-error{color: red;}
+#bp-force-pw-error{margin-bottom: 10px;}
+.bp-force-pw-conf{display:none;padding:20px;}
+.bp-force-pw-conf p{margin: 10px 0; text-align:center;}

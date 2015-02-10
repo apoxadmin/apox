@@ -1,0 +1,8 @@
+== Making Releases ==
+
+1. readme.txt: update "Tested up to", "Stable tag", Changelog.
+2. If you feel like it, validate the readme at http://wordpress.org/extend/plugins/about/validator/
+3. wysiwyg-inline-code-command.php: update Version
+4. Note: WordPress SVN password is unusual; see email archives
+5. Commit changes
+6. `svn cp . http://plugins.svn.wordpress.org/wysiwyg-inline-code-command/tags/X.Y`

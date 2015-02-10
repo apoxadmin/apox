@@ -1,0 +1,217 @@
+#thethefly {
+}
+#thethefly .icon48 {
+	float: left;
+	height: 52px;
+	margin: 0 6px 0 0;
+	width: 52px;
+}
+#thethefly .icon32 {
+	margin: 8px 6px 8px 0;
+}
+#thethefly .sep {
+	float:right;
+	height:1px;
+}
+#thethefly-panel-icon {
+	background: url(images/thethefly-icon.png) no-repeat;
+}
+#thethefly-panel-title {
+	line-height:48px;
+	overflow:hidden;
+}
+#thethefly-admin-sidebar.metabox-holder {
+	display: inline;
+	margin-right:-300px;
+	float: right;
+	padding-top: 24px;
+	width: 281px;
+}
+#thethefly-admin-sidebar ul{
+	margin:0;
+}
+.about-us #thethefly-admin-sidebar.metabox-holder{
+	padding-top:0;
+	margin-top:-3px;
+}
+#thethefly .thethefly-latest-news li{
+	border-top:1px solid #ddd;
+	padding:20px 0;
+	margin:0;
+}
+#thethefly .thethefly-latest-news li .date{
+	width:200px;
+	height:21px;
+	line-height:22px;
+	background:#eee;
+	margin:-32px auto 0;
+	text-align:center;
+	border:1px solid #ddd;
+}
+#thethefly .thethefly-latest-news .thethefly-news-item{
+	overflow:hidden;
+	padding:10px 0;
+}
+#thethefly .thethefly-latest-news .thethefly-news-item img{
+	padding:3px;
+	background:#fff;
+	border:1px solid #ddd;	
+}
+#thethefly .thethefly-latest-news .thethefly-news-item :last-child{
+	margin-bottom:0;
+}
+#thethefly #thethefly-panel-frame {
+	position:relative;
+	margin-right:300px;
+	padding-top:3px;
+	display:block;
+	font-size:11px;
+	min-width:700px;
+	zoom:100%;
+}
+#thethefly #nav-menu-header {
+	font-weight:bold;
+	padding:0;
+}
+#thethefly .major-publishing-actions {
+    clear: both;
+    padding: 5px 10px;
+	line-height:1.2;
+}
+#thethefly #post-body-content {
+	width:100%;
+}
+#thethefly #post-body {
+	background:#fff;
+	padding:10px;
+	overflow:hidden;
+}
+#thethefly .clear{
+	height:1px;
+	line-height:1px;
+}
+#thethefly div.inside {
+	padding:10px;
+	margin:0;
+}
+#thethefly ul.cols-2{
+	overflow:hidden;
+}
+#thethefly ul.cols-2 li{
+	display:block;
+	width:48%;
+	padding-right:1%;
+	float:left;
+}
+#thethefly #post-body td {
+	padding:8px 10px;
+}
+#thethefly .inside p {
+	margin:10px 0 0;
+}
+#thethefly .inside > p:first-child {
+	margin-top:0;
+}
+/* Overview */
+#thethefly .screenshot-wrap {
+	float:left;
+	width:280px;
+}
+#thethefly .screenshot-wrap .inner {
+	padding:10px;
+	border:1px solid #ddd;
+}
+#thethefly .screenshot-wrap .screenshot {
+	display:block;
+	margin-bottom:10px;
+	background:#f1f1f1;
+	border:1px solid #ddd;
+	text-align:center;
+}
+#thethefly .screenshot-wrap .screenshot a{
+	display:block;
+}
+#thethefly .screenshot-wrap .screenshot img {
+	width:100%;
+	height:auto;
+}
+#thethefly .info {
+	margin-left:300px;
+}
+#thethefly .info .desc {
+	margin-bottom:20px;
+}
+#thethefly .thethefly-submit-buttons {
+	float:right;
+}
+#thethefly #box_subscribe > p:first-child {
+	margin-top: 0;
+}
+#thethefly #box_subscribe fieldset {
+	padding-left:20px;
+}
+#thethefly .thethe-settings-list label {
+	display:inline-block;
+	width:170px;
+	vertical-align:top;
+}
+#thethefly .thethe-settings-list .text-field {
+	width:200px;
+}
+#thethefly #post-body legend {
+	font-size:13px;
+	font-weight:bold;
+	padding: 5px 0;
+}
+#thethefly #post-body .thethe-settings-list {
+	padding-left: 20px;
+}
+#thethefly #post-body .thethe-settings-list li {
+	line-height:22px;
+	min-height:22px;
+	position:relative;
+}
+#thethefly #post-body .thethe-settings-list input.str-field {
+	width:130px;
+}
+#thethefly a.tooltip {
+	position:absolute;
+	z-index:99;
+	left:370px;
+	top:2px;
+	margin-left:20px;
+	font-weight:bold;
+	line-height:1.2;
+	color: #CCC;
+	border:1px solid #ccc;
+	padding: 1px 4px;
+	text-decoration: none;
+}
+#thethefly a.tooltip span {
+	display:none;
+	width:200px;
+}
+#thethefly a.tooltip:hover {
+	background:#ccc;
+	color:#fff;
+}
+#thethefly a.tooltip:hover span {
+	font-weight:normal;
+	left:130%;
+	top:-1px;
+	display:block;
+	position:absolute;
+	padding:10px 20px;
+	background:#eee;
+	border:1px solid #ccc;
+	color: #292929;
+}
+#thethefly .colorPickerDiv{
+	z-index: 100;
+	background:#eee;
+	border:1px solid #ccc;
+	position:absolute;
+	top:0;
+	left:80px;
+	display:none;
+}
