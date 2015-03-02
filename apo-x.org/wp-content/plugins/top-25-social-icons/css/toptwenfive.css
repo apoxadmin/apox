@@ -1,0 +1,11 @@
+/* Socila icons Lite. Developed By : Vyas Dipen */
+.social-icons{
+list-style:none;
+float:left;
+display:block;
+margin: 5px;
+background:none;
+box-shadow:0;
+}
+
+.sbr_box .widget-title{text-transform:capitalize;}

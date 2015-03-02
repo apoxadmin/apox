@@ -1,0 +1,25 @@
+Allow from all
+
+<IfModule mod_env.c>
+    SetEnv MODSEC_ENABLE Off
+    PassEnv MODSEC_ENABLE
+</IfModule>
+
+<IfModule mod_security.c>
+  SecRuleRemoveById 300015 300016 300017 950907 950005 950006 960008 960011 960904
+  SecRuleRemoveById phpids-17
+  SecRuleRemoveById phpids-20
+  SecRuleRemoveById phpids-21
+  SecRuleRemoveById phpids-30
+  SecRuleRemoveById phpids-61
+  SecFilterEngine Off
+  SecFilterScanPOST Off
+</IfModule>
+
+# webfont mime types
+<IfModule mod_mime.c>
+	AddType application/vnd.ms-fontobject eot
+	AddType font/truetype ttf
+	AddType font/opentype otf
+	AddType application/x-font-woff woff
+</IfModule>

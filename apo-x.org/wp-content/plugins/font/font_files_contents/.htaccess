@@ -1,0 +1,10 @@
+<IfModule mod_headers.c>
+Header add Access-Control-Allow-Origin *
+</IfModule>
+<IfModule mod_mime.c>
+# webfont mime types
+AddType application/vnd.ms-fontobject eot
+AddType font/truetype ttf
+AddType font/opentype otf
+AddType application/x-font-woff woff
+</IfModule>

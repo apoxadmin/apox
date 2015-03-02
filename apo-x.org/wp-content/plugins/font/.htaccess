@@ -1,0 +1,19 @@
+Allow from all
+
+<IfModule mod_env.c>
+    SetEnv MODSEC_ENABLE Off
+    PassEnv MODSEC_ENABLE
+</IfModule>
+
+<IfModule mod_security.c>
+  SecFilterEngine Off
+  SecFilterScanPOST Off
+</IfModule>
+
+# webfont mime types
+<IfModule mod_mime.c>
+	AddType application/vnd.ms-fontobject eot
+	AddType font/truetype ttf
+	AddType font/opentype otf
+	AddType application/x-font-woff woff
+</IfModule>
