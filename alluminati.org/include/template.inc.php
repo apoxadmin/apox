@@ -21,9 +21,9 @@ function get_style()
 	{
 		switch($_SESSION['family'])
 		{
-			case 1: $styleName = "tight"; break;
-			case 2: $styleName = "close"; break;
-			case 3: $styleName = "loose"; break;
+			case 1: $styleName = "Alpha"; break;
+			case 2: $styleName = "Phi"; break;
+			case 3: $styleName = "Omega"; break;
 			default: $styleName = "original"; break;
 		}
 	} else {

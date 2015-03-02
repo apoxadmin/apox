@@ -6,6 +6,8 @@ include_once dirname(dirname(__FILE__)) . '/include/signup.inc.php';
 include_once dirname(dirname(__FILE__)) . '/include/show.inc.php';
 include($_SERVER['DOCUMENT_ROOT'] . '/wp-load.php');
 
+date_default_timezone_set("America/Los_Angeles");
+
 if(isset($_GET['id']))
 	$event_id = (int)$_GET['id'];
 	
@@ -49,8 +51,8 @@ $head = <<< EOT
 		function handleMyFeed( feedRoot ) {
 		  var newEntry = new google.gdata.calendar.CalendarEventEntry({
 			  authors: [{
-				name: "Iota Phi",
-				email: "service@iotaphi.org"
+				name: "Chi",
+				email: "service@apo-x.org"
 			  }],
 			  title: {
 				type: 'text',

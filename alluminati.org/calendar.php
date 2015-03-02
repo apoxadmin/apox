@@ -4,7 +4,7 @@ include_once 'include/event.inc.php';
 include_once 'include/signup.inc.php';
 include($_SERVER['DOCUMENT_ROOT'] . '/wp-load.php');
 
-
+date_default_timezone_set("America/Los_Angeles");
 $id = $class = false;
 // if(!isset($_SESSION['class']))
 //     show_note('You must be logged in to view this page. Message Admin VPs to gain access!');
@@ -316,14 +316,24 @@ if ( isset( $_SESSION['id'] ) )
 <a href="calendar.php?month=<?php echo $m2 ?>&amp;year=<?php echo $y2 ?>" class="btn" style="vertical-align: 2px;"><i class="icon-chevron-right"></i></a>
 </div>
 <div class="span3 visible-desktop">
-	<form  class="form-inline " action="http://www.alluminati.org/calendar.php" name="quickJump">
+	<form  class="form-inline " action="http://www.apo-x.org/calendar.php" name="quickJump">
 				<select name="month" id="monthDropDown" class="span4 offset1 " ></select>
 				<select name="year" id="yearDropDown" class="span4"></select>
-				<input class="btn span3"  type="submit" value="Go" onClick="http://www.alluminati.org.org/calendar.php">
+				<input class="btn span3"  type="submit" value="Go" onClick="http://www.apo-x.org/calendar.php">
 	</form>
 	</div>
 	</div>
 	</div>
+	<div>
+	<?php	
+		if($_SESSION['class'] == 'admin') // make a link to add a new event if admin
+		{
+			$date = date("m/d/Y",$today12AM);
+			echo "<a href=\"/event/edit.php?page=create\">Add an Event";			
+			echo '</a>';
+		}
+?>
+</div>
 <table id="calendar" class="table table-condensed table-bordered">
 	<!--using divs instead of th, because it somehow breaks the onfill()-->
 <tr class="calheading">

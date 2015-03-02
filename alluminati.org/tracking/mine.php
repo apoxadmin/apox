@@ -18,7 +18,7 @@ if(isset($_SESSION['id']))
 	<br>
 	Sorry bro, you are not a member, uh, eh, maybe you are! 
 	<br>
-	If you're a new member or if you want to reset your password:  <a href='http://www.alluminati.org/forgetful/index.php'>Click Here</a> Jolly Good!
+	If you're a new member or if you want to reset your password:  <a href='http://www.apo-x.org/forgetful/index.php'>Click Here</a> Jolly Good!
 	";
 	show_footer(); 
 	exit;
@@ -251,9 +251,9 @@ if ( mysql_num_rows( $result ) > 0 )
 ?>
 
 
-    <link rel="stylesheet" type="text/css" href="http://www.alluminati.org/extjs/resources/css/ext-all.css" />
-    <link rel="stylesheet" type="text/css" href="http://www.alluminati.org/extjs/shared/example.css" />
-    <script type="text/javascript" src="http://www.alluminati.org/extjs/ext-all.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://www.apo-x.org/extjs/resources/css/ext-all.css" />
+    <link rel="stylesheet" type="text/css" href="http://www.apo-x.org/extjs/shared/example.css" />
+    <script type="text/javascript" src="http://www.apo-x.org/extjs/ext-all.js"></script>
 	<style type="text/css">
 	.left {
 		padding: 10px;
@@ -673,7 +673,7 @@ Ext.onReady(function () {
 					$name = substr( $name , 0 , 25 ) . "...";
 				$temp->event = htmlentities( $name , ENT_QUOTES );
 				$temp->type = $row['type'];
-				$temp->link = "<span class='upcoming'><a href='http://www.alluminati.org/event/show.php?id=".$row['id']."' target='_blank'>Go To Event</a></span>";
+				$temp->link = "<span class='upcoming'><a href='http://www.apo-x.org/event/show.php?id=".$row['id']."' target='_blank'>Go To Event</a></span>";
 				array_push( $upcoming , $temp );
 			}
 			if ( $i == 0 )

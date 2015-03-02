@@ -4,6 +4,7 @@ include_once dirname(dirname(__FILE__)) . '/include/forms.inc.php';
 include_once dirname(dirname(__FILE__)) . '/include/event.inc.php';
 include_once dirname(dirname(__FILE__)) . '/include/signup.inc.php';
 
+date_default_timezone_set("America/Los_Angeles");
 if(isset($_GET['id']))
 	$event_id = (int)$_GET['id'];
 	

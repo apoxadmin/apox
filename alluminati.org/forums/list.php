@@ -229,7 +229,7 @@ if ($PHORUM["threaded_list"]){
         if ($row["user_id"]){
             $url = phorum_get_url(PHORUM_PROFILE_URL, $row["user_id"]);
             $rows[$key]["profile_url"] = $url;
-			$url = 'http://www.alluminati.org/people/profile.php?user='.$rows[$key]["user_id"];
+			$url = 'http://www.apo-x.org/people/profile.php?user='.$rows[$key]["user_id"];
             $rows[$key]["linked_author"] = "<a href=\"$url\">$row[author]</a>";
         }else{
             $rows[$key]["profile_url"] = "";
@@ -277,7 +277,7 @@ if ($PHORUM["threaded_list"]){
         $row['meta']['recent_post']['author'] = str_replace( array( "<", ">" ), array( "&lt;", "&gt;" ), $row['meta']['recent_post']['author'] );
         if ($row["meta"]["recent_post"]["user_id"]){
             $url = phorum_get_url(PHORUM_PROFILE_URL, $row["meta"]["recent_post"]["user_id"]);
-			$url = 'http://www.alluminati.org/people/profile.php?user='.$row["meta"]["recent_post"]["user_id"];        
+			$url = 'http://www.apo-x.org/people/profile.php?user='.$row["meta"]["recent_post"]["user_id"];        
             $rows[$key]["last_post_profile_url"] = $url;
             $rows[$key]["last_post_by"] = "<a href=\"$url\">{$row['meta']['recent_post']['author']}</a>";
         }else{

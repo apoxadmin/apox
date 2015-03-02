@@ -294,7 +294,7 @@ if(!empty($data) && isset($data[$thread]) && isset($data[$message_id])) {
 
         if(!empty($row["user_id"])) {
             //$row["profile_url"] = phorum_get_url(PHORUM_PROFILE_URL, $row["user_id"]);
-			$row["profile_url"] = 'http://www.alluminati.org/people/profile.php?user='.$row["user_id"];
+			$row["profile_url"] = 'http://www.apo-x.org/people/profile.php?user='.$row["user_id"];
             // we don't normally put HTML in this code, but this makes it easier on template builders
             $row["linked_author"] = "<a href=\"".$row["profile_url"]."\">$row[author]</a>";
         } elseif(!empty($row["email"])) {

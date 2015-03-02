@@ -13,7 +13,7 @@ if(isset($_SESSION['id']))
 	<br>
 	Sorry bro, you are not a member, uh, eh, maybe you are! 
 	<br>
-	If you're a new member or if you want to reset your password:  <a href='http://www.alluminati.org/forgetful/index.php'>Click Here</a> Jolly Good!
+	If you're a new member or if you want to reset your password:  <a href='http://www.apo-x.org/forgetful/index.php'>Click Here</a> Jolly Good!
 	";
 	show_footer(); 
 	exit;
@@ -24,7 +24,7 @@ if(isset($_SESSION['id']))
 ?>
 <head>
 <body>
-<iframe src="http://iotaphi.smugmug.com" height = "900px" width = "997px">
+<iframe src="https://www.flickr.com/photos/120021836@N06/sets" height = "900px" width = "997px">
 </body>
 </head>
 </iframe>

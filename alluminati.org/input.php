@@ -1,5 +1,5 @@
 <?php 
-include_once 'include/template.inc.php'; 
+include_once 'include/template.inc.php';
 date_default_timezone_set('America/Los_Angeles');
 
 $myid = $_SESSION['id'];
@@ -13,7 +13,8 @@ if($action=='login'):
         include_once 'include/user.inc.php';
         $id = '';
         $id = user_getID($_POST['username'],$_POST['password']);
-		// try to get from admin table
+    
+        // try to get from admin table
     
         if($id!='') 
         {
@@ -45,7 +46,7 @@ if($action=='login'):
 
             $_SESSION['family'] = $user['family_id'];
 			$_SESSION['banner_num'] = rand(1,8); // pick a new banner on login
-            setcookie('username', $_POST['username'], time() + 604800, "/", '.alluminati.org');
+            setcookie('username', $_POST['username'], time() + 604800, "/", '.apo-x.org');
         }
         else
             show_note('Incorrect username/password!<br /><br />Did you forget your password, or are you a new member?  Click <a href="/forgetful/index.php">here</a>!');

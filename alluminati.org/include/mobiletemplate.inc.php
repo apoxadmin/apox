@@ -724,7 +724,7 @@ function show_footer()
 			<div style="clear: both;"></div>			
 			<div id="bottom">
 				<span class="copyright">&copy; &#913; &#934  &#937 , Chi &nbsp;&nbsp; | &nbsp;&nbsp;
-				<a href="http://www.alluminati.org/tracking/mine.php">Normal Site</a> 
+				<a href="http://www.apo-x.org/tracking/mine.php">Normal Site</a> 
 				</span>
 			</div>
 		</div> <!-- end #all div -->

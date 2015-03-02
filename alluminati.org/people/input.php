@@ -1,7 +1,6 @@
 <?php 
-
-include_once 'template.inc.php';
-include_once 'session.inc.php';
+include_once dirname(dirname(__FILE__)) . '/include/template.inc.php';
+include_once dirname(dirname(__FILE__)) . '/include/show.inc.php';
 
 $myid = $_SESSION['id'];
 $myclass = $_SESSION['class'];

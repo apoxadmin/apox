@@ -78,7 +78,7 @@ function show_eventsTrack($events, $name, $user)
 			case 2: $color = '#5F5F40'; break;
 			case 3: $color = '#40405F'; break;
 		}
-		$text = "<a href=\"http://www.alluminati.org/event/show.php?id=$id\">$event_name</a>";
+		$text = "<a href=\"http://www.apo-x.org/event/show.php?id=$id\">$event_name</a>";
 		$text .= " (<font color=\"$color\">$fourc_name</font><font size=\"-2\" face=\"courier new\">)";
 		
 		//$text = wordwrap($text, 30, str_padX("<br>",19,'&nbsp;'));

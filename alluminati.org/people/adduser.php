@@ -6,9 +6,10 @@ get_header();
 
 build_users();
 
-if($_SESSION['id'] == USERID_ADMIN ||
-	$_SESSION['id'] == USERID_MEMBERSHIP ||
-	$_SESSION['id'] == USERID_PLEDGEPARENTS):
+if($_SESSION['class'] == 'admin'||
+	$_SESSION['class'] == 'membership' ||
+	$_SESSION['class'] == 'WAC' ||
+	$_SESSION['class'] == 'pledge parents'):
 ?>
 <script type="text/javascript">
 

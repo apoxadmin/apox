@@ -1,12 +1,4 @@
-<script type="text/javascript" src="https://raw.github.com/snaptortoise/konami-js/master/konami.js"></script>
-<script type="text/javascript">
-	var success = function() {
-document.getElementsByTagName("body")[0].style.cursor = "url('/images/cody.gif'), auto";
-	}
-	
-	var konami = new Konami(success);
-	
-</script>
+
 <?php 
 
 include_once dirname(dirname(__FILE__)) . '/include/template.inc.php';
@@ -28,8 +20,8 @@ if($class=='admin')
 {
 	if(isset($_GET['user']))
 		$user_id = (int)$_GET['user'];
-	else
-		show_note('No user selected!');
+	/*else
+		show_note('No user selected!');*/
 }
 
 function class_getAll()
@@ -46,13 +38,7 @@ function shirt_getAll()
 
 function style_getAll()
 {
-	$query = 'SELECT style_id, style_name FROM style WHERE style_id > 1';
-	return db_select($query);
-}
-
-function text_getAll()
-{
-	$query = 'SELECT text_id, text_type FROM text' ;
+	$query = 'SELECT style_id, style_name FROM style';
 	return db_select($query);
 }
 
@@ -63,8 +49,6 @@ if(isset($_POST['submit']))
     $sql = "UPDATE user SET user_address= '$user_address', ";
     if(isset($family_id)) 
         $sql .= " family_id = '$family_id', ";
-    if(isset($status_id)) 
-        $sql .= " status_id = '$status_id', ";
     if(isset($class_id)) 
         $sql .= " class_id = '$class_id', ";
 	//prevent people from deciding that they are too sexy for a shirt
@@ -73,13 +57,12 @@ if(isset($_POST['submit']))
 		$sql .= " shirt_id = '$shirt_id', ";
     $sql .= " user_phone = '$user_phone', user_cell = '$user_cell', "
 		  . " user_email = '$user_email', user_aim = '$user_aim', "
-		  . " user_bday = CONCAT($year,'-',$month,'-',$day), style_id = '$style_id' , text_id = '$text_id' , major = '$major'";
-		  
+		  . " user_bday = CONCAT($year,'-',$month,'-',$day), style_id = '$style_id'";
 	
-    if($class != 'admin' && strcmp($user_password, 'jesuisunconninmouflant')!= 0 )
+    if($class != 'admin' && strcmp($user_password, '1234567890')!==0 )
 	{
 		if ( strcmp($user_password, $user_password_confirm) == 0 )
-			$sql .= " , user_password = md5('$user_password') ";
+			$sql .= " , user_password = '$user_password' ";
 		else
 			show_note ("You entered two different passwords!  Please type the same new password "
 						. "in the confirmation box. (<a href=\"{$_SERVER['PHP_SELF']}\">Back</a>)");
@@ -100,22 +83,23 @@ if(isset($_POST['submit']))
 	<?php
 }
 
-$sql = ' SELECT user_name, family_id, status_id, class_id, user_address, user_phone, user_cell, '
-     . ' user_email, user_aim, user_password, EXTRACT(YEAR FROM user_bday) AS bday_year, major ,'
-     . ' EXTRACT(MONTH FROM user_bday) AS bday_month, EXTRACT(DAY FROM user_bday) AS bday_day, shirt_id, style_id, text_id '
+$sql = ' SELECT user_name, family_id, class_id, user_address, user_phone, user_cell, '
+     . ' user_email, user_aim, user_password, EXTRACT(YEAR FROM user_bday) AS bday_year, '
+     . ' EXTRACT(MONTH FROM user_bday) AS bday_month, EXTRACT(DAY FROM user_bday) AS bday_day, shirt_id, style_id '
      . " FROM user WHERE user_id = '$user_id' ";
 $line = db_select1($sql);
 
 extract($line);
 
 ?>
-<table class="table table-condensed table-bordered">
+
+<table cellspacing="1">
 <form action="<?= $_SERVER['PHP_SELF']."?user=$user_id"; ?>" onsubmit="return valid(this)" method="POST">
 	<tr>
 		<td colspan="3" class="heading" align="center">My Roster Info</td>
 	</tr>
 	<tr>
-		<td rowspan="12"><img src="/images/profiles/<?php echo $user_id ?>.jpg" /></td>
+		<td rowspan="12"><img src="/images/profiles/<?php echo $user_id; ?>.jpg" width="333" height="500" /></td>
 		<td>Name: </td>
 		<td><?php echo $user_name;?> </td>
 	</tr>
@@ -128,17 +112,9 @@ extract($line);
 		<td><?php forms_phone("user_cell",$user_cell) ?></td>
 	</tr>
 	<tr>
-	 <td>Text Type: </td>
-		<td>
-		<select size="1" name="text_id">
-		<?php
-		$types = text_getAll();
-		foreach($types as $line): 
-			echo "<option ";
-			if($text_id==$line['text_id']) echo "selected ";
-			echo "value=\"{$line['text_id']}\">{$line['text_type']}</option>";
-		endforeach; ?>
-	</tr> 
+		<td>Back-up Phone: </td>
+		<td><?php forms_phone("user_phone",$user_phone) ?></td>
+	</tr>
 	<tr>
 		<td>E-mail: </td>
 		<td><?php forms_text(32,"user_email",$user_email) ?></td>
@@ -163,7 +139,7 @@ extract($line);
 			echo "value=\"{$i}\">{$i}</option>"; } ?>
 		</select>
 		<select name="year">
-		<?php for($i=1970; $i<2000; $i++) {
+		<?php for($i=1970; $i<2010; $i++) {
 			echo "<option ";
 			if($bday_year==$i) echo "selected ";
 			echo "value=\"{$i}\">{$i}</option>"; } ?>
@@ -183,65 +159,47 @@ extract($line);
 		endforeach; ?>
 		</select>
 		</td>
-		
-<tr>
-	 <td>Website Style: </td>
+	<tr>
+		<!-- Disabled for now.	
+		<td>Website Style: </td>
 		<td>
 		<select size="1" name="style_id">
-		<?php
+		<?php 
 		$types = style_getAll();
 		foreach($types as $line): 
 			echo "<option ";
 			if($style_id==$line['style_id']) echo "selected ";
 			echo "value=\"{$line['style_id']}\">{$line['style_name']}</option>";
 		endforeach; ?>
-	</tr>
+		</select>
+		</td>
+		-->
 	<?php
 		
-	if($class != 'admin')
+		if($class != 'admin')
 	{
 		?>
 	</tr>
 	<tr>
 		<td>Password: </td>
-	<td><?php forms_password(32,"user_password", 'jesuisunconninmouflant') ?></td>
+	<td><?php forms_password(32,"user_password", '1234567890') ?></td>
 	</tr>
 	<tr>
 		<td>Re-type Password: </td>
-	<td><?php forms_password(32,"user_password_confirm", 'jesuisunconninmouflant') ?></td>
-	</tr>
-	
-	<tr>
-		<td>Major:</td>
-		<td colspan='2'><?php forms_text(100,"major",$major) ?></td>
+	<td><?php forms_password(32,"user_password_confirm", '1234567890') ?></td>
 	</tr>
 	<?php 
-	}	//end password
-	
+	}	
 	if($class=="admin"): ?>
 	<tr>
 		<td>Family: </td>
 		<td>
 		<select size="1" name="family_id">
 		<?php
-		$families = Array(0 => '?', 1=> 'Tight', 2=> 'Close', 3 => 'Loose');
+		$families = Array(0 => '?', 1=> 'Alpha', 2=> 'Phi', 3 => 'Omega');
 		foreach($families as $key => $value): 
 			echo "<option ";
 			if($family_id==$key) echo "selected ";
-			echo "value=\"$key\">$value</option>";
-		endforeach; ?>
-		</select>
-		</td>
-	</tr>
-	<tr>
-		<td>Status: </td>
-		<td>
-		<select size="1" name="status_id">
-		<?php
-		$statues = Array(0 => '?', 1=> 'Pledge', 2=> 'Admin', 3 => 'Alumni', 4 => 'Associate', 5 => 'Depledge', 6 => 'Neophyte', 7 => 'Inactive', 8 => 'Active', 9 => 'Deactivated');
-		foreach($statues as $key => $value): 
-			echo "<option ";
-			if($status_id==$key) echo "selected ";
 			echo "value=\"$key\">$value</option>";
 		endforeach; ?>
 		</select>
@@ -260,10 +218,9 @@ extract($line);
 		endforeach; ?>
 		</select>
 		</td>
-	</tr>
 	<?php endif; ?>
 	<tr>
-		<td colspan="3" align="center"><input type="submit" name="submit" value="Update!"></td> 
+		<td colspan="3" align="center"><input type="submit" name="submit" value="Update!"></td>
 	</tr>
 	<?php if($_GET['updated']): ?>
 	<tr>

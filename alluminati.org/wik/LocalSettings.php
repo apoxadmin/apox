@@ -10,7 +10,7 @@ $wgDebugDumpSql = true;
 # If you make manual changes, please keep track in case you need to
 # recreate them later.
 
-$IP = "/home/alluminati/alluminati.org/wik";
+$IP = "/home/alluminati/apo-x.org/wik";
 ini_set( "include_path", ".:$IP:$IP/includes:$IP/languages" );
 require_once( "includes/DefaultSettings.php" );
 
@@ -163,7 +163,7 @@ require_once( "$IP/extensions/ParserFunctions/ParserFunctions.php" );
 $wgPFEnableStringFunctions = true;
 require_once("extensions/Winter.php");
 include_once("$IP/extensions/SemanticMediaWiki/SemanticMediaWiki.php");
-enableSemantics(‘alluminati.org');
+enableSemantics(‘apo-x.org');
 include_once("$IP/extensions/SemanticForms/includes/SF_Settings.php");
 require_once("$IP/extensions/ConfirmEdit/ConfirmEdit.php");
 require_once("$IP/extensions/ConfirmAccount/SpecialConfirmAccount.php");

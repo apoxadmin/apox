@@ -7,7 +7,7 @@ get_header();
 
 $action = $_POST['action'];
 $class = $_SESSION['class'];
-$files_dir = "/home/alluminati/alluminati.org/files";
+$files_dir = "/home/alluminati/apo-x.org/files";
 
 if($class != 'admin')
 	show_note('You must be logged in as excomm to edit files.');

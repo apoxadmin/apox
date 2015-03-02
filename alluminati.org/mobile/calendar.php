@@ -3,6 +3,7 @@ include_once dirname(dirname(__FILE__)) . '/include/mobiletemplate.inc.php';
 include_once dirname(dirname(__FILE__)) . '/include/event.inc.php';
 include_once dirname(dirname(__FILE__)) . '/include/signup.inc.php';
 
+date_default_timezone_set("America/Los_Angeles");
 $id = $class = false;
 
 if(isset($_GET['month'],$_GET['year']))

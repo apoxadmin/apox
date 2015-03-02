@@ -2,7 +2,7 @@
 // Checks for chairless events happening 3 days and randomly assigns someone signed up to be chair.
 
 // Add include path, needed in cronjobs because it uses a different php.ini which doesn't have our include directory
-$path = '/home/alluminati/alluminati.org/include';
+$path = '/home/alluminati/apo-x.org/include';
 set_include_path(get_include_path() . PATH_SEPARATOR . $path);
 
 include_once 'database.inc.php';
@@ -57,7 +57,7 @@ foreach ($result as $shift) {
     $message = "Congratulations $name,<br /><br />"
              . "You've been randomly selected to chair an event that is happening in 3 days!<br />"
              . "Please make the appropriate arrangements.<br />"
-             . "The event you're chairing is: <a href=\"http://www.alluminati.org/event/show.php?id=".$shift['event_id']."\">$event</a><br /><br />"
+             . "The event you're chairing is: <a href=\"http://www.apo-x.org/event/show.php?id=".$shift['event_id']."\">$event</a><br /><br />"
              . "Sincerely,<br />The Chi Robot<br />";
     $headers  = 'From: The Chi Robot <admin@apo-x.org>' . "\r\n";
     $headers .= 'Cc: service@apo-x.org' . "\r\n";

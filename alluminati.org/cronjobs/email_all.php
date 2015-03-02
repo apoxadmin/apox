@@ -3,7 +3,7 @@
 // Emails everyone 3 days before their service as a reminder.
 
 // Add include path, needed in cronjobs because it uses a different php.ini which doesn't have our include directory
-$path = '/home/alluminati/alluminati.org/include';
+$path = '/home/alluminati/apo-x.org/include';
 set_include_path(get_include_path() . PATH_SEPARATOR . $path);
 
 include_once 'database.inc.php';
@@ -39,7 +39,7 @@ function send_mail($email, $name, $event, $event_id)
     $message = "Hi $name,<br /><br />"
              . "You have signed up for an event that is happening in 3 days. <br />"
              . "This is a reminder. The chair should contact you soon.<br />"
-             . "The event you are attending is: <a href=\"http://www.alluminati.org/event/show.php?id=$event_id.\">$event</a><br /><br />"
+             . "The event you are attending is: <a href=\"http://www.apo-x.org/event/show.php?id=$event_id.\">$event</a><br /><br />"
              . "Sincerely,<br />The Chi Robot";
     $headers  = 'From: The Chi Robot <admin@apo-x.org>' . "\r\n";
 
