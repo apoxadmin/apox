@@ -42,10 +42,10 @@ if(isset($_SESSION['sort']))
 
 function userfull_get($search = false, $sort = false)
 {
-	$query = 'SELECT user_name as name, user_address, user_cell, text_type,'
+	$query = 'SELECT user_name as name, user_address, user_cell,'
 	. ' LEFT(user_email, 27) AS user_email, user_aim, user_id, class_nick '
-	. ' FROM user, family, class, text '
-	. ' WHERE (class.class_id = user.class_id) AND (user.family_id = family.family_id) AND (user.text_id = text.text_id) '
+	. ' FROM user, family, class'
+	. ' WHERE (class.class_id = user.class_id) AND (user.family_id = family.family_id)'
 	. ' AND (status_id NOT IN ('.STATUS_ADMINISTRATOR.','.STATUS_DEPLEDGE.','.STATUS_DEACTIVATED.')) '
 	. ' AND (user_email IS NOT NULL)';
 	

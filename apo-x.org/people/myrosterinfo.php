@@ -57,6 +57,7 @@ if(isset($_POST['submit']))
 		$sql .= " shirt_id = '$shirt_id', ";
     $sql .= " user_phone = '$user_phone', user_cell = '$user_cell', "
 		  . " user_email = '$user_email', user_aim = '$user_aim', "
+		  . " major = '$major', "
 		  . " user_bday = CONCAT($year,'-',$month,'-',$day), style_id = '$style_id'";
 	
     if($class != 'admin' && strcmp($user_password, '1234567890')!==0 )
@@ -83,7 +84,7 @@ if(isset($_POST['submit']))
 	<?php
 }
 
-$sql = ' SELECT user_name, family_id, class_id, user_address, user_phone, user_cell, '
+$sql = ' SELECT user_name, family_id, class_id, user_address, user_phone, user_cell, major, '
      . ' user_email, user_aim, user_password, EXTRACT(YEAR FROM user_bday) AS bday_year, '
      . ' EXTRACT(MONTH FROM user_bday) AS bday_month, EXTRACT(DAY FROM user_bday) AS bday_day, shirt_id, style_id '
      . " FROM user WHERE user_id = '$user_id' ";
@@ -120,9 +121,13 @@ extract($line);
 		<td><?php forms_text(32,"user_email",$user_email) ?></td>
 	</tr>
 	<tr>
+		<td>Major: </td>
+		<td><?php forms_text(32,"major",$major) ?></td>
+	</tr>
+	<!-- <tr>
 		<td>AIM: </td>
 		<td><?php forms_text(16,"user_aim",$user_aim) ?></td>
-	</tr>
+	</tr> -->
 	<tr>
 		<td>Birthday: </td>
 		<td>

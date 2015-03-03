@@ -6,7 +6,6 @@ include_once dirname(dirname(__FILE__)) . '/include/signup.inc.php';
 include_once dirname(dirname(__FILE__)) . '/include/show.inc.php';
 include($_SERVER['DOCUMENT_ROOT'] . '/wp-load.php');
 
-date_default_timezone_set("America/Los_Angeles");
 
 if(isset($_GET['id']))
 	$event_id = (int)$_GET['id'];
@@ -94,6 +93,15 @@ $head = <<< EOT
 EOT;
 	
 show_calhead( $head );
+
+if(isset($_GET['id']))
+	$event_id = (int)$_GET['id'];
+	
+if(isset($_SESSION['id']))
+	$id = $_SESSION['id'];
+	
+if(isset($_SESSION['class']))
+	$class = $_SESSION['class'];
 
 if($event_id) {
 	$modifiable = false;
@@ -418,31 +426,31 @@ function show_shifts($event, $shifts, $class, $user_id)
 {
 	include_once dirname(dirname(__FILE__)) . '/include/signup.inc.php';
 	$id = $_SESSION['id'];
-    if ($event['type']=='Service')
+    if ($event['type']=='Leadership' || $event['type']=='Fellowship' || $event['type']=='Service'|| $event['type']=='Family' || $event['type']=='Fundraiser' || $event['type']=='Special' || $event['type']=='Rush' || $event['ic'] == true)
 	{
 		$signup_days = SIGNUP_DAYS;
 		$remove_days = REMOVE_DAYS;
-		$modifiable = ($id == USERID_SERVICE || $id == USERID_ADMIN);
+		$modifiable = ($class=='admin');
 	}
-	elseif ($event['type']=='Interviews')
+	elseif ($event['type']=='Committee' || $event['type']=='Meeting')
 	{
-		$signup_days = INTERVIEWS_SIGNUP_DAYS;
-		$remove_days = INTERVIEWS_REMOVE_DAYS;
+		$signup_days = FAMILY_SIGNUP_DAYS;
+		$remove_days = FAMILY_REMOVE_DAYS;
 		$modifiable = ($class=='admin');
 	}
 	else {
 		$modifiable = ($class=='admin');
 	}
 	$event_id = $event['id'];
-	
+
 	foreach($shifts as $shift):
 		$list = signup_getSList($shift['shift']); 
-		if($event['type']=='Service' || $event['type']=='Interviews')
-		if($event['type']=='Service' || $event['type']=='Interviews')
-            $needReplacement = (NOW > strtotime("-$signup_days days",shift_getStamp($shift['shift'])));
+		if($event['type']=='Leadership' || $event['type']=='Fellowship' || $event['type']=='Service' || $event['type']=='Fundraiser' || $event['type']=='Family' || $event['type']=='Special' || $event['type']=='Rush')
+            // Offset by 8 hours because of converstion between UTC and PST. TODO: Change to use datetime timezone conversion
+            $needReplacement = (NOW > strtotime("-$signup_days days 8 hours", $event['date']));
 		elseif($event['ic']==true)
-            $needReplacement = (NOW > shift_getStamp($shift['shift']));
-        
+            $needReplacement = (NOW > strtotime("-8 hours", $event['date']));
+
         $passed = (NOW > shift_getStamp($shift['shift']));
         
 		?>
@@ -601,9 +609,9 @@ function show_shifts($event, $shifts, $class, $user_id)
                 <td><input name="driving" type="checkbox" value="1" <?= $driving_checked ?><?= $greyed ?> /></td>
                 <td><input name="camera" type="checkbox" value="1" <?= $camera_checked ?><?= $greyed ?> /></td>
 				<td><input name="ride" type="checkbox" value="1" <?= $ride_checked ?><?= $greyed ?> /></td>
-			<?php if($dontDisable) 
+			<?php if($dontDisable)
 				show_customfields($event,$shift,$signup);
-			else 
+			else
 				show_custominfo($event,$shift,$signup);
 				if($dontDisable): ?>
                     <td>
@@ -622,10 +630,10 @@ function show_shifts($event, $shifts, $class, $user_id)
 	                        <?php forms_hidden("shift", $shift['shift']); ?>
 	                        <?php forms_hidden("redirect", "/event/show.php?id=$event_id"); ?>
 	                        <?php forms_hidden("user", $signup['user']); ?>
-	                        <input type="submit"  class="btn btn-small btn-danger" name="removeme" value="Remove" />
+                            <input type="submit"  class="btn btn-small btn-danger" name="removeme" value="Remove" />
 						</td>
                     </form>
-                    <?php if (NOW < strtotime("-$remove_days days",shift_getStamp($shift))): ?>
+                    <?php if ($needReplacement == true): ?>
                     <td><form action="/input<?php echo ($modifiable)?'Admin':'' ?>.php" method="POST" onSubmit="return confirmReplace();" >
                         <?php forms_hidden("action", "request_replacement"); ?>
                         <?php forms_hidden("shift", $shift['shift']); ?>
@@ -708,7 +716,6 @@ function show_shifts($event, $shifts, $class, $user_id)
 			// Show signup row if not already signed up and not too late
 			if (!$signedup && !$passed && !$tooLateToSignup) {
 ?>		
-            <!-- cy -->
 			<form action="/input.php" method="POST" onsubmit="return valid(this)">
 			<?php forms_hiddenInput("signup","/event/show.php?id=$event_id"); ?>
 				<?php if($needReplacement): ?>
@@ -972,7 +979,7 @@ function show_comments($event_id,$user_id,$class) {
 			<ol>
 				<li><b>Sign up</b> to become the chair for an event on the Chapter Website.</li>
 				<li><b>Email</b> all listed attendees, SAA, and the respective VPs <b>3 days</b> prior to the event, with relevant information (location, time, pin/letters, special instructions).</li>
-				<li><b>Call</b> all attendees <b>1 day</b> prior to the event via telephone reminding them of the event and provide relevant information. If an attendee cannot be reached, leave a voice-mail. </li>
+				<li><b>Call or text</b> all attendees <b>1 day</b> prior to the event via telephone reminding them of the event and provide relevant information. If an attendee cannot be reached, leave a voice-mail. </li>
 				<li><b>Arrange rides</b> if necessary and provide clear directions/maps for the drivers.</li>
 				<li><b>Go to the event</b>, take attendance, check for pins/letters, and maintain order within the attendees. Take pictures or video of the event. (Whenever possible, any social media sharing of the event is also encouraged.)</li>
 				<li><b>Clean up</b>, thank the event coordinators (if present/relevant), and sing the Toast Song. Note: Toast Song is mandatory for all Chapter, Interchapter, and Service events, but optional at all other events.</li>
@@ -985,13 +992,12 @@ function show_comments($event_id,$user_id,$class) {
 				<ul>
 					<li>  <a href="https://docs.google.com/forms/d/1JqZ_IsQgMfE1z838DazrYN7cpgIbgj1TRLONJC9r9lA/viewform?usp=docslist_api&edit_requested=true">Evaluation Form</a> </li>
 				</ul>	
+				<li>View all the chair evaluation forms below.</li>
+				<ul>
+					<li>  <a href="https://docs.google.com/spreadsheets/d/1PkczB02MkCzwnHKkDCVFfT2-21ixZGUWBp0J5taFNBg/edit#gid=0">View Evaluation Responses</a> </li>
+				</ul>
 			</ol>
 		</XMP>
-
-		<br/>
-		<br/>	   	
-		<br/>
-		<b>Comments</b>
 		<hr/>
 	</div>
 <?php

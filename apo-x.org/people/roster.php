@@ -32,15 +32,16 @@ else
 }
 
 // set search query
-if(isset($_POST['search'])):
-	$terms = explode(' ',$_POST['search']);
+if(isset($_GET['search']))
+{
+	$terms = explode(' ',$_GET['search']);
 	foreach($terms as $term)
 	{
 		$search .= " AND (user_name LIKE '%$term%' OR "
 				. " user_address LIKE '%$term%' OR user_aim LIKE '%$term%' OR "
-				. " family_name LIKE '%$term%' OR user_cell LIKE '%$term%' OR class_nick LIKE '%$term%') ";
+				. " family_name LIKE '%$term%'  OR class_name LIKE '%$term%') ";
 	}
-endif;
+}
 
 if(isset($_SESSION['sort']))
 {
@@ -49,9 +50,9 @@ if(isset($_SESSION['sort']))
 		case 'name': $sort = 'user_name'; break;
 		case 'address': $sort = 'user_address'; break;
 		case 'cell': $sort = 'user_cell'; break;
-	    case 'text': $sort = 'text_type'; break;
 		case 'email': $sort = 'user_email'; break;
 		case 'aim': $sort = 'user_aim'; break;
+		case 'family': $sort = 'family_name'; break;
 		case 'class': $sort = 'user.class_id'; break;
 		default: $sort = 'user_name'; break;
 	}
@@ -60,12 +61,13 @@ if(isset($_SESSION['sort']))
 }
 function userfull_get($search = false, $sort = false)
 {
-	$query = 'SELECT user_name as name, user_address, user_cell, text_type,'
+	$query = 'SELECT user_name as name, user_address, user_cell, '
 	. ' LEFT(user_email, 27) AS user_email, user_aim, user_id, class_nick '
 	. ' FROM user, family, class, text '
-	. ' WHERE (class.class_id = user.class_id) AND (user.family_id = family.family_id) AND (user.text_id = text.text_id) '
+	. ' WHERE (class.class_id = user.class_id) AND (user.family_id = family.family_id) '
 	. ' AND (status_id NOT IN ('.STATUS_ADMINISTRATOR.','.STATUS_DEPLEDGE.','.STATUS_DEACTIVATED.')) '
-	. ' AND (user_email IS NOT NULL)';
+	. ' AND (user_email IS NOT NULL)'
+	        . ' AND (user_hidden !=1) ';
 	
 	if($search !== false)
 		$query .= $search;
@@ -275,15 +277,16 @@ function peopleFilter(filter)
 </script>
 <div class="general">
 	<div class="page-header">
-	  <h1>Search <small>Find members' name, address, phone number, major, or pledge class</small></h1>
+	  <h1>Search <small>Find members' name, address, phone number, or pledge class</small></h1>
 	</div>
 	<div class="general">
 		<form class="form-inline">
 				<input type="text" id="srch" />
 				<select name="filters" onchange="peopleFilter(this.value)" style="margin: 0px; padding: 0px">
 					<option value="0" <?php echo ($filterx==0)?'selected':'' ?>>Everyone</option>
-					<option value="1" <?php echo ($filterx==1)?'selected':'' ?>>Non-Pledges</option>
+					<option value="1" <?php echo ($filterx==1)?'selected':'' ?>>Actives</option>
 					<option value="2" <?php echo ($filterx==2)?'selected':'' ?>>Pledges</option>
+					<option value="3" <?php echo ($filterx==3)?'selected':'' ?>>Alumni</option>
 				</select><br /><br />
 				<input type="submit" />
 		</form>

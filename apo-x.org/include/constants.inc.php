@@ -40,10 +40,10 @@ define('USERID_FINANCE', 7);
 define('USERID_PLEDGEPARENTS', 8);
 define('USERID_CORSECS', 9);
 define('USERID_RECSECS', 10);
-define('USERID_HISTORIANS', 11);
-define('USERID_SAAS', 12);
+define('USERID_HISTORIAN', 11);
+define('USERID_SAA', 12);
 define('USERID_ADMIN', 13);
-define('USERID_PRESECS', 16);
+define('USERID_INTERCHAPTER', 16);
 define('USERID_ALUMSECS', 17);
 
 define('FOURC_CHAPTER', 0);
@@ -51,14 +51,14 @@ define('FOURC_CAMPUS', 1);
 define('FOURC_COMMUNITY', 2);
 define('FOURC_COUNTRY', 3);
 
-define('FAMILY_TIGHT', 1);
-define('FAMILY_CLOSE', 2);
-define('FAMILY_LOOSE', 3);
+define('FAMILY_ALPHA', 1);
+define('FAMILY_PHI', 2);
+define('FAMILY_OMEGA', 3);
 
 define('EVENTTYPE_SERVICE', 1);
 define('EVENTTYPE_FELLOWSHIP', 2);
 define('EVENTTYPE_LEADERSHIP', 7);
-define('EVENTTYPE_CAW', 9);
+define('EVENTTYPE_CHAPTER_EVENT', 9);
 define('EVENTTYPE_INTERVIEWS', 10);
 
 ?>

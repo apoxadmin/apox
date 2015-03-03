@@ -66,12 +66,19 @@ echo '</div>';
 <table  class="table table-bordered table-condensed">
 <thead>
 <tr>
-	<th colspan="3"> <h4 style="text-align:center">Most Fellowships</h4></th>
+	<th colspan="3"> <h4 style="text-align:center">Quick Links</h4></th>
 	</tr>
 <tr>
-       <th>Rank</th>
-       <th>Name</th>
-        <th>Events</th>
+<th>
+<p><a href="https://docs.google.com/spreadsheets/d/1yU8BRX2ue-dGDU7oGwsAEpSOvL3QE9JQLMxeVIFymIg/edit#gid=1917545302">Active Tracker</a>
+<p><a href="https://docs.google.com/forms/d/1Tm_8CO3_ZvKZI3UI3VQH_VISKBakt0PFkmIZKDiBZn0/viewform">Excomm Feedback</a>
+<p><a href="https://docs.google.com/spreadsheets/d/1Ut5GLraTv6acVTZ89nyNmAoFoz1IVQG1qqHUQ_azXqE/edit#gid=0">Lost and Found</a>
+<p><a href="https://docs.google.com/spreadsheets/d/1yU8BRX2ue-dGDU7oGwsAEpSOvL3QE9JQLMxeVIFymIg/edit#gid=1917545302">Gas Reimbursement</a>
+<p><a href="https://docs.google.com/spreadsheets/d/1yU8BRX2ue-dGDU7oGwsAEpSOvL3QE9JQLMxeVIFymIg/edit#gid=1917545302">Regular Reimbursement</a>
+<p>SAA Google Voice: 424-216-8319
+<p><a href="https://docs.google.com/forms/d/1JqZ_IsQgMfE1z838DazrYN7cpgIbgj1TRLONJC9r9lA/viewform?edit_requested=true">Chair Evaluations</a>
+<p><a href="https://docs.google.com/spreadsheets/d/1PkczB02MkCzwnHKkDCVFfT2-21ixZGUWBp0J5taFNBg/edit#gid=0">View All Chair Evaluations</a>
+</th> 
   </tr>
   </thead>
 <tbody>

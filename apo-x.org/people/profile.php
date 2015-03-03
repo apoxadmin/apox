@@ -28,7 +28,7 @@ if ( $user_id <= 0 )
 	exit;
 }
 $sql = 'SELECT user_name, family_name, class_nick, user_address,'
-        . ' user_phone, user_cell, user_email, user_aim, user_password'
+        . ' user_phone, user_cell, user_email, user_aim, user_password, major'
         . ' FROM user, class, family'
 		. " WHERE user_id = '$user_id' "
 		. ' AND user.class_id = class.class_id '
@@ -65,14 +65,10 @@ $user_cell = show_phone($user_cell);
 		<td>Email: </td>
 		<td><a href="mailto:<?php echo htmlentities($user_email) ?>"><?php echo htmlentities($user_email) ?></a></td>
 	</tr>
-	<tr>
-		<td>AIM sn: </td>
-		<td><img src="http://api.oscar.aol.com/SOA/key=PandorasBoxGoodUntilJan2006/presence/<?php echo htmlentities($user_aim) ?>" /><a href="aim:goim?screenname=<?php echo htmlentities($user_aim) ?>"><?php echo htmlentities($user_aim) ?></a></td>
-	</tr>
-	<!-- <tr>
+	 <tr>
 		<td>Family: </td>
 		<td><?php echo $family_name ?></td>
-	</tr> -->
+	</tr> 
 	<tr>
 		<td>Class: </td>
 		<td><?php echo $class_nick ?></td>

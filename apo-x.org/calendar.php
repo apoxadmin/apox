@@ -4,7 +4,6 @@ include_once 'include/event.inc.php';
 include_once 'include/signup.inc.php';
 include($_SERVER['DOCUMENT_ROOT'] . '/wp-load.php');
 
-date_default_timezone_set("America/Los_Angeles");
 $id = $class = false;
 // if(!isset($_SESSION['class']))
 //     show_note('You must be logged in to view this page. Message Admin VPs to gain access!');

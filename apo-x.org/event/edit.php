@@ -219,6 +219,17 @@ function show_eventModify($new, $maybe)
 <?php 
 }
 
+$page = $_GET['page'];
+$event_id = $_GET['event_id'];
+
+if(isset($_GET["date"]))
+	$maybeDate = $_GET["date"];
+else
+	$maybeDate = "";
+
+if(isset($_SESSION['class']))
+	$class = $_SESSION['class'];
+
 // permissions?
 if($class!="admin")
 	show_note('You must be an administrator to access this page.');
