@@ -4,6 +4,7 @@ include_once dirname(dirname(__FILE__)) . '/include/template.inc.php';
 include_once dirname(dirname(__FILE__)) . '/include/forms.inc.php';
 include($_SERVER['DOCUMENT_ROOT'] . '/wp-load.php');
 
+get_header();
 if(!isset($_SESSION['class']))
     show_note('You must be logged in to view this page.');
 
@@ -27,7 +28,7 @@ else
 function users_get()
 {
 	$sql = 'SELECT user_id, user_name AS name FROM user '
-			. ' WHERE status_id NOT IN ('.STATUS_ADMINISTRATOR.','.STATUS_DEPLEDGE.','.STATUS_DEACTIVATED. ',' .STATUS_INACTIVE.  ',' .STATUS_ALUMNI
+			. ' WHERE status_id NOT IN ('.STATUS_ADMINISTRATOR.','.STATUS_DEPLEDGE.',' .STATUS_INACTIVE.  ',' .STATUS_ALUMNI
 			. ') ORDER BY user_name';
 	return db_select($sql);
 }

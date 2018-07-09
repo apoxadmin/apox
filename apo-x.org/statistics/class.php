@@ -1,8 +1,8 @@
 <?php 
-include_once 'template.inc.php';
+include_once dirname(dirname(__FILE__)) . '/include/template.inc.php';
 include_once 'sql.php';
 
-show_header(); 
+get_header(); 
 
 ?><div class="general" style="padding: 0px">
 <div class="general boxtop"><span class="big">Current Member Statistics</span></div><br/>

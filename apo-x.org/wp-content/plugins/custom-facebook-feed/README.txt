@@ -1,13 +1,13 @@
 === Custom Facebook Feed ===
 Contributors: smashballoon
-Tags: Facebook, Facebook feed, Facebook posts, Facebook wall, Facebook events, Facebook page, Facebook group, Facebook Like box, Customizable Facebook Feed, custom, customizable, seo, responsive, mobile, social media
+Tags: Facebook, Facebook feed, Facebook posts, Facebook wall, Facebook events, Facebook page, Facebook group, Facebook fans, Facebook likes, Facebook followers, Face book, Facebook pages, Facebook Like Box, Facebook plugin, Facebook walls, custom, customizable, seo, responsive, mobile, social media
 Requires at least: 3.0
-Tested up to: 4.1.1
-Stable tag: 2.3.1
+Tested up to: 4.7
+Stable tag: 2.4.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The Custom Facebook Feed allows you to display a completely customizable Facebook feed of any public Facebook page or group on your website
+The Custom Facebook Feed allows you to display completely customizable Facebook feeds of any public Facebook page or group on your website
 
 == Description ==
 
@@ -58,7 +58,7 @@ To display photos, videos, the number of likes, shares and comments for each Fac
 * Support is quick and effective
 * We're dedicated to providing the **most customizable**, **robust** and **well supported** Facebook feed plugin in the world!
 
-[View the reviews](http://wordpress.org/support/view/plugin-reviews/custom-facebook-feed) to see what other users are saying about the Custom Facebook Feed plugin.
+[View the reviews](https://wordpress.org/support/plugin/custom-facebook-feed/reviews/) to see what other users are saying about the Custom Facebook Feed plugin.
 
 == Installation ==
 
@@ -115,6 +115,96 @@ It sure is. Unlike other Facebook plugins which use iframes to embed your Facebo
 = How do I embed the Custom Facebook Feed directly into a WordPress page template? =
 
 You can embed your Facebook feed directly into a template file by using the WordPress [do_shortcode](http://codex.wordpress.org/Function_Reference/do_shortcode "WordPress.org do_shortcode reference") function: `<?php echo do_shortcode('[custom-facebook-feed]'); ?>`.
+
+= My Facebook feed posts are not showing up, or all I can see is the Facebook Like box but no posts =
+
+Please refer to [this FAQ](https://smashballoon.com/facebook-feed-doesnt-show-can-see-like-box-posts-gives/ "My Facebook feed posts are not showing up, or all I can see is the Facebook Like box but no posts") for potential solutions on how to resolve this issue.
+
+= Create a basic slideshow from your Facebook posts =
+
+The Custom Facebook Feed plugin doesn't currently have a slideshow feature built into it, but it's possible to achieve a basic slideshow by doing the following:
+
+1) Add a class to the shortcode of the Facebook feed that you want to convert into a slideshow:
+
+`[custom-facebook-feed class="slideshow"]`
+
+2) Set the number of posts to display to be the number of Facebook posts you want to include in the slideshow (10 for example). You can do this by using the `num` shortcode option:
+
+`[custom-facebook-feed class="slideshow" num=10]`
+
+3) Add the following to the plugin's **Custom JavaScript** section, which is under the 'Misc' tab on the plugin's 'Customize' page. Please note, if you change the class option in the shortcode above to be anything but "slideshow" then make sure to change that on the first line of the snippet below:
+
+`var shortcodeClass = 'slideshow',
+    cffSpeed = 5000, 
+    $cff = $('#cff.'+ shortcodeClass);
+    $cffItem = $cff.find('.cff-item'),
+    cffNum = $cffItem.length,
+    cffCur = 0;
+$cffItem.hide();
+setTimeout(function(){ $cff.find('.cff-item').eq(0).show(); }, 200);
+setInterval(function(){
+    $cff.find('.cff-item').eq(cffCur).fadeOut( "fast", function() {
+        if( cffCur == cffNum-1 ) cffCur = -1;
+        cffCur++;
+        $cff.find('.cff-item').eq(cffCur).fadeIn();
+    });
+}, cffSpeed);`
+
+4) You can change the speed of the transition by editing the **cffSpeed = 5000** value at the top of the snippet. 5000 is equal to 5 seconds (5000ms).
+
+= Changing the font in your Facebook feed and using Google Fonts =
+
+Please refer to [this FAQ](https://smashballoon.com/changing-the-font-in-your-facebook-feed-using-google-fonts/ "Changing the font in your Facebook feed and using Google Fonts") for directions on how to use Google fonts in your Facebook posts.
+
+= Can I display my Facebook posts horizontally or in multiple columns? =
+
+Please refer to [this FAQ](https://smashballoon.com/can-display-facebook-post-horizontally-multiple-columns/ "Can I display my Facebook posts horizontally or in multiple columns?") for directions on how to display your Facebook posts in multiple columns.
+
+= My Facebook feed appears to have stopped updating / working =
+
+If your Facebook feed doesn't appear to be showing the most recent Facebook posts then the most likely explanation is that the recent Facebook posts in your feed may be shared from a user's personal Facebook profile. Facebook's privacy policy doesn't allow posts that you share from personal Facebook profiles to be shared outside of Facebook as the posts don't technically belong to your Facebook page, they belong to the user who posted it to their personal Facebook profile. There's an example of a post shared from a user's personal Facebook profile [here](https://smashballoon.com/wp-content/uploads/2014/11/sharing-photo-facebook-profile.jpg "Example of Facebook post shared from personal Faceboo profile").
+
+Please note, this isn't a limitation of our plugin, it's a restriction which Facebook places on it's content in order to protect the privacy of their Facebook users.
+
+**Potential solutions**
+
+* You could re-post the Facebook post to your page rather than sharing it to your Facebook page. If you re-post the content as your own post on your Facebook page then the content now originates from your Facebook page and will be displayed in the Facebook feed on your website.
+
+* If you were to share a post from another Facebook page or public source, rather than sharing it from someone's personal Facebook profile, then it would show up in your feed outside of Facebook, but by default any posts that originate from a personal Facebook profile are protected by Facebook's privacy policy and is the private content of that Facebook profile owner.
+
+= I'm receiving an error message when trying to display my Facebook posts =
+
+Please refer to our [Error Message Reference page](https://smashballoon.com/custom-facebook-feed/docs/errors/ "I'm receiving an error message when trying to display my Facebook posts") for information on how to resolve common error messages.
+
+= Creating a Masonry grid layout from your Facebook posts =
+
+Please refer to [this FAQ](https://smashballoon.com/creating-a-masonry-grid-layout-from-your-facebook-posts/ "Creating a Masonry grid layout from your Facebook posts") for directions on how to create a Masonry grid layout from your Facebook feed posts.
+
+= How do I customize my Facebook feed? =
+
+You can customize the Facebook feed by setting the options on the Customize page, which can be found under the Facebook Feed menu in your left hand WordPress admin menu. If you need even deeper customization than the built in options allow then you can add your own CSS to the plugin in the Custom CSS section under the Misc tab to further customize your Facebook feed.
+
+You can also override these styles for individual Facebook feeds by setting options within the shortcode. For example, you can change the height of a specific Facebook feed like so: `[custom-facebook-feed height=500px]`.
+
+= The Custom Facebook Feed shortcode options aren't working =
+
+The most common causes of this are:
+
+1) There's HTML tags within the [custom-facebook-feed] shortcode which are preventing it from working correctly
+
+If you copied and pasted the shortcode into the Visual editor on your WordPress page/post editor then it may have inadvertently included some HTML tags from the page that you copied it from. The easiest way to check this is to view the 'Text' view in your WordPress editor and see whether there are any stray HTML tags in the shortcode itself.
+
+2) The shortcode includes curly single quote characters
+
+If your shortcode includes single quotes then check that they are the standard single quotes and not the curly kind.
+
+3) Typo in the shortcode option
+
+Ensure that there aren't any spelling errors in the shortcode options that you're using and that the format is consistent with that demonstrated on the [Shortcode Options reference page](https://smashballoon.com/custom-facebook-feed/docs/shortcodes/ "The shortcode options aren't working").
+
+= Facebook avatar pictures aren't showing up in my Facebook feed =
+
+The most common reason for this is that an add-on or extension you have installed in your web browser is blocking the pictures being loaded from Facebook. Try checking to see whether you have any add-ons or extensions installed in your browser and, if so, try disabling them to see whether that solves the problem and displays the pictures from Facebook.
 
 == Other Notes ==
 
@@ -226,7 +316,7 @@ Paul (Young Focus)" - paulvw
 
 A few years back when Mark Zuckerberg came up with his concept of a social networking site and named it Facebook, he had no idea what it would become in the time to come. Facebook has quite literally revolutionized the way we look at social networking. With over 700 million active Facebook users, it is definitely the biggest platform you can get if you seek to engage with many people simultaneously. Though Facebook is the premiere social networking platform, it also holds a lot of potential for businesses. The fact that Facebook can help businesses in growing and reaching out to a new customer base has added to Facebook's popularity.
 
-Today when you look at Facebook and the Facebook groups or Facebook pages that exist on the site, you will find that every popular brand is there. They are not only there but are active on Facebook on almost a daily basis. For the present generation, who spend a lot more time on the internet than on the TV, brands needed to change their approach. Facebook provides the best possible solution in this scenario. However, it is not only the big brands that make the full use of Facebook’s social media power. Even small businesses can benefit greatly from using Facebook if they make optimal use of the various features that Facebook has to offer.
+Today when you look at Facebook and the Facebook groups or Facebook pages that exist on the site, you will find that every popular brand is there. They are not only there but are active on Facebook on almost a daily basis. For the present generation, who spend a lot more time on the internet than on the TV, brands needed to change their approach. Facebook provides the best possible solution in this scenario. However, it is not only the big brands that make the full use of Facebook's social media power. Even small businesses can benefit greatly from using Facebook if they make optimal use of the various features that Facebook has to offer.
 
 **Why Use Facebook for Your Business?**
 
@@ -242,7 +332,7 @@ SEO: Search Engine Optimization is a key aspect for anyone who wants to build a 
 
 Beat your competition: One of the biggest reasons for you to make sure that you are on Facebook is that your competition might already be there. In this cut throat environment, lagging behind will make it really hard for your business to succeed.
 
-Viral promotion: If someone ends up liking your page then it appears in their Facebook news feed. This makes it possible for your business to be in their eyes on a regular basis through Facebook status updates or content posting. What’s more, if they comment on your Facebook post, their Facebook friends will also see your Facebook post and this will help in viral promotion of your business.
+Viral promotion: If someone ends up liking your page then it appears in their Facebook news feed. This makes it possible for your business to be in their eyes on a regular basis through Facebook status updates or content posting. What's more, if they comment on your Facebook post, their Facebook friends will also see your Facebook post and this will help in viral promotion of your business.
 
 Facebook Ads: Your business at Facebook is not just limited to a Facebook page or Facebook group. Facebook also offers you a chance to put up Facebook advertising campaigns. You can build your Facebook advertisements, and as per your budget requirements, go for a Facebook campaign suitable for your business. You can also choose the set of people to whom these Facebook ads will be visible. You can target your Facebook ads on the basis of demographics, educational level, interests etc. It is also up to you to decide how often these Facebook ads will appear.
 
@@ -271,16 +361,103 @@ Credit iMarketing Factory - "The Importance of Facebook for Small Businesses"
 9. It's super easy to display your Facebook feed in any page or post
 
 == Changelog ==
+
+= 2.4.5 =
+* Tweak: Updated plugin links for new WordPress.org repo
+* Fix: Minor bug fixes
+
+= 2.4.4 =
+* New: If your Facebook posts have been created in more than one language on Facebook then it's now possible to display each language by using the `locale` setting in the shortcode. Eg: English: `[custom-facebook-feed locale=en_EN]`, German: `[custom-facebook-feed locale=de_DE]`
+* Fix: Fixed an issue with the order of group posts in some feeds
+
+= 2.4.3 =
+* Fix: Fixed a potential security vulnerability
+* Tested with upcoming WordPress 4.6 update
+
+= 2.4.2 =
+* Tweak: Group wall feed posts are now ordered based on recent activity, rather than by the date they were created, to better reflect the order on the Facebook Group wall.
+* Tweak: The "5 hours ago" date text strings can now be translated directly in the shortcode if you're displaying different feeds in different languages. See the bottom of the [Shortcode Options table](https://smashballoon.com/custom-facebook-feed/docs/shortcodes/) for more information.
+* Tweak: Created some specific [setup directions](https://smashballoon.com/custom-facebook-feed/docs/free/) for the free version.
+* Fix: Minor bug fixes
+
+= 2.4.1.2 =
+* Updated to be compatible with Facebook API version 2.6
+
+= 2.4.1.1 =
+* Fix: Fixed a JavaScript error in the admin area when using WordPress 4.5
+
+= 2.4.1 =
+* New: If a post contains either a photo or video then an icon and link are now added to view it on Facebook. You can disable this by unchecking the "Media Link" option in the following location: Customize > Post Layout > Show/Hide. You can also remove it by using the "exclude" shortcode option: exclude="medialink". You can translate or change the text for this link on the "Custom Text / Translate" settings page.
+* Tweak: Tested with WordPress 4.5
+* Fix: Fixed an issue where the "Share" button in the plugin Like Box wasn't working correctly
+* Fix: Added support for wp-config proxy settings. Credit to [@usrlocaldick](https://wordpress.org/support/topic/proxy-support-1) for the patch.
+
+= 2.4 =
+* New: Added a setting to allow you to use a fixed pixel width for the Facebook feed on desktop but switch to a 100% width responsive layout on mobile
+* New: You can now click on the name of a setting on the admin pages to reveal the corresponding shortcode for that setting
+* New: Added quick links to the top of the Customize settings pages to make it easier to find certain settings
+* New: Added a setting to allow you to disable the default plugin text and link styles (Customize > Misc > Disable default styles)
+* New: Added a setting which allows you to manually change the request method used to fetch Facebook posts which is necessary for some server setups
+* Tweak: Updated the Font Awesome icon font to version 4.5
+* Tweak: Moved the 'Show Header' setting to the 'General' tab on the Customize page
+* Fix: Hashtag linking now works with all languages and character sets
+* Fix: Fixed an error that occurred when trying to activate the Pro version with the free version still activated
+* Fix: Fixed a rare error which occurred when the Facebook post contained no text and no story
+* Fix: Fixed an issue when trying to display Facebook posts by only visitors to your Facebook page caused by a recent Facebook API update
+
+= 2.3.10 =
+* Fix: If you're experiencing an issue with your Facebook feed not automatically updating successfully then please update the plugin and enable the following setting: Custom Facebook Feed > Customize > Misc > Misc Settings > Force cache to clear on interval. If you set this setting to 'Yes' then it should force your plugin cache to clear either every hour, 12 hours, or 24 hours, depending on how often you have the plugin set to check Facebook for new posts.
+
+= 2.3.9 =
+* Fix: Fixed an issue caused by the recent Facebook API 2.5 update where the posts wouldn't display when using a brand new Access Token
+
+= 2.3.8 =
+* Fix: Fixed a positioning issue with the Facebook "Like Box / Page Plugin" widget caused by a recent Facebook update which was causing it to overlap on top of other content
+* Fix: Hashtags containing Chinese characters are now linked
+* Fix: Fixed a minor issue in shared link posts where the post text linked to the shared link URL instead of the post on Facebook
+* Tweak: Added a timezone for Sydney, Australia
+
+= 2.3.7 =
+* Fix: Fixed an issue caused by the WordPress 4.3 update where feeds from very long page IDs wouldn't update correctly due to the cache not clearing when expired
+* Fix: Removed specific encoding parameters from the cURL request method to prevent encoding issues on some servers
+
+= 2.3.6 =
+* New: Added a couple of new customization options for the Facebook Like Box/Page Plugin which allow you to select a small/slim header for the Like Box and hide the call-to-action button (if available)
+* Fix: The plugin now works with Access Tokens which use the new recently-released version 2.4 of the Facebook API
+
+= 2.3.5 =
+* New: Replace the Facebook 'Like Box' with the new Facebook 'Page Plugin' as the Facebook Like Box will be deprecated on June 23rd, 2015. Settings can be found under the Misc tab on the plugin's Customize page.
+* Fix: Hashtags which contain foreign characters are now correctly linked to the hashtag on Facebook
+* Fix: Links within Facebook post descriptions weren't opening in a new tab
+* Fix: Removed empty style tags from some elements
+* Fix: The URLs used for the 'Share' icons are now encoded to prevent any HTML validation errors
+* Fix: Shared Facebook posts now link to the new shared post and not to the original post that was shared on Facebook
+* Fix: Corrected a minor issue with the plugin caching string
+* Fix: Fixed a minor issue with tags in the Facebook post text when creating/sharing an event
+* Tweak: Add some stricter CSS to some parts of the feed to prevent theme conflicts
+* Tweak: Automatically link the Facebook event name to the event now rather than it having to be enabled on the plugin's 'Typography' settings page
+
+= 2.3.4 =
+* Fix: The Facebook event description is no longer shown twice in event posts. It was previously shown in the post text itself and in the Facebook event details.
+* Fix: Fixed a rare bug which would occur if your Facebook page or Facebook group name contained a number
+
+= 2.3.3 =
+* Fix: Removed a PHP notice which was missed in the last update. Apologies for the two updates in quick succession.
+
+= 2.3.2 =
+* Fix: Fixed some stray PHP notices which were inadvertently introduced in a recent update
+* Tweak: Added an option to not load the icon font included in the plugin
+
 = 2.3.1 =
 * New: Added a shortcode option to allow you to offset the number of posts to be shown. Eg: offset=2
 * New: Added an email link to the sharing icons
 * New: Added a setting to load a local copy of the icon font instead of the CDN version. This can be found at the bottom of the 'Misc' settings page.
-* Tweak: Added a prefix to the IDs on all posts so that they can now be targeted via CSS
+* Tweak: Added a prefix to the IDs on all Facebook posts so that they can now be targeted via CSS
 * Tweak: Added "nofollow" to all links by default. This can be disabled by using `nofollow=false` in the shortcode.
 * Tweak: Added some missing settings to the System Info section
 * Tweak: Added the 'Timezone' setting to the main Settings page so that it's easier to find
 * Fix: Added a workaround for Facebook changing the event URLs in their API from absolute to relative URLs
-* Fix: Facebook removed the 'relevant_count' parameter from their API so added a workaround to get the number of photos attached to a post
+* Fix: Facebook removed the 'relevant_count' parameter from their API so added a workaround to get the number of photos attached to a Facebook post
 * Fix: Fixed a minor bug in the WP_Http fallback method
 * Fix: Removed duplicate IDs on the share icons and replaced with classes
 * Fix: Added a check to the file_get_contents data retrieval method to check whether the Open SSL wrapper is enabled
@@ -290,10 +467,10 @@ Credit iMarketing Factory - "The Importance of Facebook for Small Businesses"
 
 = 2.3 =
 * Happy New Year!
-* New: Added a share link which allows you to share posts to Facebook, Twitter, Google+ or LinkedIn. This can be disabled at the very bottom of the Typography tab, or by using `showsharelink=false` in the shortcode.
+* New: Added a share link which allows you to share posts to Facebook, Twitter, Google+ or LinkedIn. This can be disabled at the very bottom of the Typography tab, or by using `showsharelink=false` in the [custom-facebook-feed] shortcode.
 * Tweak: Using your own Facebook Access Token in the plugin is still optional but is now recommended in order to protect yourself against future Access Token related issues
 * Tweak: Increased the accuracy of the character count when links are included in the Facebook text
-* Tweak: Improved the efficiency of the post caching
+* Tweak: Improved the efficiency of the Facebook post caching
 * Tweak: Replaced the rel attribute with the HTML5 data attribute when storing data on an element
 * Tweak: Added HTTPS stream wrapper check to the System Info to aid in troubleshooting
 * Tweak: Updated the plugin's icon font to the latest version
@@ -321,7 +498,7 @@ Credit iMarketing Factory - "The Importance of Facebook for Small Businesses"
 * Fix: Fixed an issue with the Facebook Access Token used in the plugin hitting its request limit
 
 = 2.1.2 =
-* Fix: Added in a missing closing div tag to the feed when an error is being displayed
+* Fix: Added in a missing closing div tag to the Facebook feed when an error is being displayed
 
 = 2.1.1 =
 * Fix: Fixed an issue with the date not being hidden when unchecked in the Show/Hide section

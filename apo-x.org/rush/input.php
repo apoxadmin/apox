@@ -1,6 +1,6 @@
 <?php
 
-include_once 'template.inc.php';
+include_once dirname(dirname(__FILE__)) . '/include/template.inc.php';
 
 $new_pass = md5($_POST['password']);
 $new_pass2 = md5($_POST['password2']);

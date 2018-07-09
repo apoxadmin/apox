@@ -3,10 +3,11 @@
  * BuddyPress Forums Filters.
  *
  * @package BuddyPress
- * @subpackage Forums
+ * @subpackage ForumsFilters
+ * @since 1.0.0
  */
 
-// Exit if accessed directly
+// Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 
 /* Apply WordPress defined filters */
@@ -57,6 +58,8 @@ add_filter( 'bp_get_the_topic_post_content', 'bp_forums_make_nofollow_filter' );
 /**
  * Custom KSES filter for the Forums component.
  *
+ * @since 1.2.0
+ *
  * @param string $content Content to sanitize.
  * @return string Sanitized string.
  */
@@ -86,7 +89,7 @@ function bp_forums_filter_kses( $content ) {
 	/**
 	 * Filters the allowed HTML tags for forum posts.
 	 *
-	 * @since BuddyPress (1.2.0)
+	 * @since 1.2.0
 	 *
 	 * @param array $forums_allowedtags Array of allowed HTML tags.
 	 */
@@ -97,19 +100,19 @@ function bp_forums_filter_kses( $content ) {
 /**
  * Get a link for a forum topic tags directory.
  *
- * @param string $link Link passed from filter.
- * @param string $tag Name of the tag.
- * @param string $page Page number, passed from the filter.
+ * @since 1.1.0
+ *
+ * @param string $link    Link passed from filter.
+ * @param string $tag     Name of the tag.
+ * @param string $page    Page number, passed from the filter.
  * @param string $context Passed from the filter but unused here.
  * @return string Link of the form http://example.com/forums/tag/tagname/.
  */
 function bp_forums_filter_tag_link( $link, $tag, $page, $context ) {
-	global $bp;
-
 	/**
 	 * Filters the link for a forum topic tags directory.
 	 *
-	 * @since BuddyPress (1.1.0)
+	 * @since 1.1.0
 	 *
 	 * @param string $value Link for the forum topic tag directory.
 	 */
@@ -120,6 +123,8 @@ add_filter( 'bb_get_tag_link', 'bp_forums_filter_tag_link', 10, 4);
 /**
  * Add rel="nofollow" to bbPress content.
  *
+ * @since 1.2.1
+ *
  * @param string $text Post content.
  * @return string Modified post content.
  */
@@ -128,6 +133,8 @@ function bp_forums_make_nofollow_filter( $text ) {
 }
 	/**
 	 * Callback for preg_replace_callback() in bp_forums_make_nofollow_filter().
+	 *
+	 * @since 1.2.1
 	 *
 	 * @param array $matches Regex matches from {@link bp_forums_make_nofollow_filter()}.
 	 * @return string Text with nofollow links.
@@ -141,18 +148,17 @@ function bp_forums_make_nofollow_filter( $text ) {
 /**
  * Append forum topic to page title.
  *
- * @global object $bp Global BuddyPress settings object.
+ * @since 1.2.6
  *
  * @see bp_modify_page_title()
  *
- * @param string $title New page title; see {@link bp_modify_page_title()}.
+ * @param string $title          New page title; see {@link bp_modify_page_title()}.
  * @param string $original_title Original page title.
- * @param string $sep How to separate the various items within the page title.
- * @param string $seplocation Direction to display title.
+ * @param string $sep            How to separate the various items within the page title.
+ * @param string $seplocation    Direction to display title.
  * @return string Page title with forum topic title appended.
  */
 function bp_forums_add_forum_topic_to_page_title( $title, $original_title, $sep, $seplocation  ) {
-	global $bp;
 
 	if ( bp_is_current_action( 'forum' ) && bp_is_action_variable( 'topic', 0 ) )
 		if ( bp_has_forum_topic_posts() )
@@ -167,24 +173,21 @@ add_filter( 'bp_modify_page_title', 'bp_forums_add_forum_topic_to_page_title', 9
  *
  * Prevents embedded anchor tags.
  *
- * @global object $bp Global BuddyPress settings object.
+ * @since 1.5.0
  *
  * @param string $content Edited post content.
  * @return string $content Sanitized post content.
  */
 function bp_forums_strip_mentions_on_post_edit( $content ) {
-	global $bp;
-
-	$content = htmlspecialchars_decode( $content );
-
-	$pattern = "|<a href=&#039;" . bp_get_root_domain() . "/" . bp_get_members_root_slug() . "/[A-Za-z0-9-_\.]+/&#039; rel=&#039;nofollow&#039;>(@[A-Za-z0-9-_\.@]+)</a>|";
-
-	$content = preg_replace( $pattern, "$1", $content );
+	$content   = htmlspecialchars_decode( $content );
+	$directory = bp_get_members_directory_permalink();
+	$pattern   = "|<a href=&#039;{$directory}[A-Za-z0-9-_\.]+/&#039; rel=&#039;nofollow&#039;>(@[A-Za-z0-9-_\.@]+)</a>|";
+	$content   = preg_replace( $pattern, "$1", $content );
 
 	return $content;
 }
 add_filter( 'bp_get_the_topic_post_edit_text', 'bp_forums_strip_mentions_on_post_edit' );
-add_filter( 'bp_get_the_topic_text', 'bp_forums_strip_mentions_on_post_edit' );
+add_filter( 'bp_get_the_topic_text',           'bp_forums_strip_mentions_on_post_edit' );
 
 /** "Replied to" SQL filters *************************************************/
 
@@ -193,7 +196,7 @@ add_filter( 'bp_get_the_topic_text', 'bp_forums_strip_mentions_on_post_edit' );
  *
  * This filter is added in bp_has_forum_topics().
  *
- * @since BuddyPress (1.5.0)
+ * @since 1.5.0
  *
  * @param string $sql SQL fragment.
  * @return string $sql SQL fragment of the form "DISTINCT t.topic_id, ".
@@ -209,7 +212,7 @@ function bp_forums_add_replied_distinct_sql( $sql ) {
  *
  * This filter is added in bp_has_forum_topics().
  *
- * @since BuddyPress (1.5.0)
+ * @since 1.5.0
  *
  * @global object $bbdb The bbPress database global.
  *
@@ -229,7 +232,7 @@ function bp_forums_add_replied_join_sql( $sql ) {
  *
  * This filter is added in bp_has_forum_topics().
  *
- * @since BuddyPress (1.5.0)
+ * @since 1.5.0
  *
  * @global object $wpdb The WordPress database global.
  *
@@ -241,7 +244,7 @@ function bp_forums_add_replied_where_sql( $sql ) {
 
 	$sql .= $wpdb->prepare( " AND p.poster_id = %s ", bp_displayed_user_id() );
 
-	// Remove any topic_author information
+	// Remove any topic_author information.
 	$sql = str_replace( " AND t.topic_poster = '" . bp_displayed_user_id() . "'", '', $sql );
 
 	return $sql;

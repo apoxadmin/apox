@@ -77,23 +77,18 @@ $bigclass = intval($_COOKIE['bro_big_class']);
 $littleclass = intval($_COOKIE['bro_little_class']);
 show_calhead($script, "filter($bigclass,'big'); filter($littleclass,'little')");
 
-$temp=user_get($id, 'f');
-$temp=$temp['name'];
-echo "$temp";
-if ( !( ($temp == 'historians' || $temp == 'admin') && $class=='admin') )
-    show_note('You must be logged in as historians to access this page.');
-    
-else
-{
+// $temp=user_get($id, 'f');
+if($class!="admin")
+	show_note('You must be admin vp to access this page.');
 ?>
     
 <div class="general" style="width: 100px">
 Family:
 <select onChange=
     "window.location = '/people/lineedit.php?family=' + this.value">
-<option value="1" <?= $family==1?'selected':''?>>Tight</option>
-<option value="2" <?= $family==2?'selected':''?>>Close</option>
-<option value="3" <?= $family==3?'selected':''?>>Loose</option>
+<option value="1" <?= $family==1?'selected':''?>>Alpha</option>
+<option value="2" <?= $family==2?'selected':''?>>Phi</option>
+<option value="3" <?= $family==3?'selected':''?>>Omega</option>
 </select>
 </div>
 <div style="height: 50px">
@@ -177,7 +172,6 @@ Family:
 </div>
 
 <?php
-}
 show_footer();
 
 ?>

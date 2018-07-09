@@ -81,7 +81,7 @@ function show_header($head = '', $onload = '')
 		<?php echo $head ?>
 	</head>
 	
-<body onload="<?php echo $onload ?>">
+<body onload="<?php echo $onload ?>"?>
 	
 	
 					

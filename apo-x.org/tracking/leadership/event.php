@@ -18,11 +18,8 @@ if(isset($_SESSION['id']))
 if(isset($_SESSION['class']))
 	$class = $_SESSION['class'];
 
-$temp=user_get($id, 'f');
-$temp=$temp['name'];
-
-if ( !( ($temp == 'membership' || $temp == 'admin') && $class=='admin') )
-	show_note('You must be logged in as membership to access this page.');
+if($class!="admin")
+	show_note('You must be an administrator to access this page.');
 
 function show_usersTrack($users, $name)
 {

@@ -1,6 +1,6 @@
 <?php 
 include_once dirname(dirname(__FILE__)) . '/include/template.inc.php'; 
-
+get_header();
 if(isset($_SESSION['id']))
 	$id = $_SESSION['id'];
 if(isset($_SESSION['class']))
@@ -37,6 +37,10 @@ function event_getMyMonth($year, $month)
 	$endStamp = strtotime('+'. (7 - date('w',$stamp)) .' days', $stamp);
 	$now = NOW;
 
+	// debugging
+	// echo "startStamp: " . $startStamp . "<br>";
+	// echo "endStamp: " . $now . "<br>";
+
 	$sql = 'SELECT UNIX_TIMESTAMP(event_date) AS date, event_name AS name, event.event_id AS id, '
 			. ' SUBSTRING_INDEX(eventtype_name, \' \', 1) AS typename, event_ic as ic, '
 			. ' count( DISTINCT tracking.event_id ) AS officer, '
@@ -45,9 +49,9 @@ function event_getMyMonth($year, $month)
 			. ' LEFT JOIN tracking ON event.event_id = tracking.event_id ) '
 			. ' LEFT JOIN trackingbyuser ON event.event_id = trackingbyuser.event_id ) '
 			. ' LEFT JOIN chair ON chair.event_id = event.event_id '
-			. ' WHERE event.eventtype_id IN ( 1, 2, 6, 7 ,9 ) '
+			. ' WHERE event.eventtype_id IN ( 1, 2, 6, 7, 8, 9 ) '
 			. ' AND event_date > FROM_UNIXTIME('.$startStamp.') '
-			. ' AND event_date < FROM_UNIXTIME('.$now.') '
+			. ' AND event_date < FROM_UNIXTIME('.$endStamp.') '
 			. ' GROUP BY event.event_id'
 			. ' ORDER BY event_date';
 	
@@ -60,10 +64,23 @@ show_header();
 
 $eventTable = event_getMyMonth($year, $month, $id);
 
+// debugging
+// echo "$year:" . $year . "<br>";
+// echo "$month" . $month . "<br>";
+// echo "$id" . $id . "<br>";
+// print_r ($eventTable);
+
 // initialize date pointers
 $stamp = strtotime('1 ' . $month . ' ' . $year);
 $lowStamp = strtotime('-'.date('w',$stamp).' days',$stamp);
 $highStamp = strtotime('+1 day',$lowStamp);
+
+// debugging
+// echo "lowStamp"; 
+// echo $lowStamp;
+
+// echo "highStamp";
+// echo $highStamp;
 
 $s1 = strtotime('-1 month',$stamp);
 $m1 = date('F',$s1); // last months month
@@ -76,6 +93,7 @@ $y2 = date('Y',$s2); // next months year
 $my = date("F, Y",$stamp); // current month and year
 
 ?>
+
 
 <table id="calendar" cellspacing="1">
 <tr>
@@ -102,7 +120,11 @@ $my = date("F, Y",$stamp); // current month and year
 	<td class="heading">F</td>
 	<td class="heading">S</td>
 </tr>
-<?php for($i=0,$k=0;$i<5;$i++)
+<?php 
+
+
+
+for($i=0,$k=0;$i<5;$i++)
 {
 	echo '<tr>';
 	for($j=0;$j<7;$j++)
@@ -112,14 +134,21 @@ $my = date("F, Y",$stamp); // current month and year
 			$class .= "Out";
 
 		echo "<td class=\"$class\" width=\"14%\">";
-		
 		echo '<span class="number">';
 		echo date("j",$lowStamp);
 		echo "</span>\n<br />";
 		
 		$kinit=$k; 
+		// debugging
+		// echo "k";
+		// echo $k;
+
 		while($eventTable[$k]['date']>=$lowStamp and $eventTable[$k]['date']<$highStamp)
 		{
+			// debugging
+			// echo "$eventTable[$k]['date']";
+			// echo $eventTable[$k]['date'];
+
 			// look at the type of the event
 			$type = strtolower($eventTable[$k]['typename']);
 			

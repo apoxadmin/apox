@@ -1,3 +1,4 @@
+
 <?php 
 include_once dirname(dirname(__FILE__)) . '/include/template.inc.php';
 include_once dirname(dirname(__FILE__)) . '/include/forms.inc.php';
@@ -14,7 +15,6 @@ if(isset($_SESSION['id']))
 	print "
 	
 	<div id='content'> 
-	<img src='http://www.iotaphi.org/wp-content/uploads/2012/02/henry.jpeg'>
 	<br>
 	Sorry bro, you are not a member, uh, eh, maybe you are! 
 	<br>
@@ -203,7 +203,7 @@ function term_get($id)
         echo "<div class='general'>";
         echo "<div class='boxtop'>";
         echo "<font class='big'><a href='/forums/read.php?7,".$headline['message_id']."'>".$headline['subject']."</a></span>";
-        echo "<span style='color: black' class='author' style='margin-left: 6px'>posted by ".$headline['author']."</span>";
+        echo "<span style='color: black' class='author' style='margin-left: 6px'> posted by ".$headline['author']."</span>";
         echo '</div>';
         echo "<p class='newsbody'>".$body."</p>";
 		// timestamp
@@ -213,7 +213,7 @@ function term_get($id)
 ?>
 </div>
 <div id="recent" class="x-hide-display">
-<script src='http://feeds2.feedburner.com/iphi?format=sigpro' type='text/javascript'></script>
+<script src='http://feeds.feedburner.com/AlphaPhiOmega-ChiChapter' type='text/javascript'></script>
 </div>
 <br>
 
@@ -237,16 +237,18 @@ if ( mysql_num_rows( $result ) > 0 )
 	$meetingReq = $row["meeting"];
 	$serviceReq = $row["service"];
 	$fundReq = $row["fundraiser"];
+	$ICReq = $row["IC"];
 } else {
-	$fellowReq = 13;
+	$fellowReq = 4;
 	if ( $status==STATUS_PLEDGE )
 		$leadershipReq = 3;
 	else
 		$leadershipReq = 4;
-	$meetingReq = 6;
-	$cawReq = 12;
+	$meetingReq = 9;
+	$cawReq = 20;
 	$serviceReq = 20; // this is the base hours
 	$fundReq = 1;
+	$ICReq = 2;
 }
 ?>
 
@@ -887,14 +889,7 @@ Ext.onReady(function () {
 		},{
 			toggleGroup: 'toolbar',
 			enableToggle: true,
-			text: 'Fundraiser',
-			handler: function() {
-				this.ownerCt.ownerCt.getLayout().setActiveItem(7);
-			}
-		},{
-			toggleGroup: 'toolbar',
-			enableToggle: true,
-			text: 'CAW',
+			text: 'Fundraiser', // CAW
 			handler: function() {
 				this.ownerCt.ownerCt.getLayout().setActiveItem(8);
 			}
@@ -1159,9 +1154,9 @@ Ext.onReady(function () {
 								position: 'gauge',
 								minimum: 0,
 								maximum: <? echo $cawReq; ?>,
-								steps: <? echo $cawReq; ?>,
+								steps: <? echo $cawReq/2; ?>,
 								margin: -10,
-								title: 'CAW Hours'
+								title: 'Fundraiser Amount'
 							}],
 							series: [{
 								type: 'gauge',
@@ -1205,7 +1200,7 @@ Ext.onReady(function () {
 								colorSet: ['#9D10F4', '#ddd']
 							}]
 						},{
-							id: 'fundGauge',
+							id: 'ICGauge',
 							xtype: 'chart',
 							style: 'background:#fff',
 							animate: {
@@ -1219,14 +1214,14 @@ Ext.onReady(function () {
 								type: 'Gauge',
 								position: 'gauge',
 								minimum: 0,
-								maximum: <? echo $fundReq; ?>,
-								steps: <? echo $fundReq; ?>,
+								maximum: <? echo $ICReq; ?>,
+								steps: <? echo $ICReq; ?>,
 								margin: -10,
-								title: 'Fundraisers'
+								title: 'Interchapter'
 							}],
 							series: [{
 								type: 'gauge',
-								field: 'fundraiser',
+								field: 'interchapter',
 								donut: 50,
 								colorSet: ['#F4F010', '#ddd']
 							}]
@@ -1627,7 +1622,7 @@ Ext.onReady(function () {
 						title: 'Totals',
 						html: '<?php
 			echo "<div class=\"left\"><div>Events: {$total['events']}</div>";
-			echo "<div>Hours: {$total['h']}</div>";
+			echo "<div>Amount: {$total['h']}</div>";
 			echo "<div>Chaired: {$total['c']}</div></div>";
 		?>',
 					},{
@@ -1652,12 +1647,12 @@ Ext.onReady(function () {
 								return ((value === 0 || value > 1) ? '(' + value + ' Events)' : '(1 Event)');
 							}
 						},{
-							text: 'Hours',
+							text: 'Amount',
 							sortable: true,
 							dataIndex: 'hours',
 							summaryType: 'sum',
 							summaryRenderer: function(value, summaryData, dataIndex) {
-								return ((value === 0 || value > 1) ? '(' + value + ' Hours)' : '(1 Hour)');
+								return ((value === 0 || value > 1) ? '($' + value + ')' : '(1 Hour)');
 							}
 						},{
 							text: 'Chaired',

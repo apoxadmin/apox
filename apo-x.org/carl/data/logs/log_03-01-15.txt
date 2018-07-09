@@ -1,0 +1,34 @@
+03-01-15 04:18:12	128.97.87.170	INFO	brother0001	AuthService	Log In	context=WebUI
+03-01-15 04:18:22	128.97.87.170	INFO	brother0001	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-01-15 04:18:31	128.97.87.170	INFO	brother0001	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-01-15 04:25:50	128.97.87.170	ERROR	brother0001	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG] (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG])
+03-01-15 04:25:50	128.97.87.170	ERROR	brother0001	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG]
+03-01-15 04:25:51	128.97.87.170	INFO	brother0001	access.fs	Upload File	file=submission-platform//1c15a432086af0dab1712e0c93aea9e2
+03-01-15 04:25:52	128.97.87.170	ERROR	brother0001	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG] (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG])
+03-01-15 04:25:52	128.97.87.170	ERROR	brother0001	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG]
+03-01-15 04:25:54	128.97.87.170	INFO	brother0001	access.fs	Upload File	file=submission-platform//73ed4642d3b3b4cdcc151ce3449ad2b1
+03-01-15 04:25:55	128.97.87.170	ERROR	brother0001	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG] (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG])
+03-01-15 04:25:55	128.97.87.170	ERROR	brother0001	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG]
+03-01-15 04:26:02	128.97.87.170	INFO	brother0001	access.fs	Upload File	file=submission-platform//56005b42080be0fbd32a1b89316840cf
+03-01-15 04:26:17	128.97.87.170	INFO	brother0001	conf.sql	Switch Repository	rep. id=ajxp_user
+03-01-15 04:27:22	128.97.87.170	INFO	brother0001	conf.sql	Switch Repository	rep. id=ajxp_home
+03-01-15 04:27:26	128.97.87.170	INFO	brother0001	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-01-15 04:36:16	128.97.87.170	ERROR	brother0001	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG] (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG])
+03-01-15 04:36:16	128.97.87.170	ERROR	brother0001	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG]
+03-01-15 04:36:16	128.97.87.170	INFO	brother0001	access.fs	Upload File	file=submission-platform//bc696faa9b0f8babad8179f14d06d225
+03-01-15 04:36:17	128.97.87.170	ERROR	brother0001	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG] (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG])
+03-01-15 04:36:17	128.97.87.170	ERROR	brother0001	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG]
+03-01-15 04:36:19	128.97.87.170	INFO	brother0001	access.fs	Upload File	file=submission-platform//7767c783e4ad3f6d614ac97a2311b6b6
+03-01-15 04:36:20	128.97.87.170	ERROR	brother0001	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG] (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG])
+03-01-15 04:36:20	128.97.87.170	ERROR	brother0001	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG]
+03-01-15 04:36:21	128.97.87.170	INFO	brother0001	access.fs	Upload File	file=submission-platform//355f9d4561db9e77bf5fc5ad37ed315d
+03-01-15 04:36:21	128.97.87.170	ERROR	brother0001	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG] (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG])
+03-01-15 04:36:21	128.97.87.170	ERROR	brother0001	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG]
+03-01-15 04:36:22	128.97.87.170	INFO	brother0001	access.fs	Upload File	file=submission-platform//ba31400452ac7958b29cdc5c9dc4baa7
+03-01-15 04:36:23	128.97.87.170	ERROR	brother0001	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG] (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG])
+03-01-15 04:36:23	128.97.87.170	ERROR	brother0001	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG]
+03-01-15 04:36:28	128.97.87.170	INFO	brother0001	access.fs	Upload File	file=submission-platform//a831aba741604e849bfcc88667fb399a
+03-01-15 04:36:40	128.97.87.170	INFO	brother0001	AuthService	Log Out	
+03-01-15 04:36:54	128.97.87.170	INFO	brother0001	AuthService	Log In	context=WebUI
+03-01-15 04:37:25	128.97.87.170	INFO	brother0001	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+03-01-15 04:37:40	128.97.87.170	INFO	brother0001	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726

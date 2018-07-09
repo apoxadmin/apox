@@ -1,0 +1,45 @@
+03-04-15 20:27:17	149.142.229.183	INFO	brother0035	AuthService	Log In	context=WebUI
+03-04-15 20:27:25	149.142.229.183	INFO	brother0035	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-04-15 20:38:12	149.142.229.183	INFO	brother0035	conf.sql	Switch Repository	rep. id=ajxp_home
+03-04-15 20:38:16	149.142.229.183	INFO	brother0035	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-04-15 20:38:19	149.142.229.183	INFO	brother0035	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-04-15 20:41:47	149.142.229.183	INFO	brother0035	conf.sql	Switch Repository	rep. id=ajxp_home
+03-04-15 20:41:55	149.142.229.183	INFO	brother0035	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-04-15 20:42:36	149.142.229.183	INFO	brother0035	AuthService	Log Out	
+03-04-15 20:42:56	149.142.229.183	INFO	brother0035	AuthService	Log In	context=WebUI
+03-04-15 20:43:03	149.142.229.183	INFO	brother0035	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-04-15 20:43:10	149.142.229.183	INFO	brother0035	AuthService	Log Out	
+03-04-15 20:43:25	149.142.229.183	INFO	brother0035	AuthService	Log In	context=WebUI
+03-04-15 20:43:31	149.142.229.183	INFO	brother0035	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-04-15 20:43:43	149.142.229.183	INFO	brother0035	AuthService	Log Out	
+03-04-15 20:43:58	149.142.229.183	INFO	brother0035	AuthService	Log In	context=WebUI
+03-04-15 20:44:03	149.142.229.183	INFO	brother0035	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-04-15 20:44:06	149.142.229.183	INFO	brother0035	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-04-15 20:44:09	149.142.229.183	INFO	brother0035	AuthService	Log Out	
+03-04-15 20:44:12	149.142.229.183	ERROR	shared	class.SessionLoginFrontend.php	error l.100	message=session_destroy(): Session object destruction failed
+03-04-15 20:44:13	149.142.229.183	ERROR	shared	class.AJXP_SqlMessageExchanger.php	error l.101	message=You must be logged in
+03-04-15 20:44:14	149.142.229.183	ERROR	shared	class.AJXP_SqlMessageExchanger.php	error l.101	message=You must be logged in
+03-04-15 20:44:26	149.142.229.183	INFO	brother0035	AuthService	Log In	context=WebUI
+03-04-15 20:44:35	149.142.229.183	INFO	brother0035	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-04-15 20:44:48	149.142.229.183	INFO	brother0035	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+03-04-15 20:45:13	149.142.229.183	INFO	brother0035	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-04-15 20:46:04	149.142.229.183	INFO	brother0035	AuthService	Log In	context=WebUI
+03-04-15 20:46:11	149.142.229.183	INFO	brother0035	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-04-15 20:47:43	149.142.229.183	INFO	brother0035	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+03-04-15 20:48:25	149.142.229.183	INFO	brother0035	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-04-15 20:52:57	149.142.229.183	INFO	brother0035	conf.sql	Switch Repository	rep. id=ajxp_home
+03-04-15 20:53:03	149.142.229.183	INFO	brother0035	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-04-15 20:57:27	149.142.229.183	INFO	brother0035	AuthService	Log In	context=WebUI
+03-04-15 20:57:33	149.142.229.183	INFO	brother0035	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-04-15 20:59:20	149.142.229.183	INFO	brother0035	AuthService	Log In	context=WebUI
+03-04-15 20:59:28	149.142.229.183	INFO	brother0035	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-04-15 21:01:44	149.142.229.183	INFO	brother0035	conf.sql	Switch Repository	rep. id=ajxp_home
+03-04-15 21:01:50	149.142.229.183	INFO	brother0035	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-04-15 21:03:09	149.142.229.183	INFO	brother0035	conf.sql	Switch Repository	rep. id=ajxp_home
+03-04-15 21:03:16	149.142.229.183	INFO	brother0035	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-04-15 21:03:42	149.142.229.183	INFO	brother0035	AuthService	Log Out	
+03-04-15 21:03:43	149.142.229.183	ERROR	shared	class.SessionLoginFrontend.php	error l.100	message=session_destroy(): Session object destruction failed
+03-04-15 21:04:17	149.142.229.183	WARNING	shared	AuthService	Login failed	user=nngu90000;error=Invalid user
+03-04-15 21:04:29	149.142.229.183	INFO	brother0035	AuthService	Log In	context=WebUI
+03-04-15 21:04:36	149.142.229.183	INFO	brother0035	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-04-15 21:05:52	149.142.229.183	INFO	brother0035	AuthService	Log Out	

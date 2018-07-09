@@ -1,0 +1,107 @@
+/*
+ * Customizer stylesheet.
+ */
+.pirate-forms-placeholder .header-primary {
+	z-index: 100;
+	border: 2px dashed #8a8a8a;
+	background: rgba(60, 60, 60, 0.9);
+}
+
+.pirate-forms-placeholder .card {
+	position: relative;
+	z-index: 50;
+	border: 2px dashed #8a8a8a;
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.pirate-forms-placeholder .card:after {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border-radius: 6px;
+	content: " ";
+}
+
+.pirate-forms-placeholder .pirate-forms-placeholder-overlay {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	height: 100%;
+	padding: 0 30px;
+	color: #fff;
+	text-align: center;
+}
+
+.pirate-forms-placeholder .pirate-forms-placeholder-overlay:before {
+	display: inline-block;
+	width: 0;
+	height: 100%;
+	vertical-align: middle;
+	content: "";
+}
+
+.pirate-forms-placeholder .pirate-forms-placeholder-overlay .placeholder-text {
+	padding: 15px 15px;
+	border-radius: 6px;
+	background: rgba(0, 0, 0, 0.5);
+	font-weight: 100;
+}
+
+.pirate-forms-placeholder .pirate-forms-placeholder-overlay .placeholder-text .customize-partial-edit-shortcut button {
+	top: -25px;
+}
+
+.pirate-forms-placeholder .pirate_forms_wrap form,
+.pirate-forms-placeholder .pirate_forms_wrap div {
+	z-index: -2;
+	opacity: 0.3;
+}
+
+.pirate-forms-placeholder .pirate_forms_wrap form button,
+.pirate-forms-placeholder .pirate_forms_wrap div button {
+	border: 2px dashed #8a8a8a;
+	background-color: #333;
+	box-shadow: none;
+}
+
+.pirate-forms-placeholder .pirate-forms-placeholder-align {
+	display: inline-block;
+	width: 100%;
+	margin: 0 -7px;
+	vertical-align: middle;
+}
+
+.pirate-forms-placeholder .pirate-forms-placeholder-align:before {
+	display: inline-block;
+	float: left;
+	height: 100%;
+	vertical-align: middle;
+	content: "";
+}
+
+.customize-partial-edit-shortcut-hestia_feature_thumbnail,
+.customize-partial-edit-shortcut-hestia_copyright_alignment,
+.customize-partial-edit-shortcut-hestia_top_bar_alignment {
+	z-index: 9999;
+	top: 10px;
+	right: 10px;
+}
+
+.customize-partial-edit-shortcut-custom_header {
+	z-index: 9999;
+}
+
+.customize-partial-edit-shortcut-hestia_big_title_background {
+	top: 80px;
+	right: 80px;
+}
+
+.customize-partial-edit-shortcut-hestia_placeholder_sidebar_woocommerce,
+.customize-partial-edit-shortcut-hestia_placeholder_sidebar_1 {
+	position: relative;
+	top: -10px;
+	left: 45px;
+}

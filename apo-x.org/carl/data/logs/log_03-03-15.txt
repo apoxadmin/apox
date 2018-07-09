@@ -1,0 +1,21 @@
+03-03-15 00:22:06	128.97.253.249	INFO	root	AuthService	Log In	context=WebUI
+03-03-15 00:24:09	128.97.253.249	INFO	root	conf.sql	Switch Repository	rep. id=6efc62a45ecacdc6e68fa4a76b900dad
+03-03-15 00:48:27	128.97.253.249	INFO	root	AuthService	Log Out	
+03-03-15 19:06:32	131.179.20.83	INFO	brother0052	AuthService	Log In	context=WebUI
+03-03-15 19:06:38	131.179.20.83	INFO	brother0052	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+03-03-15 19:30:54	131.179.20.83	INFO	brother0052	AuthService	Log Out	
+03-03-15 19:38:17	131.179.20.83	INFO	brother0052	AuthService	Log In	context=WebUI
+03-03-15 19:38:21	131.179.20.83	INFO	brother0052	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+03-03-15 19:38:42	131.179.20.83	INFO	brother0052	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-03-15 19:39:27	131.179.20.83	INFO	brother0052	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+03-03-15 19:39:41	131.179.20.83	INFO	brother0052	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-03-15 19:42:05	131.179.20.83	ERROR	brother0052	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf)
+03-03-15 19:42:05	131.179.20.83	ERROR	brother0052	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf
+03-03-15 19:42:07	131.179.20.83	INFO	brother0052	access.fs	Upload File	file=submission-platform//75ac1fd266520c0eefdd99083309329d
+03-03-15 19:42:43	131.179.20.83	INFO	brother0052	AuthService	Log Out	
+03-03-15 19:42:56	131.179.20.83	INFO	brother0052	AuthService	Log In	context=WebUI
+03-03-15 19:43:08	131.179.20.83	INFO	brother0052	conf.sql	Switch Repository	rep. id=ajxp_user
+03-03-15 19:44:24	131.179.20.83	INFO	brother0052	AuthService	Update Password	user_id=brother0052
+03-03-15 19:44:37	131.179.20.83	INFO	brother0052	conf.sql	Switch Repository	rep. id=ajxp_home
+03-03-15 19:44:41	131.179.20.83	INFO	brother0052	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-03-15 19:44:44	131.179.20.83	INFO	brother0052	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73

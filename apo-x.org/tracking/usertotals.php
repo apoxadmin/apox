@@ -16,8 +16,8 @@ if(isset($_SESSION['class']))
 $temp=user_get($id, 'f');
 $temp=$temp['name'];
 
-if ( !( ($temp == 'president' || $temp == 'admin' || $temp == 'membership') && $class=='admin') )
-	show_note('You must be logged in as pledgevp to access this page.');
+if($class!="admin")
+	show_note('You must be an administrator to access this page.');
 
 function getTotal($user)
 {

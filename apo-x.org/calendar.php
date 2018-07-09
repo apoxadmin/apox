@@ -4,7 +4,23 @@ include_once 'include/event.inc.php';
 include_once 'include/signup.inc.php';
 include($_SERVER['DOCUMENT_ROOT'] . '/wp-load.php');
 
-$id = $class = false;
+get_header();
+if(isset($_SESSION['id']))
+	$id = $_SESSION['id'];
+	else
+{
+	print "
+	
+	<div> 
+	
+	<p>
+	You must be logged in to view this page. Email apoxadmin@gmail.com or contact Adminstrative Vice-Presidents if you have lost your account.
+	<br>
+	";
+	show_footer(); 
+	exit;
+}
+// $id = $class = false; <-- remove the block
 // if(!isset($_SESSION['class']))
 //     show_note('You must be logged in to view this page. Message Admin VPs to gain access!');
 
@@ -224,9 +240,14 @@ function fill()
 					if(myevent.signedUp == "1" && txt != "myEvents")
 						signup = \'class="signedUp" \'
 						
-					if(txt != "1")
+                    if(myevent.signedUp == "1" && txt != "myEvents") {
+						inner += "<p class=\"" + myevent.style + " boxSignUp \"><a " + signup + " href=\"/event/show.php?id=" + 
+							myevent.id + "\">" + myevent.title + "</a></p>";
+                    }
+                    else if(txt != "1") {
 						inner += "<p class=\"" + myevent.style + "\"><a " + signup + " href=\"/event/show.php?id=" + 
 							myevent.id + "\">" + myevent.title + "</a></p>";
+                    }
 					else
 						inner += "<p class=\"" + myevent.fourc + "\"><a " + signup + " href=\"/event/show.php?id=" + 
 							myevent.id + "\" onmouseover=\"showhover(event, \'" + myevent.hover + "\')\" onmousemove=\"showhover(event, \'" + myevent.hover + "\')\" onmouseout=\"hidehover()\" " + 

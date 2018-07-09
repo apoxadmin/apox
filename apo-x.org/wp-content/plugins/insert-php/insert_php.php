@@ -3,14 +3,14 @@
 Plugin Name: Insert PHP
 Plugin URI: http://www.willmaster.com/software/WPplugins/
 Description: Run PHP code inserted into WordPress posts and pages.
-Version: 1.2
-Date: 31 December 2013
+Version: 1.3
+Date: 29 September 2015
 Author: Will Bontrager Software, LLC <will@willmaster.com>
 Author URI: http://www.willmaster.com/contact.php
 */
 
 /*
-	Copyright 2012,2013 Will Bontrager Software LLC (email: will@willmaster.com)
+	Copyright 2012,2013,2015 Will Bontrager Software LLC (email: will@willmaster.com)
 
 	This program is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License, version 2, as 
@@ -49,9 +49,7 @@ if( ! function_exists('will_bontrager_insert_php') )
 			$will_bontrager_replacement = ob_get_contents();
 			ob_clean();
 			ob_end_flush();
-			$will_bontrager_search = quotemeta($will_bontrager_matches[0][$will_bontrager_i]);
-			$will_bontrager_search = str_replace('/',"\\".'/',$will_bontrager_search);
-			$will_bontrager_content = preg_replace("/$will_bontrager_search/",$will_bontrager_replacement,$will_bontrager_content,1);
+			$will_bontrager_content = preg_replace('/'.preg_quote($will_bontrager_matches[0][$will_bontrager_i],'/').'/',$will_bontrager_replacement,$will_bontrager_content,1);
 		}
 		return $will_bontrager_content;
 	} # function will_bontrager_insert_php()

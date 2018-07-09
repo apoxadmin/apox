@@ -1,10 +1,10 @@
 === Bamboo Columns ===
-Contributors: Bamboo Solutions
+Contributors: bamboosolutions
 Donate link: http://www.bamboosolutions.co.uk
 Tags: columns, layout, shortcodes
 Requires at least: 3.0.1
-Tested up to: 4.0
-Stable tag: 1.3
+Tested up to: 4.3
+Stable tag: 1.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -78,6 +78,21 @@ If you want content to span multiple columns you can combine the shortcodes to c
      Third column of content that occupies the fourth quarter column
      [/column-quarter-4]
 
+If you need to embed a set of columns within a column, you can do so by adding 'inner-' to the shortcode as follows:
+
+     [column-half-1]
+          Some Text
+          [inner-column-half-1]
+               Some more text
+          [/inner-column-half-1]
+          [inner-column-half-2]
+               Even more text
+          [/inner-column-half-2]
+     [/column half 1]
+     [column-half-2]
+          The final text
+     [/column-half-2]
+
 You can also change the background colour of a colour by adding an attribute to the shortcode as follows:
 
      [column-half-1 background="e8e8e8"]
@@ -89,10 +104,22 @@ This section describes how to install the plugin and get it working.
 
 e.g.
 
-1. Upload `noodle-columns` to the `/wp-content/plugins/` directory
+1. Upload `bamboo-columns` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Changelog ==
+
+= 1.6 =
+* Updated CSS delivery to help improve Google PageSpeed scores
+
+= 1.5 =
+* Added inner column functionality, allowing columns within columns.
+
+= 1.4 =
+* Makes use of the non-blocking CSS method provided by Bamboo themes if available.
+
+= 1.3 =
+* Added 'background' shortcode attribute
 
 = 1.2 =
 * Rebrand from Noodle to Bamboo

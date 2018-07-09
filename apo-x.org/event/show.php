@@ -289,8 +289,9 @@ function show_eventDescription($event, $shifts, $modifiable, $class, $id)
         <th>Chair Tools</th>
         <td colspan="2">
 		<a href="/event/helper.php?event=<?= $event_id ?>">Chair Signin Sheet
-			<p> <a href="/event/chairsubmit.html">Chair Evaluation Form </p>
-			<p> <a href="/event/chairview.html">View All Chair Evaluations </p>
+			<p> <a href="https://docs.google.com/forms/d/e/1FAIpQLSce-JCBw3a7M8ahlgukFe1x2Jb1h4nhN5xBAe2SLYeMbaY1ew/viewform">Chair Evaluation Form</p>
+			<p> <a href="https://goo.gl/forms/Of2VCuY5cHCflFPO2">Event Feedback Form</p>
+			<p> <a href="https://docs.google.com/spreadsheets/d/1_rXL5S-n5pgcjfITodLfWhiAw1rU37E6SEgHkuKU_9c/edit#gid=869622365">View All Chair Evaluations </p>
         </td>
     </tr>
 	<?php endif; ?>
@@ -445,7 +446,7 @@ function show_shifts($event, $shifts, $class, $user_id)
 
 	foreach($shifts as $shift):
 		$list = signup_getSList($shift['shift']); 
-		if($event['type']=='Leadership' || $event['type']=='Fellowship' || $event['type']=='Service' || $event['type']=='Fundraiser' || $event['type']=='Family' || $event['type']=='Special' || $event['type']=='Rush')
+		if($event['type']=='Leadership' || $event['type']=='Fellowship' || $event['type']=='Service' || $event['type']=='Fundraiser' || $event['type']=='Family' || $event['type']=='Special' || $event['type']=='Rush' || $event['ic'] == true)
             // Offset by 8 hours because of converstion between UTC and PST. TODO: Change to use datetime timezone conversion
             $needReplacement = (NOW > strtotime("-$signup_days days 8 hours", $event['date']));
 		elseif($event['ic']==true)
@@ -569,7 +570,7 @@ function show_shifts($event, $shifts, $class, $user_id)
 					<th>Name</th>
 				    <th>Chair</th>
 				    <th>Driving</th>
-				    <th>Camera</th>
+				    <!--<th>Camera</th>-->
 					<th>Needs Ride</th>
 					<?php show_customheaders($event); ?>
 		            <th colspan="3">Options</th>
@@ -607,7 +608,7 @@ function show_shifts($event, $shifts, $class, $user_id)
             <?php endif; ?>
                 <td><input name="chair" type="checkbox" value="1" <?= $chair_checked ?><?= $greyed ?> /></td>
                 <td><input name="driving" type="checkbox" value="1" <?= $driving_checked ?><?= $greyed ?> /></td>
-                <td><input name="camera" type="checkbox" value="1" <?= $camera_checked ?><?= $greyed ?> /></td>
+                <!--<td><input name="camera" type="checkbox" value="1" <?= $camera_checked ?><?= $greyed ?> /></td>-->
 				<td><input name="ride" type="checkbox" value="1" <?= $ride_checked ?><?= $greyed ?> /></td>
 			<?php if($dontDisable)
 				show_customfields($event,$shift,$signup);
@@ -707,7 +708,7 @@ function show_shifts($event, $shifts, $class, $user_id)
 			
 			// Determine if user should be told that it's too late to sign up
 			$tooLateToSignup = false;
-			if($event['type'] == 'Service' || $event['type'] == 'Interviews')
+			if($event['type']=='Leadership' || $event['type']=='Fellowship' || $event['type']=='Service' || $event['type']=='Fundraiser' || $event['type']=='Family' || $event['type']=='Special' || $event['type']=='Rush' || $event['ic'] == true)
 			{        			
 	            if(NOW > strtotime("-$remove_days days",shift_getStamp($shift['shift'])))
 					$tooLateToSignup = true;
@@ -726,7 +727,7 @@ function show_shifts($event, $shifts, $class, $user_id)
 						<td><?php echo "$personcount) You?";?></td>
 						<td><input name="chair" type="checkbox" value="1" /></td>
 						<td><input name="driving" type="checkbox" value="1" /></td>
-						<td><input name="camera" type="checkbox" value="1" /></td>
+						<!--<td><input name="camera" type="checkbox" value="1" /></td>-->
 						<td><input name="ride" type="checkbox" value="1" /></td>
 						<?php show_customfields($event, $shift); ?>
 						<td><input type="submit" class="btn btn-small btn-primary" name="signmeup" value="Sign up" /></td>
@@ -897,7 +898,7 @@ function show_signup($event, $class, $user_id)
 				<?php } ?> 				
 			    <th>Chair</th>
 			    <th>Driving</th>
-			    <th>Camera</th>
+			    <!--<th>Camera</th>-->
 				<th>Needs Ride</th>
 			</tr>
 			<tr>
@@ -922,7 +923,7 @@ function show_signup($event, $class, $user_id)
 				} ?>
 				<td><input name="chair" type="checkbox" value="1" /></td>
 				<td><input name="driving" type="checkbox" value="1" /></td>
-				<td><input name="camera" type="checkbox" value="1" /></td>
+				<!--<td><input name="camera" type="checkbox" value="1" /></td>-->
 				<td><input name="ride" type="checkbox" value="1" /></td>
 			</tr>
 		</table>
@@ -977,7 +978,7 @@ function show_comments($event_id,$user_id,$class) {
 		<div>
 			<b>Chair duties</b>
 			<ol>
-				<li><b>Sign up</b> to become the chair for an event on the Chapter Website.</li>
+				<li><b>Sign up</b> to become the chair for an event on the Chapter Website at least <b>3 days</b> before the event.</li>
 				<li><b>Email</b> all listed attendees, SAA, and the respective VPs <b>3 days</b> prior to the event, with relevant information (location, time, pin/letters, special instructions).</li>
 				<li><b>Call or text</b> all attendees <b>1 day</b> prior to the event via telephone reminding them of the event and provide relevant information. If an attendee cannot be reached, leave a voice-mail. </li>
 				<li><b>Arrange rides</b> if necessary and provide clear directions/maps for the drivers.</li>
@@ -986,15 +987,19 @@ function show_comments($event_id,$user_id,$class) {
 				<li><b>Evaluate</b> the event.</li>
 			</ol>			<br/>
 			<b>Evaluations</b><br/>
-			To receive chairing credit, evaluations must be completed within <b>3</b> calendar days of the event start date.
+			To receive chairing credit, evaluations must be completed within <b>7</b> calendar days of the event start date.
 			<ol>
 				<li>Please fill out the form on the chair evaluation form below.</li>
 				<ul>
-					<li>  <a href="https://docs.google.com/forms/d/1JqZ_IsQgMfE1z838DazrYN7cpgIbgj1TRLONJC9r9lA/viewform?usp=docslist_api&edit_requested=true">Evaluation Form</a> </li>
+					<li>  <a href="https://docs.google.com/forms/d/e/1FAIpQLSce-JCBw3a7M8ahlgukFe1x2Jb1h4nhN5xBAe2SLYeMbaY1ew/viewform">Evaluation Form</a> </li>
+				</ul>
+				<li>Optional evaluation (if you are not the chair) below</li>
+				<ul>
+					<li> <a href= "https://docs.google.com/forms/d/e/1FAIpQLSfsMNunTGzGARS2WmBMCHwb38aaPJPUYPWlKEv5Ie2e_89eow/viewform">Non-Chair Evaluation Form</a></li>
 				</ul>	
 				<li>View all the chair evaluation forms below.</li>
 				<ul>
-					<li>  <a href="https://docs.google.com/spreadsheets/d/1PkczB02MkCzwnHKkDCVFfT2-21ixZGUWBp0J5taFNBg/edit#gid=0">View Evaluation Responses</a> </li>
+					<li>  <a href="https://docs.google.com/spreadsheets/d/1oEGyXfcAXa7uPvo364Kw9zVfPgexK7hIVHCQit3fb9k/edit#gid=1034774671">View Evaluation Responses</a> </li>
 				</ul>
 			</ol>
 		</XMP>

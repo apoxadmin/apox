@@ -1,8 +1,9 @@
 <?php 
-include_once 'template.inc.php';
-include_once 'forms.inc.php';
-include_once 'constants.inc.php';
+include_once dirname(dirname(__FILE__)) . '/include/template.inc.php';
+include_once dirname(dirname(__FILE__)) . '/include/forms.inc.php';
+include_once dirname(dirname(__FILE__)) . '/include/constants.inc.php';
 
+get_header();
 $action = $_GET['action'];
 $work_on = $_GET['work_on'];
 

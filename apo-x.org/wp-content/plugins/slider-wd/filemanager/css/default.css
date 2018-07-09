@@ -1,162 +1,113 @@
 .spider_ajax_loading {
   border: none !important;
-  -webkit-animation: spin 2.5s infinite linear;
-  -moz-animation: spin 2.5s infinite linear;
-  -o-animation: spin 2.5s infinite linear;
-  animation: spin 2.5s infinite linear;
-}
-
-@-moz-keyframes spin {
-  0% {
-    -moz-transform: rotate(0deg);
-  }
-  100% {
-    -moz-transform: rotate(359deg);
-  }
-}
-@-webkit-keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(359deg);
-  }
-}
-@-o-keyframes spin {
-  0% {
-    -o-transform: rotate(0deg);
-  }
-  100% {
-    -o-transform: rotate(359deg);
-  }
-}
-@-ms-keyframes spin {
-  0% {
-    -ms-transform: rotate(0deg);
-  }
-  100% {
-    -ms-transform: rotate(359deg);
-  }
-}
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(359deg);
-  }
+  margin-top: 200px;
+  width: 30px;
 }
 
 html {
-    overflow: hidden !important;
+  overflow: hidden !important;
 
-    /*deny selecting text*/
-    cursor: default;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+  /*deny selecting text*/
+  cursor: default;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-/* set joomla messages margin to 0 */
 body {
-    margin: 0 !important;
+  margin: 0 !important;
 }
 
 #system-message, #system-message ul {
-    margin: 0;
+  margin: 0;
 }
-
 
 /* font-size */
 html, body, div, span, th, td, a {
-    font-size: 12px !important;
+  font-size: 12px !important;
 }
-
 
 /* default tags */
 .clickable {
-    cursor: pointer !important;
+  cursor: pointer !important;
 }
-
 
 /* wrapper */
 #wrapper {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 #file_manager,
 #uploader,
 #importer {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0;
-    padding: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
 }
-
 
 /* file manager */
 /* ctrls bar */
 .ctrls_bar {
-    display: table-row;
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    right: 0;
-    margin: 0;
-    border: solid 1px #e8e9ea;
-    background-color: #f5f6f7;
-    padding: 4px;
-    height: 32px;
+  display: table-row;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  margin: 0;
+  border: solid 1px #e8e9ea;
+  background-color: #f5f6f7;
+  padding: 4px;
+  height: 32px;
 }
 
 .ctrls_bar_header {
-    top: 0;
+  top: 0;
 }
 
 .ctrls_bar_footer {
-    bottom: 0;
+  bottom: 0;
 }
 
 .ctrls_bar .ctrls_left {
-    float: left;
-    margin: 0;
-    padding: 0;
-	margin-left: 5px;
+  float: left;
+  margin: 0;
+  padding: 0;
 }
 
 .ctrls_bar .ctrls_right {
-    float: right;
-    margin: 0;
-    padding: 0;
+  float: right;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .ctrls_bar .ctrls_right_img {
-    float: right;
-    margin: 0;
-    padding: 0;
+  float: right;
+  margin: 0;
+  padding: 0;
 	margin-right: 10px;
 }
 
 .ctrl_bar_divider {
-    display: table-cell;
-    margin: 0;
-    background-image: url("../images/btn_icons/divider.png");
-    background-repeat: no-repeat;
-    width: 16px !important;
-    height: 32px !important;
-    padding: 0;
-    vertical-align: middle;
-    cursor: default;
+  display: table-cell;
+  margin: 0;
+  background-image: url("../images/btn_icons/divider.png");
+  background-repeat: no-repeat;
+  width: 16px !important;
+  height: 32px !important;
+  padding: 0;
+  vertical-align: middle;
+  cursor: default;
 }
 
 .upload_thumb_dim {
@@ -174,7 +125,7 @@ html, body, div, span, th, td, a {
 
 .upload_thumb {
   color: #808080;
-  font-size: 16px !important;
+  font-size: 15px !important;
 }
 
 .ctrl_bar_btn {
@@ -190,20 +141,20 @@ html, body, div, span, th, td, a {
 }
 
 .ctrl_bar_btn:hover {
-    outline: solid 1px #C6C6C6;
-    text-decoration: none;
+  outline: solid 1px #C6C6C6;
+  text-decoration: none;
 }
 
 .ctrl_bar_btn.btn_up {
-    background-image: url("../images/btn_icons/up.png");
+  background-image: url("../images/btn_icons/up.png");
 }
 
 .ctrl_bar_btn.btn_make_dir {
-    background-image: url("../images/btn_icons/create_dir.png");
+  background-image: url("../images/btn_icons/create_dir.png");
 }
 
 .ctrl_bar_btn.btn_rename_item {
-    background-image: url("../images/btn_icons/rename.png");
+  background-image: url("../images/btn_icons/rename.png");
 }
 
 .ctrl_bar_btn.btn_copy {
@@ -240,8 +191,8 @@ html, body, div, span, th, td, a {
   color: #F5F6F7;
   cursor: pointer;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-  height: 30px !important;
-  font-size: 14px !important;
+  height: 32px !important;
+  font-size: 13px !important;
 }
 
 .ctrl_bar_btn.btn_upload_files, .ctrl_bar_btn.btn_import_files:hover {
@@ -264,12 +215,12 @@ html, body, div, span, th, td, a {
   box-sizing: border-box;
   cursor: pointer;
   white-space: nowrap;
-  padding: 0 10px;
+  padding: 0 5px;
   font-size: 14px !important;
 }
 
 .ctrl_bar_btn.btn_secondary {
-  background: linear-gradient(to bottom, #FEFEFE, #F4F4F4) repeat scroll 0 0 #F3F3F3;
+  background: linear-gradient(to bottom, #FEFEFE, #fff) repeat scroll 0 0 #F3F3F3;
   border-color: #BBBBBB;
   color: #333333 !important;
   text-shadow: 0 1px 0 #FFFFFF;
@@ -303,7 +254,6 @@ html, body, div, span, th, td, a {
   background-image: url("../images/btn_icons/back.png");
 }
 
-
 /* sort icons */
 .sort_order_asc {
   display: inline-block !important;
@@ -334,7 +284,6 @@ html, body, div, span, th, td, a {
   text-decoration: none;
   cursor: pointer;
 }
-
 
 /* path */
 #path {
@@ -371,7 +320,6 @@ html, body, div, span, th, td, a {
   text-decoration: none;
 }
 
-
 #file_names_span {
   display: none;
   padding: 0 4px;
@@ -391,7 +339,6 @@ html, body, div, span, th, td, a {
   outline-color: #C6C6C6;
   overflow: hidden;
 }
-
 
 /* uploader */
 #uploader,
@@ -437,6 +384,7 @@ html, body, div, span, th, td, a {
   right: 0;
   font-size: 24pt !important;
   color: #c0c0c0;
+  line-height: 33px;
 }
 
 #btnBrowseContainer {
@@ -527,4 +475,129 @@ html, body, div, span, th, td, a {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.ctrl_bar_search_upload {
+  display: table-cell;
+}
+
+@media  screen and (max-width: 640px){
+	.ctrls_bar, #path{
+		height:auto !important;	
+	}
+		
+	.ctrl_bar_search_upload {
+		display:block !important;
+		margin-top: 4px
+	}
+	
+	.ctrls_bar_header  .ctrls_right{
+		display:none !important;
+	}
+	
+	#path{
+		top: 74px !important;
+	}
+	
+	#explorer{
+		top: 106px !important;
+	}
+	.btn_remove_items + .ctrl_bar_divider{
+		display:none !important;
+	}
+	
+	.search_by_name{
+		width:100% !important;;
+	}
+	
+	.ctrls_bar_footer .ctrls_right{
+		margin-right:5px !important;
+	}
+}
+
+@media  screen and (max-width: 350px){
+	.ctrls_bar_footer .ctrls_left, .ctrls_bar_footer .ctrls_right{
+		float:none;
+		margin-left:5px !important;
+		margin-bottom:2px;
+	}
+}
+
+.wd-btn {
+  padding: 0 10px 0px 10px !important;
+  margin: 0;
+  text-decoration: none;
+  font-size: 13px !important;
+  height: 30px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  white-space: nowrap;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+	line-height: 13px;
+}
+
+a.wd-btn {
+  color: #fff;
+	line-height: 28px;
+}
+
+.wd-btn:focus,
+.wd-search-btn:focus,
+.wd-reset-btn:focus {
+	outline: none !important;
+}
+
+.wd-btn-secondary {
+  background-color: #FFFFFF;
+	color: #686;
+  border: 1px solid #ddd;
+}
+
+.wd-btn-primary {
+  background-color: #00A0D2;
+	color: #fff;
+	border: 1px solid #00A0D2;
+}
+
+a.wd-btn-primary:hover,
+a.wd-btn-primary:active,
+a.wd-btn-primary:link {
+	color: #fff;
+}
+
+.wd-btn-icon {
+	padding: 0px 10px 1px 36px !important;
+  color: #fff;
+	background-repeat: no-repeat;
+	background-position: 10% 50%;
+}
+
+.wd-btn-icon-add {
+  padding: 0px 10px 1px 42px !important;
+	background-repeat: no-repeat;
+	background-position: 10% 50%;
+}
+
+.wd-btn-uplaod {
+	background-image: url("../images/btn_icons/upload.png");
+}
+
+.wd-btn-add {
+	background-image: url("../images/icons/add-new.png");
+}
+
+.wd-btn-apply {
+	background-image: url("../images/icons/apply.png");
+}
+
+.wd-btn-cancel {
+	background-image: url("../images/icons/cancel.png");
+}
+
+.wd-not-image {
+  padding: 0px 10px 1px 10px !important;
+	background-repeat: no-repeat;
+	background-position: 10% 50%;
 }

@@ -1,0 +1,20 @@
+02-25-15 02:07:50	142.129.155.248	INFO	root	AuthService	Log In	context=WebUI
+02-25-15 02:07:56	142.129.155.248	INFO	root	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-25-15 02:09:03	142.129.155.248	ERROR	root	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\AM 40 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\AM 40)
+02-25-15 02:09:03	142.129.155.248	ERROR	root	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\AM 40
+02-25-15 02:09:16	142.129.155.248	ERROR	root	class.fsAccessWrapper.php	error l.401	message=unlink(C:\Users\Administrator\Desktop\submit//Sociology+102+-+Jepson+-+Modern+Sociological+Theory+Reader.pdf): No such file or directory
+02-25-15 02:09:31	142.129.155.248	ERROR	root	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\AM 40 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\AM 40)
+02-25-15 02:09:31	142.129.155.248	ERROR	root	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\AM 40
+02-25-15 02:09:31	142.129.155.248	INFO	root	access.fs	Upload File	file=submission-platform//0c9851ea017fca1c628584b0ae2e1e12
+02-25-15 02:09:31	142.129.155.248	ERROR	root	class.fsAccessWrapper.php	error l.275	message=fopen(C:\Users\Administrator\Desktop\submit/Sociology 102): failed to open stream: Permission denied
+02-25-15 02:11:51	142.129.155.248	INFO	root	conf.sql	Switch Repository	rep. id=ajxp_home
+02-25-15 02:11:56	142.129.155.248	INFO	root	AuthService	Log Out	
+02-25-15 02:12:23	142.129.155.248	INFO	root	AuthService	Log In	context=WebUI
+02-25-15 02:12:41	142.129.155.248	INFO	root	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+02-25-15 02:29:33	169.232.242.97	INFO	brother0012	AuthService	Log In	context=WebUI
+02-25-15 02:30:13	169.232.242.97	INFO	brother0012	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-25-15 02:30:34	169.232.242.97	INFO	brother0012	conf.sql	Switch Repository	rep. id=ajxp_home
+02-25-15 02:30:41	169.232.242.97	INFO	brother0012	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+02-25-15 02:30:51	169.232.242.97	INFO	brother0012	conf.sql	Switch Repository	rep. id=ajxp_home
+02-25-15 02:30:58	169.232.242.97	INFO	brother0012	AuthService	Log Out	
+02-25-15 04:20:29	142.129.155.248	INFO	root	AuthService	Log Out	

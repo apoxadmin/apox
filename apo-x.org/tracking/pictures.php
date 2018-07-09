@@ -1,9 +1,9 @@
 <?php 
 
-include_once 'template.inc.php';
+include_once dirname(dirname(__FILE__)) . '/include/template.inc.php';
 include_once 'sql.php';
-include_once 'forms.inc.php';
-include_once 'user.inc.php';
+include_once dirname(dirname(__FILE__)) . '/include/forms.inc.php';
+include_once dirname(dirname(__FILE__)) . '/include/user.inc.php';
 
 show_header();
 
@@ -16,8 +16,8 @@ if(isset($_SESSION['class']))
 $temp=user_get($id, 'f');
 $temp=$temp['name'];
 
-if ( !( ($temp == 'historians' || $temp == 'admin') && $class=='admin') )
-	show_note('You must be logged in as historians to access this page.');
+if($class!="admin")
+	show_note('You must be an administrator to access this page.');
 
 $everyone = getGeneralTracking('pictures');
 /*

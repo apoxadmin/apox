@@ -18,21 +18,57 @@
   width: 100%;
 }
 
+#explorer_header_container .item_name::after,
+#explorer_header_container .item_size::after {
+  content: url("../images/btn_icons/divider.png");
+  display: table-cell;
+}
+
+#explorer_header_container .item_name,
+#explorer_header_container .item_size,
+#explorer_header_container .item_date_modified {
+  display: inline-block;
+}
+
 #explorer_header_container {
-  display: none;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  display: table;
+  outline: solid 1px #e8e9ea;
+  background-color: #ffffff;
+  width: 100%;
+  color: #585858;
+  padding: 0 0 0 5px;
+}
+
+#explorer_header {
+  display: table-row;
+}
+
+#explorer_header span {
+  display: table-cell;
+  height: 30px;
+  vertical-align: middle;
 }
 
 #explorer_body_container,
 #importer_body_container {
   position: absolute;
-  top: 0;
+  top: 30px;
   bottom: 0;
   left: 0;
   right: 0;
   padding: 5px;
   overflow-y: scroll;
+  cursor: default;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
-
 
 .explorer_item,
 .importer_item {

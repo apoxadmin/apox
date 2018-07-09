@@ -7,7 +7,7 @@ if(isset($_GET['address']))
 if(isset($_SESSION['class']))
 	$class = $_SESSION['class'];
 
-show_header();
+get_header();
 
 if(isset($class))
 	show_list($address);
@@ -38,7 +38,7 @@ function expand_list($address)
 	
 	foreach($list as $address)
 	{
-		if(preg_match(“/apo-x\.org/", $address, $match))
+		if(preg_match("/apo-x\.org/", $address, $match))
 			$newlist = array_merge($newlist, expand_list($address));
 		elseif(!preg_match("/^ *$/", $address, $match))
 			array_push($newlist, trim($address));

@@ -2,68 +2,37 @@
 jQuery(document).ready(function () {
     clearInterval(documentLoaded);
     // if there's no "draggable" then something's wrong so load provided jquery ui
-    if(!jQuery.fn.fontPlugin || !jQuery.ui || !jQuery.ui.draggable || !jQuery.fn.on) {
-        engageCompatibilityMode();
-    } else {
-        fQuery = jQuery;
-        initializeFontPlugin();
-    }
+    initializeFontPlugin();
 });
 // this won't run unless jquery is completely overwritten by some plugin
 var documentLoaded = setInterval(function () {
     if(document.readyState === "complete") {
-        engageCompatibilityMode();
+        alert('Conflict with another plugin which overwrites jQuery');
         // stop checking if the document is laoded
         clearInterval(documentLoaded);
     }
 }, 100);
 
-function engageCompatibilityMode (callback, e) {
-    if(e !== undefined) {
-        alert('compatibility mode: ' + e.message);
-    }
-    jQuery.getScript(fontBlogUrl + '/wp-content/plugins/font/js/jquery-1.10.2.min.js', function () {
-        fQuery = jQuery.noConflict(true);
-        fQuery.getScript(fontBlogUrl + '/wp-content/plugins/font/js/jquery-ui-1.9.2.custom.min.js', function () {
-            fQuery.getScript(fontBlogUrl + '/wp-content/plugins/font/js/colorpicker.js');
-            fQuery.getScript(fontBlogUrl + '/wp-content/plugins/font/js/jquery.fcarousel.min.js');
-            fQuery.getScript(fontBlogUrl + '/wp-content/plugins/font/js/jquery.fontPlugin.js', function () {
-                initializeFontPlugin(true);
-                if(callback !== undefined) {
-                    callback();
-                }
-            });
-        });
-    });
-}
-
-function initializeFontPlugin (compatibilityMode) {
-    if(compatibilityMode === undefined) {
-        compatibilityMode = false;
-    }
+function initializeFontPlugin () {
     /*
     show font plugin browser BUTTON
     */
-    fQuery('#FFW_chooseFontButton, #content_FFWButton, #wp-admin-bar-font_settings > a').bind('click', function (e) {
+    jQuery('#FFW_chooseFontButton, #content_FFWButton, #wp-admin-bar-font_settings > a').bind('click', function (e) {
         e.preventDefault();
 
         //if initialized already just toggle
-        if (fQuery('#fontplugin')[0] && fQuery('#fontplugin').data('fontPlugin') && fQuery('#fontplugin').data('fontPlugin').$presets) {
-            fQuery('#fontplugin').data('fontPlugin').$presets.fadeToggle(500);
+        if (jQuery('#fontplugin')[0] && jQuery('#fontplugin').data('fontPlugin') && jQuery('#fontplugin').data('fontPlugin').$presets) {
+            jQuery('#fontplugin').data('fontPlugin').$presets.fadeToggle(500);
         } else {
-            if(compatibilityMode) {
-                //alert('WARNING: Font plugin is running in safe mode. \n\n It may not work correctly! \n\nWhy?\n\nThis is usually caused by a conflict with a poorly written plugin.\n\n Try disabling all other plugins and then see if Font plugin starts without this message. If that works, enable other plguins one by one to find the one, which is causing the conflict.');
-            }
             window.onbeforeunload = function () {
                 return 'Have you saved the changes?';
             };
 
             //open jquery plugin
-            var fontPluginWrapper = fQuery('<div id="fontplugin" class="draggableModal"></div>'),
+            var fontPluginWrapper = jQuery('<div id="fontplugin" class="draggableModal"></div>'),
                 settings;
             fontPluginWrapper.appendTo('body');
             settings = {
-                "compatibilityMode" : compatibilityMode,
                 "settingFields": [
                     {
                         "type": "text",
@@ -91,8 +60,8 @@ function initializeFontPlugin (compatibilityMode) {
                         "extendWith": "colorPicker"
                     }]
             };
-            if(!fQuery.fontPlugin) {
-                fQuery.fn.fontPlugin = fontPlugin;
+            if(!jQuery.fontPlugin) {
+                jQuery.fn.fontPlugin = fontPlugin;
             }
 
             try {
@@ -117,8 +86,8 @@ function initializeFontPlugin (compatibilityMode) {
     }
     //make image colorpickable
     /*function makeImagesColorpickable() {
-        var image = fQuery("#header1preview").contents().find('img');
-        fQuery("#header1preview").contents().find('a').click(function () {
+        var image = jQuery("#header1preview").contents().find('img');
+        jQuery("#header1preview").contents().find('a').click(function () {
             return false;
         });
         image.click(function (e) {
@@ -131,15 +100,15 @@ function initializeFontPlugin (compatibilityMode) {
                 y,
                 data,
                 color;
-            img.src = fQuery(this).attr('src');
-            canvas = fQuery('<canvas id="canvas" style="display:none"></canvas>');
-            canvas[0].setAttribute('width', fQuery(this).width());
-            canvas[0].setAttribute('height', fQuery(this).height());
-            fQuery('body').append(canvas);
+            img.src = jQuery(this).attr('src');
+            canvas = jQuery('<canvas id="canvas" style="display:none"></canvas>');
+            canvas[0].setAttribute('width', jQuery(this).width());
+            canvas[0].setAttribute('height', jQuery(this).height());
+            jQuery('body').append(canvas);
             context = document.getElementById('canvas').getContext('2d');
             context.drawImage(img, 0, 0);
-            posX = fQuery(this).offset().left;
-            posY = fQuery(this).offset().top;
+            posX = jQuery(this).offset().left;
+            posY = jQuery(this).offset().top;
             x = Math.round(e.pageX - posX);
             y = Math.round(e.pageY - posY);
             data = context.getImageData(x, y, 1, 1).data;
@@ -161,7 +130,7 @@ function initializeFontPlugin (compatibilityMode) {
         return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
     };
     // The style function
-    fQuery.fn.style = function (styleName, value, priority) {
+    jQuery.fn.style = function (styleName, value, priority) {
         //console.log(styleName + ' - ' + value + ' - ' + priority);
         var node,
             style;
@@ -217,9 +186,9 @@ function initializeFontPlugin (compatibilityMode) {
             return style;
         }
     };
-    if(!fQuery.fn.inlineStyle) {
-        fQuery.fn.inlineStyle = function (prop) {
-            return this.prop("style")[fQuery.camelCase(prop)];
+    if(!jQuery.fn.inlineStyle) {
+        jQuery.fn.inlineStyle = function (prop) {
+            return this.prop("style")[jQuery.camelCase(prop)];
         };
     }
     (function ($) {
@@ -241,19 +210,19 @@ function initializeFontPlugin (compatibilityMode) {
             // write new list excluding filtered classNames
             $(this).attr('class', newClassNames.join(' '));
         };
-    }(fQuery));
+    }(jQuery));
     
-    if(!fQuery.fn.animateRotate) {
-        fQuery.fn.animateRotate = function(angle, duration, easing, complete) {
+    if(!jQuery.fn.animateRotate) {
+        jQuery.fn.animateRotate = function(angle, duration, easing, complete) {
             return this.each(function() {
-                var $elem = fQuery(this);
+                var $elem = jQuery(this);
                 var currentRotationAngle = $elem.data('rotation');
                 if(currentRotationAngle === undefined) {
                     currentRotationAngle = 0;
                 }
                 $elem.data('rotation', angle);
 
-                fQuery({deg: currentRotationAngle}).animate({deg: angle}, {
+                jQuery({deg: currentRotationAngle}).animate({deg: angle}, {
                     duration: duration,
                     easing: easing,
                     step: function(now) {
@@ -262,7 +231,7 @@ function initializeFontPlugin (compatibilityMode) {
                             transform: 'rotate(' + now + 'deg)'
                         });
                     },
-                    complete: complete || fQuery.noop
+                    complete: complete || jQuery.noop
                 });
             });
         };

@@ -7,6 +7,7 @@ include_once dirname(dirname(dirname(__FILE__))) . '/include/user.inc.php';
 include($_SERVER['DOCUMENT_ROOT'] . '/wp-load.php');
 
 include_once '../sql.php';
+get_header();
 
 if(isset($_GET['event']))
 	$event = $_GET['event'];
@@ -17,11 +18,8 @@ if(isset($_SESSION['id']))
 if(isset($_SESSION['class']))
 	$class = $_SESSION['class'];
 
-$temp=user_get($id, 'f');
-$temp=$temp['name'];
-
-if ( !( ($temp == 'recsecs' || $temp == 'admin') && $class=='admin') )
-	show_note('You must be logged in as recsecs to access this page.');
+if($class!="admin")
+	show_note('You must be an administrator to access this page.');
 
 if(!isset($event))
 {

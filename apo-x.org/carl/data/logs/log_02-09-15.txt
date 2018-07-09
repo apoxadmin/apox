@@ -1,0 +1,16 @@
+02-09-15 00:19:47	149.142.228.66	INFO	brother0028	AuthService	Log In	context=WebUI
+02-09-15 00:20:19	149.142.228.66	INFO	brother0028	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+02-09-15 00:22:24	149.142.228.66	INFO	brother0028	conf.sql	Switch Repository	rep. id=ajxp_home
+02-09-15 00:22:27	149.142.228.66	INFO	brother0028	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-09-15 06:48:24	128.97.244.149	INFO	brother0011	AuthService	Log In	context=WebUI
+02-09-15 11:03:16	23.241.146.88	INFO	brother0003	AuthService	Log In	context=WebUI
+02-09-15 11:03:33	23.241.146.88	INFO	brother0003	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+02-09-15 11:04:38	23.241.146.88	INFO	brother0003	AuthService	Log Out	
+02-09-15 11:21:17	204.152.219.106	INFO	root	AuthService	Log In	context=WebUI
+02-09-15 11:21:25	204.152.219.106	INFO	root	conf.sql	Switch Repository	rep. id=ajxp_conf
+02-09-15 11:49:59	204.152.219.106	INFO	root	AuthService	Log Out	
+02-09-15 20:40:59	128.97.245.224	INFO	brother0011	AuthService	Log In	context=WebUI
+02-09-15 20:41:07	128.97.245.224	INFO	brother0011	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+02-09-15 20:41:35	128.97.245.224	INFO	brother0011	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-09-15 20:41:55	128.97.245.224	INFO	brother0011	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+02-09-15 22:34:45	172.56.40.188	INFO	root	AuthService	Log In	context=WebUI

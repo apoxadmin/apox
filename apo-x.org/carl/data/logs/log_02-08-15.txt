@@ -1,0 +1,820 @@
+02-08-15 00:00:09	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:00:25	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:00:29	142.129.155.248	INFO	root	AuthService	Log Out	
+02-08-15 00:00:39	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:00:54	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:01:04	142.129.155.248	INFO	brother0025	AuthService	Log In	context=WebUI
+02-08-15 00:01:07	142.129.155.248	INFO	brother0025	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-08-15 00:01:11	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:01:24	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:01:39	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:01:54	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:02:09	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:02:24	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:02:39	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:02:55	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:03:09	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:03:25	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:03:40	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:03:55	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:04:09	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:04:24	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:04:40	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:04:54	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:05:10	142.129.155.248	INFO	brother0025	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-08-15 00:05:10	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:05:24	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:05:39	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:05:54	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:06:10	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:06:24	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:06:39	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:06:54	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:07:09	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:07:24	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:07:40	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:07:54	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:08:09	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:08:24	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:08:39	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:08:54	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:09:10	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:09:25	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:09:34	142.129.155.248	ERROR	brother0025	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf)
+02-08-15 00:09:34	142.129.155.248	ERROR	brother0025	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf
+02-08-15 00:09:35	142.129.155.248	INFO	brother0025	access.fs	Upload File	file=submission-platform//a89719f4158f0e83e5e995c5b29aaaae
+02-08-15 00:09:35	142.129.155.248	ERROR	brother0025	class.fsAccessWrapper.php	error l.275	message=fopen(C:\Users\Administrator\Desktop\submit/Quadcore Book Club): failed to open stream: Permission denied
+02-08-15 00:09:35	142.129.155.248	ERROR	brother0025	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf)
+02-08-15 00:09:35	142.129.155.248	ERROR	brother0025	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf
+02-08-15 00:09:36	142.129.155.248	INFO	brother0025	access.fs	Upload File	file=submission-platform//3f48dc373f426194c62100e1c820a846
+02-08-15 00:09:36	142.129.155.248	ERROR	brother0025	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf)
+02-08-15 00:09:36	142.129.155.248	ERROR	brother0025	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf
+02-08-15 00:09:38	142.129.155.248	INFO	brother0025	access.fs	Upload File	file=submission-platform//1b765858a8da9bdaa2db3ed938e6a246
+02-08-15 00:09:38	142.129.155.248	ERROR	brother0025	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf)
+02-08-15 00:09:38	142.129.155.248	ERROR	brother0025	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf
+02-08-15 00:09:39	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:09:45	142.129.155.248	INFO	brother0025	access.fs	Upload File	file=submission-platform//0cf1c8da02f5f247f3355c8c09b11a31
+02-08-15 00:09:45	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:09:45	142.129.155.248	ERROR	brother0025	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf)
+02-08-15 00:09:45	142.129.155.248	ERROR	brother0025	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf
+02-08-15 00:09:46	142.129.155.248	INFO	brother0025	access.fs	Upload File	file=submission-platform//f43673a729e4fc8aa92acacfb47fe243
+02-08-15 00:09:47	142.129.155.248	ERROR	brother0025	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf)
+02-08-15 00:09:47	142.129.155.248	ERROR	brother0025	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf
+02-08-15 00:09:48	142.129.155.248	INFO	brother0025	access.fs	Upload File	file=submission-platform//2d755a544ed90f157a9512e1b13e0744
+02-08-15 00:09:49	142.129.155.248	ERROR	brother0025	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf)
+02-08-15 00:09:49	142.129.155.248	ERROR	brother0025	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf
+02-08-15 00:09:55	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:09:55	142.129.155.248	INFO	brother0025	access.fs	Upload File	file=submission-platform//d5c829fc91749b82d0d8d7965efe6d45
+02-08-15 00:09:56	142.129.155.248	ERROR	brother0025	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf)
+02-08-15 00:09:56	142.129.155.248	ERROR	brother0025	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf
+02-08-15 00:10:01	142.129.155.248	INFO	brother0025	access.fs	Upload File	file=submission-platform//21e0fda98c1d7836d17358a7460b1dd4
+02-08-15 00:10:02	142.129.155.248	ERROR	brother0025	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf)
+02-08-15 00:10:02	142.129.155.248	ERROR	brother0025	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf
+02-08-15 00:10:04	142.129.155.248	INFO	brother0025	access.fs	Upload File	file=submission-platform//5ad03bef75deab9c4a2e9b9f24e3be79
+02-08-15 00:10:05	142.129.155.248	ERROR	brother0025	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf)
+02-08-15 00:10:05	142.129.155.248	ERROR	brother0025	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf
+02-08-15 00:10:09	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:10:13	142.129.155.248	INFO	brother0025	access.fs	Upload File	file=submission-platform//9ecd2c00fffcaa88dc68b0f66922f169
+02-08-15 00:10:14	142.129.155.248	ERROR	brother0025	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf)
+02-08-15 00:10:14	142.129.155.248	ERROR	brother0025	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Activity_Journal_Summary.pdf
+02-08-15 00:10:15	142.129.155.248	INFO	brother0025	access.fs	Upload File	file=submission-platform//d4a31cc16216d0d22420bd79320d0bea
+02-08-15 00:10:24	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:10:39	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:10:54	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:11:09	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:11:25	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:11:39	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:11:55	128.97.244.94	INFO	brother0011	AuthService	Log In	context=WebUI
+02-08-15 00:11:55	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:12:01	128.97.244.94	INFO	brother0011	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-08-15 00:12:09	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:12:25	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:12:39	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:12:55	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:13:09	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:13:25	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:13:39	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:13:54	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:14:09	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:14:25	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:14:40	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:14:55	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:15:09	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:15:25	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:15:40	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:15:54	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:16:09	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:16:25	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:16:39	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:16:55	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:17:09	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:17:25	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:17:32	142.129.155.248	INFO	brother0025	AuthService	Log Out	
+02-08-15 00:17:39	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:17:54	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:18:09	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:18:24	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:18:39	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:18:54	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:19:09	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:19:25	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:19:40	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:19:54	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:20:09	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:20:25	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:20:40	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:20:55	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:21:10	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:21:25	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:21:40	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:21:55	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:22:10	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:22:25	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:22:40	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:22:54	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:23:09	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:23:25	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:23:39	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:23:55	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:24:09	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:24:25	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:24:40	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:24:55	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:25:09	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:25:25	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:25:40	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:25:55	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:26:10	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:26:25	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:26:40	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:26:55	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:27:10	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:27:24	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:27:40	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:27:54	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:28:10	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:28:25	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:28:40	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:28:55	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:29:10	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:29:25	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:29:40	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:29:55	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:30:10	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:30:25	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:30:40	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:30:55	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:31:10	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:31:25	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:31:40	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:31:55	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:32:10	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:32:25	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:32:40	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:32:55	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:33:10	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:33:25	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:33:33	142.129.155.248	INFO	root	conf.sql	Switch Repository	rep. id=ajxp_home
+02-08-15 00:33:39	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:33:55	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:34:10	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:34:13	128.97.244.94	INFO	brother0011	AuthService	Log In	context=WebUI
+02-08-15 00:34:17	128.97.244.94	INFO	brother0011	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+02-08-15 00:34:25	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:34:31	128.97.244.94	INFO	brother0011	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-08-15 00:34:40	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:34:55	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:35:09	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:35:25	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:35:40	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:35:55	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:35:55	128.97.244.94	INFO	brother0011	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-08-15 00:36:10	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:36:13	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:36:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:36:25	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:36:29	142.129.155.248	INFO	root	conf.sql	Switch Repository	rep. id=6efc62a45ecacdc6e68fa4a76b900dad
+02-08-15 00:36:30	142.129.155.248	INFO	root	conf.sql	Switch Repository	rep. id=6efc62a45ecacdc6e68fa4a76b900dad
+02-08-15 00:36:32	142.129.155.248	INFO	root	conf.sql	Switch Repository	rep. id=6efc62a45ecacdc6e68fa4a76b900dad
+02-08-15 00:36:44	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:36:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:37:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:37:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:37:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:37:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:38:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:38:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:38:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:38:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:39:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:39:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:39:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:39:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:40:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:40:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:40:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:40:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:41:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:41:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:41:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:41:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:42:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:42:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:42:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:42:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:43:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:43:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:43:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:43:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:43:54	128.97.244.94	INFO	brother0011	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-08-15 00:44:08	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:44:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:44:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:44:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:45:05	142.129.155.248	INFO	root	conf.sql	Switch Repository	rep. id=ajxp_conf
+02-08-15 00:45:07	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:45:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:45:23	142.129.155.248	INFO	root	AuthService	Create User	user_id=test
+02-08-15 00:45:27	142.129.155.248	INFO	test	AuthService	Log In	context=WebUI
+02-08-15 00:45:30	142.129.155.248	INFO	test	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-08-15 00:45:31	142.129.155.248	INFO	test	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-08-15 00:45:35	142.129.155.248	INFO	test	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+02-08-15 00:45:40	142.129.155.248	INFO	test	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+02-08-15 00:45:47	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:45:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:46:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:46:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:46:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:46:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:47:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:47:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:47:35	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:47:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:47:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:48:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:48:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:48:34	142.129.155.248	INFO	root	conf.sql	Switch Repository	rep. id=ajxp_home
+02-08-15 00:48:37	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:48:38	142.129.155.248	INFO	root	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-08-15 00:48:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:49:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:49:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:49:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:49:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:50:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:50:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:50:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:50:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:50:56	128.97.244.94	INFO	brother0011	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-08-15 00:51:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:51:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:51:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:51:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:52:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:52:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:52:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:52:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:53:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:53:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:53:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:53:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:54:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:54:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:54:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:54:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:55:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:55:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:55:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:55:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:56:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:56:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:56:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:56:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:57:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:57:07	142.129.155.248	INFO	test	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-08-15 00:57:09	142.129.155.248	INFO	root	conf.sql	Switch Repository	rep. id=6efc62a45ecacdc6e68fa4a76b900dad
+02-08-15 00:57:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:57:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:57:42	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:57:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:58:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:58:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:58:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:58:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:59:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:59:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:59:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 00:59:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:00:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:00:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:00:29	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Biochem (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Biochem)
+02-08-15 01:00:29	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Biochem
+02-08-15 01:00:30	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//0b3f8ccbe6c9cf34bc517eabb6b3dd26
+02-08-15 01:00:30	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.275	message=fopen(C:\Users\Administrator\Desktop\submit/Astro 3): failed to open stream: Permission denied
+02-08-15 01:00:30	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:00:30	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:00:31	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//146a7b90b3469d757da346bb05a715ab
+02-08-15 01:00:31	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:00:31	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:00:32	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//788f9bf858aff800b8f95ae4c4f9ec7b
+02-08-15 01:00:33	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:00:33	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:00:33	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//28918226dcb7c8fdce10aa4116c3fac3
+02-08-15 01:00:34	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:00:34	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:00:35	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//18ed10ac964663fcef8d295c731b0ddd
+02-08-15 01:00:35	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:00:35	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:00:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:00:40	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//00d82352bb4969745d37ac936b6efef0
+02-08-15 01:00:40	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.275	message=fopen(C:\Users\Administrator\Desktop\submit/Astro 3/Final Lectures): failed to open stream: Permission denied
+02-08-15 01:00:41	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:00:41	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:00:45	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//c1960371663b098ead47b8af8c40f71c
+02-08-15 01:00:46	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:00:46	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:00:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:00:52	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//23ab965e80ac406b754427fdab3429a7
+02-08-15 01:00:53	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:00:53	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:00:59	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//304811573d42f8830a8b0ff42f67f8af
+02-08-15 01:01:00	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:01:00	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:01:04	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//c41c7c6da53e2f04dbf42c132f7f5a56
+02-08-15 01:01:05	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:01:05	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:01:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:01:18	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//71b354d6289dd888d58c9235633fd416
+02-08-15 01:01:19	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:01:19	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:01:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:01:34	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//12daa450685ea4669a4fe9720d9cf16f
+02-08-15 01:01:35	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:01:35	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:01:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:01:40	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//0b704e1edf6fe5f6195a2bc90f4c9170
+02-08-15 01:01:40	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:01:40	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:01:41	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//78016fa67db4ab799f19d65dd2dc0742
+02-08-15 01:01:42	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:01:42	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:01:43	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//05feb4432a366223e6c869e6181065b4
+02-08-15 01:01:43	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.275	message=fopen(C:\Users\Administrator\Desktop\submit/Astro 3/Midterm 1 Lectures): failed to open stream: Permission denied
+02-08-15 01:01:44	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:01:44	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:01:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:01:52	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//6f5b782280ae55fbb7a6da574bc9d226
+02-08-15 01:01:52	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:01:52	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:02:03	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//afcd3a8c5af9fefb479f3fe414610f8d
+02-08-15 01:02:04	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:02:04	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:02:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:02:07	142.129.155.248	INFO	root	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-08-15 01:02:12	142.129.155.248	INFO	root	conf.sql	Switch Repository	rep. id=6efc62a45ecacdc6e68fa4a76b900dad
+02-08-15 01:02:13	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//b704cf3b12891f1aecd0462246097e80
+02-08-15 01:02:18	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:02:18	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:02:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:02:24	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//10f1e7942e5e9c8595d30c299cd10ce8
+02-08-15 01:02:25	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:02:25	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:02:34	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//4d044be0f03564a4ce9aa7c7896c6331
+02-08-15 01:02:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:02:36	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:02:36	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:02:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:02:53	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//037895f04fa7a717bc2de0a0100cd9f9
+02-08-15 01:02:54	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:02:54	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:03:00	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//bf4959042c7bd33fdeb7078d697a54bc
+02-08-15 01:03:01	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:03:01	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:03:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:03:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:03:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:03:45	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//88b492fbe14ad56b9135cef57bfd5127
+02-08-15 01:03:47	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:03:47	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:03:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:03:52	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//ce742a15f105fecc32cab8f419baac5a
+02-08-15 01:03:52	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.275	message=fopen(C:\Users\Administrator\Desktop\submit/Astro 3/Midterm 2 Lectures): failed to open stream: Permission denied
+02-08-15 01:03:52	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:03:52	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:04:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:04:14	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//29ccf443a22df4690c04d396d75e28f9
+02-08-15 01:04:15	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:04:15	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:04:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:04:31	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//a1d6ff7473e3359b6b71c4a15bdf46fd
+02-08-15 01:04:32	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:04:32	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:04:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:04:50	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//b9c4d4d82cb6d099c83b9fe2f48eadeb
+02-08-15 01:04:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:04:51	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:04:51	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:05:01	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//2b3dca1c367a47b80cd8fda2c4b7f55a
+02-08-15 01:05:02	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:05:02	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:05:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:05:14	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//30b782e887c59e0d2f9987234b0bac46
+02-08-15 01:05:14	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:05:14	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:05:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:05:30	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//b575431ab9c5c62f1b1fabb406164dc7
+02-08-15 01:05:32	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:05:32	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:05:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:05:41	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//f4caf80e28463afa2d32d7a978c2d69c
+02-08-15 01:05:42	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:05:42	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:05:51	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//4d461a188d4eca0a2f44055639d7a9ac
+02-08-15 01:05:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:05:52	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:05:52	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:05:53	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//4dbc763edda059da73c8c3c6524ee394
+02-08-15 01:05:53	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:05:53	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:05:54	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//e23e7e5a74f804dfca3613923b60d264
+02-08-15 01:05:55	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:05:55	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:05:55	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//2538fc6b1825d45d4fae08a5735b1d7e
+02-08-15 01:05:56	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:05:56	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:05:56	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//42630ffb973cd12570217bafa2bec685
+02-08-15 01:05:58	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:05:58	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:05:58	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//aed7ef4395fafa1aea74aca8b3123407
+02-08-15 01:05:59	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:05:59	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:05:59	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//911a8540ace72236a9ee247c3241ec8d
+02-08-15 01:06:00	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:06:00	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:06:01	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//8b43ae418c5e7b21aa0ad8da502baf80
+02-08-15 01:06:02	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:06:02	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:06:02	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//9150844e8ff0b05ba519b6a414f5023f
+02-08-15 01:06:03	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:06:03	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:06:03	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//e667b8e4d6f1255e24835cba69a16298
+02-08-15 01:06:04	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:06:04	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:06:05	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//2a3a9e3c24093b5e8104ce0e5ff079bc
+02-08-15 01:06:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:06:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:06:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:06:49	128.97.244.94	INFO	brother0011	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+02-08-15 01:06:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:07:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:07:10	128.97.244.94	INFO	brother0011	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-08-15 01:07:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:07:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:07:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:08:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:08:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:08:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:08:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:09:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:09:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:09:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:09:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:10:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:10:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:10:22	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:10:22	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:10:23	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//5e207943593a7174984904191cc8b637
+02-08-15 01:10:23	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.275	message=fopen(C:\Users\Administrator\Desktop\submit/Econ 1): failed to open stream: Permission denied
+02-08-15 01:10:31	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:10:31	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:10:32	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//8cf958b9e7973c4209caafc618439176
+02-08-15 01:10:32	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:10:32	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:10:33	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//5afe288c0e7dc18dc70fe38073a06263
+02-08-15 01:10:34	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:10:34	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:10:34	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//7e15ec3555707933585f89ad0c628f04
+02-08-15 01:10:35	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:10:35	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:10:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:10:37	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//ec4c62e8c11f58ebc4655deaf0987c78
+02-08-15 01:10:37	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:10:37	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:10:38	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//dd5f52251a93196d50062859e6f8ddfe
+02-08-15 01:10:39	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:10:39	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:10:39	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//99142156ce343b806547e77a20f8a0e2
+02-08-15 01:10:40	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:10:40	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:10:41	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//c0de090a0acf7e6eb4ea913af4e5d768
+02-08-15 01:10:41	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:10:41	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:10:42	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//30e37b10a939dd6cd93aef6d93b76e7b
+02-08-15 01:10:43	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:10:43	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:10:44	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//ef6709436dba71da02fda2c7f5209c14
+02-08-15 01:10:45	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:10:45	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:10:46	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//eb3a006b64f2b3a90b098a24c15c39c8
+02-08-15 01:10:47	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:10:47	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:10:48	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//0d22ce9da687970a0d1c3b210326ef1c
+02-08-15 01:10:49	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:10:49	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:10:50	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//4ee5dd5c3a34c8614a467158932f848b
+02-08-15 01:10:50	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:10:50	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:10:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:10:52	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//94417b4d723290eaaaedee118366c6f6
+02-08-15 01:10:52	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:10:52	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:10:53	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//27e4b3d27658f5a2fad91d9075ff45a7
+02-08-15 01:10:54	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:10:54	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:10:55	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//497213293424a789c36b568d7c9fc6bf
+02-08-15 01:10:55	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:10:55	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:10:56	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//f38e46cebc52852c139752fa506dfade
+02-08-15 01:10:56	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.275	message=fopen(C:\Users\Administrator\Desktop\submit/Econ 1/PowerPoints): failed to open stream: Permission denied
+02-08-15 01:10:57	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:10:57	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:10:58	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//17b1d39f9e172e23320df7e6707d214c
+02-08-15 01:10:58	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:10:58	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:11:01	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//3decfe5d4098df0f1916749c84c6c937
+02-08-15 01:11:02	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:11:02	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:11:03	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//56812bb4886d897e97d77451ec186550
+02-08-15 01:11:03	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:11:03	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:11:04	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//02289888776a24b9b3eaaf80e882ff7c
+02-08-15 01:11:05	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:11:05	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:11:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:11:06	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//87002c09f89ab3b623195a34adf47852
+02-08-15 01:11:07	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:11:07	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:11:08	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//c55b2d20fce1898ab1e21d048b0d9148
+02-08-15 01:11:08	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:11:08	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:11:10	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//a6ebd056648293f7c8de21ed9a162012
+02-08-15 01:11:10	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:11:10	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:11:11	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//c3bf1ba0f943515948a900e3bb76f263
+02-08-15 01:11:12	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:11:12	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:11:13	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//2f0f390ac338c9897dc4a89135743fcb
+02-08-15 01:11:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:11:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:11:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:12:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:12:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:12:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:12:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:13:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:13:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:13:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:13:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:14:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:14:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:14:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:14:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:15:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:15:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:15:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:15:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:16:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:16:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:16:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:16:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:17:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:17:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:17:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:17:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:18:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:18:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:18:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:18:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:19:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:19:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:19:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:19:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:20:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:20:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:20:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:20:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:21:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:21:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:21:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:21:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:22:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:22:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:22:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:22:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:23:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:23:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:23:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:23:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:24:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:24:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:24:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:24:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:25:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:25:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:25:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:25:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:26:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:26:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:26:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:26:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:27:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:27:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:27:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:27:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:28:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:28:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:28:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:28:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:29:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:29:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:29:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:29:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:30:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:30:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:30:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:30:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:31:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:31:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:31:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:31:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:32:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:32:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:32:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:32:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:33:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:33:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:33:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:33:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:34:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:34:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:34:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:34:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:35:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:35:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:35:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:35:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:35:53	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:35:53	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:35:54	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//12f6fe393db9991b875c382252e900c7
+02-08-15 01:35:54	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.275	message=fopen(C:\Users\Administrator\Desktop\submit/Korean 50): failed to open stream: Permission denied
+02-08-15 01:35:57	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:35:57	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:35:58	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//417b856a0c20136701a9d947de577ccb
+02-08-15 01:35:59	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:35:59	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:35:59	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//e57cd36936e2e646fd4a1dbbfbc4203a
+02-08-15 01:36:00	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:36:00	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:36:01	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//919a0bebb6d974985d504b3dd63ad212
+02-08-15 01:36:01	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.275	message=fopen(C:\Users\Administrator\Desktop\submit/Korean 50/Lecture Notes): failed to open stream: Permission denied
+02-08-15 01:36:04	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:36:04	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:36:05	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//d6aeda942f5192850137f1fcbf8b38ea
+02-08-15 01:36:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:36:06	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:36:06	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:36:07	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//6ed4b060a68b56e11845bbdd6c20871a
+02-08-15 01:36:08	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:36:08	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:36:08	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//2b5c27e0df2f6a96824db6b8e34ee9ae
+02-08-15 01:36:09	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:36:09	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:36:10	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//a64c59d4869dc849271958e448040b09
+02-08-15 01:36:11	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:36:11	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:36:12	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//48a4e39faf338b8505934e20630d06da
+02-08-15 01:36:13	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:36:13	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:36:14	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//05b315dae448f6b1f104f47b554ca5c4
+02-08-15 01:36:15	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:36:15	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:36:15	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//63c9fec855592851f15b097e7c390506
+02-08-15 01:36:16	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:36:16	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:36:17	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//9f6fad703713f0194a9c7b9d0c6f6875
+02-08-15 01:36:18	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:36:18	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:36:19	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//d945ca9a32240a48a22b8961213e2178
+02-08-15 01:36:19	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:36:19	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:36:20	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//c64e40c9f812656c60f29594c5562581
+02-08-15 01:36:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:36:21	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.275	message=fopen(C:\Users\Administrator\Desktop\submit/Korean 50/Weekly Key Terms): failed to open stream: Permission denied
+02-08-15 01:36:21	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:36:21	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:36:22	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//4dd369dfb3f9740ac8c570accf76f3a7
+02-08-15 01:36:23	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:36:23	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:36:23	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//8007c669838ec4d367ee1ed7477f8f9f
+02-08-15 01:36:24	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:36:24	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:36:25	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//c579bf86fc58524dc49e11ccd3dce220
+02-08-15 01:36:25	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:36:25	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:36:26	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//8aee32355ebf251b3ef12f1bedd6a191
+02-08-15 01:36:27	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:36:27	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:36:28	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//d78ba9a68109be1976047fcec37f3b5d
+02-08-15 01:36:29	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:36:29	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:36:30	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//b1cdb1774a79dd47a2130f74ab84bb95
+02-08-15 01:36:31	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:36:31	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:36:33	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//3d666c0bb5a21f887144bc789bc8965f
+02-08-15 01:36:34	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:36:34	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:36:35	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//0c4dade59074fe413ca3efa45df8e881
+02-08-15 01:36:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:36:36	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:36:36	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:36:37	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//74026edec97585efd48e7d35b43b56f1
+02-08-15 01:36:38	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:36:38	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:36:38	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//80c8ca7c95215998c1cf1795224c74ed
+02-08-15 01:36:39	128.97.244.94	ERROR	brother0011	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Astro 3 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3)
+02-08-15 01:36:39	128.97.244.94	ERROR	brother0011	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Astro 3
+02-08-15 01:36:40	128.97.244.94	INFO	brother0011	access.fs	Upload File	file=submission-platform//c8175de5559cd70f0ec6399ba4c5b0e9
+02-08-15 01:36:40	128.97.244.94	ERROR	brother0011	AJXP_ShutdownScheduler	callRegisteredShutdown	context=Applying hook AjxpLuceneIndexer::updateNodeIndex;message=Invalid archive or corrupted .docx file.
+02-08-15 01:36:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:37:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:37:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:37:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:37:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:38:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:38:08	128.97.244.94	INFO	brother0011	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+02-08-15 01:38:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:38:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:38:51	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:39:06	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:39:21	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:39:36	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-08-15 01:39:44	142.129.155.248	INFO	root	AuthService	Log Out	
+02-08-15 01:40:12	128.97.244.94	INFO	brother0011	conf.sql	Switch Repository	rep. id=ajxp_user
+02-08-15 02:10:30	75.82.174.132	WARNING	shared	AuthService	Login failed	user=brother0001;error=Invalid password
+02-08-15 03:37:04	75.83.7.251	WARNING	shared	AuthService	Login failed	user=brother0017;error=Invalid password
+02-08-15 03:37:15	75.83.7.251	INFO	brother0017	AuthService	Log In	context=WebUI
+02-08-15 03:37:25	75.83.7.251	INFO	brother0017	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-08-15 03:38:05	75.83.7.251	INFO	brother0017	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+02-08-15 06:44:09	75.82.174.132	INFO	root	AuthService	Log In	context=WebUI
+02-08-15 06:44:13	75.82.174.132	INFO	root	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+02-08-15 06:44:15	75.82.174.132	INFO	root	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+02-08-15 07:09:37	75.82.174.132	INFO	root	AuthService	Log Out	
+02-08-15 07:35:54	75.84.58.197	INFO	brother0034	AuthService	Log In	context=WebUI
+02-08-15 07:35:58	75.84.58.197	INFO	brother0034	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-08-15 07:37:15	75.84.58.197	INFO	brother0034	conf.sql	Switch Repository	rep. id=ajxp_home
+02-08-15 07:37:19	75.84.58.197	INFO	brother0034	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-08-15 07:38:57	75.84.58.197	INFO	brother0034	conf.sql	Switch Repository	rep. id=ajxp_home
+02-08-15 07:39:02	75.84.58.197	INFO	brother0034	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-08-15 07:39:46	75.84.58.197	INFO	brother0034	conf.sql	Switch Repository	rep. id=ajxp_home
+02-08-15 07:39:52	75.84.58.197	INFO	brother0034	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-08-15 07:41:18	75.84.58.197	ERROR	brother0034	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG] (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG])
+02-08-15 07:41:18	75.84.58.197	ERROR	brother0034	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG]
+02-08-15 07:41:19	75.84.58.197	INFO	brother0034	access.fs	Upload File	file=submission-platform//b9741d8aa69454df458120426aff0407
+02-08-15 07:41:19	75.84.58.197	ERROR	brother0034	class.fsAccessWrapper.php	error l.275	message=fopen(C:\Users\Administrator\Desktop\submit/LS3 Johnson): failed to open stream: Permission denied
+02-08-15 07:41:20	75.84.58.197	ERROR	brother0034	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG] (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG])
+02-08-15 07:41:20	75.84.58.197	ERROR	brother0034	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG]
+02-08-15 07:41:25	75.84.58.197	INFO	brother0034	access.fs	Upload File	file=submission-platform//54409cccb9013160c6ab44807fcb3c28
+02-08-15 07:41:26	75.84.58.197	ERROR	brother0034	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG] (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG])
+02-08-15 07:41:26	75.84.58.197	ERROR	brother0034	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG]
+02-08-15 07:41:27	75.84.58.197	INFO	brother0034	access.fs	Upload File	file=submission-platform//aba6594dc85063fb747d644da90d73c4
+02-08-15 07:41:27	75.84.58.197	ERROR	brother0034	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG] (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG])
+02-08-15 07:41:27	75.84.58.197	ERROR	brother0034	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG]
+02-08-15 07:41:30	75.84.58.197	INFO	brother0034	access.fs	Upload File	file=submission-platform//8fb36e76481be8d07e4697f829728163
+02-08-15 07:41:31	75.84.58.197	ERROR	brother0034	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG] (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG])
+02-08-15 07:41:31	75.84.58.197	ERROR	brother0034	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG]
+02-08-15 07:41:34	75.84.58.197	INFO	brother0034	access.fs	Upload File	file=submission-platform//6121c09899aa48b14b766313eb78d4ff
+02-08-15 07:41:34	75.84.58.197	ERROR	brother0034	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG] (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG])
+02-08-15 07:41:34	75.84.58.197	ERROR	brother0034	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG]
+02-08-15 07:41:37	75.84.58.197	INFO	brother0034	access.fs	Upload File	file=submission-platform//00c0fe136c0c15eee50d35370d22e2af
+02-08-15 07:41:38	75.84.58.197	ERROR	brother0034	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG] (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG])
+02-08-15 07:41:38	75.84.58.197	ERROR	brother0034	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG]
+02-08-15 07:41:41	75.84.58.197	INFO	brother0034	access.fs	Upload File	file=submission-platform//af14ab4f7b0b050bd9ff7108edf5017e
+02-08-15 07:41:42	75.84.58.197	ERROR	brother0034	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG] (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG])
+02-08-15 07:41:42	75.84.58.197	ERROR	brother0034	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG]
+02-08-15 07:46:31	75.84.58.197	ERROR	brother0034	class.fsAccessWrapper.php	error l.401	message=unlink(C:\Users\Administrator\Desktop\submit//James+D.+Watson%2C+Tania+A.+Baker%2C+Stephen+P.+Bell%2C+Alexander+Gann%2C+Michael+Levine%2C+Richard+Losick+Molecular+Biology+of+the+Gene++2013.pdf): No such file or directory
+02-08-15 07:47:13	75.84.58.197	INFO	brother0034	conf.sql	Switch Repository	rep. id=ajxp_home
+02-08-15 07:47:17	75.84.58.197	INFO	brother0034	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-08-15 07:49:11	75.84.58.197	ERROR	brother0034	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG] (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG])
+02-08-15 07:49:11	75.84.58.197	ERROR	brother0034	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG]
+02-08-15 07:49:13	75.84.58.197	INFO	brother0034	access.fs	Upload File	file=submission-platform//f9cad8576257115fb8454120f3d81b54
+02-08-15 07:49:13	75.84.58.197	ERROR	brother0034	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG] (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG])
+02-08-15 07:49:13	75.84.58.197	ERROR	brother0034	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG]
+02-08-15 07:56:32	75.84.58.197	INFO	brother0034	access.fs	Upload File	file=submission-platform//e98ab9cba512e98a3046fa677e62be16
+02-08-15 08:20:55	75.84.58.197	INFO	brother0034	AuthService	Log Out	
+02-08-15 08:23:01	75.84.58.197	INFO	brother0034	AuthService	Log In	context=WebUI
+02-08-15 08:23:05	75.84.58.197	INFO	brother0034	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-08-15 08:23:07	75.84.58.197	INFO	brother0034	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-08-15 08:23:09	75.84.58.197	INFO	brother0034	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-08-15 08:42:26	128.97.212.97	INFO	brother0044	AuthService	Log In	context=WebUI
+02-08-15 08:42:33	128.97.212.97	INFO	brother0044	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-08-15 21:46:24	142.129.155.248	INFO	root	AuthService	Log In	context=WebUI

@@ -23,9 +23,9 @@ function get_style()
 	{
 		switch($_SESSION['family'])
 		{
-			case 1: $styleName = "tight"; break;
-			case 2: $styleName = "close"; break;
-			case 3: $styleName = "loose"; break;
+			case 1: $styleName = "alpha"; break;
+			case 2: $styleName = "phi"; break;
+			case 3: $styleName = "omega"; break;
 			default: $styleName = "original"; break;
 		}
 	} else {
@@ -209,7 +209,7 @@ function show_footer()
 					</div>
 					
 						<div id="copyright">
-		 &copy; All Copyright Reserved |  Alpha Phi Omega - University of California, Davis
+		 &copy; All Copyright Reserved |  Alpha Phi Omega - University of California, Los Angeles
 		 	</div>
 		
 		</div><!-- Footer -->

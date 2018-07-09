@@ -1,0 +1,1064 @@
+01-24-15 14:27:55	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:28:00	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:28:03	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:28:05	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:28:06	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:28:07	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:28:07	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:28:09	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:28:10	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:28:10	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:28:10	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:28:15	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:28:18	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:28:20	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:28:22	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:28:25	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:28:30	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:28:33	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:28:35	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:28:37	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:28:40	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:28:45	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:28:48	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:28:50	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:28:52	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:28:55	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:29:00	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:29:03	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:29:05	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:29:05	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:29:06	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:29:07	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:29:07	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:29:10	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:29:10	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:29:11	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:29:15	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:29:18	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:29:20	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:29:22	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:29:25	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:29:30	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:29:33	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:29:35	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:29:37	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:29:40	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:29:49	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:29:49	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:29:50	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:29:52	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:29:55	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:00	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:03	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:30:05	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:07	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:10	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:15	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:18	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:30:20	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:22	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:25	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:30	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:33	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:30:35	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:37	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:40	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:41	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:41	142.129.155.248	INFO	josephchan	ConfService	Create Repository	repo_name=The Core
+01-24-15 14:30:41	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:42	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:42	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:43	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:44	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:44	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:44	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:45	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:30:45	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:46	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:48	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:48	142.129.155.248	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-24-15 14:30:48	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:30:49	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:51	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:51	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:51	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:52	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:52	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:54	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:54	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:55	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:55	142.129.155.248	INFO	josephchan	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+01-24-15 14:30:55	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:56	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:57	142.129.155.248	INFO	josephchan	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+01-24-15 14:30:57	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:58	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:58	142.129.155.248	INFO	josephchan	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+01-24-15 14:30:58	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:30:58	142.129.155.248	INFO	josephchan	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+01-24-15 14:31:00	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:00	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:01	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:01	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:01	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:02	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:04	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:05	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:06	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:31:06	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:07	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:07	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:08	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:08	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:08	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:09	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:09	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:11	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:11	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:11	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:11	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:12	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:12	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:13	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:13	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:14	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:15	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:15	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:15	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:16	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:16	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:18	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:19	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:31:19	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:19	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:19	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:20	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:20	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:22	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:25	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:28	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:29	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:33	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:31:35	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:35	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:37	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:40	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:43	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:44	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:48	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:31:50	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:50	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:52	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:52	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:52	142.129.155.248	ERROR	josephchan	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://80a985c5f1be4ae25f9e82c66f989e73\recycle_bin (Cannot find repository with id 80a985c5f1be4ae25f9e82c66f989e73\recycle_bin)
+01-24-15 14:31:52	142.129.155.248	ERROR	josephchan	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id 80a985c5f1be4ae25f9e82c66f989e73\recycle_bin
+01-24-15 14:31:55	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:58	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:31:59	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:03	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:32:05	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:05	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:06	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:06	142.129.155.248	INFO	josephchan	access.fs	Upload File	file=the-core//e83c77094660172bda8c83fc25511654
+01-24-15 14:32:06	142.129.155.248	ERROR	josephchan	class.fsAccessWrapper.php	error l.275	message=fopen(C:\Users\Administrator\Desktop\core/CS 31): failed to open stream: Permission denied
+01-24-15 14:32:07	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:07	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:08	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:08	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:08	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:10	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:13	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:14	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:14	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:15	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:17	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:18	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:32:18	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:19	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:20	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:20	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:21	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:22	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:23	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:24	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:25	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:26	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:26	142.129.155.248	INFO	josephchan	access.fs	Move	files=the-core/CS 31;destination=the-core/recycle_bin
+01-24-15 14:32:26	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:27	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:27	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:28	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:29	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:29	142.129.155.248	INFO	josephchan	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+01-24-15 14:32:29	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:30	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:32	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:32	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:32	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:33	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:33	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:33	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:34	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:34	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:35	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:35	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:35	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:36	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:36	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:32:37	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:37	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:37	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:39	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:40	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:41	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:43	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:44	142.129.155.248	ERROR	josephchan	class.fsAccessWrapper.php	error l.275	message=fopen(C:\Users\Administrator\Desktop\core/Chem 14): failed to open stream: Permission denied
+01-24-15 14:32:45	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:45	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:46	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:48	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:32:48	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:50	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:52	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:52	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:52	142.129.155.248	INFO	josephchan	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+01-24-15 14:32:53	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:54	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:55	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:55	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:56	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:56	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:57	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:57	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:58	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:58	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:32:59	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:03	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:33:05	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:07	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:10	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:10	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:13	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:14	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:18	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:33:20	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:22	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:25	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:25	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:28	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:29	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:29	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:30	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:30	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:31	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:31	142.129.155.248	INFO	josephchan	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+01-24-15 14:33:32	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:33	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:33:34	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:34	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:34	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:35	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:35	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:35	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:36	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:36	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:37	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:37	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:39	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:39	142.129.155.248	INFO	josephchan	access.fs	Move	files=submission-platform/Chem 14;destination=submission-platform/recycle_bin
+01-24-15 14:33:39	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:40	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:40	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:40	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:43	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:44	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:47	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:48	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:33:49	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:50	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:50	142.129.155.248	INFO	josephchan	access.fs	Move	files=submission-platform/test_submission.docx,submission-platform/The_Holstee_Manifesto_8.5x11.pdf;destination=submission-platform/recycle_bin
+01-24-15 14:33:51	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:51	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:52	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:52	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:53	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:55	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:58	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:33:59	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:03	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:34:05	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:07	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:07	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:10	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:13	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:14	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:18	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:34:19	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:20	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:22	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:25	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:28	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:29	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:29	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:30	142.129.155.248	ERROR	josephchan	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\recycle_bin (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\recycle_bin)
+01-24-15 14:34:30	142.129.155.248	ERROR	josephchan	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\recycle_bin
+01-24-15 14:34:30	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:30	142.129.155.248	INFO	josephchan	access.fs	Upload File	file=submission-platform//08d2591ecfa1ae1a6a8e7dc4de493492
+01-24-15 14:34:30	142.129.155.248	ERROR	josephchan	class.fsAccessWrapper.php	error l.275	message=fopen(C:\Users\Administrator\Desktop\submit/Econ 102): failed to open stream: Permission denied
+01-24-15 14:34:31	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:35	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:35	142.129.155.248	ERROR	josephchan	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Econ 102 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Econ 102)
+01-24-15 14:34:35	142.129.155.248	ERROR	josephchan	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Econ 102
+01-24-15 14:34:36	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:36	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:34:36	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:37	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:37	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:37	142.129.155.248	INFO	josephchan	access.fs	Upload File	file=submission-platform//e84e01f776324fbcd44895a133804c5b
+01-24-15 14:34:38	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:38	142.129.155.248	ERROR	josephchan	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Econ 102 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Econ 102)
+01-24-15 14:34:38	142.129.155.248	ERROR	josephchan	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Econ 102
+01-24-15 14:34:40	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:43	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:44	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:48	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:34:49	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:50	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:50	142.129.155.248	INFO	josephchan	access.fs	Upload File	file=submission-platform//931437ef19c3f34ef1059270e8d94753
+01-24-15 14:34:50	142.129.155.248	ERROR	josephchan	class.fsAccessWrapper.php	error l.275	message=fopen(C:\Users\Administrator\Desktop\submit/EE115): failed to open stream: Permission denied
+01-24-15 14:34:50	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:51	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:51	142.129.155.248	ERROR	josephchan	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Econ 102 (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Econ 102)
+01-24-15 14:34:51	142.129.155.248	ERROR	josephchan	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Econ 102
+01-24-15 14:34:52	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:55	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:58	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:34:59	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:35:03	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:35:04	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:35:05	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:35:07	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:35:10	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:35:13	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:35:14	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:35:18	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:35:19	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:35:20	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:35:22	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:35:25	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:35:28	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:35:29	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:35:33	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:35:34	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:35:35	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:35:37	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:35:40	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:35:43	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:35:44	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:35:48	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:35:49	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:35:50	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:35:52	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:35:55	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:35:58	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:35:59	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:36:03	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:36:04	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:36:05	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:36:07	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:36:10	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:36:13	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:36:14	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:36:18	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:36:19	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:36:20	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:36:22	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:36:25	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:36:28	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:36:29	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:36:33	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:36:35	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:36:35	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:36:37	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:36:40	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:36:43	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:36:44	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:36:48	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:36:49	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:36:50	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:36:52	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:36:55	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:36:58	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:36:59	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:37:03	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:37:04	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:37:05	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:37:07	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:37:10	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:37:13	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:37:14	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:37:18	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:37:19	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:37:20	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:37:22	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:37:25	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:37:28	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:37:29	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:37:33	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:37:34	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:37:35	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:37:37	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:37:40	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:37:43	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:37:44	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:37:48	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:37:49	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:37:50	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:37:52	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:37:55	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:37:58	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:37:59	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:38:03	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:38:04	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:38:05	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:38:07	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:38:10	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:38:13	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:38:14	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:38:18	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:38:19	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:38:19	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:38:20	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:38:22	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:38:25	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:38:28	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:38:29	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:38:33	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:38:34	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:38:35	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:38:37	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:38:39	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:38:40	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:38:43	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:38:44	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:38:46	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:38:48	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:38:49	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:38:50	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:38:52	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:38:55	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:38:58	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:38:59	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:39:03	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:39:04	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:39:05	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:39:07	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:39:10	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:39:13	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:39:14	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:39:18	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:39:19	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:39:20	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:39:22	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:39:25	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:39:28	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:39:29	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:39:33	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:39:34	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:39:35	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:39:37	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:39:40	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:39:43	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:39:44	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:39:48	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:39:49	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:39:50	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:39:52	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:39:55	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:39:58	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:39:59	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:03	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:40:04	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:05	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:07	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:10	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:13	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:14	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:18	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:40:19	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:20	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:22	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:25	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:28	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:29	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:33	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:40:34	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:35	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:37	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:40	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:41	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:40:41	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:40:44	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:45	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:47	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:40:48	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:40:48	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:40:50	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:50	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:51	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:53	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:53	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:54	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:55	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:55	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:56	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:56	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:56	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:58	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:58	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:40:59	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:41:00	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:41:00	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:41:00	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:41:05	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:41:05	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:41:07	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:41:09	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:41:10	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:41:14	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:41:15	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:41:20	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:41:20	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:41:22	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:41:24	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:41:25	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:41:29	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:41:30	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:41:35	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:41:35	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:41:37	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:41:40	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:41:40	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:41:44	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:41:45	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:41:50	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:41:50	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:41:52	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:41:55	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:41:56	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:41:59	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:42:00	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:42:05	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:42:05	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:42:07	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:42:10	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:42:10	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:42:14	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:42:15	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:42:20	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:42:20	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:42:22	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:42:25	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:42:25	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:42:29	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:42:30	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:42:35	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:42:36	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:42:37	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:42:39	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:42:40	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:42:40	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:42:41	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:42:44	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:42:45	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:42:50	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:42:50	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:42:52	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:42:55	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:42:55	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:42:59	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:43:00	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:43:05	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:43:05	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:43:07	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:43:10	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:43:10	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:43:14	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:43:15	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:43:20	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:43:20	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:43:22	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:43:25	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:43:25	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:43:29	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:43:30	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:43:35	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:43:35	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:43:37	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:43:40	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:43:40	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:43:44	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:43:45	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:43:50	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:43:50	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:43:52	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:43:55	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:43:55	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:43:59	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:44:00	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:44:05	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:44:05	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:07	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:10	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:10	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:14	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:44:15	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:44:20	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:44:20	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:22	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:25	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:25	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:29	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:44:29	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:44:30	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:44:35	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:44:35	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:36	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:44:37	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:40	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:40	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:41	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:43	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:44:45	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:45	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:45	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:45	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:45	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:46	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:46	142.129.155.248	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-24-15 14:44:46	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:48	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:49	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:49	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:49	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:50	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:52	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:53	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:54	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:55	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:55	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:44:55	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:44:55	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:56	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:44:57	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:45:04	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:45:05	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:45:07	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:45:10	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:45:10	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:45:19	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:45:20	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:45:22	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:45:25	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:45:25	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:45:34	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:45:35	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:45:37	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:45:40	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:45:40	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:45:42	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:45:42	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:45:43	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:45:44	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:45:44	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:45:45	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:45:46	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:45:49	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:45:50	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:45:52	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:45:55	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:45:55	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:45:59	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:04	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:05	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:07	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:10	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:46:10	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:10	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:10	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:46:11	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:13	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:13	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:46:14	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:14	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:14	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:46:15	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:17	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:17	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:46:18	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:18	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:46:18	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:20	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:20	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:20	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:22	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:22	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:23	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:24	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:25	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:46:25	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:25	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:26	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:26	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:27	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:28	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:34	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:35	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:37	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:40	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:40	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:46:41	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:47	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:49	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:50	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:52	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:55	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:46:55	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:47:04	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:47:05	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:47:07	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:47:10	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:47:10	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:47:12	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:47:15	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:47:19	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:47:20	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:47:20	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:47:22	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:47:25	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:47:25	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:47:35	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:47:35	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:47:37	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:47:40	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:47:40	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:47:50	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:47:50	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:47:52	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:47:55	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:47:55	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:48:05	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:48:05	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:48:07	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:48:10	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:48:10	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:48:20	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:48:20	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:48:22	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:48:25	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:48:25	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:48:35	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:48:35	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:48:37	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:48:40	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:48:40	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:48:50	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:48:50	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:48:52	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:48:52	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:48:52	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:48:53	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:48:53	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:48:55	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:48:55	142.129.155.248	ERROR	academic_committee	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:48:57	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:48:57	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:48:57	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:48:57	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:48:58	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:48:58	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:48:58	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:48:58	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:48:59	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:48:59	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:48:59	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:48:59	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:49:00	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:00	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:49:00	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:00	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:49:01	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:01	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:49:01	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:01	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:49:02	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:02	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:49:02	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:02	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:49:03	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:03	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:49:03	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:03	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:49:04	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:04	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:49:04	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:04	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:49:05	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:05	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:49:05	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:05	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:49:06	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:06	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:49:06	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:07	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:07	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:07	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:49:08	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:08	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:08	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:49:08	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:08	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:49:08	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:08	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:49:09	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:10	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:10	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:49:10	142.129.155.248	ERROR	shared	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:10	142.129.155.248	ERROR	shared	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:11	142.129.155.248	ERROR	shared	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:11	142.129.155.248	ERROR	shared	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:11	142.129.155.248	ERROR	shared	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:11	142.129.155.248	ERROR	shared	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:12	142.129.155.248	ERROR	shared	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:12	142.129.155.248	ERROR	shared	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:12	142.129.155.248	ERROR	shared	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:12	142.129.155.248	ERROR	shared	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:12	142.129.155.248	ERROR	shared	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:12	142.129.155.248	ERROR	shared	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:14	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:15	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:15	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:17	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:17	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:49:18	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:18	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:20	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:20	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:22	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:23	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:23	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:49:24	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:25	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:49:25	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:25	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:26	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:35	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:35	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:37	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:40	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:49:47	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:50	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:50	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:52	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:53	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:49:55	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:50:05	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:50:06	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:50:07	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:50:10	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:50:20	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:50:21	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:50:22	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:50:25	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:50:35	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:50:36	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:50:37	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:50:40	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:50:50	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:50:51	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:50:52	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:50:55	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:51:05	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:51:06	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:51:07	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:51:10	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:51:20	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:51:21	142.129.155.248	ERROR	josephchan	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:51:22	142.129.155.248	ERROR	williamnguyen	ZohoEditor	init	Warning, OpenSSL is active but could not correctly generate a key for Zoho Editor. Please make sure the openssl.cnf file is correctly set up.
+01-24-15 14:51:25	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:51:40	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:51:55	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:52:02	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:52:10	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:52:19	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:52:24	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:52:25	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:52:26	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:52:33	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:52:34	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:52:35	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:52:40	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:52:55	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:53:10	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:53:25	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:53:40	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:53:55	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:54:10	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:54:25	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:54:40	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:54:55	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:54:55	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:54:55	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:54:58	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:54:59	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:55:10	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:55:25	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:55:40	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:55:55	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:56:10	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:56:25	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:56:40	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:56:55	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:57:03	142.129.155.248	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-24-15 14:57:06	142.129.155.248	INFO	josephchan	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+01-24-15 14:57:08	142.129.155.248	INFO	josephchan	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+01-24-15 14:57:10	142.129.155.248	INFO	josephchan	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+01-24-15 14:57:10	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:57:25	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:57:40	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:57:40	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:57:50	142.129.155.248	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-24-15 14:57:55	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:57:56	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:57:59	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:58:00	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:58:10	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:58:25	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:58:28	142.129.155.248	INFO	josephchan	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+01-24-15 14:58:31	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:58:37	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:58:38	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:58:42	142.129.155.248	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-24-15 14:58:47	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:58:48	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:58:51	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:59:03	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:59:10	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:59:12	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:59:12	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:59:16	142.129.155.248	INFO	josephchan	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+01-24-15 14:59:16	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:59:22	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:59:22	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:59:24	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:59:25	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:59:25	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:59:25	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:59:25	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:59:25	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:59:25	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:59:28	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:59:30	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:59:33	142.129.155.248	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-24-15 14:59:39	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:59:42	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:59:42	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:59:45	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:59:45	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 14:59:48	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-24-15 14:59:57	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 15:00:12	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 15:00:21	142.129.155.248	INFO	josephchan	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+01-24-15 15:00:23	142.129.155.248	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-24-15 15:00:31	142.129.155.248	INFO	josephchan	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+01-24-15 15:00:33	142.129.155.248	INFO	josephchan	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+01-24-15 15:00:33	142.129.155.248	INFO	josephchan	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+01-24-15 15:01:04	142.129.155.248	ERROR	josephchan	class.fsAccessDriver.php	error l.629	message=You must write a valid name
+01-24-15 15:01:05	142.129.155.248	INFO	josephchan	access.fs	Create Dir	dir=submission-platform//Chem 20
+01-24-15 15:01:16	142.129.155.248	ERROR	josephchan	class.fsAccessDriver.php	error l.629	message=You must write a valid name
+01-24-15 15:01:17	142.129.155.248	INFO	josephchan	access.fs	Create Dir	dir=submission-platform//CS 32
+01-24-15 15:03:14	142.129.155.248	INFO	josephchan	access.fs	Upload File	file=submission-platform/CS 32/wowebook_Data Abstraction and Problem Solving with C++ 3 Ed.pdf
+01-24-15 15:03:29	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 15:03:30	142.129.155.248	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 15:04:23	142.129.155.248	ERROR	josephchan	class.fsAccessDriver.php	error l.629	message=You must write a valid name
+01-24-15 15:04:23	142.129.155.248	INFO	josephchan	access.fs	Create Dir	dir=submission-platform//Psychobio 15
+01-24-15 15:05:29	142.129.155.248	INFO	josephchan	access.fs	Upload File	file=submission-platform/Psychobio 15/Biological Psychology 10th ed - J. Kalat (Wadsworth, 2009) BBS.pdf
+01-24-15 15:05:30	142.129.155.248	INFO	josephchan	access.fs	Create Dir	dir=submission-platform//Biochem
+01-24-15 15:10:05	142.129.155.248	INFO	josephchan	access.fs	Upload File	file=submission-platform/Biochem/Fundamentals of Biochemistry 4th Edition.pdf
+01-24-15 15:14:57	142.129.155.248	INFO	josephchan	access.fs	Upload File	file=submission-platform/Biochem/Lehninger Principles of Biochemistry 5th ed..pdf
+01-24-15 15:15:01	142.129.155.248	INFO	josephchan	access.fs	Create Dir	dir=submission-platform//Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG]
+01-24-15 15:16:15	142.129.155.248	INFO	josephchan	access.fs	Upload File	file=submission-platform/Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG]/Business Law, Text and Cases, Thirteenth Edition - Clarkson, Miller and Cross .pdf
+01-24-15 15:16:16	142.129.155.248	INFO	josephchan	access.fs	Upload File	file=submission-platform/Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG]/Cover.jpg
+01-24-15 15:16:17	142.129.155.248	INFO	josephchan	access.fs	Create Dir	dir=submission-platform//Calc 31,32 Series
+01-24-15 15:16:41	142.129.155.248	INFO	josephchan	access.fs	Upload File	file=submission-platform/Calc 31,32 Series/Calculus 2nd Edition - Multivariable Solutions.pdf
+01-24-15 15:17:07	142.129.155.248	INFO	josephchan	access.fs	Upload File	file=submission-platform/Calc 31,32 Series/Calculus 2nd Edition - Single Variable Solutions.pdf
+01-24-15 15:17:08	142.129.155.248	INFO	josephchan	access.fs	Upload File	file=submission-platform/Calc 31,32 Series/Calculus 2nd Edition.jpg
+01-24-15 15:18:39	142.129.155.248	INFO	josephchan	access.fs	Upload File	file=submission-platform/Calc 31,32 Series/Calculus 2nd Edition.pdf
+01-24-15 15:20:36	142.129.155.248	INFO	josephchan	access.fs	Upload File	file=submission-platform/Calc 31,32 Series/Calculus Early Transcendentals, Multivariable  Edition 2.pdf
+01-24-15 15:22:06	142.129.155.248	INFO	josephchan	access.fs	Upload File	file=submission-platform/Calc 31,32 Series/Stewart_Calculus_7th_txtbk.pdf
+01-24-15 15:22:07	142.129.155.248	INFO	josephchan	access.fs	Create Dir	dir=submission-platform//Chem 14
+01-24-15 15:23:28	142.129.155.248	INFO	josephchan	access.fs	Upload File	file=submission-platform/Chem 14/Vollhardt Organic Chemistry Structure Function 6th txtbk.PDF
+01-24-15 15:23:29	142.129.155.248	INFO	josephchan	access.fs	Create Dir	dir=submission-platform//Chem 30
+01-24-15 15:24:53	142.129.155.248	INFO	josephchan	access.fs	Upload File	file=submission-platform/Chem 30/Brown & Foote Organic Chemistry 6th txtbk.pdf
+01-24-15 15:24:53	142.129.155.248	INFO	josephchan	access.fs	Create Dir	dir=submission-platform//CS 31
+01-24-15 15:25:08	142.129.155.248	INFO	josephchan	access.fs	Upload File	file=submission-platform/CS 31/Walter_Savitch_-_Absolute_C__,_4th_Edition_-_2009.pdf
+01-24-15 15:25:08	142.129.155.248	INFO	josephchan	access.fs	Create Dir	dir=submission-platform//Econ 1
+01-24-15 15:25:09	142.129.155.248	INFO	josephchan	access.fs	Upload File	file=submission-platform/Econ 1/econ 1 instructions.txt
+01-24-15 15:25:10	142.129.155.248	INFO	josephchan	access.fs	Create Dir	dir=submission-platform//EE115
+01-24-15 15:25:22	142.129.155.248	INFO	josephchan	access.fs	Upload File	file=submission-platform/EE115/Digital Integrated Circuits (2e) by Jan M. Rabaey-1.pdf
+01-24-15 15:25:23	142.129.155.248	INFO	josephchan	access.fs	Create Dir	dir=submission-platform//Giancoli
+01-24-15 15:34:31	142.129.155.248	INFO	williamnguyen	AuthService	Log Out	
+01-24-15 19:22:44	142.129.155.248	INFO	williamnguyen	AuthService	Log In	context=WebUI
+01-24-15 19:22:57	142.129.155.248	INFO	williamnguyen	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+01-24-15 19:23:02	142.129.155.248	INFO	williamnguyen	conf.sql	Switch Repository	rep. id=ajxp_home
+01-24-15 19:23:12	142.129.155.248	INFO	williamnguyen	AuthService	Log Out	
+01-24-15 19:23:19	142.129.155.248	WARNING	shared	AuthService	Login failed	user=maikoibay;error=Invalid password
+01-24-15 19:23:26	142.129.155.248	INFO	maikoibay	AuthService	Log In	context=WebUI
+01-24-15 19:23:34	142.129.155.248	INFO	maikoibay	AuthService	Log Out	
+01-24-15 19:24:00	142.129.155.248	ERROR	shared	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 19:24:00	142.129.155.248	ERROR	shared	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 19:24:16	142.129.155.248	ERROR	shared	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 19:24:16	142.129.155.248	ERROR	shared	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 19:25:12	142.129.155.248	INFO	josephchan	AuthService	Log In	context=WebUI
+01-24-15 19:25:18	142.129.155.248	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-24-15 19:26:13	142.129.155.248	INFO	williamnguyen	AuthService	Log In	context=WebUI
+01-24-15 19:27:16	142.129.155.248	INFO	williamnguyen	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+01-24-15 19:27:29	142.129.155.248	INFO	williamnguyen	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+01-24-15 19:27:49	142.129.155.248	INFO	williamnguyen	conf.sql	Switch Repository	rep. id=ajxp_home
+01-24-15 19:27:56	142.129.155.248	INFO	williamnguyen	AuthService	Log Out	
+01-24-15 19:28:07	142.129.155.248	WARNING	shared	AuthService	Login failed	user=academic committee;error=Invalid user
+01-24-15 19:28:20	142.129.155.248	WARNING	shared	AuthService	Login failed	user=academic committee;error=Invalid user
+01-24-15 19:28:32	142.129.155.248	WARNING	shared	AuthService	Login failed	user=academic committee;error=Invalid user
+01-24-15 19:29:00	142.129.155.248	INFO	academic_committee	AuthService	Log In	context=WebUI
+01-24-15 19:29:04	142.129.155.248	INFO	academic_committee	conf.sql	Switch Repository	rep. id=6efc62a45ecacdc6e68fa4a76b900dad
+01-24-15 19:29:43	142.129.155.248	INFO	academic_committee	access.fs	Download	files=read-submission-platform/
+01-24-15 19:30:56	142.129.155.248	ERROR	academic_committee	Unknown	error l.0	message=Unknown: Permission denied
+01-24-15 19:30:57	142.129.155.248	INFO	academic_committee	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+01-24-15 19:30:58	142.129.155.248	ERROR	academic_committee	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 19:30:58	142.129.155.248	ERROR	academic_committee	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 19:30:58	142.129.155.248	ERROR	academic_committee	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 19:30:58	142.129.155.248	ERROR	academic_committee	index.php	error l.90	message=You are not allowed to access this resource.
+01-24-15 19:31:02	142.129.155.248	INFO	academic_committee	conf.sql	Switch Repository	rep. id=6efc62a45ecacdc6e68fa4a76b900dad
+01-24-15 19:31:04	142.129.155.248	INFO	academic_committee	conf.sql	Switch Repository	rep. id=ajxp_home
+01-24-15 19:31:12	142.129.155.248	INFO	academic_committee	conf.sql	Switch Repository	rep. id=6efc62a45ecacdc6e68fa4a76b900dad
+01-24-15 19:31:24	142.129.155.248	INFO	academic_committee	AuthService	Log Out	
+01-24-15 19:31:50	142.129.155.248	INFO	williamnguyen	AuthService	Log In	context=WebUI
+01-24-15 19:31:54	142.129.155.248	INFO	williamnguyen	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+01-24-15 19:31:56	142.129.155.248	INFO	williamnguyen	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+01-24-15 19:39:31	142.129.155.248	INFO	williamnguyen	access.fs	Upload File	file=submission-platform//GEO3_Wilford_Lecture 8_GlobalCulture.pdf
+01-24-15 19:39:38	142.129.155.248	INFO	williamnguyen	access.fs	Upload File	file=submission-platform//GEO3_Wilford_Lecture01a_Intro.pdf
+01-24-15 19:39:42	142.129.155.248	INFO	williamnguyen	access.fs	Upload File	file=submission-platform//GEO3_Wilford_Lecture01b_descriptives.pdf
+01-24-15 19:39:46	142.129.155.248	INFO	williamnguyen	access.fs	Upload File	file=submission-platform//GEO3_Wilford_Main Project Instructions.doc
+01-24-15 19:39:48	142.129.155.248	INFO	williamnguyen	access.fs	Upload File	file=submission-platform//GEO3_Wilford_Main Project_EXAMPLE.docx
+01-24-15 19:39:52	142.129.155.248	INFO	williamnguyen	access.fs	Upload File	file=submission-platform//GEO3_Wilford_SyllabusGEOG3spring13.pdf
+01-24-15 19:40:18	142.129.155.248	INFO	williamnguyen	access.fs	Upload File	file=submission-platform//GEO3_Wilford_Lecture 6_Suburbia.pdf
+01-24-15 19:40:24	142.129.155.248	INFO	williamnguyen	access.fs	Upload File	file=submission-platform//GEO3_Wilford_Assignment #1_EXAMPLE.docx
+01-24-15 19:40:27	142.129.155.248	INFO	williamnguyen	access.fs	Upload File	file=submission-platform//GEO3_Wilford_Assignment #2_Example.docx
+01-24-15 19:41:48	142.129.155.248	INFO	williamnguyen	access.fs	Upload File	file=submission-platform//GEO3_Wilford_Lecture 2_Culture.pdf
+01-24-15 19:42:16	142.129.155.248	INFO	williamnguyen	access.fs	Upload File	file=submission-platform//GEO3_Lecture 1_Context.pdf
+01-24-15 19:43:35	142.129.155.248	INFO	williamnguyen	access.fs	Upload File	file=submission-platform//GEO3_Wilford_Lecture 3_SpacePlace.pdf
+01-24-15 19:43:49	142.129.155.248	INFO	williamnguyen	access.fs	Upload File	file=submission-platform//GEO3_Wilford_Lecture 4_Nature 2013.pdf
+01-24-15 19:45:13	142.129.155.248	INFO	williamnguyen	access.fs	Upload File	file=submission-platform//GEO3_Wilford_Lecture 5_Home.pdf
+01-24-15 20:09:19	142.129.155.248	INFO	williamnguyen	AuthService	Log Out	
+01-24-15 23:01:52	142.129.155.248	INFO	josephchan	AuthService	Log Out	

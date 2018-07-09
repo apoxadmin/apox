@@ -1,6 +1,6 @@
 <?php
 
-include_once 'template.inc.php';
+include_once dirname(dirname(__FILE__)) . '/include/template.inc.php';
 
 $action = $_POST['action'];
 $class = $_SESSION['class'];

@@ -1,7 +1,8 @@
 
 <?php 
 
-include_once dirname(dirname(__FILE__)) . '/include/template.inc.php';
+// FIX: COMMENTED OUT THIS CODE BECAUSE WE DIDN'T NEED IT AND SHOWED ERROR
+//include_once dirname(dirname(__FILE__)) . '/include/template.inc.php';
 include_once dirname(dirname(__FILE__)) . '/include/forms.inc.php';
 include($_SERVER['DOCUMENT_ROOT'] . '/wp-load.php');
 get_header();
@@ -60,14 +61,14 @@ if(isset($_POST['submit']))
 		  . " major = '$major', "
 		  . " user_bday = CONCAT($year,'-',$month,'-',$day), style_id = '$style_id'";
 	
-    if($class != 'admin' && strcmp($user_password, '1234567890')!==0 )
+/*   if($class != 'admin' && strcmp($user_password, '1234567890')!==0 )
 	{
 		if ( strcmp($user_password, $user_password_confirm) == 0 )
 			$sql .= " , user_password = '$user_password' ";
 		else
 			show_note ("You entered two different passwords!  Please type the same new password "
 						. "in the confirmation box. (<a href=\"{$_SERVER['PHP_SELF']}\">Back</a>)");
-	}
+	}  */
 
     $sql .= " WHERE user_id = '$user_id'";
     mysql_query($sql);
@@ -109,11 +110,11 @@ extract($line);
 		<td><?php forms_text(32,"user_address",$user_address); ?></td>
 	</tr>
 	<tr>
-		<td>Primary Phone: </td>
+		<td>Cell Phone: </td>
 		<td><?php forms_phone("user_cell",$user_cell) ?></td>
 	</tr>
 	<tr>
-		<td>Back-up Phone: </td>
+		<td>Home Phone: </td>
 		<td><?php forms_phone("user_phone",$user_phone) ?></td>
 	</tr>
 	<tr>
@@ -144,7 +145,7 @@ extract($line);
 			echo "value=\"{$i}\">{$i}</option>"; } ?>
 		</select>
 		<select name="year">
-		<?php for($i=1970; $i<2010; $i++) {
+		<?php for($i=1970; $i<2015; $i++) {
 			echo "<option ";
 			if($bday_year==$i) echo "selected ";
 			echo "value=\"{$i}\">{$i}</option>"; } ?>
@@ -152,7 +153,7 @@ extract($line);
 		</td>
 	</tr>
 	<tr>
-		<td>T-Shirt Size: </td>
+		<!--<td>T-Shirt Size: </td>
 		<td>
 		<select size="1" name="shirt_id">
 		<?php 
@@ -163,9 +164,9 @@ extract($line);
 			echo "value=\"{$line['shirt_id']}\">{$line['shirt_size']}</option>";
 		endforeach; ?>
 		</select>
-		</td>
-	<tr>
-		<!-- Disabled for now.	
+		</td>-->
+	<!--<tr>
+	 Disabled for now.	
 		<td>Website Style: </td>
 		<td>
 		<select size="1" name="style_id">
@@ -185,14 +186,14 @@ extract($line);
 	{
 		?>
 	</tr>
-	<tr>
+<!--	<tr>
 		<td>Password: </td>
 	<td><?php forms_password(32,"user_password", '1234567890') ?></td>
 	</tr>
 	<tr>
 		<td>Re-type Password: </td>
 	<td><?php forms_password(32,"user_password_confirm", '1234567890') ?></td>
-	</tr>
+	</tr> -->
 	<?php 
 	}	
 	if($class=="admin"): ?>

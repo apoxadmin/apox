@@ -4,6 +4,9 @@ include_once dirname(dirname(__FILE__)) . '/include/template.inc.php';
 include_once dirname(dirname(__FILE__)) . '/include/show.inc.php';
 include($_SERVER['DOCUMENT_ROOT'] . '/wp-load.php');
 
+
+
+
 get_header();
 
 if(isset($_SESSION['id']))
@@ -14,7 +17,6 @@ else
 	show_footer();
 	exit;
 }
-
 
 $class = $_SESSION['class'];
 
@@ -53,9 +55,9 @@ $user_cell = show_phone($user_cell);
 		<td colspan="3" class="heading"><?php echo $user_name ?></td>
 	</tr>
 	<tr>
-		<td rowspan="10"><img src="/images/profiles/<?php echo $user_id ?>.jpg" /></td>
+		<td rowspan="10"><img src="/images/profiles/<?php echo $user_id; ?>.jpg" width="333" height="500" /></td>
 		<td>Address: </td>
-		<td><?php echo htmlentities($user_address) ?></td>
+		<td><?php echo $user_address ?></td>
 	</tr>
 	<tr>
 		<td>Primary Phone: </td>
@@ -72,9 +74,6 @@ $user_cell = show_phone($user_cell);
 	<tr>
 		<td>Class: </td>
 		<td><?php echo $class_nick ?></td>
-	</tr>
-
-		?></td>
 	</tr>
 	<tr>
 		<td>Major: </td>

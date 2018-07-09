@@ -1,10 +1,10 @@
-=== Font - official webfonts plugin. NO CODING! Just click & change font size, color and font face visually!  ===
+=== Font - official webfonts plugin of Fonts For Web. NO CODING! Just click & change font size, color and font face visually!  ===
 Contributors: killerdeveloper
 Donate link: http://fontsforweb.com/
 Tags: fonts, web fonts, font, fonts plugin, typekit, google webfont, TinyMCE plugin, ajax, webfonts
 Requires at least: 2.8.0
-Tested up to: 3.8.1
-Stable tag: 7.5
+Tested up to: 4.4
+Stable tag: 7.5.1
 Finally official* web fonts plugin for wordpress. CLICK ON ANYTHING TO CHANGE IT(see screenshots)! Then change color, size and font face using sliders and color picker!
 == Description ==
 Finally official web fonts plugin for wordpress. No need for any coding at all! How? This plugin has an unique method of recognizing of what you click at!
@@ -33,7 +33,7 @@ Mode 2 - select a portion of text:
 
 Notice:
 Always read each font's readme to make sure if it's free for your purposes! SOME fonts are free only for non commercial use, and some, probably just few need a small fee even for personal use.
-Font is an official plugin of FontsFontWeb.com. Over 1000 free web fonts to choose from!
+*Font is an official plugin of FontsFontWeb.com. Over 1000 free web fonts to choose from!
 You'll need an API key to convert and store your own fonts on FontsForWeb.com server for commercial purposes.
 
 == Installation ==
@@ -185,6 +185,8 @@ Minor bug fixes
 -Fixed bug with selection disappearing periodically
 -Removed fading animations
 -Added x button for easier preset removing
+= 7.5.1 =
+-Fixed PHP vulnerability
 
 == Upgrade Notice ==
 = 5.00 =
@@ -322,6 +324,8 @@ Fixed:
 -Fixed bug with selection disappearing periodically
 -Removed fading animations
 -Added x button for easier preset removing
+= 7.5.1 =
+-Fixed PHP vulnerability
 
 == Arbitrary section ==
 == Source ==

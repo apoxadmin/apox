@@ -1,0 +1,410 @@
+01-25-15 00:28:58	142.129.155.248	ERROR	shared	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:41:12	172.56.40.108	INFO	josephchan	AuthService	Log In	context=WebUI
+01-25-15 02:41:19	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=6efc62a45ecacdc6e68fa4a76b900dad
+01-25-15 02:42:23	172.56.40.108	ERROR	josephchan	class.fsAccessWrapper.php	error l.275	message=fopen(C:\Users\Administrator\Desktop\core/CS 31): failed to open stream: Permission denied
+01-25-15 02:42:51	172.56.40.108	INFO	josephchan	access.fs	Move	files=read-submission-platform/CS 31,read-submission-platform/CS 32,read-submission-platform/Calc 31,32 Series,read-submission-platform/Chem 14,read-submission-platform/Chem 20,read-submission-platform/Chem 30,read-submission-platform/EE115,read-submission-platform/Econ 1,read-submission-platform/Econ 102,read-submission-platform/Psychobio 15;destination=read-submission-platform/recycle_bin
+01-25-15 02:43:09	172.56.40.108	INFO	josephchan	access.fs	Delete	files=read-submission-platform/recycle_bin/CS 31
+01-25-15 02:43:16	172.56.40.108	INFO	josephchan	access.fs	Delete	files=read-submission-platform/recycle_bin/CS 32,read-submission-platform/recycle_bin/Calc 31,32 Series,read-submission-platform/recycle_bin/Chem 14,read-submission-platform/recycle_bin/Chem 20,read-submission-platform/recycle_bin/Chem 30,read-submission-platform/recycle_bin/EE115,read-submission-platform/recycle_bin/Econ 1,read-submission-platform/recycle_bin/Econ 102,read-submission-platform/recycle_bin/Psychobio 15,read-submission-platform/recycle_bin/The_Holstee_Manifesto_8.5x11.pdf,read-submission-platform/recycle_bin/test_submission.docx
+01-25-15 02:43:54	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:44:09	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:44:24	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:44:39	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:44:55	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:45:09	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:45:24	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:45:39	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:45:54	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:45:57	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-25-15 02:46:05	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:46:09	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:46:13	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:47:32	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 02:47:35	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 02:47:37	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 02:51:34	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 02:51:54	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:52:08	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:52:22	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:52:38	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:52:53	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:53:08	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:53:23	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:53:37	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:53:53	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:54:09	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:54:24	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:54:38	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:54:54	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:55:09	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:55:23	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:55:38	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:55:52	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:56:09	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:56:23	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:56:35	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-25-15 02:56:37	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:56:38	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:56:38	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:56:40	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:56:42	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 02:56:43	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 02:56:45	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 02:56:53	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:57:08	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:57:17	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:57:23	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:57:25	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:57:38	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:57:41	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:57:42	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 02:57:43	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 02:57:56	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:58:12	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:58:27	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:58:41	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:58:57	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:59:11	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:59:26	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:59:43	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 02:59:56	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:00:11	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:00:27	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:00:41	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:00:56	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:01:11	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:01:26	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:01:40	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:01:56	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:02:10	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:02:26	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:02:41	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:02:57	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:03:12	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:03:25	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:03:42	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:03:56	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:04:10	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:04:26	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:04:43	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:04:58	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:05:11	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:05:26	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:05:42	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:05:57	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:06:11	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:06:26	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:06:41	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:06:58	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:07:12	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:07:25	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:07:41	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:07:56	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:08:10	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:08:27	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:08:41	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:08:56	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:09:12	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:09:26	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:09:41	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:09:56	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:10:12	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:10:28	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:10:41	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:10:42	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:10:56	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:11:12	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:11:25	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:11:42	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:11:56	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:12:12	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:12:27	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:12:42	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:12:58	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:13:10	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:13:26	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:13:41	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:13:57	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:14:12	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:14:27	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:14:41	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:14:58	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:15:12	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:15:26	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:15:41	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:15:55	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:16:12	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:16:26	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:16:41	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:16:57	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:17:10	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:17:26	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:17:42	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:17:57	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:18:12	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:18:26	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:18:41	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:18:57	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:19:11	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:19:26	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:19:41	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:19:56	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:20:12	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:20:26	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:20:33	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-25-15 03:20:35	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:20:43	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 03:20:44	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 03:20:44	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 03:20:49	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:20:50	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 03:20:54	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-25-15 03:21:00	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 03:21:01	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 03:21:04	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 03:21:05	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:21:19	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:21:35	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:21:38	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 03:21:44	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:21:45	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:21:59	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:22:14	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:22:29	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:22:31	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:22:37	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-25-15 03:22:39	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-25-15 03:22:49	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 03:22:49	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 03:22:52	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 03:27:26	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 03:28:05	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:28:05	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:28:34	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:28:34	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 03:29:05	172.56.40.108	INFO	josephchan	AuthService	Log In	context=WebUI
+01-25-15 03:29:12	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-25-15 03:29:18	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 03:29:20	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 03:29:32	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 03:42:13	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+01-25-15 04:11:22	172.56.40.108	INFO	josephchan	AuthService	Log Out	
+01-25-15 04:29:46	172.56.40.108	INFO	josephchan	AuthService	Log In	context=WebUI
+01-25-15 04:29:52	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-25-15 04:30:27	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 04:31:13	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 04:31:17	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 04:31:54	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 04:35:24	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 04:35:47	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 04:36:01	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 04:36:06	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 04:36:10	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 04:36:17	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_user
+01-25-15 04:36:31	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 04:36:32	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-25-15 04:36:44	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 04:36:49	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 04:43:04	172.56.40.108	INFO	josephchan	AuthService	Log Out	
+01-25-15 04:43:35	172.56.40.108	INFO	josephchan	AuthService	Log In	context=WebUI
+01-25-15 04:43:48	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+01-25-15 04:43:50	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+01-25-15 04:51:43	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-25-15 04:51:49	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 04:51:51	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 04:51:53	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 04:53:10	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 04:53:13	172.56.40.108	INFO	josephchan	AuthService	Log Out	
+01-25-15 04:54:33	172.56.40.108	WARNING	shared	AuthService	Login failed	user=josephchan94;error=Invalid user
+01-25-15 04:54:38	172.56.40.108	INFO	josephchan	AuthService	Log In	context=WebUI
+01-25-15 04:54:54	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+01-25-15 04:54:57	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+01-25-15 04:54:58	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+01-25-15 05:00:07	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-25-15 05:01:00	172.56.40.108	INFO	josephchan	AuthService	Create User	user_id=root
+01-25-15 05:01:14	172.56.40.108	INFO	josephchan	AuthService	Log Out	
+01-25-15 05:01:22	172.56.40.108	INFO	josephchan	AuthService	Log In	context=WebUI
+01-25-15 05:01:25	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-25-15 05:11:10	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:11:12	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:11:14	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:12:10	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:12:14	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:12:30	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:12:32	172.56.40.108	INFO	josephchan	AuthService	Log In	context=WebUI
+01-25-15 05:12:45	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:12:51	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:12:58	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:13:01	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:13:02	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:13:02	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:13:59	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 05:14:10	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-25-15 05:14:16	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:14:18	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:14:22	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:14:23	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:14:34	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:14:36	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:14:39	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:17:52	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:17:52	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:17:52	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:18:55	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_user
+01-25-15 05:19:02	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 05:19:14	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-25-15 05:19:18	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 05:20:12	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-25-15 05:20:18	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:20:20	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:20:36	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:21:03	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 05:21:30	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-25-15 05:21:39	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:21:39	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:24:56	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:25:51	172.56.40.108	ERROR	josephchan	dibi.compact.php	error l.854	message=Row size too large (> 8126). Changing some columns to TEXT or BLOB or using ROW_FORMAT=DYNAMIC or ROW_FORMAT=COMPRESSED may help. In current row format, BLOB prefix of 768 bytes is stored inline.
+01-25-15 05:26:06	172.56.40.108	ERROR	josephchan	dibi.compact.php	error l.854	message=Row size too large (> 8126). Changing some columns to TEXT or BLOB or using ROW_FORMAT=DYNAMIC or ROW_FORMAT=COMPRESSED may help. In current row format, BLOB prefix of 768 bytes is stored inline.
+01-25-15 05:26:21	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:26:21	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 05:26:22	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 05:26:36	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:26:51	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:26:55	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-25-15 05:27:06	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:27:12	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:27:13	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:27:14	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:27:21	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:27:38	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:27:50	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:27:52	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:27:52	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:27:52	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:28:00	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_user
+01-25-15 05:28:03	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-25-15 05:28:05	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-25-15 05:28:08	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:28:14	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:28:17	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:28:21	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:28:36	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:28:51	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:29:07	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:29:21	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:29:32	172.56.40.108	ERROR	josephchan	dibi.compact.php	error l.854	message=Row size too large (> 8126). Changing some columns to TEXT or BLOB or using ROW_FORMAT=DYNAMIC or ROW_FORMAT=COMPRESSED may help. In current row format, BLOB prefix of 768 bytes is stored inline.
+01-25-15 05:29:36	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:29:45	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:29:46	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:29:46	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:29:51	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:30:06	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:30:21	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:30:36	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:30:52	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:31:00	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 05:31:06	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:31:13	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:31:21	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:31:21	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:31:37	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:31:49	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:31:51	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:31:53	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-25-15 05:32:06	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:32:22	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:32:22	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:32:36	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:32:41	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 05:32:47	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-25-15 05:32:51	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:33:07	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:33:21	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:33:36	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:33:36	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:33:39	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:34:01	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:34:02	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:34:06	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:34:06	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:34:08	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:34:21	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:34:21	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:34:36	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:34:36	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:34:44	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:34:51	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:34:51	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:35:06	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:35:06	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:35:16	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:35:17	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:35:18	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:35:21	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:35:21	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:35:24	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:35:28	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 05:35:33	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:35:33	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:35:36	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:35:39	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:35:51	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:35:54	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:36:06	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:36:09	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:36:21	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:36:24	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:36:36	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:36:39	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:36:51	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:36:54	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:37:06	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:37:09	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:37:18	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-25-15 05:37:20	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-25-15 05:37:21	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:37:27	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:37:30	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:37:36	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:37:52	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:38:06	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:38:21	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:38:36	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:38:51	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:39:06	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:39:26	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 05:39:27	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 05:39:37	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:39:51	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:43:39	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-25-15 05:43:45	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:43:45	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:43:49	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:45:47	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:45:47	172.56.40.108	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 05:46:51	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 05:46:53	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 05:46:54	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 05:46:58	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:46:59	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:47:13	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:47:13	172.56.40.108	ERROR	josephchan	index.php	error l.90	message=You are not allowed to access this resource.
+01-25-15 05:48:15	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+01-25-15 05:48:17	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+01-25-15 05:48:23	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 05:48:25	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 05:48:25	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 05:59:11	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+01-25-15 05:59:24	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 06:02:44	172.56.40.108	INFO	josephchan	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+01-25-15 06:10:43	104.175.32.150	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 06:10:44	104.175.32.150	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 06:24:33	75.82.243.72	INFO	maikoibay	AuthService	Log In	context=WebUI
+01-25-15 06:24:43	75.82.243.72	INFO	maikoibay	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+01-25-15 06:51:38	104.175.32.150	INFO	josephchan	AuthService	Log Out	
+01-25-15 09:52:53	142.129.155.248	INFO	josephchan	AuthService	Log In	context=WebUI
+01-25-15 09:52:57	142.129.155.248	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_conf
+01-25-15 09:53:07	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 09:53:08	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 09:53:08	142.129.155.248	INFO	josephchan	access.ajxp_conf	Listing plugins	
+01-25-15 09:53:50	142.129.155.248	INFO	josephchan	conf.sql	Switch Repository	rep. id=ajxp_home
+01-25-15 10:37:47	142.129.155.248	INFO	josephchan	AuthService	Log Out	

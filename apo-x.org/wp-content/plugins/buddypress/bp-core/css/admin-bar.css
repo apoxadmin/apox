@@ -17,7 +17,7 @@
 	left: 0;
 }
 #wpadminbar .quicklinks li#wp-admin-bar-group-admin-with-avatar ul ul {
- 	left: 0;
+	left: 0;
 }
 
 /* Notifications */
@@ -55,4 +55,17 @@
 #wp-admin-bar-user-info img.avatar {
 	height: 64px;
 	width: 64px;
+}
+
+/* Remove additional arrows from appearing on the BuddyPress' `my_account_menu`
+ * on large screens. Add back arrows for screen widths 600px and lower.
+ */
+#wpadminbar .wp-admin-bar-arrow-right {
+	display: none;
+}
+
+@media screen and (max-width: 600px) {
+	#wpadminbar .wp-admin-bar-arrow-right {
+		display: block;
+	}
 }

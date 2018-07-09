@@ -1,0 +1,10 @@
+02-26-15 04:27:22	172.56.41.97	INFO	root	AuthService	Log In	context=WebUI
+02-26-15 10:16:06	142.129.155.248	INFO	root	AuthService	Log In	context=WebUI
+02-26-15 10:16:13	142.129.155.248	INFO	root	conf.sql	Switch Repository	rep. id=ajxp_conf
+02-26-15 10:18:13	142.129.155.248	INFO	root	AuthService	Create User	user_id=brother
+02-26-15 10:19:05	142.129.155.248	INFO	root	AuthService	Create User	user_id=brother0054
+02-26-15 10:19:47	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-26-15 10:31:09	142.129.155.248	INFO	root	AuthService	Create User	user_id=brother0055
+02-26-15 11:10:11	142.129.155.248	INFO	root	AuthService	Log In	context=WebUI
+02-26-15 11:10:17	142.129.155.248	INFO	root	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-26-15 20:13:07	169.232.212.43	WARNING	shared	AuthService	Login failed	user=amyheng;error=Invalid user

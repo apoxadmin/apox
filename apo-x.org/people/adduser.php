@@ -39,7 +39,6 @@ function checkinputs()
 <input type="hidden" name="action" value="adduser" />
 <input type="hidden" name="redirect" value="/people/adduser.php" />
 <table>
-    <tr><td class="heading" colspan="5">Add User</td></tr>
     <tr><th>Name</th><th>Email Address</th><th>Family</th><th>Class</th><th></th></tr>
     <tr>
         <td>

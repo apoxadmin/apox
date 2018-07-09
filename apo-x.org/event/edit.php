@@ -76,7 +76,7 @@ function show_eventModify($new, $maybe)
 		<td>
 			<?php forms_duration('duration',$maybe['duration']) ?>
 		</td>
-		<td>H:MM<br>eg 1:30<br>(0:00 is unspecified)</td>
+		<td>H:MM<br>eg 1:30<br>putting "0:00" means unspecified</td>
 	</tr>
 	<tr>
 		<th>Location<br></th>

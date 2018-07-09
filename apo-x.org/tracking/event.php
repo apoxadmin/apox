@@ -21,7 +21,7 @@ if(!$_SESSION['class'])
   <a href="/tracking/fellowship/event.php"><button class="btn">Fellowship</button></a>
   <a href="/tracking/service/event.php"><button class="btn">Service</button></a>
   <a href="/tracking/meeting/event.php"><button class="btn">Meetings</button></a>
-  <a href="/tracking/caw/event.php"><button class="btn">CAW Hours</button></a>
+  <a href="/tracking/caw/event.php"><button class="btn">Fundraiser</button></a>
   <a href="/tracking/ic/event.php"><button class="btn">IC</button></a>
   <a href="/tracking/comms.php"><button class="btn">Committee Tracking</button></a>
   <!--<a href="/tracking/pictures.php"><button class="btn">Picture Tracking</button></a>-->

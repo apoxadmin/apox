@@ -2,6 +2,7 @@
 include_once 'include/template.inc.php';
 date_default_timezone_set('America/Los_Angeles');
 
+get_header();
 $myid = $_SESSION['id'];
 $myclass = $_SESSION['class'];
 $action = $_REQUEST['action'];
@@ -29,7 +30,7 @@ if($action=='login'):
             else if ($user['status_id'] == STATUS_DEACTIVATED)
             {
 				session_unset();
-				show_note ("This account has been disabled.");
+				show_note ("This account has been disabled because you are currently bad-standing. If you plan to be good-standing this term, please message admin vp.");
 			}
 			else
                 $_SESSION['class'] = 'user';

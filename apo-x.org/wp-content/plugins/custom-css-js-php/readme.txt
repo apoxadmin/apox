@@ -7,8 +7,8 @@ Author URI:        http://profiles.wordpress.org/flippercode/
 Author:            flippercode
 Donate link:       (a link for donating)
 Requires at least: 2.0.0 
-Tested up to:      3.9
-Stable tag:        Apply CSS/JS/PHP using Shortcode, Actions and Fitlers. Extended Functionality of your Themes & Plugins. 
+Tested up to:      4.7
+Stable tag:        Apply CSS/JS/PHP using Shortcode, Actions and Fitlers. Extend Functionality of your Themes & Plugins. 
 
 == Description ==
 Custom CSS-JS-PHP is a very innovative idea to keep seperate your custom code from plugins & themes so you can upgrade
@@ -16,6 +16,7 @@ your plugins & themes without losing any change. You can define CSS,JS or PHP co
  
 Now it's super easy to execute your PHP code anywhere on your wordpress site e.g within pages/posts or custom post types. You need not
 write a plugin to integrate additional functionality using actions or filters.  
+
 
 = Features =
 * Implement CSS code using Shortcode
@@ -31,11 +32,15 @@ write a plugin to integrate additional functionality using actions or filters.
 * Implement coding without giving access to FTP
 * Create unlimited css/javascript/php snnipet code and manage them seperately
 
-Notes:
 
-This plugin for WordPress, the publicly available  If you experience any problems with the plugin, feel free to contact me.
+= Please Vote and Enjoy =
+
+This plugin for WordPress, the publicly available  If you experience any problems with the plugin, feel free to contact us.
+
+Please don't forgot to rate this plugin if you found it works and useful for your blog.
 
 == Installation ==
+
 This section describes how to install the plugin and get it working.
 	
 	1.	Upload the css-js-php directory to the /wp-content/plugins/ directory
@@ -53,6 +58,22 @@ This section describes how to install the plugin and get it working.
 5. Add PHP using Shortcode.
 
 == Changelog ==
+
+= 2.0.2 =
+* Improvement: Instructions are added to use this plugin properly.
+
+= 2.0.1 =
+* Fix: shortcode not working issue is fixed. 
+
+
+= 2.0 =
+* Add: Folder & Files structure is completely change to meet wordpress coding standard. 
+
+
+= 1.2 =
+* Add: uninstall.php to remove tables on uninstall. 
+* Update: Width and height of text area increased.
+
 
 == Donations ==
 

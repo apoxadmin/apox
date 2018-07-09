@@ -1,31 +1,6 @@
-if (fQuery === undefined) {
-    fQuery = jQuery;
-}
 //font control panel plugin
 (function ($) {
-    /*global document */
-    /*global setTimeout */
-    /*global setInterval */
-    /*global clearTimeout */
-    /*global window */
-    /*global alert */
-    /*global prompt */
-    /*global confirm */
-    /*global navigator */
-    /*global jQuery */
-    /*global console */
-    /*global $ */
-    /*global ajaxproxy */
-    /*global location */
-    /*global tinyMCE */
-    /*global fontBlogUrl */
-    /*global fontBlogName */
-    /*global clearInterval */
-    /*global fontPluginVersion */
-    /*global engageCompatibilityMode*/
-    /*global ajaxproxy*/
-    /*global ajaxproxy2*/
-    /*global ajaxproxy3*/
+    /*globals document, setTimeout, setInterval, clearTimeout, window, alert, prompt, confirm, navigator, jQuery, console, $, ajaxproxy, location, tinyMCE, fontBlogUrl, fontBlogName, clearInterval, fontPluginVersion, ajaxproxy, ajaxproxy2, ajaxproxy3*/
     $.fontPlugin = function (el, options) {
         var self = this;
         self.$el = $(el);
@@ -48,11 +23,6 @@ if (fQuery === undefined) {
             self.loadSettings();
             if (!$.fn.on) {
                 alert('WARNING: You are using an old Wordpress version. It is not guaranteed that the plugin will work. The oldest tested Wordpress version is 3.1 but at least 3.3.1 is recommended.');
-            }
-            // detect CSS text-shadow support in JavaScript
-            if (document.createElement("detect").style.textShadow !== "") {
-                alert('Warning: your browser does not support advanced effects and all functions of the plugin. Please upgrade to Chrome, Firefox or Internet Explorer 10');
-                return;
             }
         };
         /*
@@ -78,7 +48,7 @@ if (fQuery === undefined) {
             modalOptions = {
                 id: 'presetsPanel',
                 name: 'stdSettings',
-                title: self.options.compatibilityMode ?  'SAFE MODE!' : 'Font ' + self.version,
+                title: 'Font ' + self.version,
                 nobar: false,
                 left: '10px',
                 top: '50px',
@@ -368,7 +338,9 @@ if (fQuery === undefined) {
             });
         };
         self.tryAnotherAjaxproxy = function () {
-            if (ajaxproxy === ajaxproxy3) {
+            alert('Sorry, but the plugin couldn\'t start. Please contact your server administrator to allow AJAX use. Power users: Use console (F12 in Chrome) to see what else could be the problem.');
+            return;
+            /*if (ajaxproxy === ajaxproxy3) {
                 alert('Sorry, but the plugin couldn\'t start. Please contact your server administrator to allow AJAX use. Power users: Use console (F12 in Chrome) to see what else could be the problem.');
                 return;
             }
@@ -376,10 +348,9 @@ if (fQuery === undefined) {
                 ajaxproxy = ajaxproxy3;
             } else {
                 ajaxproxy = ajaxproxy2;
-            }
+            }*/
             self.loadSettings();
         };
-
 
         /**
         *
@@ -409,11 +380,7 @@ if (fQuery === undefined) {
                 }
             } catch (e) {
                 console.dir(e);
-                fQuery('#FFW_chooseFontButton, #content_FFWButton, #wp-admin-bar-font_settings > a').unbind();
-                fQuery('#fontplugin').data('fontPlugin', false);
-                engageCompatibilityMode(function () {
-                    fQuery('#wp-admin-bar-font_settings > a').trigger('click');
-                }, e);
+                alert('The plugin will not work');
             }
         },
         /*
@@ -490,8 +457,8 @@ if (fQuery === undefined) {
                     return;
                 }
                 //get the element from iframe or current page
-                if ($("#header1preview").length) {
-                    element = $("#header1preview").contents().find(selector);
+                if ($('#header1preview').length) {
+                    element = $('#header1preview').contents().find(selector);
                 } else {
                     element = $(selector);
                 }
@@ -755,16 +722,6 @@ if (fQuery === undefined) {
                             XYSlider.setPosition(false, XYSliderY);
                         }
                     }
-                    // when changing value of the input move the handle too
-                    // if this input is linked to a handle
-                    /*if (XYSlider && !stop && fieldInfo.handle) {
-                        // get "linked to" of a handle and move x or y accordingly
-                        if (fieldInfo.handle.linkTo === 'x') {
-                            XYSlider.setPosition($(this).val(), false);
-                        } else if (fieldInfo.handle.linkTo === 'y') {
-                            XYSlider.setPosition(false, $(this).val());
-                        }
-                    }*/
                     // if this is text-shadow
                     if (field.settingName === 'text-shadow') {
                         //var effect = self.getElementsEffect(settings.uniqueId);
@@ -940,7 +897,7 @@ if (fQuery === undefined) {
                     }
                     //init slider
                     $slider.slider({
-                        range: "min",
+                        range: 'min',
                         value: value,
                         min: min,
                         max: max,
@@ -1190,22 +1147,6 @@ if (fQuery === undefined) {
                     return;
                 });
             }
-
-            /*var button = $('<button>Show style</button>').appendTo(modal);
-            button.click(function () {
-                var i,
-                    presetSettings = {};
-                $.extend(true, presetSettings, self.currentPreset);
-                delete presetSettings.name;
-                delete presetSettings.selector;
-                delete presetSettings.shadowEffects;
-                delete presetSettings.styles["text-shadow"];
-                for(i = 0; i < presetSettings.effects.length; i++) {
-                    delete presetSettings.effects[i].calculated;
-                }
-
-                alert(JSON.stringify(presetSettings));
-            });*/
             modal.append(button);
             // change
             $list.on('click', 'li', function () {
@@ -2999,4 +2940,4 @@ if (fQuery === undefined) {
             new XYSlider(this, options);
         });
     };
-}(fQuery));
+}(jQuery));

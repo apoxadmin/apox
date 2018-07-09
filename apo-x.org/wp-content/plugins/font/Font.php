@@ -3,7 +3,7 @@
   Plugin Name: Font
   Plugin URI: http://fontsforweb.com
   Description: Now go to your home page. And click on "Font settings" in admin bar and choose some exciting font out of 1000+ availabile! And that's just the beginning!
-  Version: 7.5
+  Version: 7.5.1
   Author: Paweł Misiurski
   Author URI: http://fontsforweb.com
   License: Copyright (C) 2012 Pawel Misiurski
@@ -23,7 +23,7 @@
 class FontPlugin {
     public $pluginName = 'Font';
     public $baseUrl = 'http://fontsforweb.com';
-	public $version = '7.5';
+	public $version = '7.5.1';
     //url parts for requesting css for elements
     private $titleUrlPart;
     private $headerUrlPart;
@@ -500,6 +500,12 @@ class FontPlugin {
     }
     //file get contetns 2 - bulletproof remote request
     function file_get_contents2($src, $postData = false) {
+        // check if remote source is set to baseUrl
+        if(substr($src, 0, strlen($this->baseUrl)) !== $this->baseUrl) {
+            $this->errorMessage = 'Remote requests only allowed to: ' . $this->baseUrl;
+            return false;
+        }
+
         if ((ini_get('allow_url_fopen') == 1 || ini_get('allow_url_fopen') == 'on')) {
             $this->downloadMethod = 'fopen';
         } else if (in_array('curl', get_loaded_extensions())) {
@@ -760,9 +766,7 @@ class FontPlugin {
 	function addAdminScripts () {
 		?>
             <script type="text/javascript">
-				var ajaxproxy = '<?php echo plugins_url('/AjaxProxy.php', __FILE__); ?>';
-				var ajaxproxy2 = '<?php echo plugins_url('/configAlt/AjaxProxy.php', __FILE__); ?>';
-				var ajaxproxy3 = '<?php echo esc_js(admin_url('admin-ajax.php')); ?>';
+				var ajaxproxy = '<?php echo esc_js(admin_url('admin-ajax.php')); ?>';
 				var fontBlogUrl = '<?php echo get_bloginfo('wpurl'); ?>';
 				var fontBlogName = '<?php echo get_bloginfo('name'); ?>';
 				var fontPluginVersion = '<?php echo $this->version; ?>';
@@ -790,9 +794,7 @@ class FontPlugin {
 	function addFrontVars() {
 		?>
 		<script type="text/javascript">
-			var ajaxproxy = '<?php echo plugins_url('/AjaxProxy.php', __FILE__); ?>';
-			var ajaxproxy2 = '<?php echo plugins_url('/configAlt/AjaxProxy.php', __FILE__); ?>';
-			var ajaxproxy3 = '<?php echo esc_js(admin_url('admin-ajax.php')); ?>';
+			var ajaxproxy = '<?php echo esc_js(admin_url('admin-ajax.php')); ?>';
 			var fontBlogUrl = '<?php echo get_bloginfo('wpurl'); ?>';
 			var fontBlogName = '<?php echo get_bloginfo('name'); ?>';
 			var fontPluginVersion = '<?php echo $this->version; ?>';

@@ -1,0 +1,36 @@
+02-27-15 01:27:19	23.240.43.69	WARNING	shared	AuthService	Login failed	user=brother0053;error=Invalid user
+02-27-15 01:27:48	23.240.43.69	WARNING	shared	AuthService	Login failed	user=brother0053;error=Invalid user
+02-27-15 01:28:29	23.240.43.69	WARNING	shared	AuthService	Login failed	user=brother0053;error=Invalid user
+02-27-15 01:28:44	23.240.43.69	WARNING	shared	AuthService	Login failed	user=brother0053;error=Invalid user
+02-27-15 01:29:05	23.240.43.69	WARNING	shared	AuthService	Login failed	user=jzheng3901;error=Invalid user
+02-27-15 05:49:31	142.129.155.248	INFO	root	conf.sql	Switch Repository	rep. id=ajxp_conf
+02-27-15 05:50:09	142.129.155.248	INFO	root	AuthService	Create User	user_id=brother0053
+02-27-15 05:50:45	142.129.155.248	INFO	root	AuthService	Create User	user_id=brother0056
+02-27-15 05:51:20	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-27-15 05:51:35	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-27-15 05:51:50	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-27-15 05:52:04	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-27-15 05:52:20	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-27-15 05:52:35	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-27-15 05:52:50	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-27-15 05:53:05	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-27-15 05:53:19	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-27-15 05:53:35	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-27-15 05:53:43	23.240.43.69	INFO	brother0053	AuthService	Log In	context=WebUI
+02-27-15 05:53:50	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-27-15 05:53:52	23.240.43.69	INFO	brother0053	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-27-15 05:53:54	23.240.43.69	INFO	brother0053	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-27-15 05:54:05	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-27-15 05:54:17	23.240.43.69	INFO	brother0053	AuthService	Log Out	
+02-27-15 05:54:24	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-27-15 05:54:28	23.240.43.69	INFO	brother0053	AuthService	Log In	context=WebUI
+02-27-15 05:54:31	23.240.43.69	INFO	brother0053	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+02-27-15 05:54:37	142.129.155.248	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-27-15 05:54:47	23.240.43.69	INFO	brother0053	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-27-15 05:55:26	23.240.43.69	INFO	brother0053	conf.sql	Switch Repository	rep. id=ajxp_home
+02-27-15 05:55:33	23.240.43.69	INFO	brother0053	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-27-15 05:55:40	23.240.43.69	INFO	brother0053	conf.sql	Switch Repository	rep. id=ajxp_home
+02-27-15 06:14:07	142.129.155.248	INFO	root	AuthService	Create User	user_id=brother0057
+02-27-15 06:14:09	142.129.155.248	ERROR	root	class.ajxp_confAccessDriver.php	error l.745	message=User already exists, please choose another login!
+02-27-15 06:23:02	23.240.43.69	INFO	brother0053	AuthService	Log Out	
+02-27-15 06:52:09	142.129.155.248	INFO	root	AuthService	Log Out	

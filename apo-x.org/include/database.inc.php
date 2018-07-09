@@ -47,6 +47,8 @@ function db_currentClass ($data = 'all')
 		
 		$GLOBALS['CURRENT_CLASS_DATA'] = $result;
 	}
+
+	// print_r ($GLOBALS['CURRENT_CLASS_DATA']);
 	
 	if ( strcmp ($data, 'all') === 0 )
 		return $GLOBALS['CURRENT_CLASS_DATA'];

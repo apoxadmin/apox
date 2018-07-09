@@ -28,6 +28,8 @@ require( ABSPATH . 'include/connection.inc.php' );
 /** MySQL database password */
 define('DB_PASSWORD', DB_PASS);
 
+/**DB_PASS
+
 /** MySQL hostname */
 //define('DB_HOST', '');
 
@@ -83,6 +85,7 @@ define('WPLANG', '');
  * in their development environments.
  */
 define('WP_DEBUG', false);
+define('WP_ALLOW_REPAIR', true);
 define('WP_MEMORY_LIMIT','96M');
 /* That's all, stop editing! Happy blogging. */
 

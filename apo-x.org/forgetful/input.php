@@ -58,8 +58,8 @@ function getUser($email)
 function sendInfo( $id , $username , $password , $email )
 {	
 	$token = genToken( );
-	// 30 minutes * 60 seconds so the window to reset is only 30 minutes long
-	$expiration = time()+(30*60);
+	// 45 minutes * 60 seconds so the window to reset is only 30 minutes long
+	$expiration = time()+(50*60);
 	$sql = 'SELECT * FROM actions WHERE user_id=' . $id . ' AND value3=\'forgot\'';
 	$check = db_select1( $sql );
 	if ( $check )
@@ -142,7 +142,7 @@ if($action=='mailpassword')
 EOT;
 		} else {
 			// totally faked the reset
-			$htmlOut .= "<p>There was an error reseting your password. Try again. The token is only valid for 30 minutes.</p>";
+			$htmlOut .= "<p>There was an error reseting your password. Try again. The password reset link is only valid for 50 minutes.</p>";
 		}
 	} else {
 		$htmlOut .= "<p>You should not be seeing this.</p>";

@@ -1,0 +1,3 @@
+02-13-15 07:39:18	142.129.155.248	WARNING	shared	AuthService	Login failed	user=root;error=Invalid password
+02-13-15 07:39:23	142.129.155.248	INFO	root	AuthService	Log In	context=WebUI
+02-13-15 07:39:28	142.129.155.248	INFO	root	conf.sql	Switch Repository	rep. id=6efc62a45ecacdc6e68fa4a76b900dad

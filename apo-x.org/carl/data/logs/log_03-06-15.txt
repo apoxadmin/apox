@@ -1,0 +1,117 @@
+03-06-15 00:50:38	131.179.31.176	INFO	brother0013	AuthService	Log In	context=WebUI
+03-06-15 00:50:42	131.179.31.176	INFO	brother0013	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+03-06-15 00:51:16	131.179.31.176	INFO	brother0013	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-06-15 00:51:35	131.179.31.176	INFO	brother0013	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+03-06-15 00:52:22	131.179.31.176	INFO	brother0013	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-06-15 00:52:26	131.179.31.176	INFO	brother0013	AuthService	Log Out	
+03-06-15 00:52:26	131.179.31.176	ERROR	shared	class.SessionLoginFrontend.php	error l.100	message=session_destroy(): Session object destruction failed
+03-06-15 00:52:27	131.179.31.176	ERROR	shared	class.AJXP_SqlMessageExchanger.php	error l.101	message=You must be logged in
+03-06-15 23:17:08	131.179.1.44	INFO	brother0013	AuthService	Log In	context=WebUI
+03-06-15 23:17:15	131.179.1.44	INFO	brother0013	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-06-15 23:17:17	131.179.1.44	INFO	brother0013	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-06-15 23:21:59	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf)
+03-06-15 23:21:59	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf
+03-06-15 23:22:00	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//90b3e58c3eecb687a14af587b425651d
+03-06-15 23:22:12	131.179.1.44	INFO	brother0013	conf.sql	Switch Repository	rep. id=ajxp_home
+03-06-15 23:23:19	131.179.1.44	INFO	brother0013	conf.sql	Switch Repository	rep. id=80a985c5f1be4ae25f9e82c66f989e73
+03-06-15 23:23:31	131.179.1.44	INFO	brother0013	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-06-15 23:23:43	131.179.1.44	INFO	brother0013	AuthService	Log Out	
+03-06-15 23:23:55	131.179.1.44	WARNING	shared	AuthService	Login failed	user=brother0013;error=Invalid password
+03-06-15 23:24:29	131.179.1.44	INFO	brother0013	AuthService	Log In	context=WebUI
+03-06-15 23:24:52	131.179.1.44	INFO	brother0013	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+03-06-15 23:35:49	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf)
+03-06-15 23:35:49	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf
+03-06-15 23:35:50	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//cf4dfaeb3a0a9851fbbb9bb5efa65998
+03-06-15 23:35:51	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf)
+03-06-15 23:35:51	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf
+03-06-15 23:35:52	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//c41832a05519a6e8090857120c6203e7
+03-06-15 23:35:53	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf)
+03-06-15 23:35:53	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf
+03-06-15 23:35:54	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//ed3bae647ff4ed1d3bde69b16556df61
+03-06-15 23:35:55	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf)
+03-06-15 23:35:55	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf
+03-06-15 23:35:56	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//dc572768d44fe92884b089c64ab157be
+03-06-15 23:35:57	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf)
+03-06-15 23:35:57	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf
+03-06-15 23:35:59	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//283c01fc87146c11eb33cdc2f70cf445
+03-06-15 23:35:59	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf)
+03-06-15 23:35:59	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf
+03-06-15 23:36:01	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//fbf992caef67f6dcf8eb8cbfab08425b
+03-06-15 23:36:02	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf)
+03-06-15 23:36:02	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf
+03-06-15 23:36:03	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//f6958954a6be2e6808c044eaad65e47a
+03-06-15 23:36:05	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf)
+03-06-15 23:36:05	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf
+03-06-15 23:36:06	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//325cf8d1234f1ef55c31e02d28d05c44
+03-06-15 23:36:07	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf)
+03-06-15 23:36:07	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf
+03-06-15 23:36:08	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//1d21ee2fe9244efc92c3b95479569aa3
+03-06-15 23:36:09	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf)
+03-06-15 23:36:09	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf
+03-06-15 23:36:10	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//79a6be00d9f030ecdd3143ce2a59f2b3
+03-06-15 23:36:11	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf)
+03-06-15 23:36:11	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf
+03-06-15 23:36:12	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//f103cf8ad28b00cc211f86fd32da5188
+03-06-15 23:36:13	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf)
+03-06-15 23:36:13	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Absolute.CPP.5th.Edition.pdf
+03-06-15 23:36:14	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//535d08cb43d0d1ab05f6165a4436a211
+03-06-15 23:36:15	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx)
+03-06-15 23:36:15	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx
+03-06-15 23:36:16	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//e754020049780e40251938f40b112f7b
+03-06-15 23:36:17	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx)
+03-06-15 23:36:17	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx
+03-06-15 23:36:21	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//c0b29185c61c37eafa74e408a7015cb9
+03-06-15 23:43:37	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx)
+03-06-15 23:43:37	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx
+03-06-15 23:43:38	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//66388bcbfac098ceff568e89c23a7ec2
+03-06-15 23:43:39	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx)
+03-06-15 23:43:39	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx
+03-06-15 23:43:39	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//670ff799d50e16e3bacf7062d6de1d57
+03-06-15 23:43:40	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx)
+03-06-15 23:43:40	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx
+03-06-15 23:43:41	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//9d8914266d33dde95ee412f79b73876e
+03-06-15 23:43:43	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx)
+03-06-15 23:43:43	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx
+03-06-15 23:43:43	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//9ee7ca2114c6ebe4d333a1d4d7d45d38
+03-06-15 23:43:45	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx)
+03-06-15 23:43:45	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx
+03-06-15 23:43:46	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//07dca346731922f013f35a440338ec0b
+03-06-15 23:43:47	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx)
+03-06-15 23:43:47	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx
+03-06-15 23:43:48	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//baa005444f6a3b62253fb9f83bbd9cff
+03-06-15 23:43:49	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx)
+03-06-15 23:43:49	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx
+03-06-15 23:43:50	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//b952fdc00f9d769aa1fb0916a346694f
+03-06-15 23:43:51	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx)
+03-06-15 23:43:51	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx
+03-06-15 23:43:52	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//9c9191b9d33f1e1a5afa639ac0ac1754
+03-06-15 23:43:53	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx)
+03-06-15 23:43:53	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx
+03-06-15 23:43:54	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//26a2cc1d8f42f9be4f4fcd97197de2b5
+03-06-15 23:43:55	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx)
+03-06-15 23:43:55	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx
+03-06-15 23:43:56	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//c025060e2b913cecf8fb5b45fc071a87
+03-06-15 23:43:58	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx)
+03-06-15 23:43:58	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx
+03-06-15 23:43:59	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//d5853cb7d20e7057db9f73f731e719ca
+03-06-15 23:44:00	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx)
+03-06-15 23:44:00	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx
+03-06-15 23:44:01	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//a8296f0c3fd23b95926dda91d33c7d74
+03-06-15 23:44:02	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx)
+03-06-15 23:44:02	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx
+03-06-15 23:44:03	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//d288aefbdfe9ca0bd4275b16e0858d80
+03-06-15 23:44:05	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx)
+03-06-15 23:44:05	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx
+03-06-15 23:44:05	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//6104ae3a1ec5143f04dda4098866a79d
+03-06-15 23:44:06	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx)
+03-06-15 23:44:06	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx
+03-06-15 23:44:07	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//303419a0c8178da47041b58eb48ef5c1
+03-06-15 23:44:08	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx)
+03-06-15 23:44:08	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx
+03-06-15 23:44:09	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//18e71698004fe685b6f5d58e1e6eee1a
+03-06-15 23:44:10	131.179.1.44	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx)
+03-06-15 23:44:10	131.179.1.44	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\A Strange Tale From East Of The River.docx
+03-06-15 23:44:10	131.179.1.44	INFO	brother0013	access.fs	Upload File	file=submission-platform//4207438463760353a5e226c7a6990c2d
+03-06-15 23:44:33	131.179.1.44	INFO	brother0013	conf.sql	Switch Repository	rep. id=ajxp_user
+03-06-15 23:45:00	131.179.1.44	INFO	brother0013	conf.sql	Switch Repository	rep. id=ajxp_home
+03-06-15 23:45:05	131.179.1.44	INFO	brother0013	AuthService	Log Out	

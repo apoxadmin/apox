@@ -41,27 +41,43 @@ class WDSModelSliders_wds {
       $rows[0]->order = 1;
       $rows[0]->target_attr_slide = 1;
     }
+    else {
+      foreach ($rows as $row) {
+        if ($row->type == 'image') {
+          $row->image_url = $row->image_url ? str_replace('{site_url}', site_url(), $row->image_url) : WD_S_URL . '/images/no-image.png';
+          $row->thumb_url = $row->thumb_url ? str_replace('{site_url}', site_url(), $row->thumb_url) : WD_S_URL . '/images/no-image.png';
+        }
+      }
+    }
     return $rows;
   }
 
   public function get_layers_row_data($slide_id) {
     global $wpdb;
     $rows = $wpdb->get_results($wpdb->prepare("SELECT * FROM " . $wpdb->prefix . "wdslayer WHERE slide_id='%d' ORDER BY `depth` ASC", $slide_id));
+    foreach ($rows as $row) {
+      if ($row->type == 'image') {
+        $row->image_url = $row->image_url ? str_replace('{site_url}', site_url(), $row->image_url) : WD_S_URL . '/images/no-image.png';
+      }
+    }
     return $rows;
   }
 
-  public function get_slider_prev_img($slider_id) { 
+  public function get_slider_prev_img($slider_id) {
     global $wpdb;
     $prev_img_url = $wpdb->get_var($wpdb->prepare("SELECT `thumb_url` FROM " . $wpdb->prefix . "wdsslide WHERE slider_id='%d' ORDER BY `order` ASC", $slider_id));
     $prev_img_url = $prev_img_url ? $prev_img_url : WD_S_URL . '/images/no-image.png';
+    $prev_img_url = str_replace('{site_url}', site_url(), $prev_img_url);
     return $prev_img_url;
   }
 
   public function get_rows_data() {
     global $wpdb;
     $where = ((isset($_POST['search_value'])) ? 'WHERE name LIKE "%' . esc_html(stripslashes($_POST['search_value'])) . '%"' : '');
-    $asc_or_desc = ((isset($_POST['asc_or_desc'])) ? esc_html(stripslashes($_POST['asc_or_desc'])) : 'asc');
-    $order_by = ' ORDER BY `' . ((isset($_POST['order_by']) && esc_html(stripslashes($_POST['order_by'])) != '' && esc_html(stripslashes($_POST['order_by'])) != 'order') ? esc_html(stripslashes($_POST['order_by'])) : 'id') . '` ' . $asc_or_desc;
+    $asc_or_desc = ((isset($_POST['asc_or_desc']) && esc_html($_POST['asc_or_desc']) == 'desc') ? 'desc' : 'asc');
+    $order_by_arr = array('id', 'name', 'published');
+    $order_by = ((isset($_POST['order_by']) && in_array(esc_html($_POST['order_by']), $order_by_arr)) ? esc_html($_POST['order_by']) : 'id');
+    $order_by = ' ORDER BY `' . $order_by . '` ' . $asc_or_desc;
     if (isset($_POST['page_number']) && $_POST['page_number']) {
       $limit = ((int) $_POST['page_number'] - 1) * 20;
     }
@@ -81,6 +97,18 @@ class WDSModelSliders_wds {
         $row->enable_bullets = $row->bull_position == 'none' ? 0 : 1;
         $row->enable_filmstrip = $row->film_pos == 'none' ? 0 : 1;
         $row->enable_time_bar = $row->timer_bar_type == 'none' ? 0 : 1;
+        $row->music_url = str_replace('{site_url}', site_url(), $row->music_url);
+        $row->built_in_watermark_url = str_replace('{site_url}', site_url(), $row->built_in_watermark_url);
+        $row->right_butt_url = str_replace('{site_url}', site_url(), $row->right_butt_url);
+        $row->left_butt_url = str_replace('{site_url}', site_url(), $row->left_butt_url);
+        $row->right_butt_hov_url = str_replace('{site_url}', site_url(), $row->right_butt_hov_url);
+        $row->left_butt_hov_url = str_replace('{site_url}', site_url(), $row->left_butt_hov_url);
+        $row->bullets_img_main_url = str_replace('{site_url}', site_url(), $row->bullets_img_main_url);
+        $row->bullets_img_hov_url = str_replace('{site_url}', site_url(), $row->bullets_img_hov_url);
+        $row->play_butt_url = str_replace('{site_url}', site_url(), $row->play_butt_url);
+        $row->play_butt_hov_url = str_replace('{site_url}', site_url(), $row->play_butt_hov_url);
+        $row->paus_butt_url = str_replace('{site_url}', site_url(), $row->paus_butt_url);
+        $row->paus_butt_hov_url = str_replace('{site_url}', site_url(), $row->paus_butt_hov_url);
       }
     }
     else {
@@ -95,13 +123,13 @@ class WDSModelSliders_wds {
       $row->width = 800;
       $row->height = 300;
       $row->full_width = 0;
-      $row->spider_uploader = 1;	  
+      $row->spider_uploader = get_option("wds_version_1.0.46") ? 0 : 1;	  
       $row->bg_fit = 'cover';
       $row->align = 'center';
       $row->effect = 'fade';
       $row->published = 1;
       $row->time_intervval = 5;
-      $row->autoplay = 0;
+      $row->autoplay = 1;
       $row->shuffle = 0;
       $row->music = 0;
       $row->music_url = '';
@@ -171,11 +199,42 @@ class WDSModelSliders_wds {
       $row->bullets_img_main_url = WD_S_URL . '/images/bullet/bullet1/1/1.png';
       $row->bullets_img_hov_url = WD_S_URL . '/images/bullet/bullet1/1/2.png';
       $row->bull_butt_img_or_not = 'style';
-	  $row->play_paus_butt_img_or_not = 'style';
-	  $row->play_butt_url = WD_S_URL . '/images/button/button4/1/1.png';
-	  $row->play_butt_hov_url = WD_S_URL . '/images/button/button4/1/2.png';
-	  $row->paus_butt_url = WD_S_URL . '/images/button/button4/1/3.png';
-	  $row->paus_butt_hov_url = WD_S_URL . '/images/button/button4/1/4.png';
+      $row->play_paus_butt_img_or_not = 'style';
+      $row->play_butt_url = WD_S_URL . '/images/button/button4/1/1.png';
+      $row->play_butt_hov_url = WD_S_URL . '/images/button/button4/1/2.png';
+      $row->paus_butt_url = WD_S_URL . '/images/button/button4/1/3.png';
+      $row->paus_butt_hov_url = WD_S_URL . '/images/button/button4/1/4.png';
+      $row->start_slide_num = 1;
+      $row->effect_duration = 800;
+      $row->carousel = 0;
+      $row->carousel_image_counts = 7;
+      $row->carousel_image_parameters = 0.85;
+      $row->carousel_fit_containerWidth = 0;
+      $row->carousel_width = 1000;
+      $row->parallax_effect = 0;
+      $row->mouse_swipe_nav = 0;
+      $row->bull_hover = 1;
+      $row->touch_swipe_nav = 1;
+      $row->mouse_wheel_nav = 0;
+      $row->keyboard_nav = 0;
+      $row->possib_add_ffamily = '';
+      $row->show_thumbnail = 0;
+      $row->thumb_size = '0.3';
+      $row->fixed_bg = 0;
+      $row->smart_crop = 0;
+      $row->crop_image_position = 'center center';
+      $row->javascript = '';
+      $row->carousel_degree = 0;
+      $row->carousel_grayscale = 0;
+      $row->carousel_transparency = 0;
+      $row->bull_back_act_color = '000000';
+      $row->bull_back_color = 'CCCCCC';
+      $row->bull_radius = '20px';
+      $row->possib_add_google_fonts = 0;
+      $row->possib_add_ffamily_google = '';
+      $row->slider_loop = 1;
+      $row->hide_on_mobile = 0;
+      $row->twoway_slideshow = 0;
     }
     return $row;
   }

@@ -1,0 +1,3 @@
+02-16-15 12:59:49	172.56.16.153	INFO	root	AuthService	Log In	context=WebUI
+02-16-15 12:59:54	172.56.16.153	ERROR	root	class.fsAccessDriver.php	error l.1546	message=Error while trying to open directory ajxp.fs://6efc62a45ecacdc6e68fa4a76b900dad/LS3 Johnsonaa
+02-16-15 12:59:55	172.56.16.153	ERROR	root	class.fsAccessDriver.php	error l.1546	message=Error while trying to open directory ajxp.fs://6efc62a45ecacdc6e68fa4a76b900dad/LS3 Johnsonaa

@@ -40,20 +40,21 @@ if ( isset( $_SESSION['id'] ) )
 <?php
 $tempflag = 1;
 if ($tempflag) {
-$most = stats_service_byclass();
+$most = stats_service();
+$rank = 0;
 echo '<div class="span3">';
 echo '<table  class="table table-bordered table-condensed">';
 echo '<thead>';
 echo '<tr><th colspan="3"> <h4 style="text-align:center">Most Service</h4></th></tr>';
-echo '<tr><th>Rank</th><th>Class</th><th>Hours</th></tr>';
+echo '<tr><th>Rank</th><th>Name</th><th>Hours</th></tr>';
 echo '</thead>';
 
 echo '<tbody>';
-foreach($most as $rank=>$class) {
+foreach($most as $rank=>$person) {
 	echo '<tr>';
 	echo '<td>',$rank+1,'</td>';
-	echo '<td>',$class['class_nick'],'</td>';
-	echo '<td>',$class['hours'],'</td>';
+	echo '<td>',$person['name'],'</td>';
+	echo '<td>',$person['hours'],'</td>';
 	echo '</tr>';
 }
 echo '</tbody>';
@@ -66,29 +67,64 @@ echo '</div>';
 <table  class="table table-bordered table-condensed">
 <thead>
 <tr>
-	<th colspan="3"> <h4 style="text-align:center">Most Fellowships</h4></th>
-	</tr>
+        <th colspan="3"> <h4 style="text-align:center">Most Fundraiser</h4></th>
+        </tr>
 <tr>
        <th>Rank</th>
        <th>Name</th>
-        <th>Events</th>
+        <th>Amount</th>
   </tr>
   </thead>
 <tbody>
 
 <?php
-$most = stats_fellowships();
+$most = stats_caw();
 
 $rank = 0;
 foreach($most as $rank=>$person)
 {
 	echo '<tr>';
 	echo '<td>',$rank+1,'</td>';
-	echo "<td>{$person['name']}</td>";
-	echo "<td>{$person['events']}</td>";
+	echo '<td>',$person['name'],'</td>';
+	echo '<td>','$'. $person['hours'],'</td>';
 	echo '</tr>';
 }
 ?>
+</tbody>
+</table>
+</div>
+
+<div class="span3">
+<table  class="table table-bordered table-condensed">
+<thead>
+<tr>
+	<th colspan="3"> <h4 style="text-align:center">Quick Links</h4></th>
+	</tr>
+<tr>
+<th>
+<p><a href="https://docs.google.com/spreadsheets/d/1Ut5GLraTv6acVTZ89nyNmAoFoz1IVQG1qqHUQ_azXqE/edit#gid=0">Lost and Found</a>
+<p><a href="https://docs.google.com/forms/d/1hRHClL-b4iNiTI0nsRX7h3Tr8X9-gPK4CjM-aaaCAuk/viewform">Website Work Order</a>
+<p><a href="https://docs.google.com/spreadsheets/d/1jTsJMSyRkKmd4jToJ5LrZZ6MENANQEKBucAiu4dyIBQ/edit#gid=501321668">Active Tracker</a>
+<p><a href="https://docs.google.com/document/d/1vQXGvbZeTB-2gTUksEQKzofHycgPjsffHDlvo_2kHaQ/edit">Active Contract</a>
+<p><a href="https://docs.google.com/document/d/1s8LtfPRathSAl1HG98vRV7PPCpvT4Y5sxatkOSE0tg0/edit">Associate Contract</a>
+<p><a href="https://docs.google.com/document/d/1VtNW1qD3j-BCS39SyLgKB9rjYvsYKcbygOwPexDvt0Q/edit">Committee Masterlist</a>
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdFM1JRrw85xKlANEOEdO1FxerHKzBHMEhAJNfTbDtUZhukcw/viewform?c=0&w=1">Regular Reimbursement</a>
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfcEpsaHC_n3sfg0vKnPfxNJuZiGDNePTME17_c1VDjxlIgfw/viewform?c=0&w=1">Gas Reimbursement</a>
+<p><a href="Apoxpledges.weebly.com">Pledge Website</a>
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLScb1hV_diGslFzEAYaAX_-cMzalgS4J14yTWoj6HHqeP2E-cA/viewform">Chair Evaluations</a>
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeSNU6V8_EWz9fxVeP2aaDERrUBPFkwOQhCWEzl_03oCzBxvQ/viewform">Non-Chair Evaluations</a>
+<p><a href="https://docs.google.com/spreadsheets/d/1ArDzS0-C-slZlyvyh4W5cWLmwyOcooxV4AbSiWyob80/edit#gid=470899252">View All Chair Evaluations</a>
+<p><a href="https://docs.google.com/forms/d/1MQoCRUathqLFf5HDctHN0-qAs5xmsLhlgumbbQf_43M/viewform?edit_requested=true">Lost Pins Form</a>
+<p><a href="https://docs.google.com/forms/d/1pZYezRZxG_dYFl24zy34iY3gHiCiaK0coTiKnzXFF8E/viewform?edit_requested=true">Strike Pledges Here</a>
+<p><a href="http://goo.gl/forms/I5r2Yj53DX">Brother of The Week Nominations</a>
+<p><a href="https://docs.google.com/forms/d/1cRLn_GnnQCxbsxA4aDAbnrB6xbHZZLmDyNbvrvbcr00/viewform?edit_requested=true">Golden Eagle Nominations</a>
+<p><a href="https://docs.google.com/spreadsheets/d/1aZanYSor_9S6estVGr8hPRVdieOY2vUnMSQUYgH0Suw/edit#gid=20781657">View All Golden Eagle Nominations</a>
+
+</th> 
+  </tr>
+  </thead>
+<tbody>
+
 </tbody>
 </table>
 </div>
@@ -100,6 +136,8 @@ foreach($most as $rank=>$person)
 		</div> end of recent -->
 	</div>
 </div>
+
+<?php /*
 <div class="row-fluid">
 <table class="table table-bordered">
 	<h4 class="lead center">General Announcements </h4>
@@ -125,6 +163,10 @@ foreach($most as $rank=>$person)
     }
 ?>
 </table>	 <!-- end of announcement -->
+*/
+?>
+
+
 </div>	
 <? } else { ?>
 	<div id="homecontent" role="main">
@@ -168,14 +210,8 @@ foreach($most as $rank=>$person)
 			<?php endif; ?>	
 			</div>
 </div>
-<div  id="footer-widget-area" class="border">
-<span class="pull-left">
-  <form><button class="btn btn-primary">Need Volunteers?</button>
-  <button class="btn btn-primary" >Want to Sponsor us?</button>
-  </form>
-</span>
- <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fapodavis%3Ffref%3Dts&amp;width=450&amp;height=35&amp;colorscheme=light&amp;layout=standard&amp;action=like&amp;show_faces=false&amp;send=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe>
-</div>
+
+
 		<?php } ?>
 <?php get_footer(); ?>
 

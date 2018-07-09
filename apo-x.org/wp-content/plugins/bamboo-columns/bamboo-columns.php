@@ -1,47 +1,27 @@
 <?php
-/******************************************************************/
+/**************************************************************************************************/
 /*
 	Plugin Name: Bamboo Columns
 	Plugin URI:  http://www.bamboosolutions.co.uk/wordpress/bamboo-columns
 	Author:      Bamboo Solutions
 	Author URI:  http://www.bamboosolutions.co.uk
-	Version:     1.3
+	Version:     1.6
 	Description: This plugin provides several shortcodes for organising your content into multi-column layouts. It supports two, three and four column layouts and allows for content to span multiple columns if required.
 */
-/******************************************************************/
-
-	add_action( 'init', 'bamboo_columns_styles' );
-
-	add_filter( 'the_content', 'bamboo_column_content_filter' );
-
-	add_shortcode( 'column-half-1',	'bamboo_column_half_1' );
-	add_shortcode( 'column-half-2',	'bamboo_column_half_2' );
-
-	add_shortcode( 'column-third-1-2',	'bamboo_column_third_1_2' );
-	add_shortcode( 'column-third-2-3', 	'bamboo_column_third_2_3' );
-	add_shortcode( 'column-third-1',		'bamboo_column_third_1' );
-	add_shortcode( 'column-third-2',		'bamboo_column_third_2' );
-	add_shortcode( 'column-third-3',		'bamboo_column_third_3' );
-
-	add_shortcode( 'column-quarter-1-2-3',	'bamboo_column_quarter_1_2_3' );
-	add_shortcode( 'column-quarter-1-2',   	'bamboo_column_quarter_1_2' );
-	add_shortcode( 'column-quarter-2-3-4', 	'bamboo_column_quarter_2_3_4' );
-	add_shortcode( 'column-quarter-2-3',   	'bamboo_column_quarter_2_3' );
-	add_shortcode( 'column-quarter-3-4',   	'bamboo_column_quarter_3_4' );
-	add_shortcode( 'column-quarter-1',     	'bamboo_column_quarter_1' );
-	add_shortcode( 'column-quarter-2',     	'bamboo_column_quarter_2' );
-	add_shortcode( 'column-quarter-3',     	'bamboo_column_quarter_3' );
-	add_shortcode( 'column-quarter-4',     	'bamboo_column_quarter_4' );
-
-/******************************************************************/
+/**************************************************************************************************/
 
 	function bamboo_columns_styles() {
 
-		wp_enqueue_style( 'bamboo-columns', plugins_url( '', __FILE__) . '/bamboo-columns.css' );
+		if( function_exists( 'bamboo_enqueue_style' ) ) {
+			bamboo_enqueue_style( 'bamboo-columns', plugins_url( '', __FILE__) . '/bamboo-columns.css' );
+		} else {
+			wp_enqueue_style( 'bamboo-columns', plugins_url( '', __FILE__) . '/bamboo-columns.css', array(), null );
+		}
 
 	}
+	add_action( 'init', 'bamboo_columns_styles' );
 
-/******************************************************************/
+/**************************************************************************************************/
 
 	function bamboo_column_content_filter( $content ){
 
@@ -64,8 +44,9 @@
 		return $content;
 
 	}
+	add_filter( 'the_content', 'bamboo_column_content_filter' );
 
-/******************************************************************/
+/**************************************************************************************************/
 
 	function bamboo_column_half_1( $atts, $content=null ) {
 
@@ -77,12 +58,13 @@
 		}
 
 		$html = "<div {$style}class=\"column-half first\">$content</div>";
-
 		return $html;
 
 	}
+	add_shortcode( 'column-half-1',			'bamboo_column_half_1' );
+	add_shortcode( 'inner-column-half-1',	'bamboo_column_half_1' );
 
-/******************************************************************/
+/**************************************************************************************************/
 
 	function bamboo_column_half_2( $atts, $content=null ) {
 
@@ -98,8 +80,10 @@
 		return $html;
 
 	}
+	add_shortcode( 'column-half-2',			'bamboo_column_half_2' );
+	add_shortcode( 'inner-column-half-2',	'bamboo_column_half_2' );
 
-/******************************************************************/
+/**************************************************************************************************/
 
 	function bamboo_column_third_1( $atts, $content=null ) {
 
@@ -115,8 +99,11 @@
 		return $html;
 
 	}
+	add_shortcode( 'column-third-1',		'bamboo_column_third_1' );
+	add_shortcode( 'inner-column-third-1',	'bamboo_column_third_1' );
 
-/******************************************************************/
+
+/**************************************************************************************************/
 
 	function bamboo_column_third_2( $atts, $content=null ) {
 
@@ -132,8 +119,10 @@
 		return $html;
 
 	}
+	add_shortcode( 'column-third-2',		'bamboo_column_third_2' );
+	add_shortcode( 'inner-column-third-2',	'bamboo_column_third_2' );
 
-/******************************************************************/
+/**************************************************************************************************/
 
 	function bamboo_column_third_3( $atts, $content=null ) {
 
@@ -149,8 +138,10 @@
 		return $html;
 
 	}
+	add_shortcode( 'column-third-3',		'bamboo_column_third_3' );
+	add_shortcode( 'inner-column-third-3',	'bamboo_column_third_3' );
 
-/******************************************************************/
+/**************************************************************************************************/
 
 	function bamboo_column_third_1_2( $atts, $content=null ) {
 
@@ -166,8 +157,10 @@
 		return $html;
 
 	}
+	add_shortcode( 'column-third-1-2',			'bamboo_column_third_1_2' );
+	add_shortcode( 'inner-column-third-1-2',	'bamboo_column_third_1_2' );
 
-/******************************************************************/
+/**************************************************************************************************/
 
 	function bamboo_column_third_2_3( $atts, $content=null ) {
 
@@ -183,8 +176,10 @@
 		return $html;
 
 	}
+	add_shortcode( 'column-third-2-3', 			'bamboo_column_third_2_3' );
+	add_shortcode( 'inner-column-third-2-3',	'bamboo_column_third_2_3' );
 
-/******************************************************************/
+/**************************************************************************************************/
 
 	function bamboo_column_quarter_1( $atts, $content=null ) {
 
@@ -200,8 +195,10 @@
 		return $html;
 
 	}
+	add_shortcode( 'column-quarter-1',     		'bamboo_column_quarter_1' );
+	add_shortcode( 'inner-column-quarter-1',	'bamboo_column_quarter_1' );
 
-/******************************************************************/
+/**************************************************************************************************/
 
 	function bamboo_column_quarter_2( $atts, $content=null ) {
 
@@ -217,8 +214,10 @@
 		return $html;
 
 	}
+	add_shortcode( 'column-quarter-2',     		'bamboo_column_quarter_2' );
+	add_shortcode( 'inner-column-quarter-2',	'bamboo_column_quarter_2' );
 
-/******************************************************************/
+/**************************************************************************************************/
 
 	function bamboo_column_quarter_3( $atts, $content=null ) {
 
@@ -234,8 +233,10 @@
 		return $html;
 
 	}
+	add_shortcode( 'column-quarter-3',     		'bamboo_column_quarter_3' );
+	add_shortcode( 'inner-column-quarter-3',	'bamboo_column_quarter_3' );
 
-/******************************************************************/
+/**************************************************************************************************/
 
 	function bamboo_column_quarter_4( $atts, $content=null ) {
 
@@ -251,8 +252,10 @@
 		return $html;
 
 	}
+	add_shortcode( 'column-quarter-4',     		'bamboo_column_quarter_4' );
+	add_shortcode( 'inner-column-quarter-4',	'bamboo_column_quarter_4' );
 
-/******************************************************************/
+/**************************************************************************************************/
 
 	function bamboo_column_quarter_1_2( $atts, $content=null ) {
 
@@ -268,8 +271,10 @@
 		return $html;
 
 	}
+	add_shortcode( 'column-quarter-1-2',   		'bamboo_column_quarter_1_2' );
+	add_shortcode( 'inner-column-quarter-1-2',	'bamboo_column_quarter_1_2' );
 
-/******************************************************************/
+/**************************************************************************************************/
 
 	function bamboo_column_quarter_1_2_3( $atts, $content=null ) {
 
@@ -285,8 +290,10 @@
 		return $html;
 
 	}
+	add_shortcode( 'column-quarter-1-2-3',			'bamboo_column_quarter_1_2_3' );
+	add_shortcode( 'inner-column-quarter-1-2-3',	'bamboo_column_quarter_1_2_3' );
 
-/******************************************************************/
+/**************************************************************************************************/
 
 	function bamboo_column_quarter_2_3( $atts, $content=null ) {
 
@@ -302,8 +309,10 @@
 		return $html;
 
 	}
+	add_shortcode( 'column-quarter-2-3',   		'bamboo_column_quarter_2_3' );
+	add_shortcode( 'inner-column-quarter-2-3',	'bamboo_column_quarter_2_3' );
 
-/******************************************************************/
+/**************************************************************************************************/
 
 	function bamboo_column_quarter_2_3_4( $atts, $content=null ) {
 
@@ -319,8 +328,10 @@
 		return $html;
 
 	}
+	add_shortcode( 'column-quarter-2-3-4', 			'bamboo_column_quarter_2_3_4' );
+	add_shortcode( 'inner-column-quarter-2-3-4',	'bamboo_column_quarter_2_3_4' );
 
-/******************************************************************/
+/**************************************************************************************************/
 
 	function bamboo_column_quarter_3_4( $atts, $content=null ) {
 
@@ -336,6 +347,8 @@
 		return $html;
 
 	}
+	add_shortcode( 'column-quarter-3-4',   		'bamboo_column_quarter_3_4' );
+	add_shortcode( 'inner-column-quarter-3-4',	'bamboo_column_quarter_3_4' );
 
-/******************************************************************/
+/**************************************************************************************************/
 ?>

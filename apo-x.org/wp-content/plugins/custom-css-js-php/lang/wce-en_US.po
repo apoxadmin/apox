@@ -1,0 +1,275 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom CSS-JS-PHP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-02 14:39+0530\n"
+"PO-Revision-Date: 2016-01-02 14:39+0530\n"
+"Last-Translator: Flipper Code <hello@flippercode.com>\n"
+"Language-Team: flippercode <hello@flippercode.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-SearchPath-0: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-"
+"content/plugins/custom-cjp\n"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/core/class.controller.php:142
+msgid " updated successfully."
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/core/class.controller.php:143
+msgid " added successfully. You can manage your "
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/core/class.tabular.php:223
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/core/class.tabular.php:404
+msgid "Selected "
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/core/class.tabular.php:237
+msgid "Manage "
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/core/class.tabular.php:571
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/managephp.php:34
+msgid "Filter"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/core/class.tabular.php:631
+msgid "Select Page"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/custom-cjp.php:284
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/custom-cjp.php:446
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/shortcode/views/pmp-posts-listing.php:28
+msgid "Are you sure to delete item?"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/custom-cjp.php:345
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/custom-cjp.php:346
+msgid "CSS-JS-PHP"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/model.code.php:41
+msgid "Add CSS"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/model.code.php:42
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addcss.php:31
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addjs.php:31
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addphp.php:31
+msgid "Manage CSS"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/model.code.php:43
+msgid "Add JS"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/model.code.php:44
+msgid "Manage JS"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/model.code.php:45
+msgid "Add PHP"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/model.code.php:46
+msgid "Manage PHP"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/model.code.php:130
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/model.code.php:132
+msgid "Code updated successfully"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/model.code.php:134
+msgid "Code added successfully."
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addcss.php:31
+msgid "CSS Code"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addcss.php:34
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addcss.php:38
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addjs.php:34
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addjs.php:38
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addphp.php:34
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addphp.php:38
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/managecss.php:66
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/managejs.php:66
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/managephp.php:66
+msgid "Title"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addcss.php:36
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addjs.php:36
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addphp.php:36
+msgid "Give a title to code snippet."
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addcss.php:43
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addjs.php:43
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addphp.php:43
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/managecss.php:30
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/managecss.php:66
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/managejs.php:30
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/managejs.php:66
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/managephp.php:30
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/managephp.php:66
+msgid "Shortcode"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addcss.php:44
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addjs.php:44
+msgid "wp_head"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addcss.php:45
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addjs.php:45
+msgid "wp_footer"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addcss.php:49
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addjs.php:49
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addphp.php:49
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/managecss.php:66
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/managejs.php:66
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/managephp.php:66
+msgid "Apply Using"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addcss.php:53
+msgid ""
+"wp_head and wp_footer are actions. Your theme must have wp_head() before "
+"closing head tag or wp_footer() before closing body tag."
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addcss.php:58
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addjs.php:57
+msgid "Paste css code here"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addcss.php:60
+msgid ""
+"You can write or paste css code here. No need to add &#60;style&#62; tag. "
+"Read about <a target=\"_blank\" href=\"https://codex.wordpress.org/"
+"Plugin_API/Action_Reference/wp_head\">wp_head</a> and <a target=\"_blank\" "
+"href=\"https://codex.wordpress.org/Plugin_API/Action_Reference/wp_footer"
+"\">wp_footer</a> "
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addcss.php:70
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addjs.php:70
+msgid "Turn Off"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addcss.php:73
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addjs.php:73
+msgid ""
+"This source code will not be in use if checked. Useful if your code is "
+"incomplete and you want to save it. "
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addcss.php:79
+msgid "Save CSS"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addjs.php:31
+msgid "Javascript Code"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addjs.php:59
+msgid ""
+"You can write or paste javascript code here. No need to add &#60;script&#62; "
+"tag. Read about <a target=\"_blank\" href=\"https://codex.wordpress.org/"
+"Plugin_API/Action_Reference/wp_head\">wp_head</a> and <a target=\"_blank\" "
+"href=\"https://codex.wordpress.org/Plugin_API/Action_Reference/wp_footer"
+"\">wp_footer</a> "
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addjs.php:79
+msgid "Save JS"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addphp.php:31
+msgid "PHP Code"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addphp.php:44
+msgid "WP Action"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addphp.php:45
+msgid "WP Filter"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addphp.php:63
+msgid "Action/Filter Name"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addphp.php:65
+msgid ""
+"Write wordpress action or filter name. Available <a href=\"https://codex."
+"wordpress.org/Plugin_API/Action_Reference\" >Actions</a> and <a href="
+"\"https://codex.wordpress.org/Plugin_API/Filter_Reference\" >filters</a>."
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addphp.php:72
+msgid "Paste php code here"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addphp.php:74
+msgid ""
+"You can write or paste php code here. No need to use &#60;&#63;php tag. "
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/addphp.php:82
+msgid "Save PHP"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/managecss.php:32
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/managejs.php:32
+msgid "wp_head()"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/managecss.php:34
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/managejs.php:34
+msgid "wp_footer()"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/managecss.php:46
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/managejs.php:46
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/managephp.php:46
+msgid "Enabled"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/managecss.php:48
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/managejs.php:48
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/managephp.php:48
+msgid "Disabled"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/managecss.php:66
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/managejs.php:66
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/managephp.php:66
+msgid "Status"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/managephp.php:32
+msgid "Action"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/code/views/managephp.php:66
+msgid "Action/Filter"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/demolabs/wp-content/plugins/custom-cjp/modules/overview/views/view.php:12
+msgid "About the Plugin"
+msgstr ""

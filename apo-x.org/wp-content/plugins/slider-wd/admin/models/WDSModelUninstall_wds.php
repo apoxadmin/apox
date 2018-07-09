@@ -26,6 +26,8 @@ class WDSModelUninstall_wds {
 
     delete_option("wds_version");
     delete_option("wds_theme_version");
+    delete_option("wds_loading_gif");
+    delete_option("wds_register_scripts");
   }
   ////////////////////////////////////////////////////////////////////////////////////////
   // Getters & Setters                                                                  //

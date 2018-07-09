@@ -40,20 +40,21 @@ if ( isset( $_SESSION['id'] ) )
 <?php
 $tempflag = 1;
 if ($tempflag) {
-$most = stats_service_byclass();
+$most = stats_service();
+$rank = 0;
 echo '<div class="span3">';
 echo '<table  class="table table-bordered table-condensed">';
 echo '<thead>';
 echo '<tr><th colspan="3"> <h4 style="text-align:center">Most Service</h4></th></tr>';
-echo '<tr><th>Rank</th><th>Class</th><th>Hours</th></tr>';
+echo '<tr><th>Rank</th><th>Name</th><th>Hours</th></tr>';
 echo '</thead>';
 
 echo '<tbody>';
-foreach($most as $rank=>$class) {
+foreach($most as $rank=>$person) {
 	echo '<tr>';
 	echo '<td>',$rank+1,'</td>';
-	echo '<td>',$class['class_nick'],'</td>';
-	echo '<td>',$class['hours'],'</td>';
+	echo '<td>',$person['name'],'</td>';
+	echo '<td>',$person['hours'],'</td>';
 	echo '</tr>';
 }
 echo '</tbody>';
@@ -66,36 +67,69 @@ echo '</div>';
 <table  class="table table-bordered table-condensed">
 <thead>
 <tr>
-	<th colspan="3"> <h4 style="text-align:center">Quick Links</h4></th>
-	</tr>
+        <th colspan="3"> <h4 style="text-align:center">Most Fundraiser</h4></th>
+        </tr>
 <tr>
-<th>
-<p><a href="https://docs.google.com/spreadsheets/d/1yU8BRX2ue-dGDU7oGwsAEpSOvL3QE9JQLMxeVIFymIg/edit#gid=1917545302">Active Tracker</a>
-<p><a href="https://docs.google.com/forms/d/1Tm_8CO3_ZvKZI3UI3VQH_VISKBakt0PFkmIZKDiBZn0/viewform">Excomm Feedback</a>
-<p><a href="https://docs.google.com/spreadsheets/d/1Ut5GLraTv6acVTZ89nyNmAoFoz1IVQG1qqHUQ_azXqE/edit#gid=0">Lost and Found</a>
-<p><a href="https://docs.google.com/spreadsheets/d/1yU8BRX2ue-dGDU7oGwsAEpSOvL3QE9JQLMxeVIFymIg/edit#gid=1917545302">Gas Reimbursement</a>
-<p><a href="https://docs.google.com/spreadsheets/d/1yU8BRX2ue-dGDU7oGwsAEpSOvL3QE9JQLMxeVIFymIg/edit#gid=1917545302">Regular Reimbursement</a>
-<p>SAA Google Voice: 424-216-8319
-<p><a href="https://docs.google.com/forms/d/1JqZ_IsQgMfE1z838DazrYN7cpgIbgj1TRLONJC9r9lA/viewform?edit_requested=true">Chair Evaluations</a>
-<p><a href="https://docs.google.com/spreadsheets/d/1PkczB02MkCzwnHKkDCVFfT2-21ixZGUWBp0J5taFNBg/edit#gid=0">View All Chair Evaluations</a>
-</th> 
+       <th>Rank</th>
+       <th>Name</th>
+        <th>Amount</th>
   </tr>
   </thead>
 <tbody>
 
 <?php
-$most = stats_fellowships();
+$most = stats_caw();
 
 $rank = 0;
 foreach($most as $rank=>$person)
 {
 	echo '<tr>';
 	echo '<td>',$rank+1,'</td>';
-	echo "<td>{$person['name']}</td>";
-	echo "<td>{$person['events']}</td>";
+	echo '<td>',$person['name'],'</td>';
+	echo '<td>','$'. $person['hours'],'</td>';
 	echo '</tr>';
 }
 ?>
+</tbody>
+</table>
+</div>
+
+<div class="span3">
+<table  class="table table-bordered table-condensed">
+<thead>
+<tr>
+	<th colspan="3"> <h4 style="text-align:center">Quick Links</h4></th>
+	</tr>
+<tr>
+<th>
+<p><a href="https://apo-x.tumblr.com/">apo-x.tumblr</a>
+<p><a href="https://goo.gl/bjbwRB">Lost and Found</a>
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLScIq16zKSnW2vhYuTKvlGAqYlOajLa6A1CF-QgCMjMp7igr2w/viewform">Leadership Workshop Form</a>
+<p><a href="https://goo.gl/forms/NhvZ2NZAsVXJdfhB3">Anonymous Feedback Form</a>
+<p><a href="https://goo.gl/KbVYxu">C.A.R.L</a>
+<p><a href="https://goo.gl/Wt5oEC">Website Work Order</a>
+<p><a href="https://goo.gl/mrkSX9">Active Tracker</a>
+<p><a href="https://drive.google.com/file/d/1zZAKU3_XW0fjWyFX62Oxskc919Pl68uG/view?usp=sharing">Active Contract</a>
+<p><a href="https://drive.google.com/file/d/1x-OHnVHfkmu0l-ngTebptnsssBuHammk/view?usp=sharing">Associate Contract</a>
+<p><a href="https://docs.google.com/document/d/1VtNW1qD3j-BCS39SyLgKB9rjYvsYKcbygOwPexDvt0Q/edit">Committee Masterlist</a>
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeB-6Thz8J38LRgWQfc5zCuApRy_5p4ni9ia8eMcuogrLYU5g/viewform">Regular Reimbursement</a>
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfY4BHA5n5xMwLNwhld4Od9GjN7CEUvy78lESZy91D3w21ZIw/viewform">Gas Reimbursement</a>
+<p><a href="https://docs.google.com/forms/d/1znzQoH6fZYDN8OF55E4HLUDBeoFF6Kg9dszeL3975g4/viewform?edit_requested=true">Uber or Lyft Reimbursement</a>
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLScZDyt5WP-N6LoXuiRn1n7QovwKT-LwpgdXcw85GqrJ83__EQ/viewform">Fellowship Events Feedback</a>
+<p><a href="https://goo.gl/forms/8szUlLvy4wZS5BCC3">Chair Evaluations</a>
+<p><a href="https://goo.gl/forms/Of2VCuY5cHCflFPO2">Non-Chair Evaluations</a>
+<p><a href="https://docs.google.com/spreadsheets/d/1_rXL5S-n5pgcjfITodLfWhiAw1rU37E6SEgHkuKU_9c/edit?usp=sharing">View All Chair Evaluations</a>
+<p><a href="https://goo.gl/forms/uJeuqUYieCDhHCB83">Lost Pins Form</a>
+<p><a href="https://goo.gl/forms/bqCK8YBmLPTCVZkj1">Strike Pledges Here</a>
+<p><a href="https://goo.gl/TrcfJh">Love Letters</a>
+<p><a href="https://goo.gl/kxChgN">Brother of The Week Nominations</a>
+
+
+</th> 
+  </tr>
+  </thead>
+<tbody>
+
 </tbody>
 </table>
 </div>
@@ -107,6 +141,8 @@ foreach($most as $rank=>$person)
 		</div> end of recent -->
 	</div>
 </div>
+
+<?php /*
 <div class="row-fluid">
 <table class="table table-bordered">
 	<h4 class="lead center">General Announcements </h4>
@@ -132,6 +168,10 @@ foreach($most as $rank=>$person)
     }
 ?>
 </table>	 <!-- end of announcement -->
+*/
+?>
+
+
 </div>	
 <? } else { ?>
 	<div id="homecontent" role="main">

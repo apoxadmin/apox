@@ -32,7 +32,6 @@ if ( defined('ABSPATH') )
 	require_once(ABSPATH . 'wp-load.php');
 else
 	require_once(dirname(__FILE__).'/../../../wp-load.php');
-
 error_reporting(0);
 ini_set( 'display_errors', 0 );
 
@@ -69,15 +68,7 @@ if(defined('WP_INSTALLING') && WP_INSTALLING) {
 	require_once(dirname(__FILE__).'/wp-filebase.php'); // load wp-filebase only, no other plugins
 	wpfb_loadclass('Core');
 }
-
-function wpfb_ajax_die($msg,$title='',$args='') {
-	@ob_end_clean();
-	echo '<div class="error-div">
-	<strong>' . $msg . '</strong></div>';
-	exit;	
-}
+WPFB_Core::InitDirectScriptAccess();
 
 
-if(defined('DOING_AJAX') && DOING_AJAX) {
-	add_filter('wp_die_ajax_handler', create_function('$v','return "wpfb_ajax_die";'));
-}
+

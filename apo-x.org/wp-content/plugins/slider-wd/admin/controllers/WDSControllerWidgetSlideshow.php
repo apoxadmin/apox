@@ -23,7 +23,7 @@ class WDSControllerWidgetSlideshow extends WP_Widget {
     // Widget Control Settings.
     $control_ops = array('id_base' => 'wdslider');
     // Create the widget.
-    $this->WP_Widget('wdslider', 'Slider WD', $widget_ops, $control_ops);
+    parent::__construct('wdslider', 'Slider WD', $widget_ops, $control_ops);
     require_once WD_S_DIR . "/admin/models/WDSModelWidgetSlideshow.php";
     $this->model = new WDSModelWidgetSlideshow();
 

@@ -91,7 +91,7 @@ function show_filters() //This is a filter status to where the current array is 
         <option value="0">Signed Up</option>
         <option value="1">Non-Pledges</option>
         <option value="2">Pledges</option>
-       <!-- <option value="3">Everyone</option> -->
+       <option value="3">Everyone</option>
     </select>
     </div></form>
     

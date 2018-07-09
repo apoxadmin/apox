@@ -3,7 +3,7 @@ Contributors: WillBontrager
 Donate link: http://www.willmaster.com/plugindonate.php
 Tags: run PHP, insert PHP, insert PHP page, insert PHP post, use PHP, PHP plugin
 Requires at least: 3.3.1
-Tested up to: 3.8
+Tested up to: 4.3.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -104,6 +104,9 @@ Bug fix. Added ob_end_flush() and changed variable names to remove opportunity f
 = 1.2 =
 Changed handling of content intended to remove conflict when Insert PHP is used within content that other plugins also handle.
 
+= 1.3 =
+Fixed issue with str_replace() when haystack contained a slash character.
+
 == Upgrade Notice ==
 
 = 1.1 =
@@ -111,4 +114,7 @@ Bug fix. Added ob_end_flush(); and changed variable names to remove opportunity 
 
 = 1.2 =
 Changed handling of content.
+
+= 1.3 =
+Fixed issue with str_replace() when haystack contained a slash character.
 

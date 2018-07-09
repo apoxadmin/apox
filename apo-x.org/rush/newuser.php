@@ -1,11 +1,16 @@
 <?php
 
-include_once 'include/template.inc.php';
-include_once 'include/forms.inc.php';
+include_once dirname(dirname(__FILE__)) . '/include/template.inc.php';
+include_once dirname(dirname(__FILE__)) . '/include/forms.inc.php';
+
+get_header();
+
+if($_SESSION['class'] == 'admin'||
+	$_SESSION['class'] == 'membership' ||
+	$_SESSION['class'] == 'WAC' ||
+	$_SESSION['class'] == 'pledge parents'):
 
 $currentterm = db_currentClass('start');
-
-show_header();
 ?>
 
 <form method="post" action="input.php">
@@ -23,4 +28,9 @@ show_header();
 		<input type="submit" /> 
 </form>
 
-<?php show_footer(); ?>
+<?php
+else:
+	echo 'You don\'t have permission to do that!';
+endif;
+
+ show_footer(); ?>

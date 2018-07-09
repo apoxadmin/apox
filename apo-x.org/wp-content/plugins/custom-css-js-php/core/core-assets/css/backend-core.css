@@ -1,0 +1,583 @@
+/* Common Style For Plugin Overview page */
+
+.product-info .container {
+    background-color: none!important;
+}
+
+.product-info {
+    margin-top: 10px;
+}
+
+.product-info .container {
+    background: none!important;
+}
+
+.product-info .blocks {
+    background-color: #fff;
+    width: 32.20%!important;
+    margin-right: 1%;
+    padding: 20px;
+}
+
+.product-info .greenbg {
+    background-color: #27ae60;
+    color: #fff;
+}
+
+.product-info .green {
+    color: #27ae60;
+}
+
+.product-info .redbg {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.product-info .red {
+    color: #e74c3c;
+}
+
+.product-info .orangebg {
+    background-color: #e67e22;
+    color: #fff;
+}
+
+.product-info .orange {
+    color: #e67e22
+}
+
+.product-info .bluebg {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.product-info .blue {
+    color: #3498db;
+}
+
+.product-info input[type="button"],
+.product-info input[type="submit"] {
+    background-color: #3498db;
+    padding: 5px;
+    color: #fff;
+    line-height: 30px;
+    padding: 0px 20px;
+    display: inline-block;
+    font-size: 14px;
+    color: #fff!important;
+    border: none;
+    margin-top: 10px;
+}
+
+.product-info textarea {
+    width: 100%;
+}
+
+.product-info #user-suggestion-form {
+    margin-top;
+    20px;
+}
+
+.product-info .row {
+    margin-top: 12px;
+}
+
+.product-info .blocks .header {}
+
+.product-info .blocks .body {}
+
+.product-info .blocks .footer {}
+
+.product-info .header,
+.product-info .body,
+.product-info .footer {
+    width: 100%;
+}
+
+.product-info h1 {
+    margin: 0px!important;
+    font-size: 18px;
+    float: left;
+}
+
+.product-info span {
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+.product-info .header {
+    height: 40px;
+    border-bottom: 2px solid #3498db;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.product-info .body {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/*.product-info .footer{height: 40px;border-top: 1px solid #999;}*/
+
+.product-info .product_header {
+    background-color: #fff;
+    width: 101%;
+    padding-bottom: 15px;
+}
+
+.product-info .product_header img {
+    width: 90px;
+    height: 90px;
+}
+
+.product-info .product_name {
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.product-info .mailchimp-btn {
+    border-radius: 0px!important;
+}
+
+.product-info .row .flexrow {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-info .row .flexrow > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-info .brow i {
+    font-size: 20px;
+}
+
+.product-info .btn {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.product-info #profile-img {
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.product-info .card-container.card {
+    max-width: 350px;
+    padding: 40px 40px;
+}
+
+.product-info h2 {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.product-info .go_back {
+    text-align: center;
+}
+
+.product-info #user-suggestion-form {
+    margin-top: 20px;
+}
+
+.product-info #mailchimp-subscribe-form {
+    margin-top: 20px;
+}
+
+.product-info .social-media-links {
+    font-size: 30px;
+    text-align: center;
+}
+
+.product-info .social-media-links i:hover {
+    color: #0c649e !important;
+}
+/* Removes the default 20px margin and creates some padding space for the indicators and controls */
+
+.product-info .carousel {
+    margin-bottom: 0;
+    padding: 0px!important;
+}
+
+.product-info .carousel-control.right {
+    right: -20px;
+}
+
+.product-info a.refundbtn {
+    border: none!important;
+    border-radius: 0px!important;
+}
+
+.product-info a.refundbtn:hover {
+    color: #fff !important;
+}
+/* Reposition the controls slightly */
+
+.product-info .carousel-control {
+    top: 65px;
+    left: -20px;
+}
+
+.product-info .carousel-control {
+    position: absolute;
+    top: 40%;
+    left: 15px;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    font-size: 52px;
+    font-weight: 100;
+    line-height: 23px;
+    color: #ffffff;
+    text-align: center;
+    background: #222222;
+    border: 3px solid #ffffff;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    border-radius: 23px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.product-info .carousel-control.right {
+    right: -20px;
+}
+
+.product-info .thumbnail {
+    border: none!important;
+}
+
+.product-info img {
+    border: none!important;
+}
+
+.product-info .carousel-control.right {
+    left: auto;
+    right: 15px;
+}
+
+.product-info .project-thumbs {
+    background-color: #fff;
+}
+
+.product-info .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+
+.product-info .carousel-indicators li {
+    background: #c0c0c0;
+}
+
+.product-info .carousel-indicators .active {
+    background: #333333;
+}
+
+.product-gallery {
+    border-bottom: 2px solid #3498db;
+    background: #fff;
+    width: 98.5%;
+    height: 50px;
+}
+
+.product-thumbs {
+    background: #fff;
+    width: 97%;
+}
+
+.product-gallery .fa {
+    font-size: 33px;
+    padding-top: 10px;
+    padding-left: 38px;
+    float: left;
+    color: #3498db;
+}
+
+.product-info .product-gallery h1 {
+    width: auto;
+    padding: 15px;
+    padding-left: 10px;
+}
+
+.product-info .product_header_desc {
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+.product-info #user_email_address {
+    width: 100%;
+}
+
+#mc-embedded-subscribe:hover,
+.product-info input[type="submit"]:hover,
+.product-info input[type="button"]:hover,
+.product-info input[type="button"]:focus,
+.button:hover {
+    background-color: #0c649e!important;
+}
+
+.product-info .supportbutton {
+    border-radius: 0px;
+    font-weight: normal!important;
+}
+
+.product-info .latest_version_availalbe {
+    margin-top: 10px;
+    padding-top: 45px;
+}
+
+.product-info .loader.updatecheck {
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    display: none;
+}
+
+.product-info .loader i {
+    font-size: 30px;
+}
+
+.product-info h1.full {
+    float: none;
+}
+
+.product-info .plugin-update-area {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.product-info .verifiy-purchase-form {
+    display: none;
+}
+
+.product-info .purchase-verified,
+.product-info .purchase-not-verified {
+    padding: 6px;
+}
+
+#purchase-verification-btn {
+    float: none;
+}
+
+.purchase-action {
+    width: 100%;
+}
+
+.purchaseverificationcheck {
+    margin-left: 10px;
+    padding-top: 10px;
+    display: none;
+}
+
+#prev {
+    float: left;
+}
+
+#submit-user-suggestion {
+    float: left;
+}
+
+.submitsuggestion {
+    margin-top: 10px;
+    display: none;
+}
+
+.user-suggestion-area h1 {
+    width: 62%;
+}
+
+.flippercode-product-overview-page .update-nag {
+    display: none!important;
+}
+
+.product-activation-area h1 {
+    width: 55%;
+}
+
+.social_media_area {
+    margin-top: 10px;
+    padding-left: 0px;
+}
+
+.product_header_logo {
+    margin-top: 20px;
+}
+
+.social-media-links a {
+    font-size: 28px;
+}
+
+.codecanyon-link {
+    color: #fff!important;
+    text-decoration: none;
+}
+
+.codecanyon-link:hover {
+    color: #fff!important;
+    text-decoration: none;
+}
+
+.support_btns a {
+    background-color: #3498db!important;
+    color: #fff!important;
+    border: none!important;
+    text-decoration: none;
+    margin-bottom: 10px!important;
+    width: 190px!important;
+    text-align: center;
+}
+
+#next {
+    margin-left: 55px;
+    margin-top: 10px;
+}
+
+.product-info .check_for_updates_btn {
+    float: left;
+    margin-top: 0px!important;
+}
+
+#purchase-verification-form {
+    margin-top: 15px;
+}
+
+.purchasekey_link {
+    color: #3498db!important;
+}
+
+.social-media-links i {
+    color: #3498db!important;
+}
+
+@media (max-width: 768px) {
+    .product-info .blocks {
+        width: 99%!important;
+        margin-bottom: 10px;
+    }
+    .product_header_logo img {
+        max-width: 100%;
+        height: auto!important;
+        padding-top: 15px;
+    }
+    .product-info .product_header_desc {
+        margin-left: 0px;
+    }
+    .product_header {
+        padding-bottom: 15px;
+    }
+    .product-info .product_header {
+        width: auto!important;
+        margin-right: -8px;
+    }
+}
+
+.product-info .product-thumbs .col-md-2 {
+    width: 9%;
+}
+
+.product-item {
+    width: 7%;
+    display: inline-block;
+}
+
+.product-item a:hover {
+    opacity: .9;
+}
+
+.product-thumbs {
+    background: #fff;
+    width: 98.5%;
+    padding-top: 20px;
+}
+
+#mc_embed_signup .check_for_updates_btn {
+    border: none !important;
+}
+
+.verify_first {
+    color: #ff0000 !important;
+}
+
+.update-nag,
+.updated {
+    display: none;
+}
+
+.srow {
+    text-align: center;
+}
+
+@media (max-width: 1060px) and (min-width: 991px) {
+    .product_header .social_media_area {
+        width: 100%;
+    }
+    .product_header .product_header_desc {
+        margin: 0px;
+        float: right;
+        width: 86%;
+    }
+}
+
+@media (max-width: 990px) {
+    .product_header .social_media_area {
+        width: 100%;
+    }
+    .product_header .product_header_desc {
+        margin: 0px;
+        width: 83.3333%;
+    }
+    .brow .col-md-2 {
+        width: 16.6667%;
+        float: left;
+    }
+    .brow .col-md-10 {
+        width: 83.3333%;
+        float: left;
+    }
+}
+
+@media (max-width: 800px) {
+    .product-info .blocks {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+    .brow .col-md-2 {
+        width: 25px;
+    }
+    .brow .col-md-10 {
+        width: 93.3333%;
+    }
+    .product-item {
+        width: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .product-gallery {
+        height: auto;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .product_header .product_header_logo {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .product_header .product_header_desc {
+        margin: 0px;
+        width: 100%;
+    }
+}

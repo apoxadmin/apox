@@ -1,7 +1,7 @@
 <?php 
 include_once dirname(dirname(__FILE__)) . '/include/template.inc.php'; 
 include_once dirname(dirname(__FILE__)) . '/include/user.inc.php';
-include_once dirname(dirname(__FILE__)) . '/include/sql.php';
+include_once dirname(dirname(__FILE__)) . '/tracking/sql.php';
 
 $myid = $_SESSION['id'];
 $myclass = $_SESSION['class'];

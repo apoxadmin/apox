@@ -1,0 +1,218 @@
+/********************************************************
+  Mobile Devices
+  Version:   1.0.1
+********************************************************/
+
+/********************************************************
+        ## Min Width 1200px
+********************************************************/
+@media (min-width: 1200px) {
+
+}
+/********************************************************
+        ## Min Width 992px And Max Width 1199px
+********************************************************/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .woocommerce.archive ul.products li.last{
+        margin-right: 0;
+    }
+    .banner-banner-content-fix .header-banner-contents {
+        top: 20%;
+    }
+}
+/********************************************************
+        ## Min Width 768px And Max Width 991px
+********************************************************/
+@media (min-width: 768px) and (max-width: 991px){
+    .camera_target_content{
+        top: 15%;
+    }
+    .banner-banner-content-fix .header-banner-contents {
+        top: 10%;
+    }
+    .woocommerce ul.products li.product, .woocommerce-page ul.products li.product{
+        width: 48%;
+    }
+}
+/********************************************************
+        ## Max Width 767px
+********************************************************/
+@media only screen and (max-width:767px) {
+    .breadcrumb{
+        padding: 35px 15px;
+    }
+    .breadcrumb-wrap h1{
+        font-size: 36px;
+        padding: 10px 15px;
+    }
+    .woocommerce ul.products li.product, .woocommerce-page ul.products li.product{
+        width: 48%;
+    }
+    .header-banner-image img {
+        display: block;
+        position: absolute;
+        height: 100%;
+    }
+    .header-top{
+        padding-bottom: 24px;
+    }
+    .logo img {
+        margin-top: 28px;
+    }
+    .search-cart li {
+        padding-bottom: 0;
+    }
+    .primary-menu .xs-angle-down {
+        margin: -7px 0 0 0;
+        padding: 9px 15px;
+        float: right;
+    }
+    .navbar-default .navbar-collapse {
+        width: 100%;
+        overflow: hidden;
+    }
+    .primary-menu ul.nav li.dropdown:hover > ul.dropdown-menu {
+        display: none;
+    }
+    .primary-menu ul.nav li.dropdown > ul.dropdown-menu.active {
+        display: block;
+        box-shadow: none;
+        border: 0;
+    }
+    .primary-menu .navbar-collapse .dropdown-menu {
+        width: auto;
+        float: none;
+        position: static;
+    }
+    .text-center-xs{
+        text-align: center;
+    }
+    .navbar-header{
+        float: right;
+        margin-top: 17px;
+    }
+    .header-middle .mini-cart {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        text-align: left;
+        z-index: 1;
+        width: auto;
+    }
+    .primary-menu .navbar-nav>li>a {
+        padding: 10px 8px;
+    }
+    .navbar-default .navbar-toggle{
+        margin-bottom: 0;
+        position: relative;
+        z-index: 20;
+        margin-right: 0;
+        margin-left: 25px;
+    }
+    .navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar{
+        background-color: #fff;
+    }
+    .woocommerce .product-fix .compare, .woocommerce .product-fix .yith-wcqv-button{
+        visibility: visible;
+        bottom: 0;
+    }
+    .margin-top-xs-20{
+        margin-top: 20px;
+    }
+    .footer-bottom ,.footer-bottom ul,.header-social ul,.top-bar-text{
+        text-align: center;
+    }
+    .header-search .form-control{
+        width: 100%;
+    }
+    .header-search .btn {
+        top: 14px;
+        right: 19px;
+    }
+    .camera-slider-inner.text-center {
+        padding: 0 15px;
+    }
+    .camera-slider-inner h1 {
+        font-size: 30px;
+    }
+    .camera-slider-inner h3 {
+        font-size: 18px;
+    }
+    .camera_wrap{
+        height: 350px;
+    }
+    .pricing-list {
+        padding: 20px;
+    }
+    .camera_target_content{
+        top: 13%;
+    }
+    .masonry .hentry {
+        width: 100%;
+    }
+    .primary-menu .collapse{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .logo {
+        margin-top: 2px;
+    }
+    .banner-banner-content-fix .header-banner-contents {
+        position: relative;
+        padding: 50px 15px;
+    }
+}
+/********************************************************
+        ## Max Width 480px
+********************************************************/
+@media only screen and (max-width:480px) {
+    .breadcrumb{
+        padding: 20px 15px;
+    }
+    .camera-slider-inner h1{
+        font-size: 120%;
+        margin-bottom: 10px;
+    }
+    .header-banner-contents p, .camera-slider p{
+        font-size: 100%;
+        letter-spacing: inherit;
+        margin-bottom: 10px;
+    }
+    .search-fix{
+        width: 270px;
+        right: -100%;
+    }
+    .woocommerce ul.products li.product, .woocommerce-page ul.products li.product, .woocommerce-page[class*=columns-] ul.products li.product, .woocommerce[class*=columns-] ul.products li.product{
+        width: 100%;
+    }
+    .slider-details{
+        display: none;
+    }
+    .camera_target_content{
+        top: 3%;
+    }
+    .camera-slider-inner.text-left{
+        padding-left: 15px;
+    }
+    .camera-slider-inner.text-right{
+        padding-right: 15px;
+    }
+    .fact-list li {
+        width: 50%;
+    }
+    .boka-portfolio-list{
+        width: 100%;
+    }
+    .camera-slider .btn {
+        padding: 2% 6% 2.5%;
+        font-size: 100%;
+    }
+}
+/********************************************************
+        Max Width 320px
+********************************************************/
+@media only screen and (max-width:320px) {
+    .search-fix{
+        width: 235px;
+    }
+}

@@ -1,0 +1,33 @@
+02-24-15 05:41:55	76.170.9.101	WARNING	shared	AuthService	Login failed	user=jenny lam;error=Invalid user
+02-24-15 05:46:48	76.170.9.101	WARNING	shared	AuthService	Login failed	user=brother0052;error=Invalid password
+02-24-15 05:47:01	76.170.9.101	WARNING	shared	AuthService	Login failed	user=brother0052;error=Invalid password
+02-24-15 13:44:35	75.82.177.74	WARNING	shared	AuthService	Login failed	user=stephaniechoy;error=Invalid user
+02-24-15 19:34:30	131.179.1.91	INFO	brother0013	AuthService	Log In	context=WebUI
+02-24-15 19:34:44	131.179.1.91	INFO	brother0013	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-24-15 19:34:46	131.179.1.91	INFO	brother0013	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-24-15 19:39:34	131.179.1.91	INFO	brother0013	conf.sql	Switch Repository	rep. id=ajxp_home
+02-24-15 19:39:49	131.179.1.91	INFO	brother0013	conf.sql	Switch Repository	rep. id=bd31dd8c1f4189288aad55d08260d726
+02-24-15 19:42:21	131.179.1.91	ERROR	brother0013	fsAccessWrapper	stream_open	Error while opening stream ajxp.fs://bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG] (Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG])
+02-24-15 19:42:21	131.179.1.91	ERROR	brother0013	class.fsAccessWrapper.php	error l.75	message=Cannot find repository with id bd31dd8c1f4189288aad55d08260d726\Business Law, Text and Cases, 13E- Clarkson [PDF] [StormRG]
+02-24-15 19:42:22	131.179.1.91	INFO	brother0013	access.fs	Upload File	file=submission-platform//ca452cadf69058ea751d8b9c710360b1
+02-24-15 19:42:22	131.179.1.91	ERROR	brother0013	class.fsAccessWrapper.php	error l.275	message=fopen(C:\Users\Administrator\Desktop\submit/AM 40): failed to open stream: Permission denied
+02-24-15 23:15:14	131.179.35.74	INFO	root	AuthService	Log In	context=WebUI
+02-24-15 23:15:33	131.179.35.74	INFO	root	conf.sql	Switch Repository	rep. id=6efc62a45ecacdc6e68fa4a76b900dad
+02-24-15 23:15:44	131.179.35.74	INFO	root	conf.sql	Switch Repository	rep. id=ajxp_conf
+02-24-15 23:16:11	131.179.35.74	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-24-15 23:16:24	131.179.35.74	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-24-15 23:16:26	131.179.35.74	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-24-15 23:16:41	131.179.35.74	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-24-15 23:16:43	131.179.35.74	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-24-15 23:16:44	131.179.35.74	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-24-15 23:16:45	131.179.35.74	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-24-15 23:16:49	131.179.35.74	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-24-15 23:16:54	131.179.35.74	INFO	root	conf.sql	Switch Repository	rep. id=ajxp_home
+02-24-15 23:16:57	131.179.35.74	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-24-15 23:16:59	131.179.35.74	INFO	root	conf.sql	Switch Repository	rep. id=6efc62a45ecacdc6e68fa4a76b900dad
+02-24-15 23:17:12	131.179.35.74	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-24-15 23:17:27	131.179.35.74	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-24-15 23:17:42	131.179.35.74	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-24-15 23:18:01	131.179.35.74	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-24-15 23:18:03	131.179.35.74	ERROR	root	index.php	error l.90	message=You are not allowed to access this resource.
+02-24-15 23:20:02	131.179.35.74	INFO	root	conf.sql	Switch Repository	rep. id=ajxp_conf

@@ -3,18 +3,18 @@
  * BuddyPress Forums Template Tags.
  *
  * @package BuddyPress
- * @subpackage Forums
+ * @subpackage ForumsTemplate
+ * @since 1.5.0
  */
 
-// Exit if accessed directly
+// Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 
 /**
  * Output the forums component slug.
  *
- * @since BuddyPress (1.5.0)
+ * @since 1.5.0
  *
- * @uses bp_get_forums_slug()
  */
 function bp_forums_slug() {
 	echo bp_get_forums_slug();
@@ -22,29 +22,26 @@ function bp_forums_slug() {
 	/**
 	 * Return the forums component slug.
 	 *
-	 * @since BuddyPress (1.5.0)
+	 * @since 1.5.0
 	 *
 	 * @return string Slug for the forums component.
 	 */
 	function bp_get_forums_slug() {
-		global $bp;
-
 		/**
 		 * Filters the forums component slug.
 		 *
-		 * @since BuddyPress (1.5.0)
+		 * @since 1.5.0
 		 *
 		 * @param string $slug Forums component slug.
 		 */
-		return apply_filters( 'bp_get_forums_slug', $bp->forums->slug );
+		return apply_filters( 'bp_get_forums_slug', buddypress()->forums->slug );
 	}
 
 /**
  * Output the forums component root slug.
  *
- * @since BuddyPress (1.5.0)
+ * @since 1.5.0
  *
- * @uses bp_get_forums_root_slug()
  */
 function bp_forums_root_slug() {
 	echo bp_get_forums_root_slug();
@@ -52,42 +49,35 @@ function bp_forums_root_slug() {
 	/**
 	 * Return the forums component root slug.
 	 *
-	 * @since BuddyPress (1.5.0)
+	 * @since 1.5.0
 	 *
 	 * @return string Root slug for the forums component.
 	 */
 	function bp_get_forums_root_slug() {
-		global $bp;
-
 		/**
 		 * Filters the forums component root slug.
 		 *
-		 * @since BuddyPress (1.5.0)
+		 * @since 1.5.0
 		 *
 		 * @param string $root_slug Forums component root slug.
 		 */
-		return apply_filters( 'bp_get_forums_root_slug', $bp->forums->root_slug );
+		return apply_filters( 'bp_get_forums_root_slug', buddypress()->forums->root_slug );
 	}
 
 /**
  * Output permalink for the forum directory.
  *
- * @since BuddyPress (1.5.0)
+ * @since 1.5.0
  *
- * @uses bp_get_forums_directory_permalink()
  */
 function bp_forums_directory_permalink() {
-	echo bp_get_forums_directory_permalink();
+	echo esc_url( bp_get_forums_directory_permalink() );
 }
 	/**
 	 * Return permalink for the forum directory.
 	 *
-	 * @since BuddyPress (1.5.0)
+	 * @since 1.5.0
 	 *
-	 * @uses apply_filters()
-	 * @uses trailingslashit()
-	 * @uses bp_get_root_domain()
-	 * @uses bp_get_forums_root_slug()
 	 *
 	 * @return string The permalink for the forums component directory.
 	 */
@@ -96,7 +86,7 @@ function bp_forums_directory_permalink() {
 		/**
 		 * Filters the permalink for the forum directory.
 		 *
-		 * @since BuddyPress (1.5.0)
+		 * @since 1.5.0
 		 *
 		 * @param string $value Permalink for the forum directory.
 		 */
@@ -107,130 +97,135 @@ function bp_forums_directory_permalink() {
  * The main forums template loop class.
  *
  * Responsible for loading a group of forum topics into a loop for display.
+ *
+ * @since 1.0.0
  */
 class BP_Forums_Template_Forum {
 	/**
 	 * The loop iterator.
 	 *
-	 * @access public
+	 * @since 1.0.0
 	 * @var int
 	 */
-	var $current_topic = -1;
+	public $current_topic = -1;
 
 	/**
 	 * The number of topics returned by the paged query.
 	 *
-	 * @access public
+	 * @since 1.0.0
 	 * @var int
 	 */
-	var $topic_count;
+	public $topic_count;
 
 	/**
 	 * Array of topics located by the query.
 	 *
-	 * @access public
+	 * @since 1.0.0
 	 * @var array
 	 */
-	var $topics;
+	public $topics;
 
 	/**
 	 * The topic object currently being iterated on.
 	 *
-	 * @access public
+	 * @since 1.0.0
 	 * @var object
 	 */
-	var $topic;
+	public $topic;
 
 	/**
 	 * The ID of the forum whose topics are being queried.
 	 *
-	 * @access public
+	 * @since 1.5.0
 	 * @var int
 	 */
-	var $forum_id;
+	public $forum_id;
 
 	/**
 	 * A flag for whether the loop is currently being iterated.
 	 *
-	 * @access public
+	 * @since 1.0.0
 	 * @var bool
 	 */
-	var $in_the_loop;
+	public $in_the_loop;
 
 	/**
 	 * The page number being requested.
 	 *
-	 * @access public
+	 * @since 1.0.0
 	 * @var int
 	 */
-	var $pag_page;
+	public $pag_page;
 
 	/**
 	 * The number of items being requested per page.
 	 *
-	 * @access public
+	 * @since 1.0.0
 	 * @var int
 	 */
-	var $pag_num;
+	public $pag_num;
 
 	/**
 	 * An HTML string containing pagination links.
 	 *
-	 * @access public
+	 * @since 1.0.0
 	 * @var string
 	 */
-	var $pag_links;
+	public $pag_links;
 
 	/**
 	 * The total number of topics matching the query parameters.
 	 *
-	 * @access public
+	 * @since 1.0.0
 	 * @var int
 	 */
-	var $total_topic_count;
+	public $total_topic_count;
 
 	/**
 	 * Whether requesting a single topic. Not currently used.
 	 *
-	 * @access public
+	 * @since 1.0.0
 	 * @var bool
 	 */
-	var $single_topic = false;
+	public $single_topic = false;
 
 	/**
 	 * Term to sort by. Not currently used.
 	 *
-	 * @access public
+	 * @since 1.0.0
 	 * @var string
 	 */
-	var $sort_by;
+	public $sort_by;
 
 	/**
 	 * Sort order. Not currently used.
 	 *
-	 * @access public
+	 * @since 1.0.0
 	 * @var string
 	 */
-	var $order;
+	public $order;
 
 	/**
 	 * Constructor method.
 	 *
-	 * @param string $type The 'type' is the sort order/kind. 'newest',
-	 *        'popular', 'unreplied', 'tags'.
-	 * @param int $forum_id The ID of the forum for which topics are being
-	 *        queried.
-	 * @param int $user_id The ID of the user to whom topics should be
-	 *        limited. Pass false to remove this filter.
-	 * @param int $page The number of the page being requested.
-	 * @param int $per_page The number of items being requested per page.
-	 * @param string $no_stickies Requested sticky format.
-	 * @param string $search_terms Filter results by a string.
-	 * @param int $offset Optional. Offset results by a given numeric value.
-	 * @param int $number Optional. Total number of items to retrieve.
+	 * @since 1.5.0
+	 *
+	 * @param string   $type         The 'type' is the sort order/kind. 'newest',
+	 *                               'popular', 'unreplied', 'tags'.
+	 * @param int      $forum_id     The ID of the forum for which topics are being
+	 *                               queried.
+	 * @param int      $user_id      The ID of the user to whom topics should be
+	 *                               limited. Pass false to remove this filter.
+	 * @param int      $page         The number of the page being requested.
+	 * @param int      $per_page     The number of items being requested per page.
+	 * @param int      $max          Max amount to retrieve.
+	 * @param string   $no_stickies  Requested sticky format.
+	 * @param string   $search_terms Filter results by a string.
+	 * @param int|bool $offset       Optional. Offset results by a given numeric value.
+	 * @param int|bool $number       Optional. Total number of items to retrieve.
 	 */
 	function __construct( $type, $forum_id, $user_id, $page, $per_page, $max, $no_stickies, $search_terms, $offset = false, $number = false ) {
-		global $bp;
+		$bp = buddypress();
 
 		$this->pag_page     = $page;
 		$this->pag_num      = $per_page;
@@ -261,7 +256,7 @@ class BP_Forums_Template_Forum {
 		/**
 		 * Filters the forums template topics.
 		 *
-		 * @since BuddyPress (1.1.0)
+		 * @since 1.1.0
 		 *
 		 * @param array  $topics      Array of topics being set for display.
 		 * @param string $type        The sort order/kind. 'newest',
@@ -278,26 +273,26 @@ class BP_Forums_Template_Forum {
 			$this->total_topic_count = 0;
 		} else {
 			// Get a total topic count, for use in pagination. This value will differ
-			// depending on scope
+			// depending on scope.
 			if ( !empty( $forum_id ) ) {
-				// Group forums
+				// Group forums.
 				$topic_count = bp_forums_get_forum( $forum_id );
 				$topic_count = (int) $topic_count->topics;
 			} else if ( !empty( $bp->groups->current_group ) ) {
 				$topic_count = (int)groups_total_public_forum_topic_count( $type );
 			} else if ( bp_is_user_forums_started() || ( bp_is_directory() && $user_id ) ) {
 				// This covers the case of Profile > Forums > Topics Started, as
-				// well as Forum Directory > My Topics
+				// well as Forum Directory > My Topics.
 				$topic_count = bp_forums_total_topic_count_for_user( bp_displayed_user_id(), $type );
 			} else if ( bp_is_user_forums_replied_to() ) {
-				// Profile > Forums > Replied To
+				// Profile > Forums > Replied To.
 				$topic_count = bp_forums_total_replied_count_for_user( bp_displayed_user_id(), $type );
 			} else if ( 'tags' == $type ) {
 				$tag         = bb_get_tag( $search_terms );
 				$topic_count = $tag->count;
 			} else {
 				// For forum directories (All Topics), get a true count
-				$status = bp_current_user_can( 'bp_moderate' ) ? 'all' : 'public'; // todo: member-of
+				$status = bp_current_user_can( 'bp_moderate' ) ? 'all' : 'public'; // @todo: member-of.
 				$topic_count = (int)groups_total_forum_topic_count( $status, $search_terms );
 			}
 
@@ -321,7 +316,7 @@ class BP_Forums_Template_Forum {
 		/**
 		 * Filters the topic count for the forum being displayed.
 		 *
-		 * @since BuddyPress (1.1.0)
+		 * @since 1.1.0
 		 *
 		 * @param int    $topic_count Topic count to be displayed.
 		 * @param array  $topics      Array of topics to be displayed.
@@ -332,12 +327,12 @@ class BP_Forums_Template_Forum {
 		 * @param int    $max         The max number of posts to show.
 		 * @param string $no_stickies Requested sticky format.
 		 */
-		$this->topic_count       = apply_filters_ref_array( 'bp_forums_template_topic_count',                                 array( $this->topic_count, &$this->topics, $type, $forum_id, $per_page, $max, $no_stickies ) );
+		$this->topic_count = apply_filters_ref_array( 'bp_forums_template_topic_count', array( $this->topic_count, &$this->topics, $type, $forum_id, $per_page, $max, $no_stickies ) );
 
 		/**
 		 * Filters the total topic count for the forum being displayed.
 		 *
-		 * @since BuddyPress (1.1.0)
+		 * @since 1.1.0
 		 *
 		 * @param int    $total_topic_count Total topic count found.
 		 * @param int    $topic_count       Topic count to be displayed.
@@ -351,7 +346,7 @@ class BP_Forums_Template_Forum {
 		 */
 		$this->total_topic_count = apply_filters_ref_array( 'bp_forums_template_total_topic_count', array( $this->total_topic_count, $this->topic_count, &$this->topics, $type, $forum_id, $per_page, $max, $no_stickies ) );
 
-		// Fetch extra information for topics, so we don't have to query inside the loop
+		// Fetch extra information for topics, so we don't have to query inside the loop.
 		$this->topics = bp_forums_get_topic_extras( $this->topics );
 
 		if ( (int) $this->total_topic_count && (int) $this->pag_num ) {
@@ -371,19 +366,24 @@ class BP_Forums_Template_Forum {
 	/**
 	 * Whether there are topics available in the loop.
 	 *
+	 * @since 1.0.0
+	 *
 	 * @see bp_has_forum_topics()
 	 *
 	 * @return bool True if there are items in the loop, otherwise false.
 	 */
 	function has_topics() {
-		if ( $this->topic_count )
+		if ( $this->topic_count ) {
 			return true;
+		}
 
 		return false;
 	}
 
 	/**
 	 * Set up the next topic and iterate index.
+	 *
+	 * @since 1.0.0
 	 *
 	 * @return object The next topic to iterate over.
 	 */
@@ -396,6 +396,8 @@ class BP_Forums_Template_Forum {
 
 	/**
 	 * Rewind the topics and reset topic index.
+	 *
+	 * @since 1.0.0
 	 */
 	function rewind_topics() {
 		$this->current_topic = -1;
@@ -413,6 +415,8 @@ class BP_Forums_Template_Forum {
 	 *
 	 * @see bp_forum_topics()
 	 *
+	 * @since 1.0.0
+	 *
 	 * @return bool True if there are more topics to show, otherwise false.
 	 */
 	function user_topics() {
@@ -423,10 +427,10 @@ class BP_Forums_Template_Forum {
 			/**
 			 * Fires right before the rewinding of user topics.
 			 *
-			 * @since BuddyPress (1.5.0)
+			 * @since 1.5.0
 			 */
 			do_action('forum_loop_end');
-			// Do some cleaning up after the loop
+			// Do some cleaning up after the loop.
 			$this->rewind_topics();
 		}
 
@@ -436,6 +440,8 @@ class BP_Forums_Template_Forum {
 
 	/**
 	 * Set up the current topic in the loop.
+	 *
+	 * @since 1.0.0
 	 *
 	 * @see bp_the_forum_topic()
 	 */
@@ -451,7 +457,7 @@ class BP_Forums_Template_Forum {
 			/**
 			 * Fires if the current topic item is the first in the topic loop.
 			 *
-			 * @since BuddyPress (1.5.0)
+			 * @since 1.5.0
 			 */
 			do_action( 'forum_loop_start' );
 		}
@@ -465,42 +471,45 @@ class BP_Forums_Template_Forum {
  * are determined dynamically, depending on your current page. All of these
  * $defaults can be overridden in the $args parameter.
  *
- * @uses apply_filters() Filter 'bp_has_topics' to manipulate the
+ * @since 1.1.0
+ *
  *       $forums_template global before it's rendered, or to modify the value
  *       of has_topics().
  *
- * @param array $args {
+ * @param array|string $args {
  *     Arguments for limiting the contents of the forum topics loop.
  *
- *     @type string $type The 'type' is the sort order/kind. 'newest',
- *           'popular', 'unreplied', 'tags'. Default: 'newest'.
- *     @type int $forum_id The ID of the forum for which topics are being
- *           queried. Default: the ID of the forum belonging to the current
- *           group, if available.
- *     @type int $user_id The ID of a user to whom to limit results. If viewing
- *           a member's profile, defaults to that member's ID; otherwise
- *           defaults to 0.
- *     @type int $page The number of the page being requested. Default: 1, or
- *           the value of $_GET['p'].
- *     @type int $per_pag The number items to return per page. Default: 20, or
- *           the value of $_GET['n'].
- *     @type int $max Optional. Max records to return. Default: false (no max).
- *     @type int $number Optional. Number of records to return. Default: false.
- *     @type int $offset Optional. Offset results by a given value.
- *           Default: false.
- *     @type string $search_terms Optional. A string to which results should be
- *           limited. Default: false, or the value of $_GET['fs'].
- *     @type string|bool $do_stickies Whether to move stickies to the top of
- *           the sort order. Default: true if looking at a group forum,
- *           otherwise false.
+ *     @type string      $type         The 'type' is the sort order/kind. 'newest',
+ *                                     'popular', 'unreplied', 'tags'. Default: 'newest'.
+ *     @type int         $forum_id     The ID of the forum for which topics are being
+ *                                     queried. Default: the ID of the forum belonging to the current
+ *                                     group, if available.
+ *     @type int         $user_id      The ID of a user to whom to limit results. If viewing
+ *                                     a member's profile, defaults to that member's ID; otherwise
+ *                                     defaults to 0.
+ *     @type int         $page         The number of the page being requested. Default: 1, or
+ *                                     the value of $_GET['p'].
+ *     @type int         $per_pag      The number items to return per page. Default: 20, or
+ *                                     the value of $_GET['n'].
+ *     @type int         $max          Optional. Max records to return. Default: false (no max).
+ *     @type int         $number       Optional. Number of records to return. Default: false.
+ *     @type int         $offset       Optional. Offset results by a given value.
+ *                                     Default: false.
+ *     @type string      $search_terms Optional. A string to which results should be
+ *                                     limited. Default: false, or the value of $_GET['fs'].
+ *     @type string|bool $do_stickies  Whether to move stickies to the top of
+ *                                     the sort order. Default: true if looking at a group forum,
+ *                                     otherwise false.
  * }
  * @return bool True when forum topics are found corresponding to the args,
  *         false otherwise.
  */
 function bp_has_forum_topics( $args = '' ) {
-	global $forum_template, $bp;
+	global $forum_template;
 
-	/***
+	$bp = buddypress();
+
+	/*
 	 * Set the defaults based on the current page. Any of these will be overridden
 	 * if arguments are directly passed into the loop. Custom plugins should always
 	 * pass their parameters directly to the loop.
@@ -511,40 +520,40 @@ function bp_has_forum_topics( $args = '' ) {
 	$search_terms = false;
 	$do_stickies  = false;
 
-	// User filtering
+	// User filtering.
 	if ( bp_displayed_user_id() )
 		$user_id = bp_displayed_user_id();
 
 	// "Replied" query must be manually modified
 	if ( 'replies' == bp_current_action() ) {
-		$user_id = 0; // User id must be handled manually by the filter, not by BB_Query
+		$user_id = 0; // User id must be handled manually by the filter, not by BB_Query.
 
 		add_filter( 'get_topics_distinct',   'bp_forums_add_replied_distinct_sql', 20 );
 		add_filter( 'get_topics_join', 	     'bp_forums_add_replied_join_sql', 20 );
 		add_filter( 'get_topics_where',      'bp_forums_add_replied_where_sql', 20  );
 	}
 
-	// If we're in a single group, set this group's forum_id
+	// If we're in a single group, set this group's forum_id.
 	if ( !$forum_id && !empty( $bp->groups->current_group ) ) {
 		$bp->groups->current_group->forum_id = groups_get_groupmeta( $bp->groups->current_group->id, 'forum_id' );
 
 		// If it turns out there is no forum for this group, return false so
-		// we don't fetch all global topics
+		// we don't fetch all global topics.
 		if ( empty( $bp->groups->current_group->forum_id ) )
 			return false;
 
 		$forum_id = $bp->groups->current_group->forum_id;
 	}
 
-	// If $_GET['fs'] is set, let's auto populate the search_terms var
+	// If $_GET['fs'] is set, let's auto populate the search_terms var.
 	if ( bp_is_directory() && !empty( $_GET['fs'] ) )
 		$search_terms = $_GET['fs'];
 
-	// Get the pagination arguments from $_REQUEST
+	// Get the pagination arguments from $_REQUEST.
 	$page     = isset( $_REQUEST['p'] ) ? intval( $_REQUEST['p'] ) : 1;
 	$per_page = isset( $_REQUEST['n'] ) ? intval( $_REQUEST['n'] ) : 20;
 
-	// By default, stickies are only pushed to the top of the order on individual group forums
+	// By default, stickies are only pushed to the top of the order on individual group forums.
 	if ( bp_is_group_forum() )
 		$do_stickies = true;
 
@@ -565,7 +574,7 @@ function bp_has_forum_topics( $args = '' ) {
 	extract( $r );
 
 	// If we're viewing a tag URL in the directory, let's override the type and
-	// set it to tags and the filter to the tag name
+	// set it to tags and the filter to the tag name.
 	if ( bp_is_current_action( 'tag' ) && $search_terms = bp_action_variable( 0 ) ) {
 		$type = 'tags';
 	}
@@ -573,21 +582,21 @@ function bp_has_forum_topics( $args = '' ) {
 	/** Sticky logic ******************************************************************/
 
 	if ( $do_stickies ) {
-		// Fetch the stickies
+		// Fetch the stickies.
 		$stickies_template = new BP_Forums_Template_Forum( $type, $forum_id, $user_id, 0, 0, $max, 'sticky', $search_terms );
 
-		// If stickies are found, try merging them
+		// If stickies are found, try merging them.
 		if ( $stickies_template->has_topics() ) {
 
-			// If stickies are for current $page
+			// If stickies are for current $page.
 			$page_start_num = ( ( $page - 1 ) * $per_page ) + 1;
 			$page_end_num 	= $page * $per_page <= $stickies_template->total_topic_count ? $page * $per_page : $stickies_template->total_topic_count;
 
-			// Calculate the number of sticky topics that will be shown on this page
+			// Calculate the number of sticky topics that will be shown on this page.
 			if ( $stickies_template->topic_count < $page_start_num ) {
 				$this_page_stickies = 0;
 			} else {
-				$this_page_stickies = $stickies_template->topic_count - $per_page * floor( $stickies_template->topic_count / $per_page ) * ( $page - 1 ); // Total stickies minus sticky count through this page
+				$this_page_stickies = $stickies_template->topic_count - $per_page * floor( $stickies_template->topic_count / $per_page ) * ( $page - 1 ); // Total stickies minus sticky count through this page.
 
 				// $this_page_stickies cannot be more than $per_page or less than 0
 				if ( $this_page_stickies > $per_page )
@@ -596,11 +605,11 @@ function bp_has_forum_topics( $args = '' ) {
 					$this_page_stickies = 0;
 			}
 
-			// Calculate the total number of topics that will be shown on this page
+			// Calculate the total number of topics that will be shown on this page.
 			$this_page_topics = $stickies_template->total_topic_count >= ( $page * $per_page ) ? $per_page : $page_end_num - ( $page_start_num - 1 );
 
 			// If the number of stickies to be shown is less than $per_page, fetch some
-			// non-stickies to fill in the rest
+			// non-stickies to fill in the rest.
 			if ( $this_page_stickies < $this_page_topics ) {
 				// How many non-stickies do we need?
 				$non_sticky_number = $this_page_topics - $this_page_stickies;
@@ -610,34 +619,34 @@ function bp_has_forum_topics( $args = '' ) {
 				$non_sticky_total = $page_end_num - $stickies_template->topic_count;
 
 				// The offset is the number of total non-stickies, less the number
-				// to be shown on this page
+				// to be shown on this page.
 				$non_sticky_offset = $non_sticky_total - $non_sticky_number;
 
-				// Fetch the non-stickies
+				// Fetch the non-stickies.
 				$forum_template = new BP_Forums_Template_Forum( $type, $forum_id, $user_id, 1, $per_page, $max, 'no', $search_terms, $non_sticky_offset, $non_sticky_number );
 
-				// If there are stickies to merge on this page, do it now
+				// If there are stickies to merge on this page, do it now.
 				if ( $this_page_stickies ) {
-					// Correct the topic_count
+					// Correct the topic_count.
 					$forum_template->topic_count += (int) $this_page_stickies;
 
-					// Figure out which stickies need to be included
+					// Figure out which stickies need to be included.
 					$this_page_sticky_topics = array_slice( $stickies_template->topics, 0 - $this_page_stickies );
 
-					// Merge these topics into the forum template
+					// Merge these topics into the forum template.
 					$forum_template->topics = array_merge( $this_page_sticky_topics, (array) $forum_template->topics );
 				}
 			} else {
-				// This page has no non-stickies
+				// This page has no non-stickies.
 				$forum_template = $stickies_template;
 
-				// Adjust the topic count and trim the topics
+				// Adjust the topic count and trim the topics.
 				$forum_template->topic_count = $this_page_stickies;
 				$forum_template->topics      = array_slice( $forum_template->topics, $page - 1 );
 			}
 
 			// Because we're using a manual offset and number for the topic query, we
-			// must set the page number manually, and recalculate the pagination links
+			// must set the page number manually, and recalculate the pagination links.
 			$forum_template->pag_num     = $per_page;
 			$forum_template->pag_page    = $page;
 
@@ -653,18 +662,18 @@ function bp_has_forum_topics( $args = '' ) {
 			) );
 
 		} else {
-			// Fetch the non-sticky topics if no stickies were found
+			// Fetch the non-sticky topics if no stickies were found.
 			$forum_template = new BP_Forums_Template_Forum( $type, $forum_id, $user_id, $page, $per_page, $max, 'all', $search_terms );
 		}
 	} else {
-		// When skipping the sticky logic, just pull up the forum topics like usual
+		// When skipping the sticky logic, just pull up the forum topics like usual.
 		$forum_template = new BP_Forums_Template_Forum( $type, $forum_id, $user_id, $page, $per_page, $max, 'all', $search_terms );
 	}
 
 	/**
 	 * Filters whether or not there are topics to display.
 	 *
-	 * @since BuddyPress (1.1.0)
+	 * @since 1.1.0
 	 *
 	 * @param bool   $value          Whether or not there are topics to display.
 	 * @param object $forum_template Global $forum_template object.
@@ -674,6 +683,8 @@ function bp_has_forum_topics( $args = '' ) {
 
 /**
  * Determine whether there are still topics left in the loop.
+ *
+ * @since 1.1.0
  *
  * @global BP_Forums_Template_Forum $forum_template Template global.
  *
@@ -687,6 +698,8 @@ function bp_forum_topics() {
 /**
  * Get the current topic object in the loop.
  *
+ * @since 1.1.0
+ *
  * @global BP_Forums_Template_Forum $forum_template Template global.
  *
  * @return object The current topic object.
@@ -698,12 +711,16 @@ function bp_the_forum_topic() {
 
 /**
  * Output the ID of the current topic in the loop.
+ *
+ * @since 1.0.0
  */
 function bp_the_topic_id() {
 	echo bp_get_the_topic_id();
 }
 	/**
 	 * Return the ID of the current topic in the loop.
+	 *
+	 * @since 1.0.0
 	 *
 	 * @return int ID of the current topic in the loop.
 	 */
@@ -713,7 +730,7 @@ function bp_the_topic_id() {
 		/**
 		 * Filters the ID of the current topic in the loop.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param int $topic_id ID for the current topic.
 		 */
@@ -722,12 +739,16 @@ function bp_the_topic_id() {
 
 /**
  * Output the title of the current topic in the loop.
+ *
+ * @since 1.0.0
  */
 function bp_the_topic_title() {
 	echo bp_get_the_topic_title();
 }
 	/**
 	 * Return the title of the current topic in the loop.
+	 *
+	 * @since 1.0.0
 	 *
 	 * @return string Title of the current topic in the loop.
 	 */
@@ -737,7 +758,7 @@ function bp_the_topic_title() {
 		/**
 		 * Filters the title of the current topic in the loop.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param string $topic_title Title for the current topic.
 		 */
@@ -746,12 +767,16 @@ function bp_the_topic_title() {
 
 /**
  * Output the slug of the current topic in the loop.
+ *
+ * @since 1.0.0
  */
 function bp_the_topic_slug() {
 	echo bp_get_the_topic_slug();
 }
 	/**
 	 * Return the slug of the current topic in the loop.
+	 *
+	 * @since 1.0.0
 	 *
 	 * @return string Slug of the current topic in the loop.
 	 */
@@ -761,7 +786,7 @@ function bp_the_topic_slug() {
 		/**
 		 * Filters the slug of the current topic in the loop.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param string $topic_slug Slug for the current topic.
 		 */
@@ -770,12 +795,16 @@ function bp_the_topic_slug() {
 
 /**
  * Output the text of the first post in the current topic in the loop.
+ *
+ * @since 1.1.0
  */
 function bp_the_topic_text() {
 	echo bp_get_the_topic_text();
 }
 	/**
 	 * Return the text of the first post in the current topic in the loop.
+	 *
+	 * @since 1.1.0
 	 *
 	 * @return string Text of the first post in the current topic.
 	 */
@@ -787,7 +816,7 @@ function bp_the_topic_text() {
 		/**
 		 * Filters the text of the first post in the current topic in the loop.
 		 *
-		 * @since BuddyPress (1.1.0)
+		 * @since 1.1.0
 		 *
 		 * @param string $post_text Text for the first post in the current topic.
 		 */
@@ -796,12 +825,16 @@ function bp_the_topic_text() {
 
 /**
  * Output the ID of the user who posted the current topic in the loop.
+ *
+ * @since 1.0.0
  */
 function bp_the_topic_poster_id() {
 	echo bp_get_the_topic_poster_id();
 }
 	/**
 	 * Return the ID of the user who posted the current topic in the loop.
+	 *
+	 * @since 1.0.0
 	 *
 	 * @return int ID of the user who posted the current topic.
 	 */
@@ -811,7 +844,7 @@ function bp_the_topic_poster_id() {
 		/**
 		 * Filters the ID of the user who posted the current topic in the loop.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param int $topic_poster ID for the user.
 		 */
@@ -821,9 +854,11 @@ function bp_the_topic_poster_id() {
 /**
  * Output the avatar of the user who posted the current topic in the loop.
  *
+ * @since 1.0.0
+ *
  * @see bp_get_the_topic_poster_avatar() for a description of arguments.
  *
- * @param array $args See {@link bp_get_the_topic_poster_avatar()}.
+ * @param array|string $args See {@link bp_get_the_topic_poster_avatar()}.
  */
 function bp_the_topic_poster_avatar( $args = '' ) {
 	echo bp_get_the_topic_poster_avatar( $args );
@@ -831,18 +866,20 @@ function bp_the_topic_poster_avatar( $args = '' ) {
 	/**
 	 * Return the avatar of the user who posted the current topic in the loop.
 	 *
-	 * @param array $args {
+	 * @since 1.0.0
+	 *
+	 * @param array|string $args {
 	 *     Arguments for building the avatar.
-	 *     @type string $type Avatar type. 'thumb' or 'full'. Default:
-	 *           'thumb'.
-	 *     @type int $width Width of the avatar, in pixels. Default: the
-	 *           width corresponding to $type.
-	 *           See {@link bp_core_fetch_avatar()}.
-	 *     @type int $height Height of the avatar, in pixels. Default: the
-	 *           height corresponding to $type.
-	 *           See {@link bp_core_fetch_avatar()}.
-	 *     @type string $alt The text of the image's 'alt' attribute.
-	 *           Default: 'Profile picture of [user name]'.
+	 *     @type string $type   Avatar type. 'thumb' or 'full'. Default:
+	 *                          'thumb'.
+	 *     @type int    $width  Width of the avatar, in pixels. Default: the
+	 *                          width corresponding to $type.
+	 *                          See {@link bp_core_fetch_avatar()}.
+	 *     @type int    $height Height of the avatar, in pixels. Default: the
+	 *                          height corresponding to $type.
+	 *                          See {@link bp_core_fetch_avatar()}.
+	 *     @type string $alt    The text of the image's 'alt' attribute.
+	 *                          Default: 'Profile picture of [user name]'.
 	 * }
 	 * @return string HTML of user avatar.
 	 */
@@ -862,7 +899,7 @@ function bp_the_topic_poster_avatar( $args = '' ) {
 		/**
 		 * Filters the avatar for the user who posted the current topic in the loop.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param string $value HTML for the display of the user's avatar.
 		 */
@@ -871,12 +908,16 @@ function bp_the_topic_poster_avatar( $args = '' ) {
 
 /**
  * Output the name of the user who posted the current topic in the loop.
+ *
+ * @since 1.0.0
  */
 function bp_the_topic_poster_name() {
 	echo bp_get_the_topic_poster_name();
 }
 	/**
 	 * Return the name of the user who posted the current topic in the loop.
+	 *
+	 * @since 1.0.0
 	 *
 	 * @return string Name of the user who posted the current topic.
 	 */
@@ -891,7 +932,7 @@ function bp_the_topic_poster_name() {
 		/**
 		 * Filters the name of the user who posted the current topic in the loop.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param string $name Name for the user who posted the current topic.
 		 */
@@ -900,6 +941,8 @@ function bp_the_topic_poster_name() {
 
 /**
  * Output the ID of the object associated with the current topic in the loop.
+ *
+ * @since 1.1.0
  */
 function bp_the_topic_object_id() {
 	echo bp_get_the_topic_object_id();
@@ -908,6 +951,8 @@ function bp_the_topic_object_id() {
 	 * Return the ID of the object associated with the current topic in the loop.
 	 *
 	 * Objects are things like associated groups.
+	 *
+	 * @since 1.1.0
 	 *
 	 * @return int ID of the associated object.
 	 */
@@ -919,7 +964,7 @@ function bp_the_topic_object_id() {
 		 *
 		 * Objects are things like associated groups.
 		 *
-		 * @since BuddyPress (1.1.0)
+		 * @since 1.1.0
 		 *
 		 * @param int $object_id ID for the object associated with the current topic.
 		 */
@@ -928,6 +973,8 @@ function bp_the_topic_object_id() {
 
 /**
  * Output the name of the object associated with the current topic in the loop.
+ *
+ * @since 1.1.0
  */
 function bp_the_topic_object_name() {
 	echo bp_get_the_topic_object_name();
@@ -937,6 +984,8 @@ function bp_the_topic_object_name() {
 	 *
 	 * Objects are things like groups. So this function would return the
 	 * name of the group associated with the forum topic, if it exists.
+	 *
+	 * @since 1.1.0
 	 *
 	 * @return string Object name.
 	 */
@@ -954,7 +1003,7 @@ function bp_the_topic_object_name() {
 		 * Objects are things like groups. So this filter would return the
 		 * name of the group associated with the forum topic, if it exists.
 		 *
-		 * @since BuddyPress (1.1.0)
+		 * @since 1.1.0
 		 *
 		 * @param string $retval Name for the object associated with the current topic.
 		 */
@@ -963,6 +1012,8 @@ function bp_the_topic_object_name() {
 
 /**
  * Output the slug of the object associated with the current topic in the loop.
+ *
+ * @since 1.1.0
  */
 function bp_the_topic_object_slug() {
 	echo bp_get_the_topic_object_slug();
@@ -972,6 +1023,8 @@ function bp_the_topic_object_slug() {
 	 *
 	 * Objects are things like groups. So this function would return the
 	 * slug of the group associated with the forum topic, if it exists.
+	 *
+	 * @since 1.1.0
 	 *
 	 * @return string Object slug.
 	 */
@@ -984,7 +1037,7 @@ function bp_the_topic_object_slug() {
 		 * Objects are things like groups. So this filter would return the
 		 * slug of the group associated with the forum topic, if it exists.
 		 *
-		 * @since BuddyPress (1.1.0)
+		 * @since 1.1.0
 		 *
 		 * @param string $object_slug Slug for the object associated with the current topic.
 		 */
@@ -993,6 +1046,8 @@ function bp_the_topic_object_slug() {
 
 /**
  * Output the permalink of the object associated with the current topic in the loop.
+ *
+ * @since 1.1.0
  */
 function bp_the_topic_object_permalink() {
 	echo bp_get_the_topic_object_permalink();
@@ -1003,15 +1058,18 @@ function bp_the_topic_object_permalink() {
 	 * Objects are things like groups. So this function would return the
 	 * permalink of the group associated with the forum topic, if it exists.
 	 *
+	 * @since 1.1.0
+	 *
 	 * @return string Object permalink.
 	 */
 	function bp_get_the_topic_object_permalink() {
 
-		// Currently this will only work with group forums, extended support in the future
-		if ( bp_is_active( 'groups' ) )
-			$permalink = trailingslashit( bp_get_root_domain() . '/' . bp_get_groups_root_slug() . '/' . bp_get_the_topic_object_slug() . '/forum' );
-		else
+		// Currently this will only work with group forums, extended support in the future.
+		if ( bp_is_active( 'groups' ) ) {
+			$permalink = trailingslashit( bp_get_groups_directory_permalink() . bp_get_the_topic_object_slug() . '/forum' );
+		} else {
 			$permalink = '';
+		}
 
 		/**
 		 * Filters the permalink of the object associated with the current topic in the loop.
@@ -1019,7 +1077,7 @@ function bp_the_topic_object_permalink() {
 		 * Objects are things like groups. So this filter would return the
 		 * slug of the group associated with the forum topic, if it exists.
 		 *
-		 * @since BuddyPress (1.1.0)
+		 * @since 1.1.0
 		 *
 		 * @param string $permalink Permalink for the object associated with the current topic.
 		 */
@@ -1028,6 +1086,8 @@ function bp_the_topic_object_permalink() {
 
 /**
  * Output the linked name of the user who last posted to the current topic in the loop.
+ *
+ * @since 1.0.0
  */
 function bp_the_topic_last_poster_name() {
 	echo bp_get_the_topic_last_poster_name();
@@ -1035,23 +1095,26 @@ function bp_the_topic_last_poster_name() {
 	/**
 	 * Return the linked name of the user who last posted to the current topic in the loop.
 	 *
+	 * @since 1.0.0
+	 *
 	 * @return string HTML link to the profile of the user who last posted
-	 *         to the current topic.
+	 *                to the current topic.
 	 */
 	function bp_get_the_topic_last_poster_name() {
 		global $forum_template;
 
-		$domain = bp_core_get_user_domain( $forum_template->topic->topic_last_poster, $forum_template->topic->topic_last_poster_nicename, $forum_template->topic->topic_last_poster_login ) ;
+		$domain = bp_core_get_user_domain( $forum_template->topic->topic_last_poster, $forum_template->topic->topic_last_poster_nicename, $forum_template->topic->topic_last_poster_login );
 
 		// In the case where no user is found, bp_core_get_user_domain() may return the URL
-		// of the Members directory
-		if ( !$domain || $domain == bp_core_get_root_domain() . '/' . bp_get_members_root_slug() . '/' )
+		// of the Members directory.
+		if ( empty( $domain ) || ( bp_get_members_directory_permalink() === $domain ) ) {
 			return __( 'Deleted User', 'buddypress' );
+		}
 
 		/**
 		 * Filters the linked name of the user who last posted to the current topic in the loop.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param string $value HTML link to the profile of the user who last posted.
 		 */
@@ -1061,9 +1124,11 @@ function bp_the_topic_last_poster_name() {
 /**
  * Output the permalink of the object associated with the current topic in the loop.
  *
+ * @since 1.1.0
+ *
  * @see bp_get_the_topic_object_avatar() for description of arguments.
  *
- * @param array $args See {@bp_get_the_topic_object_avatar()}.
+ * @param array|string $args See {@bp_get_the_topic_object_avatar()}.
  */
 function bp_the_topic_object_avatar( $args = '' ) {
 	echo bp_get_the_topic_object_avatar( $args );
@@ -1074,18 +1139,20 @@ function bp_the_topic_object_avatar( $args = '' ) {
 	 * Objects are things like groups. So this function would return the
 	 * avatar of the group associated with the forum topic, if it exists.
 	 *
-	 * @param array $args {
+	 * @since 1.1.0
+	 *
+	 * @param array|string $args {
 	 *     Arguments for building the avatar.
-	 *     @type string $type Avatar type. 'thumb' or 'full'. Default:
-	 *           'thumb'.
-	 *     @type int $width Width of the avatar, in pixels. Default: the
-	 *           width corresponding to $type.
-	 *           See {@link bp_core_fetch_avatar()}.
-	 *     @type int $height Height of the avatar, in pixels. Default:
-	 *           the height corresponding to $type.
-	 *           See {@link bp_core_fetch_avatar()}.
-	 *     @type string $alt The text of the image's 'alt' attribute.
-	 *           Default: 'Group logo for [group name]'.
+	 *     @type string $type   Avatar type. 'thumb' or 'full'. Default:
+	 *                         'thumb'.
+	 *     @type int    $width  Width of the avatar, in pixels. Default: the
+	 *                          width corresponding to $type.
+	 *                          See {@link bp_core_fetch_avatar()}.
+	 *     @type int    $height Height of the avatar, in pixels. Default:
+	 *                          the height corresponding to $type.
+	 *                          See {@link bp_core_fetch_avatar()}.
+	 *     @type string $alt    The text of the image's 'alt' attribute.
+	 *                          Default: 'Group logo for [group name]'.
 	 * }
 	 * @return string Object avatar.
 	 */
@@ -1108,7 +1175,7 @@ function bp_the_topic_object_avatar( $args = '' ) {
 		/**
 		 * Filters the avatar of the object associated with the current topic in the loop.
 		 *
-		 * @since BuddyPress (1.1.0)
+		 * @since 1.1.0
 		 *
 		 * @param string $value HTML output for the object associated with the current topic.
 		 */
@@ -1118,9 +1185,11 @@ function bp_the_topic_object_avatar( $args = '' ) {
 /**
  * Output the avatar for the user who last posted to the current topic in the loop.
  *
+ * @since 1.0.0
+ *
  * @see bp_get_the_topic_last_poster_avatar() for description of arguments.
  *
- * @param array $args See {@bp_get_the_topic_last_poster_avatar()}.
+ * @param array|string $args See {@bp_get_the_topic_last_poster_avatar()}.
  */
 function bp_the_topic_last_poster_avatar( $args = '' ) {
 	echo bp_get_the_topic_last_poster_avatar( $args );
@@ -1128,18 +1197,20 @@ function bp_the_topic_last_poster_avatar( $args = '' ) {
 	/**
 	 * Return the avatar for the user who last posted to the current topic in the loop.
 	 *
-	 * @param array $args {
+	 * @since 1.0.0
+	 *
+	 * @param array|string $args {
 	 *     Arguments for building the avatar.
-	 *     @type string $type Avatar type. 'thumb' or 'full'. Default:
-	 *           'thumb'.
-	 *     @type int $width Width of the avatar, in pixels. Default: the
-	 *           width corresponding to $type.
-	 *           See {@link bp_core_fetch_avatar()}.
-	 *     @type int $height Height of the avatar, in pixels. Default:
-	 *           the height corresponding to $type.
-	 *           See {@link bp_core_fetch_avatar()}.
-	 *     @type string $alt The text of the image's 'alt' attribute.
-	 *           Default: 'Profile picture of [group name]'.
+	 *     @type string $type   Avatar type. 'thumb' or 'full'. Default:
+	 *                          'thumb'.
+	 *     @type int    $width  Width of the avatar, in pixels. Default: the
+	 *                          width corresponding to $type.
+	 *                          See {@link bp_core_fetch_avatar()}.
+	 *     @type int    $height Height of the avatar, in pixels. Default:
+	 *                          the height corresponding to $type.
+	 *                          See {@link bp_core_fetch_avatar()}.
+	 *     @type string $alt    The text of the image's 'alt' attribute.
+	 *                          Default: 'Profile picture of [group name]'.
 	 * }
 	 * @return string User avatar.
 	 */
@@ -1159,7 +1230,7 @@ function bp_the_topic_last_poster_avatar( $args = '' ) {
 		/**
 		 * Filters the avatar for the user who last posted to the current topic in the loop.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param string $value HTML output for the avatar for the user who last posted.
 		 */
@@ -1168,12 +1239,16 @@ function bp_the_topic_last_poster_avatar( $args = '' ) {
 
 /**
  * Output the start time of the current topic in the loop.
+ *
+ * @since 1.0.0
  */
 function bp_the_topic_start_time() {
 	echo bp_get_the_topic_start_time();
 }
 	/**
 	 * Return the start time of the current topic in the loop.
+	 *
+	 * @since 1.0.0
 	 *
 	 * @return string Start time of the current topic.
 	 */
@@ -1183,7 +1258,7 @@ function bp_the_topic_start_time() {
 		/**
 		 * Filters the start time of the current topic in the loop.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param string $topic_start_time Start time for the current topic.
 		 */
@@ -1192,12 +1267,16 @@ function bp_the_topic_start_time() {
 
 /**
  * Output the topic time of the current topic in the loop.
+ *
+ * @since 1.0.0
  */
 function bp_the_topic_time() {
 	echo bp_get_the_topic_time();
 }
 	/**
 	 * Return the topic time of the current topic in the loop.
+	 *
+	 * @since 1.0.0
 	 *
 	 * @return string Topic time of the current topic.
 	 */
@@ -1207,7 +1286,7 @@ function bp_the_topic_time() {
 		/**
 		 * Filters the topic time of the current topic in the loop.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param string $topic_time Topic time for the current topic.
 		 */
@@ -1216,12 +1295,16 @@ function bp_the_topic_time() {
 
 /**
  * Output the ID of the forum associated with the current topic in the loop.
+ *
+ * @since 1.0.0
  */
 function bp_the_topic_forum_id() {
 	echo bp_get_the_topic_forum_id();
 }
 	/**
 	 * Return the ID of the forum associated with the current topic in the loop.
+	 *
+	 * @since 1.0.0
 	 *
 	 * @return int ID of the forum associated with the current topic.
 	 */
@@ -1231,7 +1314,7 @@ function bp_the_topic_forum_id() {
 		/**
 		 * Filters the ID of the forum associated with the current topic in the loop.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param int $forum_id ID of the forum associated with the current topic.
 		 */
@@ -1240,12 +1323,16 @@ function bp_the_topic_forum_id() {
 
 /**
  * Output the status of the current topic in the loop.
+ *
+ * @since 1.0.0
  */
 function bp_the_topic_status() {
 	echo bp_get_the_topic_status();
 }
 	/**
 	 * Return the status of the current topic in the loop.
+	 *
+	 * @since 1.0.0
 	 *
 	 * @return string Status of the current topic.
 	 */
@@ -1255,7 +1342,7 @@ function bp_the_topic_status() {
 		/**
 		 * Filters the status of the current topic in the loop.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param string $topic_status Status of the current topic.
 		 */
@@ -1264,6 +1351,8 @@ function bp_the_topic_status() {
 
 /**
  * Output whether the current topic in the loop is open.
+ *
+ * @since 1.0.0
  */
 function bp_the_topic_is_topic_open() {
 	echo bp_get_the_topic_is_topic_open();
@@ -1271,7 +1360,9 @@ function bp_the_topic_is_topic_open() {
 	/**
 	 * Return whether the current topic in the loop is open.
 	 *
-	 * @return unknown
+	 * @since 1.0.0
+	 *
+	 * @return string
 	 */
 	function bp_get_the_topic_is_topic_open() {
 		global $forum_template;
@@ -1279,7 +1370,7 @@ function bp_the_topic_is_topic_open() {
 		/**
 		 * Filters whether or not the current topic in the loop is open.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param string $topic_open Whether or not the current topic is open.
 		 */
@@ -1288,12 +1379,16 @@ function bp_the_topic_is_topic_open() {
 
 /**
  * Output the ID of the last post in the current topic in the loop.
+ *
+ * @since 1.0.0
  */
 function bp_the_topic_last_post_id() {
 	echo bp_get_the_topic_last_post_id();
 }
 	/**
 	 * Return the ID of the last post in the current topic in the loop.
+	 *
+	 * @since 1.0.0
 	 *
 	 * @return int ID of the last post in the current topic.
 	 */
@@ -1303,7 +1398,7 @@ function bp_the_topic_last_post_id() {
 		/**
 		 * Filters the ID of the last post in the current topic in the loop.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param int $topic_last_post_id ID for the last post in the current topic.
 		 */
@@ -1312,6 +1407,8 @@ function bp_the_topic_last_post_id() {
 
 /**
  * Output whether the current topic in the loop is sticky.
+ *
+ * @since 1.0.0
  */
 function bp_the_topic_is_sticky() {
 	echo bp_get_the_topic_is_sticky();
@@ -1319,7 +1416,9 @@ function bp_the_topic_is_sticky() {
 	/**
 	 * Return whether the current topic in the loop is sticky.
 	 *
-	 * @return unknown
+	 * @since 1.0.0
+	 *
+	 * @return bool
 	 */
 	function bp_get_the_topic_is_sticky() {
 		global $forum_template;
@@ -1327,7 +1426,7 @@ function bp_the_topic_is_sticky() {
 		/**
 		 * Filters whether or not the current topic in the loop is sticky.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param bool $topic_sticky Whether or not the current topic is sticky.
 		 */
@@ -1336,6 +1435,8 @@ function bp_the_topic_is_sticky() {
 
 /**
  * Output a 'x posts' string with the number of posts in the current topic.
+ *
+ * @since 1.0.0
  */
 function bp_the_topic_total_post_count() {
 	echo bp_get_the_topic_total_post_count();
@@ -1343,36 +1444,37 @@ function bp_the_topic_total_post_count() {
 	/**
 	 * Return a 'x posts' string with the number of posts in the current topic.
 	 *
+	 * @since 1.0.0
+	 *
 	 * @return string String of the form 'x posts'.
 	 */
 	function bp_get_the_topic_total_post_count() {
 		global $forum_template;
 
-		if ( $forum_template->topic->topic_posts == 1 ) {
+		$output = _n( '%d post', '%d posts', (int) $forum_template->topic->topic_posts, 'buddypress' );
 
-			/**
-			 * Filters a 'x posts' string with the number of posts in the current topic.
-			 *
-			 * @since BuddyPress (1.0.0)
-			 *
-			 * @param string $value 'X posts' string value for the current topic.
-			 */
-			return apply_filters( 'bp_get_the_topic_total_post_count', sprintf( __( '%d post', 'buddypress' ), $forum_template->topic->topic_posts ) );
-		} else {
-
-			/** This filter is documented in bp-forums/bp-forums-template.php */
-			return apply_filters( 'bp_get_the_topic_total_post_count', sprintf( __( '%d posts', 'buddypress' ), $forum_template->topic->topic_posts ) );
-		}
+		/**
+		 * Filters a 'x posts' string with the number of posts in the current topic.
+		 *
+		 * @since 1.0.0
+		 *
+		 * @param string $value 'X posts' string value for the current topic.
+		 */
+		return apply_filters( 'bp_get_the_topic_total_post_count', sprintf( $output, $forum_template->topic->topic_posts ) );
 	}
 
 /**
  * Output the total number of posts in the current topic in the loop.
+ *
+ * @since 1.1.0
  */
 function bp_the_topic_total_posts() {
 	echo bp_get_the_topic_total_posts();
 }
 	/**
 	 * Return the total number of posts in the current topic in the loop.
+	 *
+	 * @since 1.1.0
 	 *
 	 * @return int Total number of posts in the current topic.
 	 */
@@ -1382,7 +1484,7 @@ function bp_the_topic_total_posts() {
 		/**
 		 * Filters the total number of posts in the current topic in the loop.
 		 *
-		 * @since BuddyPress (1.2.4)
+		 * @since 1.2.4
 		 *
 		 * @param int $topic_posts Total number of posts in the current topic.
 		 */
@@ -1391,12 +1493,16 @@ function bp_the_topic_total_posts() {
 
 /**
  * Output the tag count for the current topic in the loop.
+ *
+ * @since 1.0.0
  */
 function bp_the_topic_tag_count() {
 	echo bp_get_the_topic_tag_count();
 }
 	/**
 	 * Return the tag count for the current topic in the loop.
+	 *
+	 * @since 1.0.0
 	 *
 	 * @return int Tag count for the current topic.
 	 */
@@ -1406,7 +1512,7 @@ function bp_the_topic_tag_count() {
 		/**
 		 * Filters the tag count for the current topic in the loop.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param int $tag_count Tag count for the current topic.
 		 */
@@ -1415,6 +1521,8 @@ function bp_the_topic_tag_count() {
 
 /**
  * Output the permalink of the current topic in the loop.
+ *
+ * @since 1.0.0
  */
 function bp_the_topic_permalink() {
 	echo bp_get_the_topic_permalink();
@@ -1422,24 +1530,26 @@ function bp_the_topic_permalink() {
 	/**
 	 * Return the permalink for the current topic in the loop.
 	 *
+	 * @since 1.0.0
+	 *
 	 * @return string Permalink for the current topic.
 	 */
 	function bp_get_the_topic_permalink() {
-		global $forum_template, $bp;
+		global $forum_template;
 
-		// The topic is in a loop where its parent object is loaded
+		// The topic is in a loop where its parent object is loaded.
 		if ( bp_get_the_topic_object_slug() ) {
-			$permalink = trailingslashit( bp_get_root_domain() . '/' . bp_get_groups_root_slug() . '/' . bp_get_the_topic_object_slug() . '/forum' );
+			$permalink = trailingslashit( bp_get_groups_directory_permalink() . bp_get_the_topic_object_slug() . '/forum' );
 
-		// We are viewing a single group topic, so use the current item
+		// We are viewing a single group topic, so use the current item.
 		} elseif ( bp_is_group_forum_topic() ) {
-			$permalink = trailingslashit( bp_get_root_domain() . '/' . bp_get_groups_root_slug() . '/' . bp_current_item() . '/forum' );
+			$permalink = trailingslashit( bp_get_groups_directory_permalink() . bp_current_item() . '/forum' );
 
-		// We are unsure what the context is, so fallback to forum root slug
+		// We are unsure what the context is, so fallback to forum root slug.
 		} elseif ( bp_is_single_item() ) {
 			$permalink = trailingslashit( bp_get_root_domain() . '/' . bp_get_forums_root_slug() . '/' . bp_current_item() );
 
-		// This is some kind of error situation, so use forum root
+		// This is some kind of error situation, so use forum root.
 		} else {
 			$permalink = trailingslashit( bp_get_root_domain() . '/' . bp_get_forums_root_slug() );
 		}
@@ -1447,7 +1557,7 @@ function bp_the_topic_permalink() {
 		/**
 		 * Filters the permalink for the current topic in the loop.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param string $value Permalink for the current topic in the loop.
 		 */
@@ -1456,12 +1566,16 @@ function bp_the_topic_permalink() {
 
 /**
  * Output a 'since' string describing when the current topic was created.
+ *
+ * @since 1.0.0
  */
 function bp_the_topic_time_since_created() {
 	echo bp_get_the_topic_time_since_created();
 }
 	/**
 	 * Return a 'since' string describing when the current topic was created.
+	 *
+	 * @since 1.0.0
 	 *
 	 * @see bp_core_time_since() for a description of return value.
 	 *
@@ -1473,7 +1587,7 @@ function bp_the_topic_time_since_created() {
 		/**
 		 * Filters a 'time since' string describing when the current topic was created.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param string $value 'Time since' value for the current topic.
 		 */
@@ -1482,6 +1596,10 @@ function bp_the_topic_time_since_created() {
 
 /**
  * Output an excerpt from the latest post of the current topic in the loop.
+ *
+ * @since 1.0.0
+ *
+ * @param array|string $args See {@bp_get_the_topic_latest_post_excerpt()}.
  */
 function bp_the_topic_latest_post_excerpt( $args = '' ) {
 	echo bp_get_the_topic_latest_post_excerpt( $args );
@@ -1489,7 +1607,9 @@ function bp_the_topic_latest_post_excerpt( $args = '' ) {
 	/**
 	 * Return an excerpt from the latest post of the current topic in the loop.
 	 *
-	 * @param array $args {
+	 * @since 1.0.0
+	 *
+	 * @param array|string $args {
 	 *     @type int $length The length of the excerpted text. Default: 225.
 	 * }
 	 * @return string Post excerpt.
@@ -1510,7 +1630,7 @@ function bp_the_topic_latest_post_excerpt( $args = '' ) {
 		/**
 		 * Filters an excerpt from the latest post of the current topic in the loop.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param string $post   Post exceprt for the current topic.
 		 * @param string $length String length to trim excerpt down to.
@@ -1520,12 +1640,16 @@ function bp_the_topic_latest_post_excerpt( $args = '' ) {
 
 /**
  * Output a 'since' string describing when the last post in the current topic was created.
+ *
+ * @since 1.0.0
  */
 function bp_the_topic_time_since_last_post() {
 	echo bp_get_the_topic_time_since_last_post();
 }
 	/**
 	 * Return a 'since' string describing when the last post in the current topic was created.
+	 *
+	 * @since 1.0.0
 	 *
 	 * @see bp_core_time_since() for a description of return value.
 	 *
@@ -1537,7 +1661,7 @@ function bp_the_topic_time_since_last_post() {
 		/**
 		 * Filters a 'time since' string describing when the last post in the current topic was created.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param string $value The 'time since' string for the last post in the current topic.
 		 */
@@ -1546,6 +1670,8 @@ function bp_the_topic_time_since_last_post() {
 
 /**
  * Output whether the current topic in the loop belongs to the logged-in user.
+ *
+ * @since 1.1.0
  */
 function bp_the_topic_is_mine() {
 	echo bp_get_the_topic_is_mine();
@@ -1553,8 +1679,10 @@ function bp_the_topic_is_mine() {
 	/**
 	 * Does the current topic belong to the logged-in user?
 	 *
+	 * @since 1.1.0
+	 *
 	 * @return bool True if the current topic in the loop was created by
-	 *         the logged-in user, otherwise false.
+	 *              the logged-in user, otherwise false.
 	 */
 	function bp_get_the_topic_is_mine() {
 		global $forum_template;
@@ -1565,9 +1693,11 @@ function bp_the_topic_is_mine() {
 /**
  * Output the admin links for the current topic in the loop.
  *
+ * @since 1.1.0
+ *
  * @see bp_get_the_topic_admin_links() for a description of arguments.
  *
- * @param array $args See {@link bp_get_the_topic_admin_links()}.
+ * @param array|string $args See {@link bp_get_the_topic_admin_links()}.
  */
 function bp_the_topic_admin_links( $args = '' ) {
 	echo bp_get_the_topic_admin_links( $args );
@@ -1575,11 +1705,12 @@ function bp_the_topic_admin_links( $args = '' ) {
 	/**
 	 * Return the admin links for the current topic in the loop.
 	 *
-	 * @param array $args {
-	 *     @type string $separator The character to use when separating
-	 *           links. Default: '|'.
+	 * @since 1.1.0
+	 *
+	 * @param array|string $args {
+	 *     @type string $separator The character to use when separating links. Default: '|'.
 	 * }
-	 * @return HTML string containing the admin links for the current topic.
+	 * @return string HTML string containing the admin links for the current topic.
 	 */
 	function bp_get_the_topic_admin_links( $args = '' ) {
 		global $forum_template;
@@ -1612,6 +1743,8 @@ function bp_the_topic_admin_links( $args = '' ) {
 
 /**
  * Output the CSS class for the current topic in the loop.
+ *
+ * @since 1.1.0
  */
 function bp_the_topic_css_class() {
 	echo bp_get_the_topic_css_class();
@@ -1621,6 +1754,8 @@ function bp_the_topic_css_class() {
 	 *
 	 * This class may contain keywords like 'alt', 'sticky', or 'closed',
 	 * based on context.
+	 *
+	 * @since 1.1.0
 	 *
 	 * @return string Contents of the 'class' attribute.
 	 */
@@ -1644,7 +1779,7 @@ function bp_the_topic_css_class() {
 		 * This class may contain keywords like 'alt', 'sticky', or 'closed',
 		 * based on context.
 		 *
-		 * @since BuddyPress (1.2.4)
+		 * @since 1.2.4
 		 *
 		 * @param string $value Concatenated classes for the current topic in the loop.
 		 */
@@ -1653,6 +1788,8 @@ function bp_the_topic_css_class() {
 
 /**
  * Output the permalink to the 'personal' topics tab.
+ *
+ * @since 1.1.0
  */
 function bp_my_forum_topics_link() {
 	echo bp_get_my_forum_topics_link();
@@ -1660,15 +1797,15 @@ function bp_my_forum_topics_link() {
 	/**
 	 * Return the permalink to the 'personal' topics tab.
 	 *
+	 * @since 1.1.0
+	 *
 	 * @return string Link to the 'personal' topics tab.
 	 */
 	function bp_get_my_forum_topics_link() {
-		global $bp;
-
 		/**
 		 * Filters the permalink to the 'personal' topics tab.
 		 *
-		 * @since BuddyPress (1.1.0)
+		 * @since 1.1.0
 		 *
 		 * @param string $value Permalink to the 'personal' topics tab.
 		 */
@@ -1677,6 +1814,8 @@ function bp_my_forum_topics_link() {
 
 /**
  * Output the permalink to the 'unreplied' topics tab.
+ *
+ * @since 1.1.0
  */
 function bp_unreplied_forum_topics_link() {
 	echo bp_get_unreplied_forum_topics_link();
@@ -1684,15 +1823,15 @@ function bp_unreplied_forum_topics_link() {
 	/**
 	 * Return the permalink to the 'unreplied' topics tab.
 	 *
+	 * @since 1.1.0
+	 *
 	 * @return string Link to the 'unreplied' topics tab.
 	 */
 	function bp_get_unreplied_forum_topics_link() {
-		global $bp;
-
 		/**
 		 * Filters the permalink to the 'unreplied' topics tab.
 		 *
-		 * @since BuddyPress (1.1.0)
+		 * @since 1.1.0
 		 *
 		 * @param string $value Permalink to the 'unreplied' topics tab.
 		 */
@@ -1701,6 +1840,8 @@ function bp_unreplied_forum_topics_link() {
 
 /**
  * Output the permalink to the 'popular' topics tab.
+ *
+ * @since 1.1.0
  */
 function bp_popular_forum_topics_link() {
 	echo bp_get_popular_forum_topics_link();
@@ -1708,15 +1849,15 @@ function bp_popular_forum_topics_link() {
 	/**
 	 * Return the permalink to the 'popular' topics tab.
 	 *
+	 * @since 1.1.0
+	 *
 	 * @return string Link to the 'popular' topics tab.
 	 */
 	function bp_get_popular_forum_topics_link() {
-		global $bp;
-
 		/**
 		 * Filters the permalink to the 'popular' topics tab.
 		 *
-		 * @since BuddyPress (1.1.0)
+		 * @since 1.1.0
 		 *
 		 * @param string $value Permalink to the 'popular' topics tab.
 		 */
@@ -1725,6 +1866,8 @@ function bp_popular_forum_topics_link() {
 
 /**
  * Output the link to the forums directory.
+ *
+ * @since 1.1.0
  */
 function bp_newest_forum_topics_link() {
 	echo bp_get_newest_forum_topics_link();
@@ -1732,15 +1875,15 @@ function bp_newest_forum_topics_link() {
 	/**
 	 * Return the link to the forums directory.
 	 *
+	 * @since 1.1.0
+	 *
 	 * @return string Link to the forums directory.
 	 */
 	function bp_get_newest_forum_topics_link() {
-		global $bp;
-
 		/**
 		 * Filters the link to the forums directory.
 		 *
-		 * @since BuddyPress (1.1.0)
+		 * @since 1.1.0
 		 *
 		 * @param string $value Link to the forums directory.
 		 */
@@ -1749,6 +1892,8 @@ function bp_newest_forum_topics_link() {
 
 /**
  * Output the currently viewed topic list type.
+ *
+ * @since 1.1.0
  */
 function bp_forum_topic_type() {
 	echo bp_get_forum_topic_type();
@@ -1758,10 +1903,11 @@ function bp_forum_topic_type() {
 	 *
 	 * Eg, 'newest', 'popular', etc.
 	 *
+	 * @since 1.1.0
+	 *
 	 * @return string Type of the currently viewed topic list.
 	 */
 	function bp_get_forum_topic_type() {
-		global $bp;
 
 		if ( !bp_is_directory() || !bp_current_action() )
 			return 'newest';
@@ -1771,7 +1917,7 @@ function bp_forum_topic_type() {
 		 *
 		 * Eg, 'newest', 'popular', etc.
 		 *
-		 * @since BuddyPress (1.1.0)
+		 * @since 1.1.0
 		 *
 		 * @param string $value Currently viewed topic list type.
 		 */
@@ -1781,28 +1927,28 @@ function bp_forum_topic_type() {
 /**
  * Output the value of bp_get_forum_topic_new_reply_link().
  *
- * @since BuddyPress (1.5.0)
+ * @since 1.5.0
  */
 function bp_forum_topic_new_reply_link() {
-	echo bp_get_forum_topic_new_reply_link();
+	echo esc_url( bp_get_forum_topic_new_reply_link() );
 }
 	/**
 	 * Return the permalink for the New Reply button at the top of forum topics.
 	 *
-	 * @since BuddyPress (1.5.0)
+	 * @since 1.5.0
 	 *
-	 * @uses apply_filters() Filter bp_get_forum_topic_new_reply_link to
 	 *       modify.
+	 *
 	 * @return string The URL for the New Reply link.
 	 */
 	function bp_get_forum_topic_new_reply_link() {
 		global $topic_template;
 
 		if ( $topic_template->pag->total_pages == $topic_template->pag_page ) {
-			// If we are on the last page, no need for a URL base
+			// If we are on the last page, no need for a URL base.
 			$link = '';
 		} else {
-			// Create a link to the last page for the topic
+			// Create a link to the last page for the topic.
 			$link = add_query_arg( array(
 				'topic_page' =>	$topic_template->pag->total_pages,
 				'num'        => $topic_template->pag_num
@@ -1812,7 +1958,7 @@ function bp_forum_topic_new_reply_link() {
 		/**
 		 * Filters the permalink for the New Reply button at the top of forum topics.
 		 *
-		 * @since BuddyPress (1.5.0)
+		 * @since 1.5.0
 		 *
 		 * @param string $value Permalink for the New Reply button.
 		 */
@@ -1822,6 +1968,8 @@ function bp_forum_topic_new_reply_link() {
 /**
  * Output the currently viewed tag name.
  *
+ * @since 1.1.0
+ *
  * @todo Deprecate?
  */
 function bp_forums_tag_name() {
@@ -1830,7 +1978,11 @@ function bp_forums_tag_name() {
 	/**
 	 * Return the currently viewed tag name.
 	 *
+	 * @since 1.1.0
+	 *
 	 * @todo Deprecate? Seems unused
+	 *
+	 * @return bool|string
 	 */
 	function bp_get_forums_tag_name() {
 		$tag_name = bp_is_directory() && bp_is_forums_component() ? bp_action_variable( 0 ) : false;
@@ -1840,12 +1992,16 @@ function bp_forums_tag_name() {
 
 /**
  * Output the pagination links for the current topic list.
+ *
+ * @since 1.0.0
  */
 function bp_forum_pagination() {
 	echo bp_get_forum_pagination();
 }
 	/**
 	 * Return the pagination links for the current topic list.
+	 *
+	 * @since 1.0.0
 	 *
 	 * @return string HTML pagination links.
 	 */
@@ -1855,7 +2011,7 @@ function bp_forum_pagination() {
 		/**
 		 * Filters the pagination links for the current topic list.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param string $pag_links HTML pagination links.
 		 */
@@ -1864,6 +2020,8 @@ function bp_forum_pagination() {
 
 /**
  * Output the pagination count for the current topic list.
+ *
+ * @since 1.0.0
  */
 function bp_forum_pagination_count() {
 	echo bp_get_forum_pagination_count();
@@ -1873,10 +2031,12 @@ function bp_forum_pagination_count() {
 	 *
 	 * The "count" is a string of the form "Viewing x of y topics".
 	 *
+	 * @since 1.5.0
+	 *
 	 * @return string
 	 */
 	function bp_get_forum_pagination_count() {
-		global $bp, $forum_template;
+		global $forum_template;
 
 		$start_num  = intval( ( $forum_template->pag_page - 1 ) * $forum_template->pag_num ) + 1;
 		$from_num   = bp_core_number_format( $start_num );
@@ -1887,26 +2047,33 @@ function bp_forum_pagination_count() {
 		if ( 'tags' == $forum_template->type && !empty( $forum_template->search_terms ) )
 			$pag_filter = sprintf( __( ' matching tag "%s"', 'buddypress' ), $forum_template->search_terms );
 
+		if ( 1 == $forum_template->total_topic_count ) {
+			$message = __( 'Viewing 1 topic', 'buddypress' );
+		} else {
+			$message = sprintf( _n( 'Viewing %1$s - %2$s of %3$s topic', 'Viewing %1$s - %2$s of %3$s topics', (int) $forum_template->total_topic_count, 'buddypress' ), $from_num, $to_num, $total, $pag_filter );
+		}
+
 		/**
 		 * Filters the pagination count for the current topic list.
 		 *
-		 * @since BuddyPress (1.5.0)
+		 * @since 1.5.0
 		 *
-		 * @param string $value    Pagination count for the current topic list.
+		 * @param string $message  Pagination count for the current topic list.
 		 * @param string $from_num Low end count in the view.
 		 * @param string $to_num   High end count in the view.
 		 * @param string $total    Total count of topics found.
 		 */
-		return apply_filters( 'bp_get_forum_pagination_count', sprintf( _n( 'Viewing 1 topic', 'Viewing %1$s - %2$s of %3$s topics', (int) $forum_template->total_topic_count, 'buddypress' ), $from_num, $to_num, $total, $pag_filter ), $from_num, $to_num, $total );
+		return apply_filters( 'bp_get_forum_pagination_count', $message, $from_num, $to_num, $total );
 	}
 
 /**
  * Are we currently on an Edit Topic screen?
  *
+ * @since 1.1.0
+ *
  * @return bool True if currently editing a topic, otherwise false.
  */
 function bp_is_edit_topic() {
-	global $bp;
 
 	if ( bp_is_action_variable( 'post' ) && bp_is_action_variable( 'edit' ) )
 		return false;
@@ -1918,77 +2085,79 @@ function bp_is_edit_topic() {
  * The single forum topic template loop class.
  *
  * Responsible for loading a topic's posts into a loop for display.
+ *
+ * @since 1.0.0
  */
 class BP_Forums_Template_Topic {
 	/**
 	 * The loop iterator.
 	 *
-	 * @access public
+	 * @since 1.0.0
 	 * @var int
 	 */
-	var $current_post = -1;
+	public $current_post = -1;
 
 	/**
 	 * The number of posts returned by the paged query.
 	 *
-	 * @access public
+	 * @since 1.0.0
 	 * @var int
 	 */
-	var $post_count;
+	public $post_count;
 
 	/**
 	 * Array of posts located by the query.
 	 *
-	 * @access public
+	 * @since 1.0.0
 	 * @var array
 	 */
-	var $posts;
+	public $posts;
 
 	/**
 	 * The post object currently being iterated on.
 	 *
-	 * @access public
+	 * @since 1.0.0
 	 * @var object
 	 */
-	var $post;
+	public $post;
 
 	/**
 	 * The ID of the forum whose topic is being queried.
 	 *
-	 * @access public
+	 * @since 1.5.0
 	 * @var int
 	 */
-	var $forum_id;
+	public $forum_id;
 
 	/**
 	 * The ID of the topic whose posts are being queried.
 	 *
-	 * @access public
+	 * @since 1.0.0
 	 * @var int
 	 */
-	var $topic_id;
+	public $topic_id;
 
 	/**
 	 * The topic object to which the posts belong.
 	 *
-	 * @access public
+	 * @since 1.0.0
 	 * @var object
 	 */
-	var $topic;
+	public $topic;
 
 	/**
 	 * A flag for whether the loop is currently being iterated.
 	 *
-	 * @access public
+	 * @since 1.0.0
 	 * @var bool
 	 */
-	var $in_the_loop;
+	public $in_the_loop;
 
 	/**
 	 * Contains a 'total_pages' property holding total number of pages in
 	 * this loop.
 	 *
-	 * @since BuddyPress (1.2.0)
+	 * @since 1.2.0
 	 * @var stdClass
 	 */
 	public $pag;
@@ -1996,73 +2165,75 @@ class BP_Forums_Template_Topic {
 	/**
 	 * The page number being requested.
 	 *
-	 * @access public
-	 * @var public
+	 * @since 1.0.0
+	 * @var int
 	 */
-	var $pag_page;
+	public $pag_page;
 
 	/**
 	 * The number of items being requested per page.
 	 *
-	 * @access public
-	 * @var public
+	 * @since 1.0.0
+	 * @var int
 	 */
-	var $pag_num;
+	public $pag_num;
 
 	/**
 	 * An HTML string containing pagination links.
 	 *
-	 * @access public
+	 * @since 1.0.0
 	 * @var string
 	 */
-	var $pag_links;
+	public $pag_links;
 
 	/**
 	 * The total number of posts matching the query parameters.
 	 *
-	 * @access public
+	 * @since 1.0.0
 	 * @var int
 	 */
-	var $total_post_count;
+	public $total_post_count;
 
 	/**
 	 * Whether requesting a single topic. Not currently used.
 	 *
-	 * @access public
+	 * @since 1.0.0
 	 * @var bool
 	 */
-	var $single_post = false;
+	public $single_post = false;
 
 	/**
 	 * Term to sort by.
 	 *
-	 * @access public
+	 * @since 1.0.0
 	 * @var string
 	 */
-	var $sort_by;
+	public $sort_by;
 
 	/**
 	 * Sort order.
 	 *
-	 * @access public
+	 * @since 1.0.0
 	 * @var string
 	 */
-	var $order;
+	public $order;
 
 	/**
 	 * Constructor method.
 	 *
-	 * @param int $topic_id ID of the topic whose posts are being requested.
-	 * @param int $per_page Number of items to return per page.
-	 * @param int $max Max records to return.
+	 * @since 1.5.0
+	 *
+	 * @param int    $topic_id ID of the topic whose posts are being requested.
+	 * @param int    $per_page Number of items to return per page.
+	 * @param int    $max Max records to return.
 	 * @param string $order Direction to order results.
 	 */
 	function __construct( $topic_id, $per_page, $max, $order ) {
-		global $bp, $current_user, $forum_template;
+		global $forum_template;
 
-                if ( !isset( $forum_template ) ) {
-                        $forum_template = new stdClass;
-                }
+		if ( !isset( $forum_template ) ) {
+			$forum_template = new stdClass;
+		}
 
 		$this->pag_page        = isset( $_REQUEST['topic_page'] ) ? intval( $_REQUEST['topic_page'] ) : 1;
 		$this->pag_num         = isset( $_REQUEST['num'] ) ? intval( $_REQUEST['num'] ) : $per_page;
@@ -2095,7 +2266,7 @@ class BP_Forums_Template_Topic {
 			}
 		}
 
-		// Load topic tags
+		// Load topic tags.
 		$this->topic_tags = bb_get_topic_tags( $this->topic_id );
 
 		$this->pag = new stdClass;
@@ -2121,6 +2292,8 @@ class BP_Forums_Template_Topic {
 	/**
 	 * Whether there are posts available in the loop.
 	 *
+	 * @since 1.0.0
+	 *
 	 * @see bp_has_forum_topic_posts()
 	 *
 	 * @return bool True if there are items in the loop, otherwise false.
@@ -2135,6 +2308,8 @@ class BP_Forums_Template_Topic {
 	/**
 	 * Set up the next post and iterate index.
 	 *
+	 * @since 1.0.0
+	 *
 	 * @return object The next post to iterate over.
 	 */
 	function next_post() {
@@ -2146,6 +2321,8 @@ class BP_Forums_Template_Topic {
 
 	/**
 	 * Rewind the posts and reset post index.
+	 *
+	 * @since 1.0.0
 	 */
 	function rewind_posts() {
 		$this->current_post = -1;
@@ -2161,6 +2338,8 @@ class BP_Forums_Template_Topic {
 	 * the while loop that controls iteration inside the blogs loop, eg:
 	 *     while ( bp_forum_topic_posts() ) { ...
 	 *
+	 * @since 1.0.0
+	 *
 	 * @see bp_forum_topic_posts()
 	 *
 	 * @return bool True if there are more posts to show, otherwise false.
@@ -2173,10 +2352,10 @@ class BP_Forums_Template_Topic {
 			/**
 			 * Fires right before the rewinding of user posts.
 			 *
-			 * @since BuddyPress (1.5.0)
+			 * @since 1.5.0
 			 */
 			do_action('topic_loop_end');
-			// Do some cleaning up after the loop
+			// Do some cleaning up after the loop.
 			$this->rewind_posts();
 		}
 
@@ -2187,10 +2366,11 @@ class BP_Forums_Template_Topic {
 	/**
 	 * Set up the current topic in the loop.
 	 *
+	 * @since 1.0.0
+	 *
 	 * @see bp_the_forum_topic_post()
 	 */
 	function the_post() {
-		global $post;
 
 		$this->in_the_loop = true;
 		$this->post = $this->next_post();
@@ -2201,7 +2381,7 @@ class BP_Forums_Template_Topic {
 			/**
 			 * Fires if the current post item is the first in the topic loop.
 			 *
-			 * @since BuddyPress (1.5.0)
+			 * @since 1.5.0
 			 */
 			do_action( 'topic_loop_start' );
 		}
@@ -2211,15 +2391,17 @@ class BP_Forums_Template_Topic {
 /**
  * Initiate the loop for a single topic's posts.
  *
- * @param array $args {
+ * @since 1.1.0
+ *
+ * @param array|string $args {
  *     Arguments for limiting the contents of the topic posts loop.
- *     @type int $topic_id ID of the topic to which the posts belong.
- *     @type int $per_page Number of items to return per page. Default: 15.
- *     @type int $max Max items to return. Default: false.
- *     @type string $order 'ASC' or 'DESC'.
+ *     @type int    $topic_id ID of the topic to which the posts belong.
+ *     @type int    $per_page Number of items to return per page. Default: 15.
+ *     @type int    $max      Max items to return. Default: false.
+ *     @type string $order   'ASC' or 'DESC'.
  * }
  * @return bool True when posts are found corresponding to the args,
- *         otherwise false.
+ *              otherwise false.
  */
 function bp_has_forum_topic_posts( $args = '' ) {
 	global $topic_template;
@@ -2245,7 +2427,7 @@ function bp_has_forum_topic_posts( $args = '' ) {
 	} else {
 		$topic_template = new BP_Forums_Template_Topic( (int) $topic_id, $per_page, $max, $order );
 
-		// Current topic forum_id needs to match current_group forum_id
+		// Current topic forum_id needs to match current_group forum_id.
 		if ( bp_is_groups_component() && $topic_template->forum_id != groups_get_groupmeta( bp_get_current_group_id(), 'forum_id' ) )
 			return false;
 	}
@@ -2253,7 +2435,7 @@ function bp_has_forum_topic_posts( $args = '' ) {
 	/**
 	 * Filters whether or not there are topics to display.
 	 *
-	 * @since BuddyPress (1.1.0)
+	 * @since 1.1.0
 	 *
 	 * @param bool                     $value          Whether or not there are topics.
 	 * @param BP_Forums_Template_Topic $topic_template Topic template global to use when rendering.
@@ -2263,6 +2445,8 @@ function bp_has_forum_topic_posts( $args = '' ) {
 
 /**
  * Determine whether there are posts left in the loop.
+ *
+ * @since 1.1.0
  *
  * @return bool True when posts are found.
  */
@@ -2274,6 +2458,8 @@ function bp_forum_topic_posts() {
 /**
  * Set up the current post in the loop.
  *
+ * @since 1.1.0
+ *
  * @return object
  */
 function bp_the_forum_topic_post() {
@@ -2283,12 +2469,16 @@ function bp_the_forum_topic_post() {
 
 /**
  * Output the ID of the current post in the loop.
+ *
+ * @since 1.0.0
  */
 function bp_the_topic_post_id() {
 	echo bp_get_the_topic_post_id();
 }
 	/**
 	 * Return the ID of the current post in the loop.
+	 *
+	 * @since 1.0.0
 	 *
 	 * @return int ID of the current post in the loop.
 	 */
@@ -2298,7 +2488,7 @@ function bp_the_topic_post_id() {
 		/**
 		 * Filters the ID of the current post in the loop.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param int $post_id ID of the current post.
 		 */
@@ -2307,12 +2497,16 @@ function bp_the_topic_post_id() {
 
 /**
  * Output the content of the current post in the loop.
+ *
+ * @since 1.0.0
  */
 function bp_the_topic_post_content() {
 	echo bp_get_the_topic_post_content();
 }
 	/**
 	 * Return the content of the current post in the loop.
+	 *
+	 * @since 1.0.0
 	 *
 	 * @return string Content of the current post.
 	 */
@@ -2322,7 +2516,7 @@ function bp_the_topic_post_content() {
 		/**
 		 * Filters the content of the current post in the loop.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param string $post_text The content of the current post.
 		 */
@@ -2331,6 +2525,8 @@ function bp_the_topic_post_content() {
 
 /**
  * Output the CSS class of the current post in the loop.
+ *
+ * @since 1.2.4
  */
 function bp_the_topic_post_css_class() {
 	echo bp_get_the_topic_post_css_class();
@@ -2341,8 +2537,10 @@ function bp_the_topic_post_css_class() {
 	 * May contain strings 'alt', 'deleted', or 'open', depending on
 	 * context.
 	 *
+	 * @since 1.2.4
+	 *
 	 * @return string String to put in the 'class' attribute of the current
-	 *         post.
+	 *                post.
 	 */
 	function bp_get_the_topic_post_css_class() {
 		global $topic_template;
@@ -2364,7 +2562,7 @@ function bp_the_topic_post_css_class() {
 		 * This class may contain keywords like 'alt', 'deleted', or 'open',
 		 * based on context.
 		 *
-		 * @since BuddyPress (1.2.4)
+		 * @since 1.2.4
 		 *
 		 * @param string $value Concatenated classes for the current post in the loop.
 		 */
@@ -2374,9 +2572,11 @@ function bp_the_topic_post_css_class() {
 /**
  * Output the avatar of the user who posted the current post in the loop.
  *
+ * @since 1.0.0
+ *
  * @see bp_get_the_topic_post_poster_avatar() for a description of arguments.
  *
- * @param array $args See {@link bp_get_the_topic_post_poster_avatar()}.
+ * @param array|string $args See {@link bp_get_the_topic_post_poster_avatar()}.
  */
 function bp_the_topic_post_poster_avatar( $args = '' ) {
 	echo bp_get_the_topic_post_poster_avatar( $args );
@@ -2384,18 +2584,20 @@ function bp_the_topic_post_poster_avatar( $args = '' ) {
 	/**
 	 * Return the avatar of the user who posted the current post in the loop.
 	 *
-	 * @param array $args {
+	 * @since 1.0.0
+	 *
+	 * @param array|string $args {
 	 *     Arguments for building the avatar.
-	 *     @type string $type Avatar type. 'thumb' or 'full'. Default:
-	 *           'thumb'.
-	 *     @type int $width Width of the avatar, in pixels. Default: the
-	 *           width corresponding to $type.
-	 *           See {@link bp_core_fetch_avatar()}.
-	 *     @type int $height Height of the avatar, in pixels. Default: the
-	 *           height corresponding to $type.
-	 *           See {@link bp_core_fetch_avatar()}.
-	 *     @type string $alt The text of the image's 'alt' attribute.
-	 *           Default: 'Profile picture of [user name]'.
+	 *     @type string $type   Avatar type. 'thumb' or 'full'. Default:
+	 *                          'thumb'.
+	 *     @type int    $width  Width of the avatar, in pixels. Default: the
+	 *                          width corresponding to $type.
+	 *                          See {@link bp_core_fetch_avatar()}.
+	 *     @type int    $height Height of the avatar, in pixels. Default: the
+	 *                          height corresponding to $type.
+	 *                          See {@link bp_core_fetch_avatar()}.
+	 *     @type string $alt    The text of the image's 'alt' attribute.
+	 *                          Default: 'Profile picture of [user name]'.
 	 * }
 	 * @return string HTML of user avatar.
 	 */
@@ -2415,7 +2617,7 @@ function bp_the_topic_post_poster_avatar( $args = '' ) {
 		/**
 		 * Filters the avatar of the user who posted the current post in the loop.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param string $value Avatar of the user who posted the current post.
 		 */
@@ -2424,12 +2626,16 @@ function bp_the_topic_post_poster_avatar( $args = '' ) {
 
 /**
  * Output the name of the user who posted the current post in the loop.
+ *
+ * @since 1.0.0
  */
 function bp_the_topic_post_poster_name() {
 	echo bp_get_the_topic_post_poster_name();
 }
 	/**
 	 * Return the name of the user who posted the current post in the loop.
+	 *
+	 * @since 1.0.0
 	 *
 	 * @return string Name of the user who posted the current post.
 	 */
@@ -2442,7 +2648,7 @@ function bp_the_topic_post_poster_name() {
 		/**
 		 * Filters the name of the user who posted the current post in the loop.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param string $value HTML link for the poster's name.
 		 */
@@ -2451,6 +2657,8 @@ function bp_the_topic_post_poster_name() {
 
 /**
  * Output a link to the profile of the user who posted the current post.
+ *
+ * @since 1.2.0
  */
 function bp_the_topic_post_poster_link() {
 	echo bp_get_the_topic_post_poster_link();
@@ -2458,8 +2666,10 @@ function bp_the_topic_post_poster_link() {
 	/**
 	 * Return a link to the profile of the user who posted the current post.
 	 *
+	 * @since 1.2.0
+	 *
 	 * @return string Link to the profile of the user who posted the
-	 *         current post.
+	 *                current post.
 	 */
 	function bp_get_the_topic_post_poster_link() {
 		global $topic_template;
@@ -2467,7 +2677,7 @@ function bp_the_topic_post_poster_link() {
 		/**
 		 * Filters a link to the profile of the user who posted the current post.
 		 *
-		 * @since BuddyPress (1.2.1)
+		 * @since 1.2.1
 		 *
 		 * @param string $value Link for the current poster's profile.
 		 */
@@ -2476,12 +2686,16 @@ function bp_the_topic_post_poster_link() {
 
 /**
  * Output a 'since' string describing when the current post in the loop was posted.
+ *
+ * @since 1.0.0
  */
 function bp_the_topic_post_time_since() {
 	echo bp_get_the_topic_post_time_since();
 }
 	/**
 	 * Return a 'since' string describing when the current post in the loop was posted.
+	 *
+	 * @since 1.0.0
 	 *
 	 * @see bp_core_time_since() for a description of return value.
 	 *
@@ -2493,7 +2707,7 @@ function bp_the_topic_post_time_since() {
 		/**
 		 * Filters the 'since' string describing when the current post in the loop was posted.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param string $value The 'since' string.
 		 */
@@ -2502,18 +2716,22 @@ function bp_the_topic_post_time_since() {
 
 /**
  * Output whether the current post in the loop belongs to the logged-in user.
+ *
+ * @since 1.1.0
  */
 function bp_the_topic_post_is_mine() {
-	echo bp_the_topic_post_is_mine();
+	echo bp_get_the_topic_post_is_mine();
 }
 	/**
 	 * Does the current post belong to the logged-in user?
 	 *
+	 * @since 1.1.0
+	 *
 	 * @return bool True if the current post in the loop was created by
-	 *         the logged-in user, otherwise false.
+	 *              the logged-in user, otherwise false.
 	 */
 	function bp_get_the_topic_post_is_mine() {
-		global $bp, $topic_template;
+		global $topic_template;
 
 		return bp_loggedin_user_id() == $topic_template->post->poster_id;
 	}
@@ -2521,9 +2739,11 @@ function bp_the_topic_post_is_mine() {
 /**
  * Output the admin links for the current post in the loop.
  *
+ * @since 1.1.0
+ *
  * @see bp_get_the_post_admin_links() for a description of arguments.
  *
- * @param array $args See {@link bp_get_the_post_admin_links()}.
+ * @param array|string $args See {@link bp_get_the_post_admin_links()}.
  */
 function bp_the_topic_post_admin_links( $args = '' ) {
 	echo bp_get_the_topic_post_admin_links( $args );
@@ -2531,11 +2751,13 @@ function bp_the_topic_post_admin_links( $args = '' ) {
 	/**
 	 * Return the admin links for the current post in the loop.
 	 *
-	 * @param array $args {
+	 * @since 1.1.0
+	 *
+	 * @param array|string $args {
 	 *     @type string $separator The character to use when separating
-	 *           links. Default: '|'.
+	 *                             links. Default: '|'.
 	 * }
-	 * @return HTML string containing the admin links for the current post.
+	 * @return string HTML string containing the admin links for the current post.
 	 */
 	function bp_get_the_topic_post_admin_links( $args = '' ) {
 		global $topic_template;
@@ -2562,7 +2784,7 @@ function bp_the_topic_post_admin_links( $args = '' ) {
 		/**
 		 * Filters the admin links for the current post in the loop.
 		 *
-		 * @since BuddyPress (1.2.7)
+		 * @since 1.2.7
 		 *
 		 * @param string $value HTML string containing the admin links for the current post.
 		 */
@@ -2571,12 +2793,16 @@ function bp_the_topic_post_admin_links( $args = '' ) {
 
 /**
  * Output the text to edit when editing a post.
+ *
+ * @since 1.1.0
  */
 function bp_the_topic_post_edit_text() {
 	echo bp_get_the_topic_post_edit_text();
 }
 	/**
 	 * Return the text to edit when editing a post.
+	 *
+	 * @since 1.1.0
 	 *
 	 * @return string Editable text.
 	 */
@@ -2586,7 +2812,7 @@ function bp_the_topic_post_edit_text() {
 		/**
 		 * Filters the text to edit when editing a post.
 		 *
-		 * @since BuddyPress (1.2.4)
+		 * @since 1.2.4
 		 *
 		 * @param string $value The text to edit when editing a post.
 		 */
@@ -2595,12 +2821,16 @@ function bp_the_topic_post_edit_text() {
 
 /**
  * Output the pagination links for the current topic.
+ *
+ * @since 1.0.0
  */
 function bp_the_topic_pagination() {
 	echo bp_get_the_topic_pagination();
 }
 	/**
 	 * Return the pagination links for the current topic page.
+	 *
+	 * @since 1.0.0
 	 *
 	 * @return string HTML pagination links.
 	 */
@@ -2611,7 +2841,7 @@ function bp_the_topic_pagination() {
 		/**
 		 * Filters the pagination links for the current topic page.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param string $pag_links HTML pagination links.
 		 */
@@ -2623,31 +2853,39 @@ function bp_the_topic_pagination() {
  *
  * The "count" is a string of the form "Viewing x of y posts".
  *
- * @return string
+ * @since 1.0.0
  */
 function bp_the_topic_pagination_count() {
-	global $bp, $topic_template;
+	global $topic_template;
 
 	$start_num = intval( ( $topic_template->pag_page - 1 ) * $topic_template->pag_num ) + 1;
 	$from_num = bp_core_number_format( $start_num );
 	$to_num = bp_core_number_format( ( $start_num + ( $topic_template->pag_num - 1  ) > $topic_template->total_post_count ) ? $topic_template->total_post_count : $start_num + ( $topic_template->pag_num - 1 ) );
 	$total = bp_core_number_format( $topic_template->total_post_count );
 
+	if ( 1 == $topic_template->total_post_count ) {
+		$message = __( 'Viewing 1 post', 'buddypress' );
+	} else {
+		$message = sprintf( _n( 'Viewing %1$s - %2$s of %3$s post', 'Viewing %1$s - %2$s of %3$s posts', (int) $topic_template->total_post_count, 'buddypress' ), $from_num, $to_num, $total );
+	}
+
 	/**
 	 * Filters the pagination count for the current topic page.
 	 *
-	 * @since BuddyPress (1.0.0)
+	 * @since 1.0.0
 	 *
-	 * @param string $value    Pagination count for the current topic page.
+	 * @param string $message  Pagination count for the current topic page.
 	 * @param string $from_num Low end count in the view.
 	 * @param string $to_num   High end count in the view.
 	 * @param string $total    Total count of topics found.
 	 */
-	echo apply_filters( 'bp_the_topic_pagination_count', sprintf( _n( 'Viewing 1 post', 'Viewing %1$s - %2$s of %3$s posts', (int) $topic_template->total_post_count, 'buddypress' ), $from_num, $to_num, $total ), $from_num, $to_num, $total );
+	echo apply_filters( 'bp_the_topic_pagination_count', $message, $from_num, $to_num, $total );
 }
 
 /**
  * Output whether this is the last page in the current topic.
+ *
+ * @since 1.2.0
  */
 function bp_the_topic_is_last_page() {
 	echo bp_get_the_topic_is_last_page();
@@ -2655,8 +2893,10 @@ function bp_the_topic_is_last_page() {
 	/**
 	 * Is this the last page in the current topic?
 	 *
+	 * @since 1.2.0
+	 *
 	 * @return bool True if this is the last page of posts for the current
-	 *         topic, otherwise false.
+	 *              topic, otherwise false.
 	 */
 	function bp_get_the_topic_is_last_page() {
 		global $topic_template;
@@ -2664,7 +2904,7 @@ function bp_the_topic_is_last_page() {
 		/**
 		 * Filters whether or not a user is on the last page in the current topic.
 		 *
-		 * @since BuddyPress (1.2.0)
+		 * @since 1.2.0
 		 *
 		 * @param bool $value Whether or not user is on last page.
 		 */
@@ -2673,28 +2913,32 @@ function bp_the_topic_is_last_page() {
 
 /**
  * Output the forums directory search form.
+ *
+ * @since 1.1.0
  */
 function bp_directory_forums_search_form() {
 	$default_search_value = bp_get_search_default_text( 'forums' );
 	$search_value = !empty( $_REQUEST['fs'] ) ? stripslashes( $_REQUEST['fs'] ) : $default_search_value;
 
 	$search_form_html = '<form action="" method="get" id="search-forums-form">
-		<label><input type="text" name="s" id="forums_search" placeholder="'. esc_attr( $search_value ) .'" /></label>
+		<label for="forums_search"><input type="text" name="s" id="forums_search" placeholder="'. esc_attr( $search_value ) .'" /></label>
 		<input type="submit" id="forums_search_submit" name="forums_search_submit" value="' . __( 'Search', 'buddypress' ) . '" />
 	</form>';
 
 	/**
 	 * Filters the forums directory search form.
 	 *
-	 * @since BuddyPress (1.9.0)
+	 * @since 1.9.0
 	 *
-	 * @param string HTML search form for the forums directory.
+	 * @param string $search_form_html HTML search form for the forums directory.
 	 */
 	echo apply_filters( 'bp_directory_forums_search_form', $search_form_html );
 }
 
 /**
  * Output the link to a given forum.
+ *
+ * @since 1.0.0
  *
  * @see bp_get_forum_permalink() for a description of arguments.
  *
@@ -2706,15 +2950,16 @@ function bp_forum_permalink( $forum_id = 0 ) {
 	/**
 	 * Return the permalink to a given forum.
 	 *
+	 * @since 1.0.0
+	 *
 	 * @param int $forum_id Optional. Defaults to the current forum, if
-	 *        there is one.
+	 *                      there is one.
 	 * @return string|bool False on failure, a URL on success.
 	 */
 	function bp_get_forum_permalink( $forum_id = 0 ) {
-		global $bp;
 
 		if ( bp_is_groups_component() ) {
-			$permalink = trailingslashit( bp_get_root_domain() . '/' . bp_get_groups_root_slug() . '/' . bp_current_item() . '/forum' );
+			$permalink = trailingslashit( bp_get_groups_directory_permalink() . bp_current_item() . '/forum' );
 		} else {
 			if ( empty( $forum_id ) ) {
 				global $topic_template;
@@ -2731,7 +2976,7 @@ function bp_forum_permalink( $forum_id = 0 ) {
 		/**
 		 * Filters the permalink to a given forum.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param string $value Peramlink to the given forum.
 		 */
@@ -2740,6 +2985,8 @@ function bp_forum_permalink( $forum_id = 0 ) {
 
 /**
  * Output the name of a given forum.
+ *
+ * @since 1.5.0
  *
  * @see bp_get_forum_name() for a description of parameters.
  *
@@ -2751,12 +2998,13 @@ function bp_forum_name( $forum_id = 0 ) {
 	/**
 	 * Return the name of a given forum.
 	 *
+	 * @since 1.5.0
+	 *
 	 * @param int $forum_id Optional. Defaults to the current forum, if
-	 *        there is one.
+	 *                      there is one.
 	 * @return string|bool False on failure, a name on success.
 	 */
 	function bp_get_forum_name( $forum_id = 0 ) {
-		global $bp;
 
 		if ( empty( $forum_id ) ) {
 			global $topic_template;
@@ -2769,7 +3017,7 @@ function bp_forum_name( $forum_id = 0 ) {
 			/**
 			 * Filters the name of a given forum.
 			 *
-			 * @since BuddyPress (1.5.0)
+			 * @since 1.5.0
 			 *
 			 * @param string $forum_name Name of the given forum.
 			 * @param string $forum_id   ID of the given forum.
@@ -2786,12 +3034,14 @@ function bp_forum_name( $forum_id = 0 ) {
  * A wrapper for {@link bb_tag_heat_map}, which provides it with BP-friendly
  * defaults.
  *
- * @param array $args {
+ * @since 1.1.0
+ *
+ * @param array|string $args {
  *     An array of optional arguments.
- *     @type int $smallest Size of the smallest link. Default: 10.
- *     @type int $largest Size of the largest link. Default: 42.
- *     @type string $sizing Unit for $largest and $smallest. Default: 'px'.
- *     @type int $limit Max number of tags to display. Default: 50.
+ *     @type int    $smallest Size of the smallest link. Default: 10.
+ *     @type int    $largest  Size of the largest link. Default: 42.
+ *     @type string $sizing   Unit for $largest and $smallest. Default: 'px'.
+ *     @type int    $limit    Max number of tags to display. Default: 50.
  * }
  */
 function bp_forums_tag_heat_map( $args = '' ) {
@@ -2809,9 +3059,9 @@ function bp_forums_tag_heat_map( $args = '' ) {
 }
 
 /**
- * Output the current topic's tag list, comma-separated
+ * Output the current topic's tag list, comma-separated.
  *
- * @since BuddyPress (1.5.0)
+ * @since 1.5.0
  */
 function bp_forum_topic_tag_list() {
 	echo bp_get_forum_topic_tag_list();
@@ -2819,10 +3069,10 @@ function bp_forum_topic_tag_list() {
 	/**
 	 * Get the current topic's tag list.
 	 *
-	 * @since BuddyPress (1.5.0)
+	 * @since 1.5.0
 	 *
 	 * @param string $format 'string' returns comma-separated string;
-	 *        otherwise returns array.
+	 *                       otherwise returns array.
 	 * @return mixed $tags
 	 */
 	function bp_get_forum_topic_tag_list( $format = 'string' ) {
@@ -2844,7 +3094,7 @@ function bp_forum_topic_tag_list() {
 		/**
 		 * Filters the current topic's tag list.
 		 *
-		 * @since BuddyPress (1.5.0)
+		 * @since 1.5.0
 		 *
 		 * @param string|array $tags   List or array of tags for the current topic.
 		 * @param string       $format Requested format for the tags.
@@ -2855,7 +3105,7 @@ function bp_forum_topic_tag_list() {
 /**
  * Does the current topic have any tags?
  *
- * @since BuddyPress (1.5.0)
+ * @since 1.5.0
  *
  * @return bool True if the current topic has tags, otherwise false.
  */
@@ -2870,7 +3120,7 @@ function bp_forum_topic_has_tags() {
 	/**
 	 * Filters whether or not a forum topic has any tags.
 	 *
-	 * @since BuddyPress (1.5.0)
+	 * @since 1.5.0
 	 *
 	 * @param bool $has_tags Whether or not there are any tags.
 	 */
@@ -2879,12 +3129,16 @@ function bp_forum_topic_has_tags() {
 
 /**
  * Output a URL to use in as a forum form 'action'.
+ *
+ * @since 1.0.0
  */
 function bp_forum_action() {
 	echo bp_get_forum_action();
 }
 	/**
 	 * Get a URL to use in as a forum form 'action'.
+	 *
+	 * @since 1.0.0
 	 *
 	 * @return string URL of the current page, minus query args.
 	 */
@@ -2894,7 +3148,7 @@ function bp_forum_action() {
 		/**
 		 * Filters the url to use in a forum form 'action'.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param string $value URL to use in the forum form 'action'.
 		 */
@@ -2903,12 +3157,16 @@ function bp_forum_action() {
 
 /**
  * Output a URL to use in as a forum topic form 'action'.
+ *
+ * @since 1.0.0
  */
 function bp_forum_topic_action() {
 	echo bp_get_forum_topic_action();
 }
 	/**
 	 * Get a URL to use in as a forum topic form 'action'.
+	 *
+	 * @since 1.0.0
 	 *
 	 * @return string URL of the current page, minus query args.
 	 */
@@ -2917,7 +3175,7 @@ function bp_forum_topic_action() {
 		/**
 		 * Filters the url to use in a forum topic form 'action'.
 		 *
-		 * @since BuddyPress (1.0.0)
+		 * @since 1.0.0
 		 *
 		 * @param string $value URL to use in the forum topic form 'action'.
 		 */
@@ -2926,6 +3184,8 @@ function bp_forum_topic_action() {
 
 /**
  * Output the total topic count for a given user.
+ *
+ * @since 1.2.0
  *
  * @see bp_get_forum_topic_count_for_user() for description of parameters.
  *
@@ -2937,6 +3197,8 @@ function bp_forum_topic_count_for_user( $user_id = 0 ) {
 	/**
 	 * Return the total topic count for a given user.
 	 *
+	 * @since 1.2.0
+	 *
 	 * @param int $user_id See {@link bp_forums_total_topic_count_for_user}.
 	 *
 	 * @return int
@@ -2946,7 +3208,7 @@ function bp_forum_topic_count_for_user( $user_id = 0 ) {
 		/**
 		 * Filters the total topic count for a given user.
 		 *
-		 * @since BuddyPress (1.2.0)
+		 * @since 1.2.0
 		 *
 		 * @param int $value Total topic count for the given user.
 		 */
@@ -2955,6 +3217,8 @@ function bp_forum_topic_count_for_user( $user_id = 0 ) {
 
 /**
  * Output the total topic count for a given user.
+ *
+ * @since 1.2.0
  *
  * @see bp_get_forum_topic_count() for description of parameters.
  *
@@ -2966,6 +3230,8 @@ function bp_forum_topic_count( $user_id = 0 ) {
 	/**
 	 * Return the total topic count for a given user.
 	 *
+	 * @since 1.2.0
+	 *
 	 * @param int $user_id See {@link bp_forums_total_topic_count()}.
 	 *
 	 * @return int
@@ -2975,7 +3241,7 @@ function bp_forum_topic_count( $user_id = 0 ) {
 		/**
 		 * Filters the total topic count for a given user.
 		 *
-		 * @since BuddyPress (1.2.0)
+		 * @since 1.2.0
 		 *
 		 * @param int $value Total topic count for the given user.
 		 */

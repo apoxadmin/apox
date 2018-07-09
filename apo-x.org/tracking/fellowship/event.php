@@ -19,11 +19,8 @@ if(isset($_SESSION['class']))
 
 get_header();
 
-$temp=user_get($id, 'f');
-$temp=$temp['name'];
-
-if ( !( ($temp == 'fellowship' || $temp == 'admin') && $class=='admin') )
-	show_note('You must be logged in as fellowship to access this page.');
+if($class!="admin")
+	show_note('You must be an administrator to access this page.');
 
 function show_usersTrack($users, $name)
 {

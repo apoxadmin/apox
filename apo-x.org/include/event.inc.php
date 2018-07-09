@@ -216,7 +216,13 @@ function event_get($id)
 // Returns true if event type should have multiple shifts and shifts should be modifiable by ExComm.
 function event_multipleShifts($event) {
 	//if ($event['type']=='Service' || $event['type']=='Interviews' || $event['type']=='Leadership' || $event['ic'] == true) {
-	if ($event['type']=='Service' || $event['type']=='Interviews' || $event['type']=='Leadership') {
+    if ($event['type']=='Service' || 
+        $event['type']=='Interviews' || 
+        $event['type']=='Leadership' || 
+        $event['type'] == 'Fellowship' || 
+        $event['type'] == 'Fundraiser' || 
+        $event['type'] == 'Special' || 
+        $event['type'] == 'Family') {
 		return true;
 	} else {
 		return false;

@@ -1,6 +1,7 @@
 <?php
-session_start();
-
+if(session_id() == '') {
+    session_start();
+}
 ob_start();
 include_once 'database.inc.php';
 define('SESSION_TABLE', 'session');

@@ -1,0 +1,74 @@
+/**********************************************************/
+
+== CHANGE LOG == 
+
+= Version 1.2.0 = = 17/07/2017 
+* Fix - Fixed sticky header issue
+
+= Version 1.1.9 = = 12/07/2017 
+* Fix - Fixed 'Back to Top' button issue
+
+= Version 1.1.8 = = 12/07/2017 
+* Add - Added 'Blog Page Subtitle Font Size' option
+* Fix - Fixed header overlay issue on posts page
+* Fix - Fixed 'Blog Page Subtitle' option issue
+* Fix - Fixed 'Custom Menu' option issue on posts page
+* Fix - Fixed page height issue
+
+= Version 1.1.7 = = 06/07/2017 
+* Fix - Fixed sticky header issue
+* Fix - Fixed google fonts issue
+* Update - Updated classic template
+
+= Version 1.1.6 = = 03/07/2017 
+* Update - Updated screenshot
+
+= Version 1.1.5 = = 12/06/2017 
+* Add - Added page option - Display Page Title Bar
+
+= Version 1.1.3 = = 23/05/2017 
+* Fix - Fixed archive title issue
+* Fix - Fixed sticky header issue
+* Fix - Fixed shop page issue
+
+= Version 1.1.2 = = 22/05/2017 
+* Fix - Fixed sticky header issue
+* Fix - Fixed 'Header Overlay' option issue
+* Fix - Fixed menu active issue
+* Add - Added 'Sub-menu Width' option
+* Add - Added page option - 'Header Overlay'
+
+= Version 1.1.1 = = 22/05/2017 
+* Fix - Fixed header issue
+
+= Version 1.1.0 = = 20/05/2017 
+* Remove - Removed home page sections
+* Compatible with Mageewp Page Layout Plugin
+
+= Version 1.0.8 = = 19/05/2017 
+* Fix - Fixed escape issues
+* Remove - Removed section - Contact
+
+= Version 1.0.7 = = 15/05/2017 
+* Fix - Fixed style and script handle issues
+* Fix - Fixed theme tags issue
+* Fix - Fixed translation issues
+* Fix - Fixed page dropdown option issue
+* Fix - Fixed errors in functions.php
+* Remove - Removed search-form from add_theme_support( 'html5' )
+* Remove - Removed comment-form from add_theme_support( 'html5' )
+* Remove - Removed theme_mod_{$name}
+* Remove - Removed excerpt_length filter
+* Use the_archive_title() to display archive title in archive templates
+* Use the_posts_pagination() for numeric pagination in archives
+
+= Version 1.0.6 = = 05/03/2017 
+* Remove - Removed option 'Contact Form Title'
+
+= Version 1.0.5 = = 28/02/2017
+* Fix - Fixed footer icon link issue
+* Add - Added 'Blog Page Subtitle' option
+* Add - Added theme support 'custom-logo'
+* Add - Added google map for Section - Contact
+* Remove - Removed Logo option
+* Remove - Removed contact form from Section - Contact
