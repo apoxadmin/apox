@@ -7500,10 +7500,10 @@ header{
 }
 #header{
   position: relative;
-  width: 1100px;
+  /*width: 1100px;*/
   margin: 0 auto;
   background-color: white;
-  height: 46px;
+  /*height: 46px;*/
   border-bottom: 3px solid #414141;
 }
 
@@ -7548,7 +7548,7 @@ float: left;
 
 #access {
   display: inline-block;
-  width: 818px;
+  /*width: 818px;*/
   text-align: right;
 }
 #access .menu-header,

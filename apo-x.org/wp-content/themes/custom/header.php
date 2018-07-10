@@ -10,6 +10,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/include/session.inc.php');
 <!DOCTYPE html>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Alpha Phi Omega | Chi</title>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
