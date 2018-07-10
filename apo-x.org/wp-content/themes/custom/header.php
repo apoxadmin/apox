@@ -71,34 +71,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/include/session.inc.php');
 	
 	?>
 	</div>
-	<?php 						
-			if(isset($_SESSION['id'])):
-			include_once 'user.inc.php'; 
-	?>
-			 <a class="btn btn-small btn-danger" href="/input.php?action=logout&amp;redirect=index.php">logout</a>
-		    <?php elseif(is_page('sectionals')): ?>
-		    <?php else: ?>		
-	<a href="#myModal" role="button" class="btn btn-small" data-toggle="modal">Login</a>
-                <?php endif; ?>
 	</div>	
 	
-		</header>
-<!-- Modal -->
-<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-header">
-    <h3 id="myModalLabel">Alpha Phi Omega | Chi - Log In</h3>
-  </div>
-  <div class="modal-body">
-    <p>	    	
-    	<form class="form-inline" method="post" action="/input.php">
-    		<input name="action" type="hidden" value="login" />
-    		<input name="redirect" type="hidden" value="<?php echo $_SERVER["REQUEST_URI"] ?>" />
-    		<input type="text" name="username"  class="input-small" placeholder="Your Name"  onclick="this.select();" value="<?php echo $_COOKIE['username'] ?>" />
-    		<input type="password" name="password" class="input-small" placeholder="Password" onclick="this.select();" />
-    		<button type="submit" name="submit" value="Log In"  class="btn"/>Sign In</button>
-    	</form>
-    	</p>
-  </div>
-</div>
+	</header>
+
 <!-- cy -->
 <div id="container" class="container" >
