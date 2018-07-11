@@ -658,3 +658,11 @@ function coraline_set_full_content_width() {
 	if ( strstr( $layout, 'three-column' ) )
 		$content_width = 990;
 }
+
+add_filter( 'body_class', 'custom_class' );
+function custom_class( $classes ) {
+    if ( is_page()==false ) {
+		$classes[] = 'minimumWidth';
+    }
+    return $classes;
+}

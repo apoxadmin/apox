@@ -33,7 +33,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/include/session.inc.php');
 ?>
 </head>
 
-<body>
+<body <?php body_class( 'class-name' ); ?>>
 	<header>
 	<!-- Modified 02/15/2014
 		Added this to give the sectionals page special viewing privileges

@@ -9204,3 +9204,8 @@ content: '';
 .waitlist{
   background-color: #EEE;
 }
+
+.minimumWidth{
+  min-width:450px;        /* Minimum width of 450px for calendar */
+  width: auto !important;  /* Firefox will set width as auto */
+}
