@@ -17,7 +17,7 @@ We want to continue updating the website, especially before it breaks (RIP Alpha
 * 8/20: Redesign Contact Us
 * 8/13: Redesign About Us
 * 8/6: Tracking Fixed
-* 7/30: Change Website Fonts
+* 7/30: Change Website Fonts *in progress, fonts changed through Wordpress plugins and direct CSS changes*
 * 7/23: New Pictures
 * 7/21: Redesign Landing Page
 * 7/18: Update GitHub *done*

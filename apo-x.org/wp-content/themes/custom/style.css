@@ -339,7 +339,7 @@ body {
   font-family: "Myriad Set Pro", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 13px;
   line-height: 20px;
-  color: #333333;
+  color: #000000;
   background-color: #ffffff;
   margin-top: -28px !important; /*some plugin is adding the adminbar even when not logged in, display:none the admin bar, and reduce the margin */
 }
@@ -7304,7 +7304,7 @@ div.menu,
 #main,
 #wrapper {
   margin: 0 auto;
-  width: 951px;
+  /*width: 951px;*/
 }
 #wrapper {
   background: #fff;
@@ -7553,7 +7553,8 @@ float: left;
 }
 #access .menu-header,
 div.menu {
-  font-size: 13px;
+  font-family: 'Nunito';
+  font-size: 14px;
   width: 100%;
 }
 #access .menu-header ul,
@@ -7704,13 +7705,13 @@ padding: 0;
   border-top: 1px solid #e7e7e7;*/
 
 /*  padding: 6px 24px; */
-}
+/*}
 #content tr.odd td {
   background: #f2f7fc;
 }
 .hentry {
   margin: 0 0 0px 0;
-}
+}*/
 /*.home .sticky {
   background: #f2f7fc;
   border-top: 4px solid #000;
