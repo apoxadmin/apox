@@ -102,29 +102,16 @@ foreach($most as $rank=>$person)
 	</tr>
 <tr>
 <th>
-<p><a href="https://docs.google.com/spreadsheets/d/16tbPWNwqOYa9-q9_OJm6fttFxWdKRIrqvU0xy4bBWYo/edit?usp=sharing">Alumni Contact Sheet</a>
-<p><a href="https://www.instagram.com/apoucla/?hl=en">APO Instagram</a>
-<p><a href="https://goo.gl/forms/NhvZ2NZAsVXJdfhB3">Anonymous Feedback Form</a>
-<p><a href="https://drive.google.com/file/d/1kYWN5MZxHBiUSFxVmf_1jn3Cj0GO1Ttm/view?usp=sharing">C.A.R.L Guidelines</a>
-<p><a href="https://docs.google.com/document/d/1jz50pjQnmck1BhEr9kS44mIafEDakQ9Wk8j6y4la49g/edit?usp=sharing">What's In C.A.R.L?</a>
-<p><a href="https://goo.gl/Wt5oEC">Website Work Order</a>
-<p><a href="http://www.apo-x.org/apo-x.org%20(oldsite)/arcade/games/index.php">Games</a>
 <p><a href="https://goo.gl/mrkSX9">Active Tracker</a>
-<p><a href="https://drive.google.com/file/d/1zZAKU3_XW0fjWyFX62Oxskc919Pl68uG/view?usp=sharing">Active Contract</a>
-<p><a href="https://drive.google.com/file/d/1x-OHnVHfkmu0l-ngTebptnsssBuHammk/view?usp=sharing">Associate Contract</a>
-<p><a href="https://goo.gl/4yxgws">Committee Masterlist</a>
 <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeB-6Thz8J38LRgWQfc5zCuApRy_5p4ni9ia8eMcuogrLYU5g/viewform">Regular Reimbursement</a>
 <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfY4BHA5n5xMwLNwhld4Od9GjN7CEUvy78lESZy91D3w21ZIw/viewform">Gas Reimbursement</a>
 <p><a href="https://docs.google.com/forms/d/1znzQoH6fZYDN8OF55E4HLUDBeoFF6Kg9dszeL3975g4/viewform?edit_requested=true">Uber or Lyft Reimbursement</a>
 <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScZDyt5WP-N6LoXuiRn1n7QovwKT-LwpgdXcw85GqrJ83__EQ/viewform">Fellowship Events Feedback</a>
-<p><a href="https://goo.gl/forms/8szUlLvy4wZS5BCC3">Chair Evaluations</a>
 <p><a href="https://goo.gl/forms/Of2VCuY5cHCflFPO2">Event Feedback Form</a>
+<p><a href="https://goo.gl/forms/8szUlLvy4wZS5BCC3">Chair Evaluations</a>
 <p><a href="https://docs.google.com/spreadsheets/d/1_rXL5S-n5pgcjfITodLfWhiAw1rU37E6SEgHkuKU_9c/edit?usp=sharing">View All Chair Evaluations</a>
 <p><a href="https://goo.gl/forms/uJeuqUYieCDhHCB83">Lost Pins Form</a>
 <p><a href="https://goo.gl/forms/bqCK8YBmLPTCVZkj1">Strike Pledges Here</a>
-<p><a href="https://goo.gl/forms/PjZfIlqTrthkYJpt2">Love Letters</a>
-<p><a href="https://goo.gl/forms/pgSDz1nkhv6ZGa7H3">Brother of The Week Nominations</a>
-<p><a href="https://docs.google.com/forms/d/1lGCTPOCsnsBKlubB79QYzQ6WByZ4kGJtHiT_3F6r6Lc/edit">Golden Eagle Nominations</a>
 
 
 </th> 

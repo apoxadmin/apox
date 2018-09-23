@@ -1,0 +1,121 @@
+.krystal-info{
+	margin-top: 100px;
+}
+
+.krystal-info .container{	
+	margin: auto;
+	width: 980px;
+}
+
+.krystal-info .row{
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.krystal-info .col-md-3{
+	float: left;
+	min-height: 1px;
+	padding-left: 5px;
+    padding-right: 5px;
+	position: relative;
+    width: 24%;
+}
+
+.krystal-info .title h2{
+	background: #fff;
+	border-left: 5px solid #2b8d09;
+	font-size: 15px;
+	padding: 30px 25px;
+}
+
+.krystal-info .title .title-content{
+	margin: 40px 0;
+}
+
+.krystal-info .section-box{
+	background: #fff;
+	border-bottom: 5px solid #f49a51;
+	margin-bottom: 20px;
+	text-align: center;	
+}
+
+.krystal-info .section-box.section-last{
+	background: #e26868;	
+}
+
+.section-box.section-last span.dashicons{
+	color: #fff;
+}
+
+.section-box.section-last .heading a{
+	color: #fff;
+}
+
+.section-box.section-last .heading a:hover{
+	color: #fff;
+}
+
+.krystal-info .section-box.section-last {    
+    border-bottom: 5px solid #b53b3b;    
+}
+
+.section-box h3{
+	font-size: 12px;
+}
+
+.section-box .icon{
+	padding: 50px 0;
+}
+
+.section-box .heading{
+	padding: 10px 0;
+}
+
+.section-box .heading a{
+	color: #555;
+	text-decoration: none;	
+}
+
+.section-box .heading a:hover{
+	color: #f49a51;
+}
+
+.section-box span.dashicons{
+	color: #00bcd4;
+	font-size: 50px;	
+	padding-right: 25px;
+}
+
+
+@media only screen and (max-width: 480px){
+
+	.krystal-info{
+		margin-top: 50px;
+	}
+
+	.krystal-info .container{	
+		margin: auto;
+		width: 75%;
+	}	
+
+	.krystal-info .col-md-3{		
+		margin-bottom: 20px;
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 980px) {  
+	.krystal-info{
+		margin-top: 50px;
+	}
+
+	.krystal-info .container{	
+		margin: auto;
+		width: 75%;
+	}	
+
+	.krystal-info .col-md-3{		
+		margin-bottom: 20px;
+		width: 48%;
+	}
+}

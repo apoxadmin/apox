@@ -9,7 +9,41 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/include/session.inc.php');
 ?>
 
 <!DOCTYPE html>
+<head>
+<style>
+.form {
+	max-width: 300px;
+  text-align: center;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+.form input[type="text"],input[type="password"] {
+  outline: 0;
+  width: 100%;
+	height: 50px;
+  border: 0;
+  margin: 0 0 10px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+	font-weight: 400;
+	border-bottom: 2px solid #555;  
+	border-radius: 0px;
+}
+input[type="submit"]{
+	width: 100%;
+    background: none;
+    border-radius: 45px;
+    border: 1px solid #555;
+    color: #555;
+    padding: 15px 40px;
+    transition: all 0.3s ease-in-out; 
+    outline: 0 !important;
+    -webkit-appearance: none;
+}
+</style></head>
 <body>
+<?php the_content(); ?>
 <?php
 	if($_SESSION['class'] == 'admin') { 
 	// if logged in as admin
@@ -20,13 +54,13 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/include/session.inc.php');
 	echo '<script>window.location = "/";</script>';
 	}
 ?>
-
+  <div class="form">
 <form class="form-inline" method="post" action="/input.php">
     <input name="action" type="hidden" value="login" />
     <input name="redirect" type="hidden" value="<?php echo $_SERVER["REQUEST_URI"] ?>" />
-   	<input type="text" name="username"  class="input-small" placeholder="Your Name"  onclick="this.select();" value="<?php echo $_COOKIE['username'] ?>" />
-    <input type="password" name="password" class="input-small" placeholder="Password" onclick="this.select();" />
-   	<button type="submit" name="submit" value="Log In"  class="btn"/>Sign In</button>
-	</form>
+   	<input type="text" name="username" placeholder="Your Name"  onclick="this.select();" value="<?php echo $_COOKIE['username'] ?>" /><br>
+    <input type="password" name="password" placeholder="Password" onclick="this.select();" /><br>
+   	<input type="submit" name="submit" value="Log In"  class="btn">
+	  </form></div></body>
     	
 <?php get_footer() ?>
