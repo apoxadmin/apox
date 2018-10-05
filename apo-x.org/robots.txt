@@ -3,6 +3,7 @@ Disallow: /cgi-bin/
 Disallow: /comms/
 Disallow: /config/
 Disallow: /cronjobs/
+Disallow: /download/
 Disallow: /files/
 Disallow: /forums/
 Disallow: /frsearch/
@@ -19,3 +20,4 @@ Disallow: /tools/
 Disallow: /tracking/
 Disallow: /wiki/
 Disallow: /wik/
+Disallow: /wp-content/
