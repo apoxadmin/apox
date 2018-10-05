@@ -902,11 +902,10 @@ h4 small {
   border-bottom: 1px solid #eeeeee;
 }
 
-ul,
+
 ol {
-  padding: 0;
+  display: block;
   margin: 0 0 10px 25px;
-  display: -webkit-inline-box;
 }
 
 ul ul,
@@ -917,7 +916,7 @@ ol ul {
 }
 
 li {
-  line-height: 0px;
+  line-height: 1;
 	    padding-top: 12px;
 }
 
@@ -3991,7 +3990,7 @@ input[type="submit"].btn.btn-mini {
   margin-bottom: 20px;
   margin-left: 0;
   list-style: none;
-  position: fixed !important;
+  position: fixed;
 }
 
 .nav > li > a {
@@ -8944,7 +8943,9 @@ td.nested {
 .et1,.et2,.et3,.et4,.et5,.et6,.et7,.et8,.et9,.et10{
   padding: 2px;
 }
-
+td.waitlist, tr.waitlist td {
+    background-color: LightGray;
+}
 /*service #f5cfcf     */
 .et1 {
     background-color: #f5cfcf;
@@ -8989,6 +8990,11 @@ td.nested {
 .et10{background-color:#ffeee3;
 
   } 
+
+/*Historian*/
+.et11 {
+  background-color:#e0acff;
+}
       
       
 .fourc0     { background-color: #d11; }
@@ -9259,7 +9265,7 @@ background:transparent;
   height:0;
 }
 #cssmenu ul ul{
-	position:absolute;
+	position:fixed;
 	left:0px;
 	height: 51px;
 	width: -webkit-fill-available;
@@ -9269,6 +9275,7 @@ background:transparent;
 #cssmenu li:hover > ul{
   left:auto;
 	display: block !important;
+	    padding-left: inherit;
 }
 #cssmenu li:hover > ul > li{
   height:35px;
@@ -9327,15 +9334,16 @@ background:transparent;
   color: black;
 }
 #cssmenu ul ul ul li.active a{
-	border-left:1px solid #929292
+
 }
 #cssmenu > ul > li.has-sub > ul > li.active > a,
 #cssmenu > ul ul > li.has-sub > ul > li.active> a{
-	border-top:1px solid #929292
+	
 }
 #cssmenu ul ul ul li {
-    -webkit-box-shadow: 3px 4px 11px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 6px 8px 11px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .sticky {
     position: fixed !important;
@@ -9377,6 +9385,7 @@ nav{width:100%;}
 	}
 #cssmenu ul ul,
   #cssmenu ul ul ul{
+	      padding-left: 0;
     position: absolute;
     left:0;
     width:100%;
@@ -9419,9 +9428,9 @@ nav{width:100%;}
   position:absolute;
   z-index:99;
   right:0;
-  top:0;
+  top: 0;
   display:block;
-  height:46px;
+  height:50px;
   width:inherit;
   cursor:pointer
   }
