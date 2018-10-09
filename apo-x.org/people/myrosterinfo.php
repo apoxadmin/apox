@@ -236,5 +236,11 @@ extract($line);
 	
 </form> 
 </table>
+<form action="upload.php" method="post" enctype="multipart/form-data">
+    Select an image to upload (must be .jpg format (JPG, jpeg and JPEG do not count >:0) also pls be PG-13):
+	<br>
+    <input type="file" name="fileToUpload" id="fileToUpload">
+    <input type="submit" value="Upload Image" name="submit">
+</form>
 
 <?php show_footer(); ?>
