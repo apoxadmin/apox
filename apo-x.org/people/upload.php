@@ -31,12 +31,12 @@ if(isset($_POST["submit"])) {
     }
 }
 // Check file size
-if ($_FILES["fileToUpload"]["size"] > 500000) {
+if ($_FILES["fileToUpload"]["size"] > 2000000) {
     echo "Sorry, your file is too large.";
     $uploadOk = 0;
 }
 // Allow certain file formats
-if($imageFileType != "jpg") {
+if($imageFileType != "jpg" && $imageFileType != "jpeg") {
     echo "Sorry, only jpg files are allowed.";
     $uploadOk = 0;
 }
