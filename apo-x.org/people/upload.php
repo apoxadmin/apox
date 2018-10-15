@@ -23,7 +23,6 @@ $imageFileType = strtolower(pathinfo(basename( $_FILES["fileToUpload"]["name"]),
 if(isset($_POST["submit"])) {
     $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
     if($check !== false) {
-        echo "File is an image - " . $check["mime"] . ".";
         $uploadOk = 1;
     } else {
         echo "File is not an image.";
