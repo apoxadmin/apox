@@ -9,17 +9,17 @@ This is the website as of June 11th, 2018. It's hosted on WordPress, with edits 
 We want to continue updating the website, especially before it breaks (RIP Alpha Tau events, lost to the WordPress update). This repository is to make sure we don't heck up the website by accident without a backup. In the future, we want to expand our purpose to helping facilitate collaboration as more people can work on the site together (and world peace and happiness on earth is achieved).
 ## When?
 * Here's a quick timeline of stuff we're planning on doing for the site!
-* 9/24: Quarter Begins
-* 9/17: Old Site Finished
-* 9/10: Profile Pictures Fixed
-* 9/3: Redesign Rush
+* 9/24: Quarter Begins *done*
+* 9/17: Old Site Finished *done*
+* 9/10: Profile Pictures Fixed *done*
+* 9/3: Redesign Rush *done*
 * 8/27: Add Pictures to Contact Us
-* 8/20: Redesign Contact Us
-* 8/13: Redesign About Us
-* 8/6: Tracking Fixed
-* 7/30: Change Website Fonts *in progress, fonts changed through Wordpress plugins and direct CSS changes*
-* 7/23: New Pictures
-* 7/21: Redesign Landing Page
+* 8/20: Redesign Contact Us *done*
+* 8/13: Redesign About Us *done*
+* 8/6: Tracking Fixed *done*
+* 7/30: Change Website Fonts *done*
+* 7/23: New Pictures *done*
+* 7/21: Redesign Landing Page *done*
 * 7/18: Update GitHub *done*
 * 7/11: Make Website Responsive *done*
 ## How?
