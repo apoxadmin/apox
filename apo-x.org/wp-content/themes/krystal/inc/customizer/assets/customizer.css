@@ -1,0 +1,16 @@
+
+.accordion-sub-container li.customize-control{
+	margin-bottom : 10px !important;
+}
+
+.accordion-section-content li.widget-rendered{
+	margin-bottom: 10px;
+}
+
+input[type="textbox"], select{
+	width: 100%;
+}
+
+#accordion-section-krystal_buy_settings h3.accordion-section-title{
+	color: #bb4242;
+}

@@ -236,5 +236,10 @@ extract($line);
 	
 </form> 
 </table>
+<form action="upload.php" method="post" enctype="multipart/form-data">
+    Select image to upload (send in as .jpg/.jpeg):
+    <input type="file" name="fileToUpload" id="fileToUpload">
+    <input type="submit" value="Upload Image" name="submit">
+</form>
 
 <?php show_footer(); ?>

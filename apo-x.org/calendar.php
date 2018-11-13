@@ -48,6 +48,8 @@ else
 // initialize date pointers
 $stamp = strtotime('1 ' . $_SESSION['month'] . ' ' . $_SESSION['year']);
 $today12AM = strtotime('-'.date('w',$stamp).' days',$stamp);
+//Convert UTC to PST
+$today12AM = strtotime('-8 hours', $today12AM);
 $tomorrow12AM = strtotime('+1 day',$today12AM);
 
 // calculate weeks to display

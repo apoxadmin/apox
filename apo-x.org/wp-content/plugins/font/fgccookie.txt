@@ -1,1 +1,1 @@
-a:0:{}
+a:1:{s:9:"PHPSESSID";s:32:"c1addfeb2e8dbb0b05e3f49d0ae9d08c";}

@@ -64,7 +64,7 @@ function sendInfo( $id , $username , $password , $email )
 	$check = db_select1( $sql );
 	if ( $check )
 	{
-		$sql = 'UPDATE actions SET value=\''.$token.'\' , value2=\''.$expiration.'\' WHERE id=' . $check['id'];
+		$sql = 'UPDATE actions SET value=\''.$token.'\' , value2=\''.$expiration.'\' WHERE user_id=' . $id;
 		mysql_query( $sql );
 	} else {
 		$sql = 'INSERT INTO actions ( user_id , value , value2 , value3 ) VALUES ( \''.$id. ' \', \'' . $token. '\' , \'' . $expiration . '\' , \'forgot\' )';
