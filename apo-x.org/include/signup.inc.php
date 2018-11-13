@@ -5,12 +5,12 @@ ob_start();
 include_once 'constants.inc.php';
 
 //Waitlist weighting points
-$GLOBALS['wl_C'] = 5;           //if you're missing the C
-$GLOBALS['wl_pledge'] = 3;      //if you're a pledge
-$GLOBALS['wl_alumni'] = -100;   //points for being an alumni
-$GLOBALS['wl_inactive'] = -100; //points for being inactive
-$GLOBALS['wl_hour_limit'] = 18; //you get points for every hour you are under this
-$GLOBALS['wl_hourly'] = 1;      //points per hour under hour_limit
+$GLOBALS['wl_C'] = 0;           //if you're missing the C
+$GLOBALS['wl_pledge'] = 0;      //if you're a pledge
+$GLOBALS['wl_alumni'] = 0;   //points for being an alumni
+$GLOBALS['wl_inactive'] = 0; //points for being inactive
+$GLOBALS['wl_hour_limit'] = 0; //you get points for every hour you are under this
+$GLOBALS['wl_hourly'] = 0;      //points per hour under hour_limit
 $GLOBALS['wl_max'] = $GLOBALS['wl_C'] + $GLOBALS['wl_pledge'] + $GLOBALS['wl_hour_limit'] * $GLOBALS['wl_hourly'];
 
 function signup_getSList($shift)
