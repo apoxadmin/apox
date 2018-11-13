@@ -102,18 +102,8 @@ foreach($most as $rank=>$person)
 	</tr>
 <tr>
 <th>
-<<<<<<< HEAD
 <p><a href="https://docs.google.com/spreadsheets/d/1ynEAVQXtb-XBIlGemPd2M8qCa_8QvSgAuJGx_BCFQz4/edit#gid=0">Active Tracker</a>
 <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSce-JCBw3a7M8ahlgukFe1x2Jb1h4nhN5xBAe2SLYeMbaY1ew/viewform">Chair Evaluations</a>
-=======
-<p><a href="https://goo.gl/mrkSX9">Active Tracker</a>
-<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeB-6Thz8J38LRgWQfc5zCuApRy_5p4ni9ia8eMcuogrLYU5g/viewform">Regular Reimbursement</a>
-<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfY4BHA5n5xMwLNwhld4Od9GjN7CEUvy78lESZy91D3w21ZIw/viewform">Gas Reimbursement</a>
-<p><a href="https://docs.google.com/forms/d/1znzQoH6fZYDN8OF55E4HLUDBeoFF6Kg9dszeL3975g4/viewform?edit_requested=true">Uber or Lyft Reimbursement</a>
-<p><a href="https://docs.google.com/forms/d/e/1FAIpQLScZDyt5WP-N6LoXuiRn1n7QovwKT-LwpgdXcw85GqrJ83__EQ/viewform">Fellowship Events Feedback</a>
-<p><a href="https://goo.gl/forms/Of2VCuY5cHCflFPO2">Event Feedback Form</a>
-<p><a href="https://goo.gl/forms/8szUlLvy4wZS5BCC3">Chair Evaluations</a>
->>>>>>> 8d64de967efd14a424ed12fc94724c7d859ec3ac
 <p><a href="https://docs.google.com/spreadsheets/d/1_rXL5S-n5pgcjfITodLfWhiAw1rU37E6SEgHkuKU_9c/edit?usp=sharing">View All Chair Evaluations</a>
 <p><a href="https://docs.google.com/document/d/1u2HvKjRlx6A5xOQ5YKxvmXTFuABHszFK55Qkh6X-qSI/edit">Active Contract</a>
 <p><a href="https://docs.google.com/document/u/1/d/13gwXBHKuWg_9QmYlTX1Nmh3t1ls3KoNKqUGbLcTu-Cc/edit">Associate Contract</a>
@@ -121,7 +111,6 @@ foreach($most as $rank=>$person)
 <p><a href="https://drive.google.com/open?id=1CqAvmD1RNq3wDU5OMQzld_7EhlXr5fGeqTsiCFHWyTI">Gas Reimbursement</a>
 <p><a href="https://drive.google.com/open?id=1Maf0YM3sRzCIsQ4N3XgJ9Tpp914UIZoXHaW_2i15Q2U">Uber/Lyft Reimbursement</a>
 <p><a href="https://goo.gl/forms/uJeuqUYieCDhHCB83">Lost Pins Form</a>
-<<<<<<< HEAD
 <p><a href="https://goo.gl/forms/bqCK8YBmLPTCVZkj1">Strike Pledges</a>
 <p><a href="https://goo.gl/forms/q5Qelt0t1kAO8CcP2">Tutor Form</a>
 <p><a href="https://goo.gl/forms/Zzqv48DNE2kGloXK2">Tutor Request Form</a>
@@ -130,11 +119,6 @@ foreach($most as $rank=>$person)
 <p><a href="https://goo.gl/forms/BPQjnnvKKKnAPMd82">Brother of the Week Nomination Form</a>
 <p><a href="https://goo.gl/forms/BPQjnnvKKKnAPMd82">Anonymous IG Compliments Form</a>
 	<p><a href="https://docs.google.com/document/d/1n-NkvOYJBv5lO-I-BB6uDuZ_VtafVGJf_XBYpW4qvew/mobilebasic?fbclid=IwAR0fgpBBpknpLHQc-67D7It4R9bqNcFeW5P6Rcd-rUxgc24Z5aXNS-0iSAg">Drivers Contract</a>
-=======
-<p><a href="https://goo.gl/forms/bqCK8YBmLPTCVZkj1">Strike Pledges Here</a>
-
-
->>>>>>> 8d64de967efd14a424ed12fc94724c7d859ec3ac
 </th> 
   </tr>
   </thead>
