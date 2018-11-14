@@ -45,12 +45,13 @@ function getTrackedUser($user, $type, $class_id)
 
 	if($type == 'ic')
 	{
-		$sql = 'SELECT DISTINCT event.event_id AS event_id, '
-            . ' event_name, UNIX_TIMESTAMP(event_date) AS date '
+		$sql = 'SELECT DISTINCT event.event_id AS event_id, event_name, '
+            . ' UNIX_TIMESTAMP(event_date) AS date '
 			. ' FROM event NATURAL JOIN tracking'
-			. " WHERE event_date < '$end_date' AND event_ic > 0 "
+			. " WHERE event_date < '$end_date' "
             . " AND user_id = '$user' "
-			. " AND event.event_date > '$start_date'"
+			. " AND event.event_date > '$start_date' "
+			. " AND event_ic = 1 "
 			. ' ORDER BY event_date';
 	}
 	else if($type == 'fundraiser')
@@ -63,21 +64,30 @@ function getTrackedUser($user, $type, $class_id)
 			. " AND event.event_date > '$start_date'"
 			. ' ORDER BY event_date';
 	}
-	else
+	else if($type == 2 || $type == 6 || $type == 9)
 	{
-		if($type == 6 || $type == 9) // Meeting or CAW
-			$ic = ' AND event_ic = 0 ';
 		$sql = 'SELECT DISTINCT event.event_id AS event_id, event_name, '
             . ' UNIX_TIMESTAMP(event_date) AS date '
 			. ' FROM event NATURAL JOIN tracking'
 			. " WHERE event_date < '$end_date' "
             . " AND eventtype_id = '$type' AND user_id = '$user' "
-			. " AND event.event_date > '$start_date' '$ic' "
+			. " AND event.event_date > '$start_date' "
+			. " AND event_ic = 0 "
+			. ' ORDER BY event_date';
+	}
+	else
+	{
+		$sql = 'SELECT DISTINCT event.event_id AS event_id, event_name, '
+            . ' UNIX_TIMESTAMP(event_date) AS date '
+			. ' FROM event NATURAL JOIN tracking'
+			. " WHERE event_date < '$end_date' "
+            . " AND eventtype_id = '$type' AND user_id = '$user' "
+			. " AND event.event_date > '$start_date' "
 			. ' ORDER BY event_date';
 	}
 
 	$events = db_select($sql, "getTracked()");
-
+	return $events; //delete
 	$set = '0, ';
 	foreach($events as $event)
 		$set .= $event['event_id'] . ', ';

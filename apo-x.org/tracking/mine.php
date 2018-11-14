@@ -730,6 +730,11 @@ Ext.onReady(function () {
 				echo $fellowReq;
 			else
 				echo $totals['fellowships'];
+			?> , interchapter: <?
+			if ( $totals['IC'] > $ICReq )
+				echo $ICReq;
+			else
+				echo $totals['IC'];
 			?> , meeting: <?
 			if ( $totals['meetings'] > $meetingReq )
 				echo $meetingReq;
