@@ -1,6 +1,7 @@
 <?php
 
 include_once 'connection.inc.php';
+include_once 'fix_mysql.inc.php';
 
 $database_link = NULL;
 
